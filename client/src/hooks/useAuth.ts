@@ -25,7 +25,6 @@ interface IData {
 export const useAuth = (): IUseAuth => {
   const [token, setToken] = useState('')
   const [data, setData] = useState<IData | null>(null)
-
   const login = useCallback((userData: IData) => {
     setToken(userData.token)
     setData(userData)
@@ -33,6 +32,7 @@ export const useAuth = (): IUseAuth => {
       ...userData
     }))
   }, [])
+ 
   const logout = useCallback(() => {
     setToken('')
     setData(null)

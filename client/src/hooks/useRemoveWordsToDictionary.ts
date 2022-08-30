@@ -8,11 +8,11 @@ export const useRemoveWordsToDictionary = () => {
 
   const deleteHandler = useCallback(async (dictionary: string, words?: IWord[]) => {
     try {
-      return  request(`/api/dictionary/${dictionary}`, 'DELETE', { words })
+      return request(`/api/dictionary/${dictionary}`, 'DELETE', { words })
     } catch (e) {
       console.log('e', e)
     }
-  }, [])
+  }, [request])
 
   return { deleteHandler, loading, error }
 }

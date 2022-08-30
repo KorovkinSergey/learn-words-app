@@ -9,7 +9,17 @@ import { useNavigate } from 'react-router-dom'
 
 
 const TrainingNewWordsPage = () => {
-  const { loading, repeat, knowWords, handleIsKnow, handleIsNotKnow,saveLoading, word,index, clear, save } = useTrainingNewWords()
+  const {
+    loading,
+    repeat,
+    knowWords,
+    handleIsKnow,
+    handleIsNotKnow, saveLoading,
+    word,
+    index,
+    clear,
+    save
+  } = useTrainingNewWords()
   const navigate = useNavigate()
 
   if (loading || saveLoading) {
@@ -63,12 +73,12 @@ const TrainingNewWordsPage = () => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      position:'relative'
+      position: 'relative'
     }}>
       <Box sx={{
-        position:'absolute',
-        top:2,
-        right:2
+        position: 'absolute',
+        top: 2,
+        right: 2
       }}>
         <Typography sx={{ fontSize: 18, margin: 2 }} color="primary.contrastText">
           Слово № {index}

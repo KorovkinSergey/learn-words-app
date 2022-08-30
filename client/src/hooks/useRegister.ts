@@ -9,9 +9,9 @@ export const useRegister = () => {
       await request('/api/auth/register', 'POST', { ...form })
 
     } catch (e: any) {
-        throw e
+      throw e
     }
-  }, [])
+  }, [request])
 
   return { registerHandler, loading, error }
 }

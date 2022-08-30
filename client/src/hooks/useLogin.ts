@@ -13,7 +13,7 @@ export const useLogin = () => {
     } catch (e) {
       console.log('e', e)
     }
-  }, [])
+  }, [request, auth])
 
-  return { loginHandler, loading, error}
+  return { loginHandler, loading, error }
 }

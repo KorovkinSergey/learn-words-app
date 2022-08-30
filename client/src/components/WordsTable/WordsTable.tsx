@@ -11,7 +11,7 @@ import { Loading } from '../Loading'
 const WordsTable = () => {
   const { requestHandler, loading } = useDictionary()
   const { height } = useWindowSizeContext()
-  let params = useParams()
+  const params = useParams()
   const navigate = useNavigate()
   const { dictionary } = params
 
@@ -21,7 +21,7 @@ const WordsTable = () => {
     if (!dictionary) return navigate('/dictionary')
 
     requestHandler(dictionary).then(setRows)
-  }, [dictionary])
+  }, [dictionary, navigate, requestHandler])
 
   if (loading) return <Loading/>
 

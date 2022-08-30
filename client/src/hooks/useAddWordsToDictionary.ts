@@ -12,7 +12,7 @@ export const useAddWordsToDictionary = () => {
     } catch (e) {
       console.log('e', e)
     }
-  }, [])
+  }, [request])
 
   return { addWordsHandler, loading, error }
 }

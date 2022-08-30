@@ -15,7 +15,7 @@ const App = () => {
 
   const routes = useRoutes(isAuthenticated)
   return (
-    <Container disableGutters maxWidth={'sm'} sx={{
+    <Container disableGutters maxWidth="sm" sx={{
       display: 'flex',
       flexDirection: 'column',
       height: height + 'px',

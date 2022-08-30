@@ -20,7 +20,7 @@ export const useHttp = (): IUseHttp => {
         body = JSON.stringify(body)
         headers['Content-type'] = 'application/json'
       }
-      if(token) {
+      if (token) {
         headers['Authorization'] = `Bearer ${token}`
       }
       const response = await fetch(url, { method, body, headers })
@@ -36,7 +36,7 @@ export const useHttp = (): IUseHttp => {
       setError(e.message)
       throw e
     }
-  }, [])
+  }, [token])
   const clearError = () => setError(null)
 
   return { loading, request, error, clearError }

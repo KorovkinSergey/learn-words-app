@@ -100,7 +100,7 @@ export const useTrainingNewWords = (): IUseTrainingNewWords => {
     requestHandler('new', { _limit: countWords.toString() }).then((words) => {
       dispatch({ type: actionTypes.ADD_WORDS, words })
     })
-  }, [timeToRemember, countWords])
+  }, [timeToRemember, countWords, requestHandler])
 
   useEffect(() => {
     if (!words.length) return
@@ -124,7 +124,7 @@ export const useTrainingNewWords = (): IUseTrainingNewWords => {
 
     return () => clearInterval(interval)
 
-  }, [words, word, index])
+  }, [words, word, index, timeToRemember])
 
   const save = useCallback(async () => {
     dispatch({ type: actionTypes.IS_LOADING })
@@ -132,7 +132,7 @@ export const useTrainingNewWords = (): IUseTrainingNewWords => {
     await addWordsHandler('learned', knowWords)
     await deleteHandler('new', [...knowWords, ...repeat]).then((r) => console.log('remove word', r))
     dispatch({ type: actionTypes.IS_LOADING })
-  }, [repeat, knowWords, index])
+  }, [repeat, knowWords, addWordsHandler, deleteHandler])
 
   const handleIsKnow = () => {
     clearInterval(interval)
