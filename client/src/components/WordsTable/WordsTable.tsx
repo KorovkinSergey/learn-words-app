@@ -34,6 +34,9 @@ const WordsTable = () => {
           <Table stickyHeader aria-label="sticky table">
             <TableHead>
               <TableRow>
+                {/*{['Перевод', 'Слово', 'Транскрипция'].map(word => {*/}
+                {/*  <TableCell sx={{color: 'secondary.contrastText'}} align="center">{word}</TableCell>*/}
+                {/*})}*/}
                 <TableCell align="center">Перевод</TableCell>
                 <TableCell align="center">Слово</TableCell>
                 <TableCell align="center">Транскрипция</TableCell>
