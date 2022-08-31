@@ -15,7 +15,7 @@ const UserAchievements: FC<IProps> = ({label, count=0, countColor='common.white'
                 {label}: <Typography sx={{
                 fontSize: 32,
                 display: 'inline',
-            }} color={countColor}>{count}</Typography>
+            }} color={countColor} component='span'>{count}</Typography>
             </Typography>
         </Box>
     );
