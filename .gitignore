@@ -1,5 +1,7 @@
+.idea
 node_modules
+package-lock.json
+.eslintcache
 
 client/node_modules
-
-.idea
+client/package-lock.json
