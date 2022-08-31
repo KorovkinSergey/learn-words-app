@@ -16,22 +16,11 @@
   "env": {
     "browser": true,
     "node": true,
-    "es6": true,
     "es2020": true
   },
   "rules": {
     "react/prop-types": 0,
     "import/no-extraneous-dependencies": 0,
-    "indent": [
-      0,
-      4,
-      {
-        "SwitchCase": 1,
-        "ignoredNodes": [
-          "TemplateLiteral"
-        ]
-      }
-    ],
     "no-return-assign": 0,
     "no-use-before-define": 0,
     "guard-for-in": 2,
