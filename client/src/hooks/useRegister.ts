@@ -7,7 +7,7 @@ export const useRegister = () => {
 
 	const registerHandler = useCallback(async (form: FieldValues) => {
 		try {
-			await request("/api/auth/register", "POST", { form });
+			await request("/api/auth/register", "POST", { ...form });
 
 		} catch (e: unknown) {
 			throw e as Error;

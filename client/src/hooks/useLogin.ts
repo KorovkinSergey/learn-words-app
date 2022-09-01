@@ -9,7 +9,7 @@ export const useLogin = () => {
 
 	const loginHandler = useCallback(async (form: FieldValues) => {
 		try {
-			const data = await request("/api/auth/login", "POST", form);
+			const data = await request("/api/auth/login", "POST", { ...form });
 			auth.login(data);
 		} catch (e) {
 			console.log("e", e);
