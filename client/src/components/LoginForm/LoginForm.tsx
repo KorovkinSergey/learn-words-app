@@ -16,7 +16,6 @@ const LoginForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm({ resolver: yupResolver(LoginSchema) })
 
   const { loginHandler, loading } = useLogin()
-
   const onSubmit = (data: any) => {
     const { email, password } = data
     loginHandler({ email, password })

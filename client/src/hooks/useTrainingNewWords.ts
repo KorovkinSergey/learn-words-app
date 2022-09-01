@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useReducer } from 'react'
-import { useDictionary } from './useDictionary'
-import { useRemoveWordsToDictionary } from './useRemoveWordsToDictionary'
-import { useAddWordsToDictionary } from './useAddWordsToDictionary'
+import { useDictionaryWords } from './api/useDictionaryWords'
+import { useRemoveWordsToDictionary } from './api/useRemoveWordsToDictionary'
+import { useAddWordsToDictionary } from './api/useAddWordsToDictionary'
 import { useSettingsNewWordsContext } from '../context/SettingsNewWordsContext'
 import { IWord } from '../types/word'
+import { useAuthContext } from '../context/AuthContext'
 
 const actionTypes = {
   FIRST_WORD: 'FIRST_WORD',
@@ -86,21 +87,24 @@ export interface IUseTrainingNewWords {
 }
 
 export const useTrainingNewWords = (): IUseTrainingNewWords => {
-
+  const { dictionary } = useAuthContext()
   const [state, dispatch] = useReducer(reducer, DEFAULT_STATE)
   const { knowWords, repeat, word, words, index, isLoading } = state
 
   const { timeToRemember, countWords } = useSettingsNewWordsContext()
 
-  const { requestHandler, loading } = useDictionary()
+  const { getDictionaryWords, loading } = useDictionaryWords()
   const { deleteHandler } = useRemoveWordsToDictionary()
   const { addWordsHandler } = useAddWordsToDictionary()
 
   useEffect(() => {
-    requestHandler('new', { _limit: countWords.toString() }).then((words) => {
-      dispatch({ type: actionTypes.ADD_WORDS, words })
-    })
-  }, [timeToRemember, countWords, requestHandler])
+    if (dictionary) {
+      getDictionaryWords(dictionary[0]._id, { _limit: countWords.toString() }).then(({ words }: any) => {
+        dispatch({ type: actionTypes.ADD_WORDS, words })
+      })
+    }
+
+  }, [timeToRemember, dictionary, countWords, getDictionaryWords])
 
   useEffect(() => {
     if (!words.length) return
@@ -127,12 +131,13 @@ export const useTrainingNewWords = (): IUseTrainingNewWords => {
   }, [words, word, index, timeToRemember])
 
   const save = useCallback(async () => {
+    if (!dictionary) return
     dispatch({ type: actionTypes.IS_LOADING })
-    await addWordsHandler('repeat', repeat)
-    await addWordsHandler('learned', knowWords)
-    await deleteHandler('new', [...knowWords, ...repeat]).then((r) => console.log('remove word', r))
+    await addWordsHandler(dictionary[1]._id, repeat)
+    await addWordsHandler(dictionary[3]._id, knowWords)
+    await deleteHandler(dictionary[0]._id, [...knowWords, ...repeat]).then((r: any) => console.log('remove word', r))
     dispatch({ type: actionTypes.IS_LOADING })
-  }, [repeat, knowWords, addWordsHandler, deleteHandler])
+  }, [repeat, knowWords, addWordsHandler, dictionary, deleteHandler])
 
   const handleIsKnow = () => {
     clearInterval(interval)

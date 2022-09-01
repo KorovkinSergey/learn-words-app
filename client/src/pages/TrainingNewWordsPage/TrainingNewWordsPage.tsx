@@ -85,7 +85,7 @@ const TrainingNewWordsPage = () => {
         </Typography>
       </Box>
       <Typography sx={{ fontSize: 40, margin: 2 }} color="primary.contrastText">
-        {word?.englishWord}
+        {word?.english}
       </Typography>
       <Box sx={{
         display: 'flex',

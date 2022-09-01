@@ -1,6 +1,6 @@
 export interface IWord {
   _id?: string,
-  russianWord: string,
-  englishWord: string,
+  russian: string,
+  english: string,
   transcript: string,
 }

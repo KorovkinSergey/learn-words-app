@@ -1,38 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Box from '@mui/material/Box'
 import { Avatar, Button, Grid, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
 import FolderIcon from '@mui/icons-material/Folder'
 import { Link } from 'react-router-dom'
 import db from '../../db/new.json'
-import { useAddWordsToDictionary } from '../../hooks/useAddWordsToDictionary'
-import { useRemoveWordsToDictionary } from '../../hooks/useRemoveWordsToDictionary'
-import { useDictionary } from '../../hooks/useDictionary'
+import { useAddWordsToDictionary } from '../../hooks/api/useAddWordsToDictionary'
+import { Loading } from '../../components/Loading'
+import { useDictionaryList } from '../../hooks/api/useDictionaryList'
+import { useAuthContext } from '../../context/AuthContext'
 
 const DictionaryPage = () => {
   const { addWordsHandler } = useAddWordsToDictionary()
-  const { deleteHandler } = useRemoveWordsToDictionary()
-  const { requestHandler: getWords } = useDictionary()
+  const { dictionary } = useAuthContext()
+  const { getDictionaryList, loading } = useDictionaryList()
+  const [dictionaryList, setDictionaryList] = useState([])
+
+  useEffect(() => {
+    getDictionaryList().then(setDictionaryList)
+  }, [getDictionaryList])
+
   const addNewWords = async () => {
-    await addWordsHandler('new', db)
+    if (!dictionary) return
+    await addWordsHandler(dictionary[0]._id, db)
   }
   const deleteAllWords = () => {
-    getWords('new').then(res => {
-      deleteHandler('new', res).then(() => {
-        getWords('learned').then(ress => {
-          deleteHandler('learned', ress).then(() => {
-            getWords('repeat').then(resss => {
-              deleteHandler('repeat', resss).then((all) => {
-                console.log('all', all)
-              })
-            })
-          })
-        })
-      })
-    })
-
+    console.log('delete')
   }
 
-
+  if (loading) return <Loading/>
+  console.log('dictionaryList', dictionaryList)
   return (
     <Box sx={{
       padding: '16px',
@@ -47,45 +43,24 @@ const DictionaryPage = () => {
             Список словарей
           </Typography>
           <List>
-            <ListItem sx={{ '& > a': { textDecoration: 'none' } }}>
-              <ListItemAvatar>
-                <Avatar>
-                  <FolderIcon/>
-                </Avatar>
-              </ListItemAvatar>
-              <Link to="/dictionary/new">
-                <ListItemText
-                  sx={{ color: 'white' }}
-                  primary="Новые слова"
-                />
-              </Link>
-            </ListItem>
-            <ListItem sx={{ '& > a': { textDecoration: 'none' } }}>
-              <ListItemAvatar>
-                <Avatar>
-                  <FolderIcon/>
-                </Avatar>
-              </ListItemAvatar>
-              <Link to="/dictionary/repeat">
-                <ListItemText
-                  sx={{ color: 'white' }}
-                  primary="Слова для повторения"
-                />
-              </Link>
-            </ListItem>
-            <ListItem sx={{ '& > a': { textDecoration: 'none' } }}>
-              <ListItemAvatar>
-                <Avatar>
-                  <FolderIcon/>
-                </Avatar>
-              </ListItemAvatar>
-              <Link to="/dictionary/learned">
-                <ListItemText
-                  sx={{ color: 'white' }}
-                  primary="Выученные слова"
-                />
-              </Link>
-            </ListItem>
+            {dictionaryList.map((item: any) => {
+              console.log('')
+              return (
+                <ListItem key={item.id} sx={{ '& > a': { textDecoration: 'none' } }}>
+                  <ListItemAvatar>
+                    <Avatar>
+                      <FolderIcon/>
+                    </Avatar>
+                  </ListItemAvatar>
+                  <Link to={`/dictionary/${item.id}`}>
+                    <ListItemText
+                      sx={{ color: 'white' }}
+                      primary={item.title}
+                    />
+                  </Link>
+                </ListItem>
+              )
+            })}
           </List>
           <Button
             variant="contained"

@@ -4,12 +4,12 @@ import Paper from '@mui/material/Paper'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Table, TableBody, TableContainer, TableHead, TableRow } from '@mui/material'
 import Box from '@mui/material/Box'
-import { useDictionary } from '../../hooks/useDictionary'
+import { useDictionaryWords } from '../../hooks/api/useDictionaryWords'
 import { useWindowSizeContext } from '../../context/WindowSizeContext'
 import { Loading } from '../Loading'
 
 const WordsTable = () => {
-  const { requestHandler, loading } = useDictionary()
+  const { getDictionaryWords, loading } = useDictionaryWords()
   const { height } = useWindowSizeContext()
   const params = useParams()
   const navigate = useNavigate()
@@ -19,9 +19,9 @@ const WordsTable = () => {
 
   useEffect(() => {
     if (!dictionary) return navigate('/dictionary')
-
-    requestHandler(dictionary).then(setRows)
-  }, [dictionary, navigate, requestHandler])
+    console.log('dictionary', dictionary)
+    getDictionaryWords(dictionary).then((res: any) => setRows(res.words))
+  }, [dictionary, navigate, getDictionaryWords])
 
   if (loading) return <Loading/>
 
@@ -45,8 +45,8 @@ const WordsTable = () => {
             <TableBody>
               {rows.map((row: any) => (
                 <TableRow key={row._id}>
-                  <TableCell align="center">{row.russianWord}</TableCell>
-                  <TableCell align="center">{row.englishWord}</TableCell>
+                  <TableCell align="center">{row.russian}</TableCell>
+                  <TableCell align="center">{row.english}</TableCell>
                   <TableCell align="center">{row.transcript}</TableCell>
                 </TableRow>
               ))}

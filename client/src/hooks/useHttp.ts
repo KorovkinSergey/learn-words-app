@@ -9,7 +9,7 @@ interface IUseHttp {
 }
 
 export const useHttp = (): IUseHttp => {
-  const { token } = useAuthContext()
+  const { token, logout } = useAuthContext()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
@@ -26,6 +26,9 @@ export const useHttp = (): IUseHttp => {
       const response = await fetch(url, { method, body, headers })
       const data = await response.json()
 
+      if (response.status === 401) {
+        logout()
+      }
       if (!response.ok) {
         throw new Error(data.message || 'Что-то пошло не так')
       }
@@ -36,7 +39,7 @@ export const useHttp = (): IUseHttp => {
       setError(e.message)
       throw e
     }
-  }, [token])
+  }, [token, logout])
   const clearError = () => setError(null)
 
   return { loading, request, error, clearError }

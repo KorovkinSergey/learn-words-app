@@ -7,7 +7,7 @@ const TrainingPage = () => {
   const navigate = useNavigate()
 
   const handleRepeatTraining = () => {
-    navigate('/training/repeat/setting')
+    navigate('/training/learn/setting')
   }
   const handleNewTraining = () => {
     navigate('/training/new/setting')
