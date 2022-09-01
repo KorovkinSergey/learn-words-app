@@ -6,8 +6,9 @@ import { TrainingPage } from '../pages/TrainingPage'
 import { DictionaryPage } from '../pages/DictionaryPage'
 import { TrainingNewWordsPage } from '../pages/TrainingNewWordsPage'
 import { TrainingNewWordsSettingsPage } from '../pages/TrainingNewWordsSettingsPage'
-import { TrainingRepeatWordsPage } from '../pages/TrainingRepeatWordsPage'
+import { LearnWordsPage } from '../pages/LearnWordsPage'
 import { WordsTable } from '../components/WordsTable'
+import { LearnWordsSettingsPage } from '../pages/LearnWordsSettingsPage'
 
 export const useRoutes = (isAuthenticated: boolean) => {
   if (isAuthenticated) {
@@ -16,7 +17,8 @@ export const useRoutes = (isAuthenticated: boolean) => {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/training" element={<TrainingPage/>}/>
         <Route path="/auth" element={<AuthPage/>}/>
-        <Route path="/training/repeat/setting" element={<TrainingRepeatWordsPage/>}/>
+        <Route path="/training/learn/setting" element={<LearnWordsSettingsPage/>}/>
+        <Route path="/training/learn" element={<LearnWordsPage/>}/>
         <Route path="/training/new/setting" element={<TrainingNewWordsSettingsPage/>}/>
         <Route path="/training/new" element={<TrainingNewWordsPage/>}/>
         <Route path="/dictionary" element={<DictionaryPage/>}/>

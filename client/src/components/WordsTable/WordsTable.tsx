@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from "react";
-import TableCell from "@mui/material/TableCell";
-import Paper from "@mui/material/Paper";
-import { useNavigate, useParams } from "react-router-dom";
-import { Checkbox, Table, TableBody, TableContainer, TableHead, TableRow } from "@mui/material";
-import Box from "@mui/material/Box";
-import { useDictionary } from "../../hooks/useDictionary";
-import { useWindowSizeContext } from "../../context/WindowSizeContext";
-import { Loading } from "../Loading";
+import React, { useEffect, useState } from 'react'
+import TableCell from '@mui/material/TableCell'
+import Paper from '@mui/material/Paper'
+import { useNavigate, useParams } from 'react-router-dom'
+import { Checkbox, Table, TableBody, TableContainer, TableHead, TableRow } from '@mui/material'
+import Box from '@mui/material/Box'
+import { useDictionaryWords } from '../../hooks/api/useDictionaryWords'
+import { useWindowSizeContext } from '../../context/WindowSizeContext'
+import { Loading } from '../Loading'
 import { IWord } from "../../types/word";
 
 const WordsTable = () => {
-	const { requestHandler, loading } = useDictionary();
-	const { height } = useWindowSizeContext();
-	const params = useParams();
-	const navigate = useNavigate();
-	const { dictionary } = params;
+  const { getDictionaryWords, loading } = useDictionaryWords()
+  const { height } = useWindowSizeContext()
+  const params = useParams()
+  const navigate = useNavigate()
+  const { dictionary } = params
 
 	const [rows, setRows] = useState<IWord[]>([]);
 	const [selected, setSelected] = useState<string[]>([]);
@@ -29,15 +29,15 @@ const WordsTable = () => {
 		setSelected([]);
 	};
 
-	useEffect(() => {
-		if (!dictionary) return navigate("/dictionary");
-		setIsSelected(true);
-		requestHandler(dictionary).then(setRows);
-	}, [dictionary, navigate, requestHandler]);
+  useEffect(() => {
+    if (!dictionary) return navigate('/dictionary')
+    console.log('dictionary', dictionary)
+    getDictionaryWords(dictionary).then((res: any) => setRows(res.words))
+  }, [dictionary, navigate, getDictionaryWords])
 
-	if (loading) return <Loading />;
+  if (loading) return <Loading/>
 
-	return (
+  return (
 		<Box sx={{
 			width: "100%",
 		}}>
@@ -64,9 +64,9 @@ const WordsTable = () => {
 							{rows.map((row: IWord) => (
 								<TableRow key={row._id}>
 									<TableCell align="center"><Checkbox /></TableCell>
-									<TableCell align="center">{row.russianWord}</TableCell>
-									<TableCell align="center">{row.englishWord}</TableCell>
-									<TableCell align="center">{row.transcript}</TableCell>
+                  <TableCell align="center">{row.russian}</TableCell>
+                  <TableCell align="center">{row.english}</TableCell>
+                  <TableCell align="center">{row.transcript}</TableCell>
 								</TableRow>
 							))}
 						</TableBody>
@@ -77,4 +77,4 @@ const WordsTable = () => {
 	);
 };
 
-export default WordsTable;
+export default WordsTable

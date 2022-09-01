@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { IWord } from '../types/word'
 
 const storageName = 'userData'
 
@@ -7,11 +8,13 @@ export interface IUseAuth {
   logout: () => void,
   token: string,
   data: IData | null,
-  isAuthenticated: boolean
+  isAuthenticated: boolean,
+  dictionary: IDictionary[] | null
 }
 
 interface IData {
   token: string,
+  dictionary: IDictionary[]
   user: {
     id: string,
     name: string,
@@ -22,17 +25,25 @@ interface IData {
   }
 }
 
+export interface IDictionary {
+  _id: string,
+  title: string,
+  words: IWord[]
+}
+
 export const useAuth = (): IUseAuth => {
   const [token, setToken] = useState('')
   const [data, setData] = useState<IData | null>(null)
+  const [dictionary, setDictionary] = useState<IDictionary[] | null>(null)
   const login = useCallback((userData: IData) => {
     setToken(userData.token)
+    setDictionary(userData.dictionary)
     setData(userData)
     localStorage.setItem(storageName, JSON.stringify({
       ...userData
     }))
   }, [])
- 
+
   const logout = useCallback(() => {
     setToken('')
     setData(null)
@@ -49,5 +60,5 @@ export const useAuth = (): IUseAuth => {
 
   const isAuthenticated = !!token
 
-  return { login, logout, token, data, isAuthenticated }
+  return { login, logout, token, data, dictionary, isAuthenticated }
 }
