@@ -20,7 +20,6 @@ const WordsTable = () => {
 	const { dictionary = '' } = params
 	const [rows, setRows] = useState<IWord[]>([])
 	const [selected, setSelected] = useState<string[]>([])
-	const wordEnding = getWordEnding(selected.length, 'слово', 'слова', 'слов')
 	const { deleteHandler, loading: isWordsDeleting } = useRemoveWordsToDictionary()
 
 	useEffect(() => {
@@ -36,7 +35,7 @@ const WordsTable = () => {
 		setSelected([])
 	}
 
-	const isRowSelected = (id = '') => selected.includes(id)
+	const getWordEnd = () => `Выбрано ${selected.length} ${getWordEnding(selected.length, 'слово', 'слова', 'слов')}`
 
 	const getRowsToDelete = () => rows.filter((row) => selected.includes(row._id || ''))
 
@@ -69,7 +68,9 @@ const WordsTable = () => {
 									/>
 								</TableCell>
 								<TableCell align="center">
-									{selected.length ? `Выбрано ${selected.length} ${wordEnding}` : 'Перевод'}
+									{selected.length
+										? getWordEnd()
+										: 'Перевод'}
 								</TableCell>
 								<TableCell align="center">{selected.length ? '' : 'Слово'}</TableCell>
 								<TableCell align="center">
@@ -86,7 +87,7 @@ const WordsTable = () => {
 						</TableHead>
 						<TableBody>
 							{rows.map((row: IWord) => {
-								const isItemSelected = isRowSelected(row._id)
+								const isItemSelected = selected.includes(row._id || '')
 								return (
 									<TableRow
 										key={row._id}
