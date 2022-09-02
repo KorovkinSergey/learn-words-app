@@ -30,13 +30,15 @@ const DictionaryPage = () => {
 	if (loading) return <Loading />
 
 	return (
-		<Box sx={{
-			padding: '16px',
-			display: 'flex',
-			flexDirection: 'column',
-			alignItems: 'center',
-			width: '100%',
-		}}>
+		<Box
+			sx={{
+				padding: '16px',
+				display: 'flex',
+				flexDirection: 'column',
+				alignItems: 'center',
+				width: '100%',
+			}}
+		>
 			<Grid container spacing={2}>
 				<Grid item xs={12} md={6}>
 					<Typography sx={{ mt: 4, mb: 2, ml: 2 }} color='white' variant='h6' component='div'>
@@ -52,10 +54,7 @@ const DictionaryPage = () => {
 										</Avatar>
 									</ListItemAvatar>
 									<Link to={`/dictionary/${item.id}`}>
-										<ListItemText
-											sx={{ color: 'white' }}
-											primary={item.title}
-										/>
+										<ListItemText sx={{ color: 'white' }} primary={item.title} />
 									</Link>
 								</ListItem>
 							)
@@ -69,7 +68,8 @@ const DictionaryPage = () => {
 							width: '250px',
 							margin: 2,
 							backgroundColor: 'secondary.main',
-						}}>
+						}}
+					>
 						Добавить новые слова
 					</Button>
 					<Button
@@ -80,7 +80,8 @@ const DictionaryPage = () => {
 							width: '250px',
 							margin: 2,
 							backgroundColor: 'secondary.main',
-						}}>
+						}}
+					>
 						Очистить словари
 					</Button>
 				</Grid>

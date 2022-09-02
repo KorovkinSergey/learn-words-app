@@ -47,23 +47,24 @@ const LearnWordsSettingsPage = () => {
 			<Box
 				minWidth={300}
 				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
+					'display': 'flex',
+					'flexDirection': 'column',
+					'alignItems': 'start',
+					'marginTop': 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',
 					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Время на запоминание слова:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {timeToRemember}
-            </Typography>
-          </span>
+				}}
+			>
+				<span>
+					<Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
+						Время на запоминание слова:
+					</Typography>
+					<Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
+						{timeToRemember}
+					</Typography>
+				</span>
 				<Slider
 					color='secondary'
 					step={1}
@@ -78,23 +79,24 @@ const LearnWordsSettingsPage = () => {
 			<Box
 				minWidth={300}
 				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
+					'display': 'flex',
+					'flexDirection': 'column',
+					'alignItems': 'start',
+					'marginTop': 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',
 					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Количество слов:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {countWords}
-            </Typography>
-          </span>
+				}}
+			>
+				<span>
+					<Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
+						Количество слов:
+					</Typography>
+					<Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
+						{countWords}
+					</Typography>
+				</span>
 				<Slider
 					color='secondary'
 					step={5}
@@ -112,7 +114,8 @@ const LearnWordsSettingsPage = () => {
 					variant='contained'
 					onClick={handleStartTraining}
 					disabled={!titleTable || !!error}
-					sx={{ backgroundColor: 'secondary.main' }}>
+					sx={{ backgroundColor: 'secondary.main' }}
+				>
 					Старт
 				</Button>
 			</Box>

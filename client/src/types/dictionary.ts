@@ -1,5 +1,5 @@
 export enum Dictionary {
-  new,
-  repeat,
-  learned
+	new,
+	repeat,
+	learned,
 }

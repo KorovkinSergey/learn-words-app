@@ -48,17 +48,15 @@ const reducer = (state: any, action: any) => {
 let interval: string | number | NodeJS.Timer | undefined
 let timeOut: string | number | NodeJS.Timer | undefined
 
-
 export interface IUseLearnWords {
-	loading: boolean,
-	isLoading: boolean,
-	save: () => Promise<void>,
+	loading: boolean
+	isLoading: boolean
+	save: () => Promise<void>
 	word: IWord
 	index: number
 }
 
 export const useLearnWords = (): IUseLearnWords => {
-
 	const { countWords, timeToRemember } = useSettingsLearnWordsContext()
 	const { dictionary } = useAuthContext()
 	const { deleteHandler } = useRemoveWordsToDictionary()
@@ -96,7 +94,6 @@ export const useLearnWords = (): IUseLearnWords => {
 		interval = setInterval(() => dispatch({ type: actionTypes.NEXT_WORD }), timeToRemember * 1000)
 
 		return () => clearInterval(interval)
-
 	}, [words, word, index, timeToRemember])
 
 	const save = useCallback(async () => {

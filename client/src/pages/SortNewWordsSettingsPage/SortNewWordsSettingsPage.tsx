@@ -13,15 +13,17 @@ function SortNewWordsSettingsPage() {
 	const handleStartTraining = () => navigate('/training/new')
 
 	return (
-		<Box sx={{
-			display: 'flex',
-			flexDirection: 'column',
-			alignItems: 'start',
-			flex: '1 1 auto',
-			paddingTop: 4,
-			paddingLeft: 2,
-			paddingRight: 2,
-		}}>
+		<Box
+			sx={{
+				display: 'flex',
+				flexDirection: 'column',
+				alignItems: 'start',
+				flex: '1 1 auto',
+				paddingTop: 4,
+				paddingLeft: 2,
+				paddingRight: 2,
+			}}
+		>
 			<Typography sx={{ fontSize: 18 }} color='primary.contrastText'>
 				Настройки для изучения новых слов
 			</Typography>
@@ -29,23 +31,24 @@ function SortNewWordsSettingsPage() {
 			<Box
 				minWidth={300}
 				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
+					'display': 'flex',
+					'flexDirection': 'column',
+					'alignItems': 'start',
+					'marginTop': 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',
 					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Время на вспоминание слова:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {timeToRemember}
-            </Typography>
-          </span>
+				}}
+			>
+				<span>
+					<Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
+						Время на вспоминание слова:
+					</Typography>
+					<Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
+						{timeToRemember}
+					</Typography>
+				</span>
 				<Slider
 					color='secondary'
 					step={1}
@@ -61,23 +64,24 @@ function SortNewWordsSettingsPage() {
 			<Box
 				minWidth={300}
 				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
+					'display': 'flex',
+					'flexDirection': 'column',
+					'alignItems': 'start',
+					'marginTop': 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',
 					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Количество слов:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {countWords}
-            </Typography>
-          </span>
+				}}
+			>
+				<span>
+					<Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
+						Количество слов:
+					</Typography>
+					<Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
+						{countWords}
+					</Typography>
+				</span>
 				<Slider
 					color='secondary'
 					step={5}
@@ -90,7 +94,6 @@ function SortNewWordsSettingsPage() {
 				/>
 			</Box>
 
-
 			<Box sx={{ flex: '1 1 auto', width: '100%', display: 'flex', alignItems: 'end', paddingBottom: 4 }}>
 				<Button
 					fullWidth
@@ -98,7 +101,8 @@ function SortNewWordsSettingsPage() {
 					onClick={handleStartTraining}
 					sx={{
 						backgroundColor: 'secondary.main',
-					}}>
+					}}
+				>
 					Старт
 				</Button>
 			</Box>

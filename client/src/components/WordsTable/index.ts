@@ -1,1 +1,1 @@
-export {default as WordsTable} from './WordsTable'
+export { default as WordsTable } from './WordsTable'

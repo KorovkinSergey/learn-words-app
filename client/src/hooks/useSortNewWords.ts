@@ -74,16 +74,16 @@ let interval: string | number | NodeJS.Timer | undefined
 let timeOut: string | number | NodeJS.Timer | undefined
 
 export interface IUseTrainingNewWords {
-	loading: boolean,
-	repeat: IWord[],
-	knowWords: IWord[],
-	handleIsKnow: () => void,
-	handleIsNotKnow: () => void,
-	word: IWord | null,
-	clear: () => void,
-	save: () => Promise<void>,
-	index: number,
-	saveLoading: boolean,
+	loading: boolean
+	repeat: IWord[]
+	knowWords: IWord[]
+	handleIsKnow: () => void
+	handleIsNotKnow: () => void
+	word: IWord | null
+	clear: () => void
+	save: () => Promise<void>
+	index: number
+	saveLoading: boolean
 }
 
 export const useSortNewWords = (): IUseTrainingNewWords => {
@@ -103,7 +103,6 @@ export const useSortNewWords = (): IUseTrainingNewWords => {
 				dispatch({ type: actionTypes.ADD_WORDS, words })
 			})
 		}
-
 	}, [timeToRemember, dictionary, countWords, getDictionaryWords])
 
 	useEffect(() => {
@@ -127,7 +126,6 @@ export const useSortNewWords = (): IUseTrainingNewWords => {
 		interval = setInterval(() => dispatch({ type: actionTypes.NEXT_WORD }), timeToRemember * 1000)
 
 		return () => clearInterval(interval)
-
 	}, [words, word, index, timeToRemember])
 
 	const save = useCallback(async () => {

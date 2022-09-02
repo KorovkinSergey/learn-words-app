@@ -4,7 +4,6 @@ import { Typography } from '@mui/material'
 import { useLearnWords } from '../../hooks/useLearnWords'
 import { Loading } from '../../components/Loading'
 
-
 function LearnWordsPage() {
 	const { loading, isLoading, word, index } = useLearnWords()
 
@@ -12,14 +11,16 @@ function LearnWordsPage() {
 
 	return (
 		<Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'start', flex: '1 1 auto', padding: 4 }}>
-			<Box sx={{
-				width: '100%',
-				display: 'flex',
-				flexDirection: 'column',
-				alignItems: 'center',
-				justifyContent: 'center',
-				position: 'relative',
-			}}>
+			<Box
+				sx={{
+					width: '100%',
+					display: 'flex',
+					flexDirection: 'column',
+					alignItems: 'center',
+					justifyContent: 'center',
+					position: 'relative',
+				}}
+			>
 				<Box sx={{ position: 'absolute', top: 2, right: 2 }}>
 					<Typography sx={{ fontSize: 18, margin: 2 }} color='primary.contrastText'>
 						Слово № {index}
@@ -34,14 +35,15 @@ function LearnWordsPage() {
 				<Typography sx={{ fontSize: 40, margin: 2 }} color='primary.contrastText'>
 					{word?.english}
 				</Typography>
-				<Box sx={{
-					display: 'flex',
-					alignItems: 'center',
-					mt: 4,
-					minWidth: '300px',
-					justifyContent: 'space-between',
-				}}>
-				</Box>
+				<Box
+					sx={{
+						display: 'flex',
+						alignItems: 'center',
+						mt: 4,
+						minWidth: '300px',
+						justifyContent: 'space-between',
+					}}
+				></Box>
 			</Box>
 		</Box>
 	)
