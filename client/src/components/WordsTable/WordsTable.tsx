@@ -56,10 +56,10 @@ const WordsTable = () => {
 		<Box sx={{ width: '100%' }}>
 			<Paper sx={{ overflow: 'hidden' }}>
 				<TableContainer sx={{ height: height - 56 }}>
-					<Table stickyHeader aria-label="sticky table">
+					<Table stickyHeader aria-label='sticky table'>
 						<TableHead>
 							<TableRow>
-								<TableCell align="center" sx={{ paddingRight: 0, paddingLeft: 1 }}>
+								<TableCell align='center' sx={{ paddingRight: 0, paddingLeft: 1 }}>
 									<Checkbox
 										indeterminate={selected.length > 0 && selected.length < rows.length}
 										checked={rows.length > 0 && selected.length === rows.length}
@@ -67,13 +67,9 @@ const WordsTable = () => {
 										sx={{ padding: 0, minWidth: '24px' }}
 									/>
 								</TableCell>
-								<TableCell align="center">
-									{selected.length
-										? getWordEnd()
-										: 'Перевод'}
-								</TableCell>
-								<TableCell align="center">{selected.length ? '' : 'Слово'}</TableCell>
-								<TableCell align="center">
+								<TableCell align='center'>{selected.length ? getWordEnd() : 'Перевод'}</TableCell>
+								<TableCell align='center'>{selected.length ? '' : 'Слово'}</TableCell>
+								<TableCell align='center'>
 									{selected.length ? (
 										/* eslint-disable-next-line max-len */
 										<Button startIcon={<DeleteIcon />} onClick={onWordsDelete} disabled={isWordsDeleting}>
@@ -93,16 +89,16 @@ const WordsTable = () => {
 										key={row._id}
 										hover
 										onClick={(event) => handleClick(event, row._id)}
-										role="checkbox"
+										role='checkbox'
 										aria-checked={isItemSelected}
 										selected={isItemSelected}
 									>
-										<TableCell padding="checkbox">
-											<Checkbox color="primary" checked={isItemSelected} />
+										<TableCell padding='checkbox'>
+											<Checkbox color='primary' checked={isItemSelected} />
 										</TableCell>
-										<TableCell align="center">{row.russian}</TableCell>
-										<TableCell align="center">{row.english}</TableCell>
-										<TableCell align="center">{row.transcript}</TableCell>
+										<TableCell align='center'>{row.russian}</TableCell>
+										<TableCell align='center'>{row.english}</TableCell>
+										<TableCell align='center'>{row.transcript}</TableCell>
 									</TableRow>
 								)
 							})}
