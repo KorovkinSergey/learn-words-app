@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react'
 import TableCell from '@mui/material/TableCell'
 import Paper from '@mui/material/Paper'
 import { useNavigate, useParams } from 'react-router-dom'
-import { Button, Checkbox, Table, TableBody, TableContainer, TableHead, TableRow } from '@mui/material'
+import { Checkbox, Table, TableBody, TableContainer, TableHead, TableRow } from '@mui/material'
 import Box from '@mui/material/Box'
 import { useDictionaryWords } from '../../hooks/api/useDictionaryWords'
 import { useWindowSizeContext } from '../../context/WindowSizeContext'
 import { Loading } from '../Loading'
 import { IWord } from '../../types/word'
-import DeleteIcon from '@mui/icons-material/Delete'
 import { useRemoveWordsToDictionary } from '../../hooks/api/useRemoveWordsToDictionary'
 import { getWordEnding } from '../../helpers/getWordEnding'
+import { DeleteButton } from '../DeleteButton'
 
 const WordsTable = () => {
 	const { getDictionaryWords, loading } = useDictionaryWords()
@@ -55,6 +55,7 @@ const WordsTable = () => {
 	return (
 		<Box sx={{ width: '100%' }}>
 			<Paper sx={{ overflow: 'hidden' }}>
+				{/*TODO: временное решение с height*/}
 				<TableContainer sx={{ height: height - 56 }}>
 					<Table stickyHeader aria-label='sticky table'>
 						<TableHead>
@@ -71,10 +72,7 @@ const WordsTable = () => {
 								<TableCell align='center'>{selected.length ? '' : 'Слово'}</TableCell>
 								<TableCell align='center'>
 									{selected.length ? (
-										/* eslint-disable-next-line max-len */
-										<Button startIcon={<DeleteIcon />} onClick={onWordsDelete} disabled={isWordsDeleting}>
-											Удалить
-										</Button>
+										<DeleteButton onClick={onWordsDelete} disabled={isWordsDeleting} />
 									) : (
 										'Транскрипция'
 									)}
