@@ -6,12 +6,9 @@ import { useNavigate } from 'react-router-dom'
 const TrainingPage = () => {
   const navigate = useNavigate()
 
-  const handleRepeatTraining = () => {
-    navigate('/training/learn/setting')
-  }
-  const handleNewTraining = () => {
-    navigate('/training/new/setting')
-  }
+  const handleRepeatTraining = () => navigate('/training/learn/setting')
+
+  const handleNewTraining = () => navigate('/training/new/setting')
 
   return (
     <Box sx={{
@@ -25,25 +22,26 @@ const TrainingPage = () => {
       <Button
         variant="contained"
         color="primary"
-        onClick={handleRepeatTraining}
-        sx={{
-          width: '250px',
-          margin: 2,
-          backgroundColor: 'secondary.main'
-        }}>
-        Тренировка слов
-      </Button>
-      <Button
-        variant="contained"
-        color="primary"
         onClick={handleNewTraining}
         sx={{
           width: '250px',
           margin: 2,
           backgroundColor: 'secondary.main'
         }}>
-        Тренировка новых слов
+        Сортировка новых слов
       </Button>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={handleRepeatTraining}
+        sx={{
+          width: '250px',
+          margin: 2,
+          backgroundColor: 'secondary.main'
+        }}>
+        Этап загрузки слов
+      </Button>
+
     </Box>
   )
 }

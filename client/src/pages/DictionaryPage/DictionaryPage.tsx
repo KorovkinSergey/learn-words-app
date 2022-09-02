@@ -10,84 +10,83 @@ import { useDictionaryList } from '../../hooks/api/useDictionaryList'
 import { useAuthContext } from '../../context/AuthContext'
 
 const DictionaryPage = () => {
-  const { addWordsHandler } = useAddWordsToDictionary()
-  const { dictionary } = useAuthContext()
-  const { getDictionaryList, loading } = useDictionaryList()
-  const [dictionaryList, setDictionaryList] = useState([])
+	const { addWordsHandler } = useAddWordsToDictionary()
+	const { dictionary, token } = useAuthContext()
+	const { getDictionaryList, loading } = useDictionaryList()
+	const [dictionaryList, setDictionaryList] = useState([])
 
-  useEffect(() => {
-    getDictionaryList().then(setDictionaryList)
-  }, [getDictionaryList])
+	useEffect(() => {
+		getDictionaryList().then(setDictionaryList)
+	}, [getDictionaryList, token])
 
-  const addNewWords = async () => {
-    if (!dictionary) return
-    await addWordsHandler(dictionary[0]._id, db)
-  }
-  const deleteAllWords = () => {
-    console.log('delete')
-  }
+	const addNewWords = async () => {
+		if (!dictionary) return
+		await addWordsHandler(dictionary[0]._id, db)
+	}
+	const deleteAllWords = () => {
+		console.log('delete')
+	}
 
-  if (loading) return <Loading/>
-  console.log('dictionaryList', dictionaryList)
-  return (
-    <Box sx={{
-      padding: '16px',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      width: '100%',
-    }}>
-      <Grid container spacing={2}>
-        <Grid item xs={12} md={6}>
-          <Typography sx={{ mt: 4, mb: 2, ml: 2 }} color="white" variant="h6" component="div">
-            Список словарей
-          </Typography>
-          <List>
-            {dictionaryList.map((item: any) => {
-              console.log('')
-              return (
-                <ListItem key={item.id} sx={{ '& > a': { textDecoration: 'none' } }}>
-                  <ListItemAvatar>
-                    <Avatar>
-                      <FolderIcon/>
-                    </Avatar>
-                  </ListItemAvatar>
-                  <Link to={`/dictionary/${item.id}`}>
-                    <ListItemText
-                      sx={{ color: 'white' }}
-                      primary={item.title}
-                    />
-                  </Link>
-                </ListItem>
-              )
-            })}
-          </List>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={addNewWords}
-            sx={{
-              width: '250px',
-              margin: 2,
-              backgroundColor: 'secondary.main'
-            }}>
-            Добавить новые слова
-          </Button>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={deleteAllWords}
-            sx={{
-              width: '250px',
-              margin: 2,
-              backgroundColor: 'secondary.main'
-            }}>
-            Очистить словари
-          </Button>
-        </Grid>
-      </Grid>
-    </Box>
-  )
+	if (loading) return <Loading />
+
+	return (
+		<Box sx={{
+			padding: '16px',
+			display: 'flex',
+			flexDirection: 'column',
+			alignItems: 'center',
+			width: '100%',
+		}}>
+			<Grid container spacing={2}>
+				<Grid item xs={12} md={6}>
+					<Typography sx={{ mt: 4, mb: 2, ml: 2 }} color='white' variant='h6' component='div'>
+						Список словарей
+					</Typography>
+					<List>
+						{dictionaryList.map((item: any) => {
+							return (
+								<ListItem key={item.id} sx={{ '& > a': { textDecoration: 'none' } }}>
+									<ListItemAvatar>
+										<Avatar>
+											<FolderIcon />
+										</Avatar>
+									</ListItemAvatar>
+									<Link to={`/dictionary/${item.id}`}>
+										<ListItemText
+											sx={{ color: 'white' }}
+											primary={item.title}
+										/>
+									</Link>
+								</ListItem>
+							)
+						})}
+					</List>
+					<Button
+						variant='contained'
+						color='primary'
+						onClick={addNewWords}
+						sx={{
+							width: '250px',
+							margin: 2,
+							backgroundColor: 'secondary.main',
+						}}>
+						Добавить новые слова
+					</Button>
+					<Button
+						variant='contained'
+						color='primary'
+						onClick={deleteAllWords}
+						sx={{
+							width: '250px',
+							margin: 2,
+							backgroundColor: 'secondary.main',
+						}}>
+						Очистить словари
+					</Button>
+				</Grid>
+			</Grid>
+		</Box>
+	)
 }
 
 export default DictionaryPage
