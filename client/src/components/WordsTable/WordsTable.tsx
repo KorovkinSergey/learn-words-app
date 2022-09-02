@@ -67,7 +67,7 @@ const WordsTable = () => {
 										onChange={handleSelectAllClick}
 									/>
 								</TableCell>
-								<TableCell sx={{ width: '45%' }} colSpan={selected.length ? 2 : 1} align='center'>
+								<TableCell colSpan={selected.length ? 2 : 1} align='center'>
 									{selected.length ? getWordEnd() : 'Перевод'}
 								</TableCell>
 								{!selected.length && <TableCell align='center'>Слово</TableCell>}
