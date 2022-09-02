@@ -14,7 +14,7 @@ import { DeleteButton } from '../DeleteButton'
 
 const WordsTable = () => {
 	const { getDictionaryWords, loading } = useDictionaryWords()
-	const { height } = useWindowSizeContext()
+	const { height, width } = useWindowSizeContext()
 	const params = useParams()
 	const navigate = useNavigate()
 	const { dictionary = '' } = params
@@ -57,24 +57,27 @@ const WordsTable = () => {
 			<Paper sx={{ overflow: 'hidden' }}>
 				{/*TODO: временное решение с height*/}
 				<TableContainer sx={{ height: height - 56 }}>
-					<Table stickyHeader aria-label='sticky table'>
+					<Table stickyHeader area-label='sticky table'>
 						<TableHead>
 							<TableRow>
-								<TableCell align='center' sx={{ paddingRight: 0, paddingLeft: 1 }}>
+								<TableCell padding='checkbox'>
 									<Checkbox
 										indeterminate={selected.length > 0 && selected.length < rows.length}
 										checked={rows.length > 0 && selected.length === rows.length}
 										onChange={handleSelectAllClick}
-										sx={{ padding: 0, minWidth: '24px' }}
 									/>
 								</TableCell>
-								<TableCell align='center'>{selected.length ? getWordEnd() : 'Перевод'}</TableCell>
-								<TableCell align='center'>{selected.length ? '' : 'Слово'}</TableCell>
+								<TableCell sx={{ width: '45%' }} colSpan={selected.length ? 2 : 1} align='center'>
+									{selected.length ? getWordEnd() : 'Перевод'}
+								</TableCell>
+								{!selected.length && <TableCell align='center'>Слово</TableCell>}
 								<TableCell align='center'>
 									{selected.length ? (
 										<DeleteButton onClick={onWordsDelete} disabled={isWordsDeleting} />
-									) : (
+									) : width > 400 ? (
 										'Транскрипция'
+									) : (
+										'Транс-крипция'
 									)}
 								</TableCell>
 							</TableRow>

@@ -6,6 +6,7 @@ import { WindowSizeContextProvider } from './context/WindowSizeContext'
 import { AuthContextProvider } from './context/AuthContext'
 import { SettingsSortNewWordsContextProvider } from './context/SettingsSortNewWordsContext'
 import { SettingsLearnWordsContextProvider } from './context/SettingsLearnWordsContext'
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
