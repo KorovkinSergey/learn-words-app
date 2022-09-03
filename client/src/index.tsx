@@ -7,6 +7,7 @@ import { AuthContextProvider } from './context/AuthContext'
 import { SettingsSortNewWordsContextProvider } from './context/SettingsSortNewWordsContext'
 import { SettingsLearnWordsContextProvider } from './context/SettingsLearnWordsContext'
 import { SettingsWordsContextProvider } from './context/SettingsWordsContext'
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
