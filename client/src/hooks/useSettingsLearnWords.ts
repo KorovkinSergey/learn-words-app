@@ -30,6 +30,7 @@ export const useSettingsLearnWords = (): IUseSettingsLearnWords => {
 		})
 	}, [getDictionaryList])
 	useEffect(() => {
+		setError('')
 		if (dictionary.includes(titleTable)) {
 			setError('Такой словарь уже существует')
 		}

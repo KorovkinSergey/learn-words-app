@@ -6,6 +6,7 @@ import { WindowSizeContextProvider } from './context/WindowSizeContext'
 import { AuthContextProvider } from './context/AuthContext'
 import { SettingsSortNewWordsContextProvider } from './context/SettingsSortNewWordsContext'
 import { SettingsLearnWordsContextProvider } from './context/SettingsLearnWordsContext'
+import { SettingsWordsContextProvider } from './context/SettingsWordsContext'
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
@@ -37,7 +38,9 @@ root.render(
 			<WindowSizeContextProvider>
 				<SettingsLearnWordsContextProvider>
 					<SettingsSortNewWordsContextProvider>
-						<App />
+						<SettingsWordsContextProvider>
+							<App />
+						</SettingsWordsContextProvider>
 					</SettingsSortNewWordsContextProvider>
 				</SettingsLearnWordsContextProvider>
 			</WindowSizeContextProvider>
