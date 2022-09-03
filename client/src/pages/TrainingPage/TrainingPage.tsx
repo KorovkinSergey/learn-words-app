@@ -1,49 +1,46 @@
 import React from 'react'
 import { Button } from '@mui/material'
-import Box from '@mui/material/Box'
 import { useNavigate } from 'react-router-dom'
+import { Wrapper } from '../../components/Wrapper'
+
 
 const TrainingPage = () => {
-  const navigate = useNavigate()
+	const navigate = useNavigate()
 
-  const handleRepeatTraining = () => navigate('/training/learn/setting')
+	const handleRepeatTraining = () => navigate('/training/learn/setting')
 
-  const handleNewTraining = () => navigate('/training/new/setting')
+	const handleNewTraining = () => navigate('/training/new/setting')
 
-  return (
-    <Box sx={{
-      display: 'flex',
-      width: '100%',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '100%'
-    }}>
-      <Button
-        variant="contained"
-        color="primary"
-        onClick={handleNewTraining}
-        sx={{
-          width: '250px',
-          margin: 2,
-          backgroundColor: 'secondary.main'
-        }}>
-        Сортировка новых слов
-      </Button>
-      <Button
-        variant="contained"
-        color="primary"
-        onClick={handleRepeatTraining}
-        sx={{
-          width: '250px',
-          margin: 2,
-          backgroundColor: 'secondary.main'
-        }}>
-        Этап загрузки слов
-      </Button>
+	const handleWordsTraining = () => navigate('/training/words/setting')
 
-    </Box>
-  )
+	const buttons = [
+		{
+			title: 'Сортировка новых слов',
+			onClick: handleNewTraining,
+		},
+		{
+			title: 'Этап загрузки слов',
+			onClick: handleRepeatTraining,
+		},
+		{
+			title: 'Тренировка слов',
+			onClick: handleWordsTraining,
+		}]
+
+	return (
+		<Wrapper>
+			{buttons.map(({ title, onClick }) => {
+				return <Button
+					key={title}
+					variant='contained'
+					color='primary'
+					onClick={onClick}
+					sx={{ width: '250px', margin: 2, backgroundColor: 'secondary.main' }}>
+					{title}
+				</Button>
+			})}
+		</Wrapper>
+	)
 }
 
 export default TrainingPage

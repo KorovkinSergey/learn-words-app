@@ -4,6 +4,7 @@ import { Button, Input, Slider, Typography } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import { Loading } from '../../components/Loading'
 import { useSettingsLearnWordsContext } from '../../context/SettingsLearnWordsContext'
+import { Wrapper } from '../../components/Wrapper'
 
 const LearnWordsSettingsPage = () => {
 	const navigate = useNavigate()
@@ -30,7 +31,7 @@ const LearnWordsSettingsPage = () => {
 	if (loading) return <Loading />
 
 	return (
-		<Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'start', flex: '1 1 auto', padding: 4 }}>
+		<Wrapper>
 			<Box minWidth={300} sx={{ display: 'flex', alignItems: 'center', marginTop: 2 }}>
 				<Typography sx={{ fontSize: 16 }} color='primary.contrastText'>
 					Название словаря:
@@ -116,7 +117,7 @@ const LearnWordsSettingsPage = () => {
 					Старт
 				</Button>
 			</Box>
-		</Box>
+		</Wrapper>
 	)
 }
 

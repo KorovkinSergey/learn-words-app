@@ -125,7 +125,16 @@ export const useLearnWords = (): IUseLearnWords => {
 		await deleteHandler(dictionary[1]._id, words)
 		await addWordsHandler(dictionary[1]._id, notLoadedWords)
 		dispatch({ type: actionTypes.IS_LOADING })
-	}, [loadedWords, notLoadedWords, titleTable])
+	}, [
+		loadedWords,
+		notLoadedWords,
+		titleTable,
+		addDictionaryHandler,
+		deleteHandler,
+		dictionary,
+		words,
+		addWordsHandler,
+	])
 
 	const addToLoaded = useCallback(() => {
 		dispatch({ type: actionTypes.ADD_TO_LOADED_WORDS })
