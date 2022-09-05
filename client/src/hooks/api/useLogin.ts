@@ -12,7 +12,7 @@ export const useLogin = () => {
 			const data = await request(endpoints.login, 'POST', { ...form })
 			auth.login(data)
 		} catch (e) {
-			console.log('e', e)
+			throw e
 		}
 	}, [request, auth])
 

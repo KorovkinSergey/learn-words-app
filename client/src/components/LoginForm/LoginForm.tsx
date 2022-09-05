@@ -13,12 +13,17 @@ const LoginSchema = yup.object({
 
 
 const LoginForm = () => {
-	const { register, handleSubmit, formState: { errors } } = useForm({ resolver: yupResolver(LoginSchema) })
+	const { register, handleSubmit, setError, formState: { errors } } = useForm({ resolver: yupResolver(LoginSchema) })
 
 	const { loginHandler, loading } = useLogin()
-	const onSubmit = (data: any) => {
+	const onSubmit = async (data: any) => {
 		const { email, password } = data
-		loginHandler({ email, password })
+
+		try {
+			await loginHandler({ email, password })
+		} catch (e: any) {
+			setError('userExists', { type: 'custom', message: e.message || 'user exists' })
+		}
 	}
 
 	return (
