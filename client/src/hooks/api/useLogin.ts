@@ -1,6 +1,7 @@
-import { useAuthContext } from '../context/AuthContext'
-import { useHttp } from './useHttp'
+import { useAuthContext } from '../../context/AuthContext'
+import { useHttp } from '../useHttp'
 import { useCallback } from 'react'
+import { endpoints } from '../../consts/endpoints'
 
 export const useLogin = () => {
 	const { loading, error, request } = useHttp()
@@ -8,7 +9,7 @@ export const useLogin = () => {
 
 	const loginHandler = useCallback(async (form: any) => {
 		try {
-			const data = await request('/api/auth/login', 'POST', { ...form })
+			const data = await request(endpoints.login, 'POST', { ...form })
 			auth.login(data)
 		} catch (e) {
 			console.log('e', e)

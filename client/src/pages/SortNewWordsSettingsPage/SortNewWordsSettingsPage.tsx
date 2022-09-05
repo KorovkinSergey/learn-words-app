@@ -1,108 +1,49 @@
-import React from 'react'
-import Box from '@mui/material/Box'
-import { Button, Slider, Typography } from '@mui/material'
+import React, { useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSettingsSortNewWordsContext } from '../../context/SettingsSortNewWordsContext'
+import { Wrapper } from '../../components/Wrapper'
+import { SliderInput } from '../../components/SliderInput'
+import { StartButton } from '../../components/StartButton'
+import { Title } from '../../components/Title'
 
 function SortNewWordsSettingsPage() {
 	const navigate = useNavigate()
 	const { timeToRemember, countWords, setCountWords, setTimeToRemember } = useSettingsSortNewWordsContext()
 
-	const handleTimeToRemember = (event: Event, newValue: number | number[]) => setTimeToRemember(newValue as number)
-	const handleCountWords = (event: Event, newValue: number | number[]) => setCountWords(newValue as number)
-	const handleStartTraining = () => navigate('/training/new')
+	const handleTimeToRemember = useCallback((event: Event, newValue: number | number[]) =>
+		setTimeToRemember(newValue as number), [setTimeToRemember])
+
+	const handleCountWords = useCallback((event: Event, newValue: number | number[]) =>
+		setCountWords(newValue as number), [setCountWords])
+
+	const handleStartTraining = useCallback(() => navigate('/training/new'), [navigate])
 
 	return (
-		<Box sx={{
-			display: 'flex',
-			flexDirection: 'column',
-			alignItems: 'start',
-			flex: '1 1 auto',
-			paddingTop: 4,
-			paddingLeft: 2,
-			paddingRight: 2,
-		}}>
-			<Typography sx={{ fontSize: 18 }} color='primary.contrastText'>
-				Настройки для изучения новых слов
-			</Typography>
+		<Wrapper>
 
-			<Box
-				minWidth={300}
-				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
-					'& > span': {
-						display: 'flex',
-						alignItems: 'center',
-					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Время на вспоминание слова:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {timeToRemember}
-            </Typography>
-          </span>
-				<Slider
-					color='secondary'
-					step={1}
-					marks
-					min={1}
-					max={10}
-					aria-label='Volume'
-					value={timeToRemember}
-					onChange={handleTimeToRemember}
-				/>
-			</Box>
+			<Title title='Настройки для изучения новых слов' />
 
-			<Box
-				minWidth={300}
-				sx={{
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'start',
-					marginTop: 2,
-					'& > span': {
-						display: 'flex',
-						alignItems: 'center',
-					},
-				}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              Количество слов:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {countWords}
-            </Typography>
-          </span>
-				<Slider
-					color='secondary'
-					step={5}
-					marks
-					min={5}
-					max={1000}
-					aria-label='Volume'
-					value={countWords}
-					onChange={handleCountWords}
-				/>
-			</Box>
+			<SliderInput
+				title='Время на вспоминание слова'
+				value={timeToRemember}
+				onChange={handleTimeToRemember}
+				step={1}
+				min={1}
+				max={10}
+			/>
 
+			<SliderInput
+				title='Количество слов'
+				value={countWords}
+				onChange={handleCountWords}
+				step={5}
+				min={5}
+				max={1000}
+			/>
 
-			<Box sx={{ flex: '1 1 auto', width: '100%', display: 'flex', alignItems: 'end', paddingBottom: 4 }}>
-				<Button
-					fullWidth
-					variant='contained'
-					onClick={handleStartTraining}
-					sx={{
-						backgroundColor: 'secondary.main',
-					}}>
-					Старт
-				</Button>
-			</Box>
-		</Box>
+			<StartButton onClick={handleStartTraining} />
+
+		</Wrapper>
 	)
 }
 

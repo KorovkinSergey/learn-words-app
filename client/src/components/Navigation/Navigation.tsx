@@ -1,28 +1,53 @@
-import React from 'react';
-import Box from '@mui/material/Box';
-import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import MenuBookIcon from '@mui/icons-material/MenuBook';
-import LanguageIcon from '@mui/icons-material/Language';
+import React, { memo, SyntheticEvent, useCallback, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { AccountCircle, Language, MenuBook } from '@mui/icons-material'
+import { BottomNavigation, BottomNavigationAction, Box } from '@mui/material'
 
-export default function Navigation() {
+const Navigation = () => {
 
-  const navigate = useNavigate()
-  return (
-    <Box sx={{ width: "100%"}}>
-      <BottomNavigation
-        sx={{backgroundColor: 'secondary.light'}}
-        showLabels
-        onChange={(_, newValue) => {
-          navigate(newValue);
-        }}
-      >
-        <BottomNavigationAction sx={{color: 'white'}} value='/' label="Профиль" icon={<AccountCircleIcon />} />
-        <BottomNavigationAction sx={{color: 'white'}} value="/training" label="Тренировки" icon={<LanguageIcon />} />
-        <BottomNavigationAction sx={{color: 'white'}} value="/dictionary" label="Словарь" icon={<MenuBookIcon />} />
-      </BottomNavigation>
-    </Box>
-  );
+	const navigate = useNavigate()
+
+	const handleChange = useCallback((_: SyntheticEvent, newValue: string) => {
+		navigate(newValue)
+	}, [navigate])
+	
+	const navigation = useMemo(() => [
+		{
+			value: '/',
+			label: 'Профиль',
+			icon: <AccountCircle />,
+		},
+		{
+			value: '/training',
+			label: 'Тренировки',
+			icon: <Language />,
+		},
+		{
+			value: '/dictionary',
+			label: 'Словарь',
+			icon: <MenuBook />,
+		},
+	], [])
+
+	return (
+		<Box sx={{ width: '100%' }}>
+			<BottomNavigation
+				sx={{ backgroundColor: 'secondary.light' }}
+				showLabels
+				onChange={handleChange}
+			>
+				{navigation.map(({ value, label, icon }) =>
+					<BottomNavigationAction
+						sx={{ color: 'white' }}
+						key={value}
+						value={value}
+						label={label}
+						icon={icon}
+					/>,
+				)}
+			</BottomNavigation>
+		</Box>
+	)
 }
+
+export default memo(Navigation)

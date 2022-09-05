@@ -1,14 +1,14 @@
 import { useHttp } from '../useHttp'
 import { useCallback } from 'react'
 import { IWord } from '../../types/word'
-import { path } from '../../consts/path'
+import { endpoints } from '../../consts/endpoints'
 
 export const useAddNewDictionary = () => {
 	const { loading, error, request } = useHttp()
 
 	const addDictionaryHandler = useCallback((title: string, words: IWord[]) => {
 		try {
-			return request(path.dictionary, 'POST', { title, words })
+			return request(endpoints.dictionary, 'POST', { title, words })
 		} catch (e) {
 			console.log('e', e)
 		}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo, useCallback } from 'react'
 import { Button } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import { Wrapper } from '../../components/Wrapper'
@@ -7,11 +7,11 @@ import { Wrapper } from '../../components/Wrapper'
 const TrainingPage = () => {
 	const navigate = useNavigate()
 
-	const handleRepeatTraining = () => navigate('/training/learn/setting')
+	const handleRepeatTraining = useCallback(() => navigate('/training/learn/setting'), [navigate])
 
-	const handleNewTraining = () => navigate('/training/new/setting')
+	const handleNewTraining = useCallback(() => navigate('/training/new/setting'), [navigate])
 
-	const handleWordsTraining = () => navigate('/training/words/setting')
+	const handleWordsTraining = useCallback(() => navigate('/training/words/setting'), [navigate])
 
 	const buttons = [
 		{
@@ -43,4 +43,4 @@ const TrainingPage = () => {
 	)
 }
 
-export default TrainingPage
+export default memo(TrainingPage)

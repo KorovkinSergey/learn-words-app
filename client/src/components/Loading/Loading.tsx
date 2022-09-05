@@ -1,22 +1,26 @@
-import React from 'react'
-import Box from '@mui/material/Box'
-import Paper from '@mui/material/Paper'
-import { CircularProgress } from '@mui/material'
+import React, { FC, memo } from 'react'
+import { Box, CircularProgress, Paper } from '@mui/material'
 
-export default function Loading({backgroundColor}: {backgroundColor?: string}) {
-  return (
-    <Box sx={{ width: '100%', }}>
-      <Paper sx={{
-        width: '100%',
-        height: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor:backgroundColor
-      }}>
-        <CircularProgress disableShrink/>
-      </Paper>
-    </Box>
-
-  )
+interface IProps {
+	backgroundColor?: string
 }
+
+const Loading: FC<IProps> = ({ backgroundColor }) => {
+	return (
+		<Box sx={{ width: '100%' }}>
+			<Paper sx={{
+				width: '100%',
+				height: '100%',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
+				backgroundColor: backgroundColor,
+			}}>
+				<CircularProgress disableShrink />
+			</Paper>
+		</Box>
+
+	)
+}
+
+export default memo(Loading)

@@ -12,6 +12,7 @@ const Wrapper: FC<IProps> = ({ children, top }) => {
 	const stylesDefault = {
 		display: 'flex',
 		width: '100%',
+		position: 'relative',
 		flexDirection: 'column',
 		justifyContent: 'center',
 		alignItems: 'center',
