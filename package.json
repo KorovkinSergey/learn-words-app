@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "cross-env NODE_ENV=production ts-node src/app.ts",
-		"server": "nodemon ./src/app.ts",
+		"start": "cross-env NODE_ENV=production ts-node app.ts",
+		"server": "nodemon app.ts",
 		"dev": "cross-env NODE_ENV=development  concurrently \" npm run server\" \"npm run client\"",
 		"client": "npm run start --prefix client",
 		"client:install": "npm install --prefix client",

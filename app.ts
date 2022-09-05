@@ -1,8 +1,9 @@
 import express from 'express'
 import config from 'config'
-import dictionary from './routes/dictionary.routes'
-import auth from './routes/auth.routes'
+
+import auth from './src/routes/auth.routes'
 import path from 'path'
+import dictionary from './src/routes/dictionary.routes'
 
 const mongoose = require('mongoose')
 
