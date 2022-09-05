@@ -1,0 +1,6 @@
+{
+	"port": 5001,
+	"jwtSecret": "learn-words",
+	"mongoURL": "mongodb+srv://sergey:kaYKn3vrJlvHfnEE@cluster0.vlnelkk.mongodb.net/app?retryWrites=true&w=majority",
+	"baseUrl": "http://localhost:5001"
+}
