@@ -3,8 +3,8 @@ import Box from '@mui/material/Box'
 import { Typography } from '@mui/material'
 
 interface IProps {
-	label: string,
-	count: string | number,
+	label: string
+	count: string | number
 	countColor: string
 }
 
@@ -12,10 +12,17 @@ const UserAchievements: FC<IProps> = ({ label, count = 0, countColor = 'common.w
 	return (
 		<Box sx={{ marginTop: 1 }}>
 			<Typography sx={{ fontSize: 24 }} color='primary.contrastText'>
-				{label}: <Typography sx={{
-				fontSize: 32,
-				display: 'inline',
-			}} color={countColor} component='span'>{count}</Typography>
+				{label}:{' '}
+				<Typography
+					sx={{
+						fontSize: 32,
+						display: 'inline',
+					}}
+					color={countColor}
+					component='span'
+				>
+					{count}
+				</Typography>
 			</Typography>
 		</Box>
 	)

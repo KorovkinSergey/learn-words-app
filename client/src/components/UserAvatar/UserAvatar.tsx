@@ -8,13 +8,14 @@ interface IProps {
 
 const UserAvatar: FC<IProps> = ({ name }) => {
 	return (
-		<Avatar sx={{
-			width: 55,
-			height: 55,
-			backgroundColor: 'secondary.light',
-			fontSize: '3rem',
-			lineHeight: '100%',
-		}}
+		<Avatar
+			sx={{
+				width: 55,
+				height: 55,
+				backgroundColor: 'secondary.light',
+				fontSize: '3rem',
+				lineHeight: '100%',
+			}}
 		>
 			<span style={{ height: '100%' }}>{getFirstLetter(name)}</span>
 		</Avatar>

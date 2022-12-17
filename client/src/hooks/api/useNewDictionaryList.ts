@@ -1,17 +1,17 @@
-import { useHttp } from "../useHttp";
-import { useCallback } from "react";
-import { endpoints } from "../../consts/endpoints";
+import { useHttp } from '../useHttp'
+import { useCallback } from 'react'
+import { endpoints } from '../../consts/endpoints'
 
 export const useNewDictionaryList = () => {
-	const { loading, error, request } = useHttp();
+	const { loading, error, request } = useHttp()
 
 	const getNewDictionaryList = useCallback(() => {
 		try {
-			return request(endpoints.newDictionaries);
+			return request(endpoints.newDictionaries)
 		} catch (e) {
-			console.log("e", e);
+			console.log('e', e)
 		}
-	}, [request]);
+	}, [request])
 
-	return { getNewDictionaryList, loading, error };
-};
+	return { getNewDictionaryList, loading, error }
+}

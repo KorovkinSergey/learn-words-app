@@ -5,13 +5,16 @@ import { endpoints } from '../../consts/endpoints'
 export const useRegister = () => {
 	const { loading, error, request } = useHttp()
 
-	const registerHandler = useCallback(async (form: any) => {
-		try {
-			return request(endpoints.register, 'POST', { ...form })
-		} catch (e: any) {
-			throw e
-		}
-	}, [request])
+	const registerHandler = useCallback(
+		async (form: any) => {
+			try {
+				return request(endpoints.register, 'POST', { ...form })
+			} catch (e: any) {
+				throw e
+			}
+		},
+		[request],
+	)
 
 	return { registerHandler, loading, error }
 }

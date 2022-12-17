@@ -10,16 +10,22 @@ interface IProps {
 	setTab: Dispatch<SetStateAction<number>>
 }
 
-const RegisterSchema = yup.object({
-	name: yup.string().min(3).required(),
-	email: yup.string().email().required(),
-	password: yup.string().min(6).required(),
-	repeatPassword: yup.string().min(6).required(),
-}).required()
+const RegisterSchema = yup
+	.object({
+		name: yup.string().min(3).required(),
+		email: yup.string().email().required(),
+		password: yup.string().min(6).required(),
+		repeatPassword: yup.string().min(6).required(),
+	})
+	.required()
 
 const RegisterForm = ({ setTab }: IProps) => {
-
-	const { register, handleSubmit, setError, formState: { errors } } = useForm({
+	const {
+		register,
+		handleSubmit,
+		setError,
+		formState: { errors },
+	} = useForm({
 		resolver: yupResolver(RegisterSchema),
 	})
 	const { registerHandler, loading } = useRegister()
@@ -38,25 +44,29 @@ const RegisterForm = ({ setTab }: IProps) => {
 	}
 
 	return (
-		<Box sx={{
-			display: 'flex',
-			p: 4,
-			flexDirection: 'column',
-			flex: '1 1 auto',
-			'& > form': {
+		<Box
+			sx={{
 				display: 'flex',
+				p: 4,
 				flexDirection: 'column',
 				flex: '1 1 auto',
-			},
-		}}>
-			<Typography sx={{ fontSize: 18 }} color='primary'>Регистрация</Typography>
+				'& > form': {
+					display: 'flex',
+					flexDirection: 'column',
+					flex: '1 1 auto',
+				},
+			}}
+		>
+			<Typography sx={{ fontSize: 18 }} color='primary'>
+				Регистрация
+			</Typography>
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<TextField
 					{...register('name')}
 					sx={{ mt: 2 }}
 					fullWidth
 					error={!!errors.name}
-					helperText={errors.name ? errors.name.message as React.ReactNode : ''}
+					helperText={errors.name ? (errors.name.message as React.ReactNode) : ''}
 					type='text'
 					label='Имя'
 				/>
@@ -65,7 +75,7 @@ const RegisterForm = ({ setTab }: IProps) => {
 					sx={{ mt: 2 }}
 					fullWidth
 					error={!!errors.email}
-					helperText={errors.email ? errors.email.message as React.ReactNode : ''}
+					helperText={errors.email ? (errors.email.message as React.ReactNode) : ''}
 					type='email'
 					label='Email'
 				/>
@@ -74,7 +84,7 @@ const RegisterForm = ({ setTab }: IProps) => {
 					sx={{ mt: 2 }}
 					fullWidth
 					error={!!errors.password}
-					helperText={errors.password ? errors.password.message as React.ReactNode : ''}
+					helperText={errors.password ? (errors.password.message as React.ReactNode) : ''}
 					label='Пароль'
 					type='password'
 				/>
@@ -83,27 +93,29 @@ const RegisterForm = ({ setTab }: IProps) => {
 					sx={{ mt: 2 }}
 					fullWidth
 					error={!!errors.repeatPassword}
-					helperText={errors.repeatPassword ? errors.repeatPassword.message as React.ReactNode : ''}
+					helperText={errors.repeatPassword ? (errors.repeatPassword.message as React.ReactNode) : ''}
 					label='Повторите пароль'
 					type='password'
 				/>
-				{errors.userExists && <Typography
-					mt={1}
-					color='secondary'>
-					{errors.userExists.message as React.ReactNode}
-				</Typography>}
+				{errors.userExists && (
+					<Typography mt={1} color='secondary'>
+						{errors.userExists.message as React.ReactNode}
+					</Typography>
+				)}
 				<Box sx={{ flex: '1 1 auto', display: 'flex', alignItems: 'end' }}>
 					<Button
 						type='submit'
 						sx={{ mt: 4, mb: 4, minHeight: '50px' }}
 						fullWidth
 						disabled={loading}
-						variant='contained'>
+						variant='contained'
+					>
 						Зарегистрироваться
 					</Button>
 				</Box>
 			</form>
-		</Box>)
+		</Box>
+	)
 }
 
 export default RegisterForm

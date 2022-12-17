@@ -8,17 +8,8 @@ import { Wrapper } from '../../components/Wrapper'
 import { ChoiceGroupButtons } from '../../components/ChoiceGroupButtons'
 
 const SortNewWordsPage = () => {
-	const {
-		loading,
-		repeat,
-		knowWords,
-		handleIsKnow,
-		handleIsNotKnow, saveLoading,
-		word,
-		index,
-		clear,
-		save,
-	} = useSortNewWords()
+	const { loading, repeat, knowWords, handleIsKnow, handleIsNotKnow, saveLoading, word, index, clear, save } =
+		useSortNewWords()
 	const navigate = useNavigate()
 
 	if (loading || saveLoading) return <Loading />
@@ -38,7 +29,8 @@ const SortNewWordsPage = () => {
 							navigate('/training')
 						})
 					}}
-					sx={{ margin: 2, maxWidth: '250px', backgroundColor: 'secondary.main' }}>
+					sx={{ margin: 2, maxWidth: '250px', backgroundColor: 'secondary.main' }}
+				>
 					Перейти к тренировкам
 				</Button>
 				<Button
@@ -46,7 +38,8 @@ const SortNewWordsPage = () => {
 					color='primary'
 					fullWidth
 					onClick={clear}
-					sx={{ margin: 2, maxWidth: '250px', backgroundColor: 'secondary.main' }}>
+					sx={{ margin: 2, maxWidth: '250px', backgroundColor: 'secondary.main' }}
+				>
 					Повторить
 				</Button>
 			</Wrapper>

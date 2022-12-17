@@ -1,1 +1,1 @@
-export {default as UserAchievements} from './UserAchievements'
+export { default as UserAchievements } from './UserAchievements'

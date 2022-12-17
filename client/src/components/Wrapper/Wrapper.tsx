@@ -2,13 +2,11 @@ import React, { FC, ReactNode } from 'react'
 import { Box } from '@mui/material'
 
 interface IProps {
-	children: ReactNode,
+	children: ReactNode
 	top?: boolean
 }
 
-
 const Wrapper: FC<IProps> = ({ children, top }) => {
-
 	const stylesDefault = {
 		display: 'flex',
 		width: '100%',
@@ -23,12 +21,7 @@ const Wrapper: FC<IProps> = ({ children, top }) => {
 		stylesDefault.justifyContent = 'flex-start'
 	}
 
-
-	return (
-		<Box sx={stylesDefault}>
-			{children}
-		</Box>
-	)
+	return <Box sx={stylesDefault}>{children}</Box>
 }
 
 export default Wrapper

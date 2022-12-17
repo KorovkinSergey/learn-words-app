@@ -8,18 +8,19 @@ interface IProps {
 const Loading: FC<IProps> = ({ backgroundColor }) => {
 	return (
 		<Box sx={{ width: '100%' }}>
-			<Paper sx={{
-				width: '100%',
-				height: '100%',
-				display: 'flex',
-				justifyContent: 'center',
-				alignItems: 'center',
-				backgroundColor: backgroundColor,
-			}}>
+			<Paper
+				sx={{
+					width: '100%',
+					height: '100%',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					backgroundColor: backgroundColor,
+				}}
+			>
 				<CircularProgress disableShrink />
 			</Paper>
 		</Box>
-
 	)
 }
 

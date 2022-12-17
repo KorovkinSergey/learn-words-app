@@ -4,23 +4,23 @@ import DoneIcon from '@mui/icons-material/Done'
 import CloseIcon from '@mui/icons-material/Close'
 
 interface IProps {
-	succsesTitle: string,
-	succsesOnClick: () => void,
-	rejectTitle: string,
-	rejectOnClick: () => void,
+	succsesTitle: string
+	succsesOnClick: () => void
+	rejectTitle: string
+	rejectOnClick: () => void
 }
 
-
 const ChoiceGroupButtons: FC<IProps> = ({ succsesTitle, succsesOnClick, rejectTitle, rejectOnClick }) => {
-
 	return (
-		<Box sx={{
-			display: 'flex',
-			flexDirection: 'column',
-			minWidth: '300px',
-			justifyContent: 'center',
-			alignItems: 'center',
-		}}>
+		<Box
+			sx={{
+				display: 'flex',
+				flexDirection: 'column',
+				minWidth: '300px',
+				justifyContent: 'center',
+				alignItems: 'center',
+			}}
+		>
 			<Button
 				size='large'
 				variant='contained'
@@ -28,7 +28,8 @@ const ChoiceGroupButtons: FC<IProps> = ({ succsesTitle, succsesOnClick, rejectTi
 				startIcon={<DoneIcon />}
 				onClick={succsesOnClick}
 				fullWidth
-				sx={{ m: 2 }}>
+				sx={{ m: 2 }}
+			>
 				{succsesTitle}
 			</Button>
 			<Button
@@ -38,7 +39,8 @@ const ChoiceGroupButtons: FC<IProps> = ({ succsesTitle, succsesOnClick, rejectTi
 				startIcon={<CloseIcon />}
 				onClick={rejectOnClick}
 				fullWidth
-				sx={{ m: 2 }}>
+				sx={{ m: 2 }}
+			>
 				{rejectTitle}
 			</Button>
 		</Box>

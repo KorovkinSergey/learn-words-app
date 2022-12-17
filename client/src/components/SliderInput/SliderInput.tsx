@@ -2,17 +2,15 @@ import React, { FC } from 'react'
 import { Box, Slider, Typography } from '@mui/material'
 
 interface IProps {
-	title: string,
-	value: number,
-	onChange: (event: Event, newValue: number | number[]) => void,
-	step: number,
-	min: number,
-	max: number,
+	title: string
+	value: number
+	onChange: (event: Event, newValue: number | number[]) => void
+	step: number
+	min: number
+	max: number
 }
 
-
 const SliderInput: FC<IProps> = ({ title, value, onChange, step, min, max }) => {
-
 	return (
 		<Box
 			sx={{
@@ -25,15 +23,16 @@ const SliderInput: FC<IProps> = ({ title, value, onChange, step, min, max }) => 
 					display: 'flex',
 					alignItems: 'center',
 				},
-			}}>
-          <span>
-            <Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
-              {title}:
-            </Typography>
-            <Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
-              {value}
-            </Typography>
-          </span>
+			}}
+		>
+			<span>
+				<Typography sx={{ fontSize: 14 }} color='primary.contrastText'>
+					{title}:
+				</Typography>
+				<Typography sx={{ fontSize: 16, fontWeight: 'bold', marginLeft: 2 }} color='primary.contrastText'>
+					{value}
+				</Typography>
+			</span>
 			<Slider
 				color='secondary'
 				step={step}

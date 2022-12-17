@@ -1,62 +1,14 @@
 {
-  "root": true,
-  "parser": "@babel/eslint-parser",
-  "extends": [
-    "eslint:recommended"
-  ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "sourceType": "module",
-    "ecmaVersion": 2020,
-    "parser": "@typescript-eslint/parser"
-  },
-  "env": {
-    "browser": true,
-    "node": true,
-    "es2020": true
-  },
-  "rules": {
-    "react/prop-types": 0,
-    "import/no-extraneous-dependencies": 0,
-    "no-return-assign": 0,
-    "no-use-before-define": 0,
-    "guard-for-in": 2,
-    "max-len": [
-      "error",
-      120
-    ],
-    "class-methods-use-this": 0,
-    "no-restricted-properties": 1,
-    "no-template-curly-in-string": 0,
-    "no-underscore-dangle": 0,
-    "no-unused-vars": 1,
-    "global-require": 0,
-    "semi": 0,
-    "template-curly-spacing": [
-      "off"
-    ],
-    "arrow-body-style": "off",
-    "prefer-arrow-callback": "off"
-  },
-  "globals": {
-    "process": true,
-    "window": true,
-    "localStorage": true,
-    "sessionStorage": true,
-    "clearTimeout": true,
-    "setTimeout": true,
-    "Promise": true,
-    "describe": true,
-    "expect": true,
-    "test": true,
-    "Generator": true,
-    "fetch": true,
-    "it": true,
-    "toEqual": true,
-    "__DEV__": true,
-    "shallow": true
-  }
+	"parser": "@typescript-eslint/parser",
+	"extends": [
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {},
+	"plugins": [
+		"@typescript-eslint"
+	]
 }

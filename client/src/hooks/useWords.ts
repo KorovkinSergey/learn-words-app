@@ -4,11 +4,10 @@ import { useDictionaryWords } from './api/useDictionaryWords'
 import { IWord } from '../types/word'
 
 export interface IUseWords {
-	loading: boolean,
-	word: IWord | null,
+	loading: boolean
+	word: IWord | null
 	clear: () => void
 }
-
 
 let timeOut: string | number | NodeJS.Timer | undefined
 
@@ -38,15 +37,14 @@ export const useWords = (): IUseWords => {
 		}
 		if (word === null && index === 0) {
 			setWord(words[0])
-			setIndex(prevState => prevState + 1)
+			setIndex((prevState) => prevState + 1)
 		}
 		timeOut = setTimeout(() => {
 			setWord(words[index])
-			setIndex(prevState => prevState + 1)
+			setIndex((prevState) => prevState + 1)
 		}, time)
 
 		return () => clearTimeout(timeOut)
-
 	}, [words, index, word, time])
 
 	const clear = useCallback(() => {

@@ -10,12 +10,19 @@
 		"client": "npm run start --prefix client",
 		"client:install": "npm install --prefix client",
 		"client:build": "npm run build --prefix client",
-		"eslint": "eslint \"{client,src}/**/src/**/*.{js,jsx,ts,tsx}\" --cache --fix",
-		"prettier": "prettier \"{apps,packages,modules}/**/src/**/*.{ts,js,tsx,css,scss}\" --write"
+		"eslint": "eslint \"{client,src}/**/*.{js,jsx,ts,tsx}\" --cache --fix",
+		"prettier": "prettier \"{client,src}/**/*.{ts,js,tsx,css,scss}\" --write"
 	},
+	"type": "module",
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"

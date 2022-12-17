@@ -1,10 +1,9 @@
 import React, { createContext, FC, useContext } from 'react'
 import { IUseSettingsWords, useSettingsWords } from '../hooks/useSettingsWords'
 
-export type TUseSettingsWordsContextProps = IUseSettingsWords;
+export type TUseSettingsWordsContextProps = IUseSettingsWords
 
-const SettingsWordsContext =
-	createContext<TUseSettingsWordsContextProps>({} as TUseSettingsWordsContextProps)
+const SettingsWordsContext = createContext<TUseSettingsWordsContextProps>({} as TUseSettingsWordsContextProps)
 
 export function useSettingsWordsContext(): TUseSettingsWordsContextProps {
 	const context = useContext(SettingsWordsContext)
@@ -17,7 +16,7 @@ export function useSettingsWordsContext(): TUseSettingsWordsContextProps {
 }
 
 interface SettingsNewWordsContextProviderProps {
-	children: React.ReactNode;
+	children: React.ReactNode
 }
 
 export const SettingsWordsContextProvider: FC<SettingsNewWordsContextProviderProps> = ({ children }) => {

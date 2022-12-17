@@ -17,7 +17,8 @@ const StartButton: FC<IProps> = ({ onClick, disabled }) => {
 				onClick={onClick}
 				sx={{
 					backgroundColor: 'secondary.main',
-				}}>
+				}}
+			>
 				Старт
 			</Button>
 		</Box>

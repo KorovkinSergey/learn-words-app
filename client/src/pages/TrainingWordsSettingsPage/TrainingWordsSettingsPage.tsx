@@ -17,7 +17,6 @@ import { Loading } from '../../components/Loading'
 import { useNavigate } from 'react-router-dom'
 
 const TrainingWordsSettingsPage = () => {
-	// eslint-disable-next-line max-len
 	const { loading, language, setLanguage, dictionary, dictionaryList, setDictionary, init, countWords, setCountWords } =
 		useSettingsWordsContext()
 	const navigate = useNavigate()

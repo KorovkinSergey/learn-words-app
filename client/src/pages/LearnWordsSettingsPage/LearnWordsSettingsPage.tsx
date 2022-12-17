@@ -48,10 +48,10 @@ const LearnWordsSettingsPage = () => {
 			<Box
 				minWidth={300}
 				sx={{
-					'display': 'flex',
-					'flexDirection': 'column',
-					'alignItems': 'start',
-					'marginTop': 2,
+					display: 'flex',
+					flexDirection: 'column',
+					alignItems: 'start',
+					marginTop: 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',
@@ -80,10 +80,10 @@ const LearnWordsSettingsPage = () => {
 			<Box
 				minWidth={300}
 				sx={{
-					'display': 'flex',
-					'flexDirection': 'column',
-					'alignItems': 'start',
-					'marginTop': 2,
+					display: 'flex',
+					flexDirection: 'column',
+					alignItems: 'start',
+					marginTop: 2,
 					'& > span': {
 						display: 'flex',
 						alignItems: 'center',

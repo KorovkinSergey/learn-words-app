@@ -1,26 +1,26 @@
 export const defaultUserDictionary = [
 	{
-		title: "Новые слова",
+		title: 'Новые слова',
 		basic: true,
 		countRepeat: 0,
-		words: []
+		words: [],
 	},
 	{
-		title: "Слова для изучения",
+		title: 'Слова для изучения',
 		basic: true,
 		countRepeat: 0,
-		words: []
+		words: [],
 	},
 	{
-		title: "Слова для повторения",
+		title: 'Слова для повторения',
 		basic: true,
 		countRepeat: 0,
-		words: []
+		words: [],
 	},
 	{
-		title: "Выученные слова",
+		title: 'Выученные слова',
 		basic: true,
 		countRepeat: 0,
-		words: []
-	}
-];
+		words: [],
+	},
+]

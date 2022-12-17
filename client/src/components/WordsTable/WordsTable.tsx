@@ -47,7 +47,7 @@ const WordsTable = () => {
 			}
 			setSelected([])
 		},
-		[setSelected, selectedArray]
+		[setSelected, selectedArray],
 	)
 
 	const getWordEnd = useMemo(() => {
@@ -62,7 +62,7 @@ const WordsTable = () => {
 				? setSelected(selected.filter((rowId) => rowId !== id))
 				: setSelected([...selected, id])
 		},
-		[setSelected, selected]
+		[setSelected, selected],
 	)
 
 	const onWordsDelete = useCallback(() => {
@@ -78,7 +78,7 @@ const WordsTable = () => {
 			await addWordsHandler(id, getSelectedRows()).then(() => setSelected([]))
 			await getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
 		},
-		[currDictionary, deleteHandler, getSelectedRows, setRows, addWordsHandler, getDictionaryWords]
+		[currDictionary, deleteHandler, getSelectedRows, setRows, addWordsHandler, getDictionaryWords],
 	)
 
 	const renderItems = useMemo(() => {

@@ -2,10 +2,12 @@
 	table-layout: fixed;
 }
 
-#root table td:nth-child(1), #root table th:nth-child(1) {
+#root table td:nth-child(1),
+#root table th:nth-child(1) {
 	width: 10%;
 }
 
-#root table td:not(:first-child), #root table th:not(:first-child) {
+#root table td:not(:first-child),
+#root table th:not(:first-child) {
 	width: 30%;
 }

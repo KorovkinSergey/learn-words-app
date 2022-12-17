@@ -2,14 +2,14 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { useDictionaryList } from './api/useDictionaryList'
 
 export interface IUseSettingsLearnWords {
-	countWords: number,
+	countWords: number
 	setCountWords: React.Dispatch<React.SetStateAction<number>>
-	timeToRemember: number,
+	timeToRemember: number
 	setTimeToRemember: React.Dispatch<React.SetStateAction<number>>
-	titleTable: string,
+	titleTable: string
 	setTitleTable: React.Dispatch<React.SetStateAction<string>>
-	loading: boolean,
-	error: string,
+	loading: boolean
+	error: string
 	init: () => void
 }
 

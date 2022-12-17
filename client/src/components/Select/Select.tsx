@@ -49,7 +49,6 @@ const SelectWordsToTransfer: FC<SelectProps> = (props) => {
 							<Typography variant='subtitle1' gutterBottom>
 								Выберите словарь:
 							</Typography>
-							{/* eslint-disable-next-line max-len */}
 							<Select defaultValue='default' disabled={loading} id={id} size={size} onChange={handleChange}>
 								<MenuItem sx={{ display: 'none' }} key='default' value='default'>
 									Выбрать

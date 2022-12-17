@@ -126,7 +126,6 @@ export const useLearnWords = (): IUseLearnWords => {
 		await deleteHandler(dictionary[1]._id, words)
 		await addWordsHandler(dictionary[1]._id, notLoadedWords)
 		dispatch({ type: actionTypes.IS_LOADING })
-		// eslint-disable-next-line max-len
 	}, [loadedWords, notLoadedWords, titleTable, addDictionaryHandler, deleteHandler, dictionary, words, addWordsHandler])
 
 	const addToLoaded = useCallback(() => {

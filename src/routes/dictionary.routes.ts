@@ -1,11 +1,10 @@
 import { Router } from 'express'
-import User from '../models/User'
-import auth from '../middleware/auth.middleware'
+import User from '../models/User.js'
+import auth from '../middleware/auth.middleware.js'
 import { readFileSync } from 'fs'
 import path from 'path'
-import { IWord } from '../../client/src/types/word'
 
-const { check, validationResult } = require('express-validator')
+import { check, validationResult } from 'express-validator'
 
 const router = Router()
 
@@ -63,18 +62,15 @@ router.post('/dictionaries', auth, async (req: any, res: any) => {
 							...item,
 							words: [
 								...dictionary.words,
-								...dictionaries.reduce((words: IWord[], name: string) => {
-									// eslint-disable-next-line max-len
+								...dictionaries.reduce((words: any, name: string) => {
 									const newWords = JSON.parse(readFileSync(path.join(__dirname, `../db/${name}.json`), 'utf-8')).filter(
-										// eslint-disable-next-line max-len
-										({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian)
+										({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian),
 									)
 									return [...words, ...newWords]
 								}, []),
 							],
-							// eslint-disable-next-line no-mixed-spaces-and-tabs
 					  }
-					: item
+					: item,
 			)
 
 			user.save((error: any) => {
@@ -142,7 +138,6 @@ router.delete('/:id', auth, async (req: any, res: any) => {
 		User.findById(req.user.id, async (err: any, user: any) => {
 			if (!user) return res.status(404).json({ message: 'Пользователь не найден' })
 
-			// eslint-disable-next-line max-len
 			user.dictionary = user.dictionary.filter((item: any) => {
 				if (item._id.toString() === req.params.id) {
 					return item.basic
@@ -150,7 +145,7 @@ router.delete('/:id', auth, async (req: any, res: any) => {
 				return true
 			})
 
-			user.save((error: any, result: any) => {
+			user.save((error: any) => {
 				if (error) return res.status(400).json({ message: error })
 				return res.status(200).json({ message: 'Словарь удален' })
 			})
@@ -178,10 +173,8 @@ router.post('/:id/words', [...dictionaryValidation], async (req: any, res: any) 
 							...item,
 							words: [
 								...item.words,
-								// eslint-disable-next-line max-len
 								...words.filter(({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian)),
 							],
-							// eslint-disable-next-line no-mixed-spaces-and-tabs
 					  }
 					: item
 			})

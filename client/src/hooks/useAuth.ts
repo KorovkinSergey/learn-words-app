@@ -4,30 +4,30 @@ import { IWord } from '../types/word'
 const storageName = 'userData'
 
 export interface IUseAuth {
-	login: (userData: IData) => void,
-	logout: () => void,
-	token: string,
-	data: IData | null,
-	isAuthenticated: boolean,
+	login: (userData: IData) => void
+	logout: () => void
+	token: string
+	data: IData | null
+	isAuthenticated: boolean
 	dictionary: IDictionary[] | null
 }
 
 interface IData {
-	token: string,
+	token: string
 	dictionary: IDictionary[]
 	user: {
-		id: string,
-		name: string,
+		id: string
+		name: string
 		achievements: {
-			wordsLearned: number,
+			wordsLearned: number
 			wordsOnRepeat: number
 		}
 	}
 }
 
 export interface IDictionary {
-	_id: string,
-	title: string,
+	_id: string
+	title: string
 	words: IWord[]
 }
 
@@ -40,9 +40,12 @@ export const useAuth = (): IUseAuth => {
 		setToken(userData.token)
 		setDictionary(userData.dictionary)
 		setData(userData)
-		localStorage.setItem(storageName, JSON.stringify({
-			...userData,
-		}))
+		localStorage.setItem(
+			storageName,
+			JSON.stringify({
+				...userData,
+			}),
+		)
 	}, [])
 
 	useEffect(() => {
@@ -58,7 +61,6 @@ export const useAuth = (): IUseAuth => {
 		setData(null)
 		localStorage.removeItem(storageName)
 	}, [])
-
 
 	const isAuthenticated = !!token
 
