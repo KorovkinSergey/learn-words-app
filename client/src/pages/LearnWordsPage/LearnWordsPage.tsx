@@ -1,17 +1,22 @@
 import React, { useCallback } from 'react'
 import Box from '@mui/material/Box'
-import { Typography } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 import { useLearnWords } from '../../hooks/useLearnWords'
 import { Loading } from '../../components/Loading'
 import { useNavigate } from 'react-router-dom'
 import { NavigateButtons } from '../../components/NavigateButtons'
 import { Wrapper } from '../../components/Wrapper'
 import { ChoiceGroupButtons } from '../../components/ChoiceGroupButtons'
-
+import CloseIcon from '@mui/icons-material/Close'
 
 function LearnWordsPage() {
 	const {
-		loading, isLoading, word, index, bootSelection, addToLoaded,
+		loading,
+		isLoading,
+		word,
+		index,
+		bootSelection,
+		addToLoaded,
 		addToNotLoaded,
 		loadedWords,
 		notLoadedWords,
@@ -29,16 +34,19 @@ function LearnWordsPage() {
 	if (loading || isLoading) return <Loading />
 
 	if (!loading && !word && !!index) {
-		return <NavigateButtons
-			title={`Слова пройдены. ${loadedWords.length} слов загружено. ${notLoadedWords.length} слов знаешь.`}
-			onSave={onSave}
-			repeat={clear}
-		/>
+		return (
+			<NavigateButtons
+				title={`Слова пройдены. ${loadedWords.length} слов загружено. ${notLoadedWords.length} слов на потом`}
+				onSave={onSave}
+				repeat={clear}
+			/>
+		)
 	}
 
 	return (
 		<Wrapper>
-			{!bootSelection ? <>
+			{!bootSelection ? (
+				<>
 					<Box sx={{ position: 'absolute', top: 2, right: 2 }}>
 						<Typography sx={{ fontSize: 18, margin: 2 }} color='primary.contrastText'>
 							Слово № {index}
@@ -53,22 +61,34 @@ function LearnWordsPage() {
 					<Typography sx={{ fontSize: 40, margin: 2 }} color='primary.contrastText'>
 						{word?.english}
 					</Typography>
-					<Box sx={{
-						display: 'flex',
-						alignItems: 'center',
-						mt: 4,
-						minWidth: '300px',
-						justifyContent: 'space-between',
-					}}>
-					</Box>
+					<Box
+						sx={{
+							display: 'flex',
+							alignItems: 'center',
+							mt: 4,
+							minWidth: '300px',
+							justifyContent: 'space-between',
+						}}
+					></Box>
+					<Button
+						size='large'
+						variant='contained'
+						color='error'
+						startIcon={<CloseIcon />}
+						onClick={addToNotLoaded}
+						sx={{ m: 2 }}
+					>
+						Пропустить
+					</Button>
 				</>
-				: <ChoiceGroupButtons
+			) : (
+				<ChoiceGroupButtons
 					succsesTitle='Слово загружено'
 					succsesOnClick={addToLoaded}
 					rejectTitle='Слово не загружено'
 					rejectOnClick={addToNotLoaded}
 				/>
-			}
+			)}
 		</Wrapper>
 	)
 }

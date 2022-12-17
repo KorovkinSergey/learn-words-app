@@ -3,20 +3,22 @@ import Box from '@mui/material/Box'
 import { Button, Typography } from '@mui/material'
 
 interface IProps {
-	title: string,
-	onSave: () => void,
-	repeat: () => void,
+	title: string
+	onSave: () => void
+	repeat: () => void
 }
 
 const NavigateButtons: FC<IProps> = ({ title, onSave, repeat }) => {
 	return (
-		<Box sx={{
-			display: 'flex',
-			flexDirection: 'column',
-			alignItems: 'center',
-			justifyContent: 'center',
-			width: '100%',
-		}}>
+		<Box
+			sx={{
+				display: 'flex',
+				flexDirection: 'column',
+				alignItems: 'center',
+				justifyContent: 'center',
+				width: '100%',
+			}}
+		>
 			<Typography sx={{ fontSize: 18, margin: 2, maxWidth: 250 }} color='primary.contrastText'>
 				{title}
 			</Typography>
@@ -25,7 +27,8 @@ const NavigateButtons: FC<IProps> = ({ title, onSave, repeat }) => {
 				color='primary'
 				fullWidth
 				onClick={onSave}
-				sx={{ margin: 2, maxWidth: 250, backgroundColor: 'secondary.main' }}>
+				sx={{ margin: 2, maxWidth: 250, backgroundColor: 'secondary.main' }}
+			>
 				Перейти к тренировкам
 			</Button>
 			<Button
@@ -33,7 +36,8 @@ const NavigateButtons: FC<IProps> = ({ title, onSave, repeat }) => {
 				color='primary'
 				fullWidth
 				onClick={repeat}
-				sx={{ margin: 2, maxWidth: 250, backgroundColor: 'secondary.main' }}>
+				sx={{ margin: 2, maxWidth: 250, backgroundColor: 'secondary.main' }}
+			>
 				Повторить
 			</Button>
 		</Box>

@@ -77,9 +77,9 @@ router.post('/dictionaries', auth, async (req: any, res: any) => {
 					: item
 			)
 
-			user.save((error: any, result: any) => {
+			user.save((error: any) => {
 				if (error) return res.status(400).json({ message: error })
-				return res.status(200).json({ message: result })
+				return res.status(200).json({ message: 'Слова добавлены' })
 			})
 		})
 	} catch (e) {
@@ -131,6 +131,30 @@ router.get('/:id/words', auth, async (req: any, res: any) => {
 			return res.status(200).json(dictionary)
 		}
 		return res.status(200).json(dictionary)
+	} catch (e) {
+		res.status(500).json({ message: 'Что-то пошло не так, попробуй снова' })
+	}
+})
+
+// Удалить словарь
+router.delete('/:id', auth, async (req: any, res: any) => {
+	try {
+		User.findById(req.user.id, async (err: any, user: any) => {
+			if (!user) return res.status(404).json({ message: 'Пользователь не найден' })
+
+			// eslint-disable-next-line max-len
+			user.dictionary = user.dictionary.filter((item: any) => {
+				if (item._id.toString() === req.params.id) {
+					return item.basic
+				}
+				return true
+			})
+
+			user.save((error: any, result: any) => {
+				if (error) return res.status(400).json({ message: error })
+				return res.status(200).json({ message: 'Словарь удален' })
+			})
+		})
 	} catch (e) {
 		res.status(500).json({ message: 'Что-то пошло не так, попробуй снова' })
 	}

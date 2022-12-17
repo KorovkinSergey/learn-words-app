@@ -10,17 +10,20 @@ function SortNewWordsSettingsPage() {
 	const navigate = useNavigate()
 	const { timeToRemember, countWords, setCountWords, setTimeToRemember } = useSettingsSortNewWordsContext()
 
-	const handleTimeToRemember = useCallback((event: Event, newValue: number | number[]) =>
-		setTimeToRemember(newValue as number), [setTimeToRemember])
+	const handleTimeToRemember = useCallback(
+		(event: Event, newValue: number | number[]) => setTimeToRemember(newValue as number),
+		[setTimeToRemember]
+	)
 
-	const handleCountWords = useCallback((event: Event, newValue: number | number[]) =>
-		setCountWords(newValue as number), [setCountWords])
+	const handleCountWords = useCallback(
+		(event: Event, newValue: number | number[]) => setCountWords(newValue as number),
+		[setCountWords]
+	)
 
 	const handleStartTraining = useCallback(() => navigate('/training/new'), [navigate])
 
 	return (
 		<Wrapper>
-
 			<Title title='Настройки для изучения новых слов' />
 
 			<SliderInput
@@ -32,17 +35,10 @@ function SortNewWordsSettingsPage() {
 				max={10}
 			/>
 
-			<SliderInput
-				title='Количество слов'
-				value={countWords}
-				onChange={handleCountWords}
-				step={5}
-				min={5}
-				max={1000}
-			/>
+			{/* eslint-disable-next-line max-len */}
+			<SliderInput title='Количество слов' value={countWords} onChange={handleCountWords} step={5} min={5} max={500} />
 
 			<StartButton onClick={handleStartTraining} />
-
 		</Wrapper>
 	)
 }
