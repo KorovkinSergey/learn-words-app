@@ -1,6 +1,6 @@
 export const getWordEnding = (number: number | string, one: string, two: string, five: string) => {
 	if (!Number.isFinite(number)) {
-		console.log(`Вы передаёте: ${number} = ${typeof number} передайте корректное число`)
+		console.error(`Вы передаёте: ${number} = ${typeof number} передайте корректное число`)
 		return
 	}
 	let n = Math.abs(+number)
