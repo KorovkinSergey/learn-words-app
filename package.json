@@ -10,7 +10,8 @@
 		"client": "npm run start --prefix client",
 		"client:install": "npm install --prefix client",
 		"client:build": "npm run build --prefix client",
-		"eslint": "eslint \"{client,src}/**/src/**/*.{js,jsx,ts,tsx}\" --cache --fix"
+		"eslint": "eslint \"{client,src}/**/src/**/*.{js,jsx,ts,tsx}\" --cache --fix",
+		"prettier": "prettier \"{apps,packages,modules}/**/src/**/*.{ts,js,tsx,css,scss}\" --write"
 	},
 	"keywords": [],
 	"author": "",
@@ -22,7 +23,8 @@
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
-			"npm run eslint"
+			"npm run eslint",
+			"npm run prettier"
 		]
 	},
 	"dependencies": {
