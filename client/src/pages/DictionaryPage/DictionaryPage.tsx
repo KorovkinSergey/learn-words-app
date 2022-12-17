@@ -7,47 +7,46 @@ import { useDictionaryList } from '../../hooks/api/useDictionaryList'
 import { useAuthContext } from '../../context/AuthContext'
 import { Wrapper } from '../../components/Wrapper'
 import { Title } from '../../components/Title'
-import Popup from '../../components/Popup/Popup'
+import NewWordsPopup from '../../components/NewWordsPopup/NewWordsPopup'
+import { useNewDictionaryList } from '../../hooks/api/useNewDictionaryList'
+import { IDictionariesList } from '../../types/dictionary'
+import { useAddNewWordsToDictionary } from '../../hooks/api/useAddNewWordsToDictionary'
 
 const DictionaryPage = () => {
-	// const { addWordsHandler } = useAddWordsToDictionary()
 	const { dictionary, token } = useAuthContext()
-	const { getDictionaryList, loading } = useDictionaryList()
-	const [dictionaryList, setDictionaryList] = useState([])
+	const { getDictionaryList: getUserDictionaries, loading } = useDictionaryList()
+	const { getNewDictionaryList: getDictionaryList, loading: getDictionaryListLoading } = useNewDictionaryList()
+	const { addNewWordsHandler, loading: addNewWordsLoading } = useAddNewWordsToDictionary()
+	const [userDictionaries, setUserDictionaries] = useState([])
+	const [dictionaryList, setDictionaryList] = useState<IDictionariesList>([])
 	const buttonRef = useRef(null)
 	const [isModalOpen, setIsModalOpen] = useState(false)
 
-	const closePopup = useCallback(() => setIsModalOpen(false), [setIsModalOpen])
+	const closePopup = useCallback(() => {
+		setIsModalOpen(false)
+	}, [setIsModalOpen])
 
 	useEffect(() => {
-		getDictionaryList().then(setDictionaryList)
-	}, [getDictionaryList, token])
+		getUserDictionaries().then(setUserDictionaries)
+	}, [getUserDictionaries, token])
 
 	const addNewWords = async () => {
 		if (!dictionary) return
-
 		setIsModalOpen(true)
-
-		// await addWordsHandler(dictionary[0]._id, db)
+		getDictionaryList().then((res: any) => setDictionaryList(res))
+	}
+	const saveWords = async (names: string[]) => {
+		setIsModalOpen(false)
+		addNewWordsHandler(names)
 	}
 
-	// TODO: FIXME
-	if (loading)
-		return (
-			<Button
-				onClick={() => {
-					console.log('qwewe')
-				}}
-			/>
-		)
-
-	if (loading) return <Loading />
+	if (loading || addNewWordsLoading) return <Loading />
 
 	return (
 		<Wrapper>
 			<Title title='Список словарей' />
 			<List>
-				{dictionaryList.map((item: any) => {
+				{userDictionaries.map((item: any) => {
 					return (
 						<ListItem key={item._id} sx={{ '& > a': { textDecoration: 'none' } }}>
 							<ListItemAvatar>
@@ -75,9 +74,13 @@ const DictionaryPage = () => {
 			>
 				Добавить новые слова
 			</Button>
-			<Popup open={isModalOpen} handleClose={closePopup}>
-				<Title title='sraka' />
-			</Popup>
+			<NewWordsPopup
+				onChange={saveWords}
+				dictionaries={dictionaryList}
+				loading={getDictionaryListLoading}
+				open={isModalOpen}
+				handleClose={closePopup}
+			/>
 		</Wrapper>
 	)
 }
