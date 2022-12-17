@@ -66,23 +66,20 @@ const reducer = (state: any, action: any) => {
 let timeOut: string | number | NodeJS.Timer | undefined
 
 export interface IUseLearnWords {
-	loading: boolean,
-	isLoading: boolean,
-	save: () => Promise<void>,
-	word: IWord,
-	index: number,
-	loadedWords: IWord[],
-	notLoadedWords: IWord[],
-	addToLoaded: () => void,
-	addToNotLoaded: () => void,
-	bootSelection: boolean,
+	loading: boolean
+	isLoading: boolean
+	save: () => Promise<void>
+	word: IWord
+	index: number
+	loadedWords: IWord[]
+	notLoadedWords: IWord[]
+	addToLoaded: () => void
+	addToNotLoaded: () => void
+	bootSelection: boolean
 	clear: () => void
 }
 
-
-
 export const useLearnWords = (): IUseLearnWords => {
-
 	const { countWords, timeToRemember, titleTable } = useSettingsLearnWordsContext()
 	const { dictionary } = useAuthContext()
 	const { deleteHandler } = useRemoveWordsToDictionary()
@@ -117,26 +114,20 @@ export const useLearnWords = (): IUseLearnWords => {
 		}
 
 		return () => clearTimeout(timeOut)
-
 	}, [words, word, index, timeToRemember, bootSelection])
 
 	const save = useCallback(async () => {
 		if (!dictionary) return
 		dispatch({ type: actionTypes.IS_LOADING })
-		await addDictionaryHandler(titleTable, loadedWords)
+		if (loadedWords.length) {
+			await addDictionaryHandler(titleTable, loadedWords)
+		}
+
 		await deleteHandler(dictionary[1]._id, words)
 		await addWordsHandler(dictionary[1]._id, notLoadedWords)
 		dispatch({ type: actionTypes.IS_LOADING })
-	}, [
-		loadedWords,
-		notLoadedWords,
-		titleTable,
-		addDictionaryHandler,
-		deleteHandler,
-		dictionary,
-		words,
-		addWordsHandler,
-	])
+		// eslint-disable-next-line max-len
+	}, [loadedWords, notLoadedWords, titleTable, addDictionaryHandler, deleteHandler, dictionary, words, addWordsHandler])
 
 	const addToLoaded = useCallback(() => {
 		dispatch({ type: actionTypes.ADD_TO_LOADED_WORDS })
