@@ -1,21 +1,21 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import TableCell from '@mui/material/TableCell'
-import Paper from '@mui/material/Paper'
-import { useNavigate, useParams } from 'react-router-dom'
-import { Checkbox, MenuItem, Table, TableBody, TableContainer, TableHead, TableRow } from '@mui/material'
-import Box from '@mui/material/Box'
-import { useDictionaryWords } from '../../hooks/api/useDictionaryWords'
-import { useWindowSizeContext } from '../../context/WindowSizeContext'
-import { Loading } from '../Loading'
-import { IWord } from '../../types/word'
-import { useRemoveWordsToDictionary } from '../../hooks/api/useRemoveWordsToDictionary'
-import { getWordEnding } from '../../helpers/getWordEnding'
-import { DeleteButton } from '../DeleteButton'
-import { TABLE_HEADER_HEIGHT } from '../../consts/style-variables'
-import MySelect from '../Select/Select'
-import { useDictionaryList } from '../../hooks/api/useDictionaryList'
-import { IDictionary } from '../../types/dictionary'
-import { useAddWordsToDictionary } from '../../hooks/api/useAddWordsToDictionary'
+import React, { useCallback, useEffect, useState } from "react";
+import TableCell from "@mui/material/TableCell";
+import Paper from "@mui/material/Paper";
+import { useNavigate, useParams } from "react-router-dom";
+import { Checkbox, MenuItem, Table, TableBody, TableContainer, TableHead, TableRow } from "@mui/material";
+import Box from "@mui/material/Box";
+import { useDictionaryWords } from "../../hooks/api/useDictionaryWords";
+import { useWindowSizeContext } from "../../context/WindowSizeContext";
+import { Loading } from "../Loading";
+import { IWord } from "../../types/word";
+import { useRemoveWordsToDictionary } from "../../hooks/api/useRemoveWordsToDictionary";
+import { getWordEnding } from "../../helpers/getWordEnding";
+import { TABLE_HEADER_HEIGHT } from "../../consts/style-variables";
+import MySelect from "../Select/Select";
+import { useDictionaryList } from "../../hooks/api/useDictionaryList";
+import { IDictionary } from "../../types/dictionary";
+import { useAddWordsToDictionary } from "../../hooks/api/useAddWordsToDictionary";
+import { DeleteButton } from "../DeleteButton";
 
 const WordsTable = () => {
 	const { getDictionaryWords, loading } = useDictionaryWords()
@@ -58,14 +58,15 @@ const WordsTable = () => {
 			getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
 			setSelected([])
 		})
-	}, [setSelected, getDictionaryWords, deleteHandler, currDictionary, setRows, getSelectedRows])
+;	}, [setSelected, getDictionaryWords, deleteHandler, currDictionary, setRows, getSelectedRows])
 
-	const onChangeSelect = useCallback(
-		(id: string) => {
-			onWordsDelete()
-			addWordsHandler(id, getSelectedRows())
+	const onTransferWords = useCallback(
+		async (id: string) => {
+			await deleteHandler(currDictionary, getSelectedRows())
+			await addWordsHandler(id, getSelectedRows()).then(() => setSelected([]))
+			await getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
 		},
-		[getSelectedRows, onWordsDelete, addWordsHandler]
+		[currDictionary, deleteHandler, getSelectedRows, setRows, addWordsHandler, getDictionaryWords]
 	)
 
 	const renderItems = () => {
@@ -105,8 +106,8 @@ const WordsTable = () => {
 											loading={isWordsAdding || isWordsDeleting}
 											renderItems={renderItems()}
 											size='small'
-											value='Переместить'
-											onChange={onChangeSelect}
+											value="Переместить"
+											onChange={onTransferWords}
 										/>
 									) : (
 										'Слово'

@@ -36,8 +36,6 @@ const MySelect: FC<SelectProps> = (props) => {
 		}
 	}
 
-	console.log(renderItems)
-
 	return (
 		<div>
 			<Button size='small' sx={{ padding: '0', lineHeight: TABLE_TEXT_HEIGHT }} onClick={handleClickOpen}>
