@@ -20,7 +20,7 @@ export interface SelectProps {
 	loading: boolean
 }
 
-const MySelect: FC<SelectProps> = (props) => {
+const SelectWordsToTransfer: FC<SelectProps> = (props) => {
 	const [open, setOpen] = React.useState(false)
 	const { renderItems, onChange, size, id, loading } = props
 	const handleChange = (event: SelectChangeEvent) => {
@@ -67,4 +67,4 @@ const MySelect: FC<SelectProps> = (props) => {
 	)
 }
 
-export default MySelect
+export default SelectWordsToTransfer

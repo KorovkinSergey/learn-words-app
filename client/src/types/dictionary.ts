@@ -3,3 +3,10 @@ export interface IDictionary {
 	title: string
 	basic: boolean
 }
+
+export type IDictionariesList = Dictionary[]
+
+type Dictionary = {
+	title: string
+	name: string
+}
