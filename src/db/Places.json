@@ -1,0 +1,567 @@
+[
+	{
+		"russian": "Места",
+		"english": "Places",
+		"transcript": "[ˈpleɪsɪz]"
+	},
+	{
+		"russian": "Скорая помощь",
+		"english": "Ambulance",
+		"transcript": "[ˈæmbjələns ]"
+	},
+	{
+		"russian": "Продуктовый магазин",
+		"english": "Grocery store",
+		"transcript": "[ˈɡrəʊsəristɔː ]"
+	},
+	{
+		"russian": "Билетная касса",
+		"english": "Ticket office",
+		"transcript": "[ˈtɪkɪt ˈɒfɪs ]"
+	},
+	{
+		"russian": "Концертный зал",
+		"english": "Concert hall",
+		"transcript": "[kənˈsɜːthɔːl ]"
+	},
+	{
+		"russian": "Торговый центр",
+		"english": "Shopping mall",
+		"transcript": "[ˈʃɒpɪŋmɔːl ]"
+	},
+	{
+		"russian": "Международный аэропорт",
+		"english": "International airport",
+		"transcript": "[ˌɪntəˈnæʃn̩əl ˈeəpɔːt ]"
+	},
+	{
+		"russian": "Стадион",
+		"english": "Stadium",
+		"transcript": "[ˈsteɪdɪəm ]"
+	},
+	{
+		"russian": "Вокзал",
+		"english": "Railway station",
+		"transcript": "[ˈreɪlweɪ ˈsteɪʃn̩ ]"
+	},
+	{
+		"russian": "Собор",
+		"english": "Cathedral",
+		"transcript": "[kəˈθiːdrəl]"
+	},
+	{
+		"russian": "Зоопарк",
+		"english": "Zoo",
+		"transcript": "[zuː ]"
+	},
+	{
+		"russian": "Банк",
+		"english": "Bank",
+		"transcript": "[bæŋk ]"
+	},
+	{
+		"russian": "Рынок",
+		"english": "Market",
+		"transcript": "[ˈmɑːkɪt ]"
+	},
+	{
+		"russian": "Полицейский участок",
+		"english": "Police station",
+		"transcript": "[ pəˈliːs ˈsteɪʃn̩ ]"
+	},
+	{
+		"russian": "Дом",
+		"english": "House",
+		"transcript": "haʊs"
+	},
+	{
+		"russian": "Школа",
+		"english": "School",
+		"transcript": "skuːl"
+	},
+	{
+		"russian": "Университет",
+		"english": "University",
+		"transcript": "ˌjuːnɪˈvɜːsəti"
+	},
+	{
+		"russian": "Церковь",
+		"english": "Church",
+		"transcript": "tʃɜːtʃ"
+	},
+	{
+		"russian": "Больница",
+		"english": "Hospital",
+		"transcript": "ˈhɒspɪtl"
+	},
+	{
+		"russian": "Музей",
+		"english": "Museum",
+		"transcript": "mjuˈziːəm"
+	},
+	{
+		"russian": "Театр",
+		"english": "Theater",
+		"transcript": "ˈθɪə.tər"
+	},
+	{
+		"russian": "Кино",
+		"english": "Cinema",
+		"transcript": "ˈsɪnəmə"
+	},
+	{
+		"russian": "Консульство",
+		"english": "Consulate",
+		"transcript": "[ˈkɒnsjʊlət ]"
+	},
+	{
+		"russian": "Пожарная часть",
+		"english": "Fire station",
+		"transcript": "[ˈfaɪə ˈsteɪʃn̩ ]"
+	},
+	{
+		"russian": "Заправка",
+		"english": "Gas station",
+		"transcript": "[ɡæs ˈsteɪʃn̩ ]"
+	},
+	{
+		"russian": "Обменник",
+		"english": "Currency exchange",
+		"transcript": "[ˈkʌrənsiɪkˈstʃeɪndʒ ]"
+	},
+	{
+		"russian": "Банкомат",
+		"english": "Atm",
+		"transcript": "[ˌeɪtiːˈem ]"
+	},
+	{
+		"russian": "Район",
+		"english": "District",
+		"transcript": "[ˈdɪstrɪkt ]"
+	},
+	{
+		"russian": "Центр города",
+		"english": "Downtown = the city centre",
+		"transcript": "[ ˈdaʊntaʊn = ðə ˈsɪti ˈsentə ]"
+	},
+	{
+		"russian": "Окраина города",
+		"english": "The outskirts",
+		"transcript": "[ ði ˈaʊtskɜːts ]"
+	},
+	{
+		"russian": "Загород",
+		"english": "Countryside",
+		"transcript": "[ˈkʌntrisaɪd ]"
+	},
+	{
+		"russian": "Парк аттракционов",
+		"english": "Amusement park",
+		"transcript": "[əˈmjuːzməntpɑːk ]"
+	},
+	{
+		"russian": "Каток",
+		"english": "Skating rink",
+		"transcript": "[ˈskeɪtɪŋrɪŋk ]"
+	},
+	{
+		"russian": "Казино",
+		"english": "Casino",
+		"transcript": "[kəˈsiːnəʊ ]"
+	},
+	{
+		"russian": "Тюрьма",
+		"english": "Prison = jail",
+		"transcript": "[ˈprɪzn̩ ] = [ʤeɪl]"
+	},
+	{
+		"russian": "Замок",
+		"english": "Castle",
+		"transcript": "[ˈkɑːsl̩]"
+	},
+	{
+		"russian": "Памятник",
+		"english": "Monument",
+		"transcript": "[ˈmɒnjʊmənt]"
+	},
+	{
+		"russian": "Крепость",
+		"english": "Fortress",
+		"transcript": "[ˈfɔːtrɪs]"
+	},
+	{
+		"russian": "Здание городского управления",
+		"english": "City hall",
+		"transcript": "[ˈsɪtihɔːl]"
+	},
+	{
+		"russian": "Мост",
+		"english": "Bridge",
+		"transcript": "[brɪdʒ ]"
+	},
+	{
+		"russian": "Разводной мост",
+		"english": "Drawbridge",
+		"transcript": "[ˈdrɔːbrɪdʒ ]"
+	},
+	{
+		"russian": "Башня",
+		"english": "Tower",
+		"transcript": "[ˈtaʊə ]"
+	},
+	{
+		"russian": "Храм",
+		"english": "Temple",
+		"transcript": "[ˈtempl̩ ]"
+	},
+	{
+		"russian": "Часовня",
+		"english": "Chapel",
+		"transcript": "[ˈtʃæpl̩ ]"
+	},
+	{
+		"russian": "Мечеть",
+		"english": "Mosque",
+		"transcript": "[mɒsk ]"
+	},
+	{
+		"russian": "Монастырь",
+		"english": "Monastery",
+		"transcript": "[ˈmɒnəstri ]"
+	},
+	{
+		"russian": "Здание суда",
+		"english": "Courthouse",
+		"transcript": "[ˈkɔːthaʊs ]"
+	},
+	{
+		"russian": "Небоскреб",
+		"english": "Skyscraper",
+		"transcript": "[ˈskaɪskreɪpə ]"
+	},
+	{
+		"russian": "Галерея искусств",
+		"english": "Art gallery",
+		"transcript": "[ɑːt ˈɡæləri ]"
+	},
+	{
+		"russian": "Выставка",
+		"english": "Exhibition",
+		"transcript": "[ˌeksɪˈbɪʃn̩ ]"
+	},
+	{
+		"russian": "Консерватория",
+		"english": "Conservatory",
+		"transcript": "[kənˈsɜːvətr̩i ]"
+	},
+	{
+		"russian": "Опера",
+		"english": "Opera house",
+		"transcript": "[ˈɒprə ˈhaʊs ]"
+	},
+	{
+		"russian": "Концерт",
+		"english": "Concert = gig",
+		"transcript": "['kɔnsət] = [ɡɪɡ ]"
+	},
+	{
+		"russian": "Концертная площадка",
+		"english": "Music venue",
+		"transcript": "[ˈmjuːzɪk ˈvenjuː ]"
+	},
+	{
+		"russian": "Театральное представление",
+		"english": "Theatrical performance",
+		"transcript": "[θiˈætrɪkl̩ pə'fɔːmən(t)s]"
+	},
+	{
+		"russian": "Игровой автомат",
+		"english": "Slot-machine",
+		"transcript": "[ˈslɒtməʃiːn ]"
+	},
+	{
+		"russian": "Универмаг",
+		"english": "Department store",
+		"transcript": "[dɪˈpɑːtməntstɔː ]"
+	},
+	{
+		"russian": "Газетный киоск",
+		"english": "Newsstand",
+		"transcript": "[ˈnjuːzstænd ]"
+	},
+	{
+		"russian": "Киоск",
+		"english": "Kiosk = stall",
+		"transcript": "[ˈkiːɒsk ] [stɔːl ]"
+	},
+	{
+		"russian": "Посольство",
+		"english": "Embassy",
+		"transcript": "[ˈembəsi ]"
+	},
+	{
+		"russian": "Юридическая фирма",
+		"english": "Law office",
+		"transcript": "[lɔːr ˈɒfɪs ]"
+	},
+	{
+		"russian": "Роддом",
+		"english": "Maternity home",
+		"transcript": "[məˈtɜːnɪtihəʊm ]"
+	},
+	{
+		"russian": "Кладбище",
+		"english": "Cemetery",
+		"transcript": "[ˈsemətri ]"
+	},
+	{
+		"russian": "Биржа труда",
+		"english": "Job centre",
+		"transcript": "[dʒɒb ˈsentə ]"
+	},
+	{
+		"russian": "Регистратура, ЗАГС",
+		"english": "Registry office",
+		"transcript": "[ˈredʒɪstri ˈɒfɪs ]"
+	},
+	{
+		"russian": "Международный аэропорт",
+		"english": "International airport",
+		"transcript": "[ˌɪntəˈnæʃn̩əl ˈeəpɔːt ]"
+	},
+	{
+		"russian": "Аэропорт внутренних авиалиний",
+		"english": "Domestic airport",
+		"transcript": "[dəˈmestɪk ˈeəpɔːt ]"
+	},
+	{
+		"russian": "Страховая компания",
+		"english": "Insurance company",
+		"transcript": "[ ɪnˈʃʊərəns ˈkʌmpəni ]"
+	},
+	{
+		"russian": "Прачечная",
+		"english": "Laundry",
+		"transcript": "[ˈlɔːndri ]"
+	},
+	{
+		"russian": "Ремонт обуви",
+		"english": "Shoe repair",
+		"transcript": "[ʃuː rɪˈpeə ]"
+	},
+	{
+		"russian": "Зона отдыха",
+		"english": "Recreation area",
+		"transcript": "[ˌrekrɪˈeɪʃn̩ ˈeəriə ]"
+	},
+	{
+		"russian": "Заповедник",
+		"english": "Sanctuary",
+		"transcript": "[ˈsæŋktʃʊəri ]"
+	},
+	{
+		"russian": "Культурный центр",
+		"english": "Culture centre",
+		"transcript": "[ˈkʌltʃə ˈsentə ]"
+	},
+	{
+		"russian": "Очень крупный город",
+		"english": "Metropolis",
+		"transcript": "[məˈtrɒpəlɪs ]"
+	},
+	{
+		"russian": "Деловой район",
+		"english": "Business area",
+		"transcript": "[ˈbɪznəs ˈeəriə ]"
+	},
+	{
+		"russian": "Жилой район",
+		"english": "Residential area",
+		"transcript": "[ˌrezɪˈdenʃl̩ ˈeəriə ]"
+	},
+	{
+		"russian": "Правительственный район",
+		"english": "Government area",
+		"transcript": "[ˈɡʌvənmənt ˈeəriə ]"
+	},
+	{
+		"russian": "Район, окрестность",
+		"english": "Neighbourhood = vicinity",
+		"transcript": "[ ˈneɪbəhʊd = vɪˈsɪnɪti ]"
+	},
+	{
+		"russian": "Пригород",
+		"english": "Suburb",
+		"transcript": "[ ˈsʌbɜːb ]"
+	},
+	{
+		"russian": "Загород",
+		"english": "Countryside",
+		"transcript": "[ˈkʌntrisaɪd ]"
+	},
+	{
+		"russian": "Безопасный",
+		"english": "Safe",
+		"transcript": "[seɪf ]"
+	},
+	{
+		"russian": "Переполненный, многолюдный",
+		"english": "Crowded",
+		"transcript": "[ ˈkraʊdɪd ]"
+	},
+	{
+		"russian": "Шумный",
+		"english": "Noisy",
+		"transcript": "[ˈnɔɪzi ]"
+	},
+	{
+		"russian": "Тихий",
+		"english": "Quiet",
+		"transcript": "[ˈkwaɪət ]"
+	},
+	{
+		"russian": "Опасный",
+		"english": "Dangerous",
+		"transcript": "[ˈdeɪndʒərəs ]"
+	},
+	{
+		"russian": "Преступный район",
+		"english": "Criminal area",
+		"transcript": "[ˈkrɪmɪnl̩ ˈeəriə ]"
+	},
+	{
+		"russian": "Столица",
+		"english": "Capital city",
+		"transcript": "[ˈkæpɪtəl ˈsɪti ]"
+	},
+	{
+		"russian": "Трущобы",
+		"english": "Slums",
+		"transcript": "[slʌmz ]"
+	},
+	{
+		"russian": "Рай для покупателей",
+		"english": "Shopper's paradise",
+		"transcript": "[ ˈʃɑːpərz ˈpærədaɪs ]"
+	},
+	{
+		"russian": "Многолюдный",
+		"english": "Populous",
+		"transcript": "[ˈpɒpjʊləs ]"
+	},
+	{
+		"russian": "Суетливый",
+		"english": "Bustling",
+		"transcript": "[ˈbʌsl̩ɪŋ ]"
+	},
+	{
+		"russian": "Многонациональный",
+		"english": "Cosmopolitan",
+		"transcript": "[ˌkɒzməˈpɒlɪtən ]"
+	},
+	{
+		"russian": "Интенсивное движение",
+		"english": "Heavy traffic",
+		"transcript": "[ˈhevi ˈtræfɪk ]"
+	},
+	{
+		"russian": "Густонаселённый",
+		"english": "Densely populated",
+		"transcript": "[ˈdensli ˈpɒpjʊleɪtɪd ]"
+	},
+	{
+		"russian": "Огромный",
+		"english": "Huge",
+		"transcript": "[hjuːdʒ ]"
+	},
+	{
+		"russian": "Растянувшийся, размашистый",
+		"english": "Sprawling",
+		"transcript": "[ˈsprɔːlɪŋ ]"
+	},
+	{
+		"russian": "Эклектичный",
+		"english": "Eclectic",
+		"transcript": "[ɪˈklektɪk ]"
+	},
+	{
+		"russian": "Многонациональный",
+		"english": "Multi-national",
+		"transcript": "[ˌmʌltiˈnæʃn̩əl ]"
+	},
+	{
+		"russian": "Городской",
+		"english": "Urban",
+		"transcript": "[ˈɜːbən ]"
+	},
+	{
+		"russian": "Промышленный",
+		"english": "Industrial",
+		"transcript": "[ɪnˈdʌstrɪəl ]"
+	},
+	{
+		"russian": "Древний",
+		"english": "Ancient",
+		"transcript": "[ˈeɪnʃənt ]"
+	},
+	{
+		"russian": "Современный",
+		"english": "Modern = contemporary",
+		"transcript": "[ ˈmɒdn̩ = kənˈtemprəri ]"
+	},
+	{
+		"russian": "Обветшалый",
+		"english": "Shabby = run-down",
+		"transcript": "[ˈʃæbi = ˈrənˈdaʊn ]"
+	},
+	{
+		"russian": "Приспособленный для инвалидов",
+		"english": "Disability-friendly",
+		"transcript": "[ˌdɪsəˈbɪlɪti - ˈfrendli ]"
+	},
+	{
+		"russian": "Низкий уровень преступности",
+		"english": "Low crime rate",
+		"transcript": "[ləʊkraɪmreɪt ]"
+	},
+	{
+		"russian": "Иммигранты",
+		"english": "Immigrants",
+		"transcript": "[ˈɪmɪɡrənts ]"
+	},
+	{
+		"russian": "Гастарбайтеры",
+		"english": "Guest workers",
+		"transcript": "[ɡest ˈwɜːkəz ]"
+	},
+	{
+		"russian": "Культурное мероприятие",
+		"english": "Cultural event",
+		"transcript": "[ˈkʌltʃərəlɪˈvent ]"
+	},
+	{
+		"russian": "Современная архитектура",
+		"english": "Modern architecture",
+		"transcript": "[ˈmɒdn̩ ˈɑːkɪtektʃə ]"
+	},
+	{
+		"russian": "Отреставрированные здания",
+		"english": "Restored old buildings",
+		"transcript": "[rɪˈstɔːdəʊld ˈbɪldɪŋz ]"
+	},
+	{
+		"russian": "Яркие витрины",
+		"english": "Flashy shop windows",
+		"transcript": "[ˈflæʃiʃɒp ˈwɪndəʊz ]"
+	},
+	{
+		"russian": "Город, популярный своей ночной жизнью",
+		"english": "Nightlife hotspot",
+		"transcript": "[ˈnaɪtlaɪf ˈhɑːtˌspɑːt ]"
+	},
+	{
+		"russian": "Рекламные щиты",
+		"english": "Billboards",
+		"transcript": "[ˈbɪlbɔːdz ]"
+	}
+]

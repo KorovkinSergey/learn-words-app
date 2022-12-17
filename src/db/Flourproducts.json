@@ -1,0 +1,82 @@
+[
+	{
+		"russian": "Мучные продукты",
+		"english": "Flour products",
+		"transcript": "['flauə 'prɔdʌkts]"
+	},
+	{
+		"russian": "Кекс, пирожное, торт",
+		"english": "Cake",
+		"transcript": "[keɪk]"
+	},
+	{
+		"russian": "Хлеб",
+		"english": "Bread",
+		"transcript": "[bred]"
+	},
+	{
+		"russian": "Печенье",
+		"english": "cookie = biscuit",
+		"transcript": "['kukɪ] = ['bɪskɪt]"
+	},
+	{
+		"russian": "Блин, оладья",
+		"english": "pancake",
+		"transcript": "['pænkeɪk]"
+	},
+	{
+		"russian": "Пирог, пирожок",
+		"english": "Pie",
+		"transcript": "[paɪ]"
+	},
+	{
+		"russian": "Мука",
+		"english": "Flour",
+		"transcript": "['flauə]"
+	},
+	{
+		"russian": "Белый хлеб = пшеничный хлеб",
+		"english": "White bread = wheat bread",
+		"transcript": "[(h)waɪt bred] = [(h)wi:t bred]"
+	},
+	{
+		"russian": "Черный хлеб = ржаной хлеб",
+		"english": "Black bread = rye bread",
+		"transcript": "[blæk bred] = [raɪ bred]"
+	},
+	{
+		"russian": "Пирог (с фруктами, ягодами или вареньем), домашний торт",
+		"english": "Tart",
+		"transcript": "[tɑːt]"
+	},
+	{
+		"russian": "Пирожок с начинкой",
+		"english": "Pasty",
+		"transcript": "['pæstɪ]"
+	},
+	{
+		"russian": "Кекс",
+		"english": "Muffin",
+		"transcript": "['mʌfɪn]"
+	},
+	{
+		"russian": "Выпечка, мучные кондитерские изделия",
+		"english": "Pastry",
+		"transcript": "['peɪstrɪ]"
+	},
+	{
+		"russian": "Тесто (густое)",
+		"english": "Dough",
+		"transcript": "[dəu]"
+	},
+	{
+		"russian": "Тесто (жидкое)",
+		"english": "Batter",
+		"transcript": "['bætə]"
+	},
+	{
+		"russian": "Сдобная булочка",
+		"english": "Bun",
+		"transcript": "[bʌn]"
+	}
+]

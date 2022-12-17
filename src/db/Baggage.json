@@ -1,0 +1,82 @@
+[
+	{
+		"russian": "Багаж",
+		"english": "Baggage",
+		"transcript": "'bægiʤ"
+	},
+	{
+		"russian": "Вес",
+		"english": "Weight",
+		"transcript": "weit"
+	},
+	{
+		"russian": "Чемодан",
+		"english": "Suitcase",
+		"transcript": "['s(j)uːtkeɪs]"
+	},
+	{
+		"russian": "Ручная кладь",
+		"english": "Hand luggage",
+		"transcript": "[hændˈlʌɡɪdʒ]"
+	},
+	{
+		"russian": "Утерянный багаж",
+		"english": "Lost baggage",
+		"transcript": "lɔst 'bægiʤ"
+	},
+	{
+		"russian": "Тележка",
+		"english": "Luggage carrier",
+		"transcript": "['lʌgɪʤ'kærɪə]"
+	},
+	{
+		"russian": "Перевозчик",
+		"english": "Carrier",
+		"transcript": "'kæriə"
+	},
+	{
+		"russian": "Багажная полка",
+		"english": "Overhead compartment",
+		"transcript": "['əuvehedkəm'pɑːtmənt]"
+	},
+	{
+		"russian": "Носильщик в аэропорту",
+		"english": "Porter",
+		"transcript": "['pɔːtə]"
+	},
+	{
+		"russian": "Повреждённый багаж",
+		"english": "Damaged baggage",
+		"transcript": "'dæmɪdʒd 'bægiʤ"
+	},
+	{
+		"russian": "Задержанный багаж",
+		"english": "Delayed baggage",
+		"transcript": "dɪ'leɪd 'bægiʤ"
+	},
+	{
+		"russian": "Сверхнормативный багаж",
+		"english": "Excess baggage",
+		"transcript": "ik'ses 'bægiʤ"
+	},
+	{
+		"russian": "Багажный транспортер",
+		"english": "Baggage carousel",
+		"transcript": "['bægɪʤ ˌkærə'sel]"
+	},
+	{
+		"russian": "Зонa получения багажа",
+		"english": "Baggage claim area",
+		"transcript": "['bægɪʤkleɪm 'eərɪə]"
+	},
+	{
+		"russian": "Багажный талон",
+		"english": "(baggage) claim check",
+		"transcript": "[('bægɪʤ)kleɪm 'ʧek]"
+	},
+	{
+		"russian": "Мешок для одежды",
+		"english": "Garment bag",
+		"transcript": "['gɑːməntbæg]"
+	}
+]

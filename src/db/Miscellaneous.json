@@ -1,0 +1,77 @@
+[
+	{
+		"russian": "Разное",
+		"english": "Miscellaneous",
+		"transcript": "[ˌmɪs(ə)'leɪnɪəs]"
+	},
+	{
+		"russian": "Яйцо",
+		"english": "Egg",
+		"transcript": "[eg]"
+	},
+	{
+		"russian": "Сахар",
+		"english": "Sugar",
+		"transcript": "['ʃugə]"
+	},
+	{
+		"russian": "Подсолнечное масло",
+		"english": "Oil",
+		"transcript": "[ɔɪl]"
+	},
+	{
+		"russian": "Шоколад",
+		"english": "Chocolate",
+		"transcript": "['ʧɔklət]"
+	},
+	{
+		"russian": "Соль",
+		"english": "Salt",
+		"transcript": "[sɔːlt]"
+	},
+	{
+		"russian": "Черный перец",
+		"english": "Black pepper",
+		"transcript": "[blæk 'pepə]"
+	},
+	{
+		"russian": "Конфета",
+		"english": "Candy = sweet",
+		"transcript": "['kændɪ] = [swi:t]"
+	},
+	{
+		"russian": "Варенье",
+		"english": "Jam",
+		"transcript": "[ʤæm]"
+	},
+	{
+		"russian": "Джем, повидло",
+		"english": "Marmalade",
+		"transcript": "['mɑːm(ə)leɪd]"
+	},
+	{
+		"russian": "Мед",
+		"english": "Honey",
+		"transcript": "['hʌnɪ]"
+	},
+	{
+		"russian": "Специя, пряность",
+		"english": "Spice",
+		"transcript": "[spaɪs]"
+	},
+	{
+		"russian": "Приправа",
+		"english": "Seasoning",
+		"transcript": "['siːz(ə)nɪŋ]"
+	},
+	{
+		"russian": "Горчица",
+		"english": "Mustard",
+		"transcript": "['mʌstəd]"
+	},
+	{
+		"russian": "Консервы",
+		"english": "Canned food = tinned food",
+		"transcript": "[kændfu:d] = [tɪndfu:d]"
+	}
+]

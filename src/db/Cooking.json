@@ -1,0 +1,127 @@
+[
+	{
+		"russian": "Приготовление пищи",
+		"english": "Cooking",
+		"transcript": "['kukɪŋ]"
+	},
+	{
+		"russian": "смешивать",
+		"english": "to mix",
+		"transcript": "[mɪks]"
+	},
+	{
+		"russian": "резать",
+		"english": "to cut",
+		"transcript": "[kʌt]"
+	},
+	{
+		"russian": "варить",
+		"english": "to boil",
+		"transcript": "[bɔɪl]"
+	},
+	{
+		"russian": "жарить",
+		"english": "to fry",
+		"transcript": "[fraɪ]"
+	},
+	{
+		"russian": "охлаждать",
+		"english": "to cool",
+		"transcript": "[ku:l]"
+	},
+	{
+		"russian": "добавлять",
+		"english": "to add",
+		"transcript": "[æd]"
+	},
+	{
+		"russian": "печь",
+		"english": "to bake",
+		"transcript": "[beɪk]"
+	},
+	{
+		"russian": "Жарить на рашпере",
+		"english": "to barbecue = to grill",
+		"transcript": "['bɑːbɪkjuː] = [grɪl]"
+	},
+	{
+		"russian": "взбивать, отбивать",
+		"english": "to beat",
+		"transcript": "[bi:t]"
+	},
+	{
+		"russian": "подогревать",
+		"english": "to heat up = to warm up",
+		"transcript": "[hi:tʌp] = [wɔːmʌp]"
+	},
+	{
+		"russian": "Резать на мелкие кусочки",
+		"english": "to chop",
+		"transcript": "[ʧɔp]"
+	},
+	{
+		"russian": "измельчать, толочь",
+		"english": "to crush",
+		"transcript": "[krʌʃ]"
+	},
+	{
+		"russian": "Резать кубиками",
+		"english": "to dice",
+		"transcript": "[daɪs]"
+	},
+	{
+		"russian": "Тереть на терке",
+		"english": "to grate",
+		"transcript": "[greɪt]"
+	},
+	{
+		"russian": "измерять",
+		"english": "to measure",
+		"transcript": "['meʒə]"
+	},
+	{
+		"russian": "отчищать",
+		"english": "to peel",
+		"transcript": "[pi:l]"
+	},
+	{
+		"russian": "наливать",
+		"english": "to pour",
+		"transcript": "[pɔː]"
+	},
+	{
+		"russian": "жарить в духовке\/на огне",
+		"english": "to roast",
+		"transcript": "[rəust]"
+	},
+	{
+		"russian": "взбалтывать",
+		"english": "to scramble",
+		"transcript": "['skræmbl]"
+	},
+	{
+		"russian": "Варить на медленном огне",
+		"english": "to simmer",
+		"transcript": "['sɪmə]"
+	},
+	{
+		"russian": "Резать ломтиками",
+		"english": "To slice",
+		"transcript": "[slaɪs]"
+	},
+	{
+		"russian": "Готовить на пару",
+		"english": "To steam",
+		"transcript": "[sti:m]"
+	},
+	{
+		"russian": "Взвешивать",
+		"english": "To weigh",
+		"transcript": "[weɪ]"
+	},
+	{
+		"russian": "Сливать воду, осушать (через дуршлаг)",
+		"english": "To drain",
+		"transcript": "[dreɪn]"
+	}
+]

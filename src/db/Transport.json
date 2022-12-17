@@ -1,0 +1,92 @@
+[
+	{
+		"russian": "Tранспорт",
+		"english": "Transport",
+		"transcript": "[træn'spɔːt], [trɑːn-]"
+	},
+	{
+		"russian": "Пешеход",
+		"english": "Pedestrian",
+		"transcript": "[pɪ'destrɪən]"
+	},
+	{
+		"russian": "Тротуар",
+		"english": "Sidewalk",
+		"transcript": "['saɪdwɔːk]"
+	},
+	{
+		"russian": "Перекресток",
+		"english": "Crossroad",
+		"transcript": "['krɔsrəud]"
+	},
+	{
+		"russian": "Контролер",
+		"english": "Conductor fare collector",
+		"transcript": "[kən'dʌktə] [feəkə'lektə]"
+	},
+	{
+		"russian": "Общественный транспорт",
+		"english": "Public transport",
+		"transcript": "['pʌblɪktræn'spɔːt]"
+	},
+	{
+		"russian": "Светофор",
+		"english": "Traffic lights",
+		"transcript": "['træfɪklaɪts]"
+	},
+	{
+		"russian": "Шоссе",
+		"english": "Highway",
+		"transcript": "['haɪweɪ]"
+	},
+	{
+		"russian": "Кольцевая дорога",
+		"english": "Ring road",
+		"transcript": "[rɪŋrəud]"
+	},
+	{
+		"russian": "Транзит",
+		"english": "Transit",
+		"transcript": "['træn(t)sɪt], [-zɪt]"
+	},
+	{
+		"russian": "Транспортное средство",
+		"english": "Vehicle",
+		"transcript": "['vɪəkl], ['viːɪkl]"
+	},
+	{
+		"russian": "Наземный транспорт",
+		"english": "Overland transport",
+		"transcript": "['əuvəlændtræn'spɔːt]"
+	},
+	{
+		"russian": "Магистраль",
+		"english": "Main",
+		"transcript": "[meɪn]"
+	},
+	{
+		"russian": "Объявление",
+		"english": "Announcement",
+		"transcript": "[ə'naun(t)smənt]"
+	},
+	{
+		"russian": "Шлагбаум",
+		"english": "Barrier",
+		"transcript": "['bærɪə]"
+	},
+	{
+		"russian": "Пассажир без билета",
+		"english": "Stowaway",
+		"transcript": "['stəuəˌweɪ]"
+	},
+	{
+		"russian": "Штрафовать штраф",
+		"english": "To fine a fine (penalty fare)",
+		"transcript": "[faɪn] [faɪn] (['pen(ə)ltɪfeə])"
+	},
+	{
+		"russian": "Сесть на автобустакси",
+		"english": "To take a bus a taxi",
+		"transcript": "[teɪk ə bʌs] [ə 'tæksɪ]"
+	}
+]

@@ -1,0 +1,77 @@
+[
+	{
+		"russian": "Описание",
+		"english": "Description",
+		"transcript": "[dɪ'skrɪpʃ(ə)n]"
+	},
+	{
+		"russian": "Элегантный",
+		"english": "Elegant",
+		"transcript": "['elɪg(ə)nt]"
+	},
+	{
+		"russian": "Наимоднейший",
+		"english": "Trendy",
+		"transcript": "['trendɪ]"
+	},
+	{
+		"russian": "Повседневный",
+		"english": "Casual",
+		"transcript": "['kæʒwəl]"
+	},
+	{
+		"russian": "Устаревший",
+		"english": "Old-fashioned",
+		"transcript": "[əuld'fæʃ(ə)nd]"
+	},
+	{
+		"russian": "Хорошо плохо одетый",
+		"english": "Well- badly-dressed",
+		"transcript": "[wel 'bædlɪ drest]"
+	},
+	{
+		"russian": "Плотно облегающий",
+		"english": "Tight",
+		"transcript": "[taɪt]"
+	},
+	{
+		"russian": "Мешковатый",
+		"english": "Baggy",
+		"transcript": "['bægɪ]"
+	},
+	{
+		"russian": "Свободный",
+		"english": "Loose",
+		"transcript": "[lu:s]"
+	},
+	{
+		"russian": "В обтяжку",
+		"english": "Close-fitting",
+		"transcript": "[kləus 'fɪtɪŋ]"
+	},
+	{
+		"russian": "Стильный",
+		"english": "Classy",
+		"transcript": "['klɑːsɪ]"
+	},
+	{
+		"russian": "Модный",
+		"english": "Fashionable",
+		"transcript": "['fæʃ(ə)nəbl]"
+	},
+	{
+		"russian": "Нарядно одетый",
+		"english": "Smartly dressed",
+		"transcript": "['smɑ:tlɪdrest]"
+	},
+	{
+		"russian": "Неряшливый",
+		"english": "Scruffy",
+		"transcript": "['skrʌfɪ]"
+	},
+	{
+		"russian": "Шикарный",
+		"english": "Chic",
+		"transcript": "[ʃi:k]"
+	}
+]

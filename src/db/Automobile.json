@@ -1,0 +1,387 @@
+[
+	{
+		"russian": "Автомобиль",
+		"english": "Automobile",
+		"transcript": "['ɔːtəmə(u)biːl]"
+	},
+	{
+		"russian": "Грузовик",
+		"english": "Truck",
+		"transcript": "[trʌk]"
+	},
+	{
+		"russian": "Педаль",
+		"english": "Pedal",
+		"transcript": "['ped(ə)l]"
+	},
+	{
+		"russian": "Бак для горючего",
+		"english": "Gas tank",
+		"transcript": "[gæs 'tæŋk]"
+	},
+	{
+		"russian": "Колесо, руль",
+		"english": "Wheel",
+		"transcript": "[wi:l]"
+	},
+	{
+		"russian": "Такси",
+		"english": "Taxi",
+		"transcript": "['tæksɪ]"
+	},
+	{
+		"russian": "Парковка",
+		"english": "Park",
+		"transcript": "[pɑːk]"
+	},
+	{
+		"russian": "Стоянка",
+		"english": "Parking place",
+		"transcript": "[pɑːkɪŋpleɪs]"
+	},
+	{
+		"russian": "Шина",
+		"english": "Tyre (br.) tire (am.)",
+		"transcript": "['taɪə]"
+	},
+	{
+		"russian": "Тормоз",
+		"english": "Brake",
+		"transcript": "[breɪk]"
+	},
+	{
+		"russian": "Багажник",
+		"english": "Trunk",
+		"transcript": "[trʌŋk]"
+	},
+	{
+		"russian": "Грузовик",
+		"english": "Lorry",
+		"transcript": "['lɔrɪ]"
+	},
+	{
+		"russian": "Метро",
+		"english": "Subway underground metro",
+		"transcript": "['sʌbweɪ]['ʌndəgraund] ['metrəu]"
+	},
+	{
+		"russian": "Мопед мотоцикл",
+		"english": "Motor bike",
+		"transcript": "['məutəbaɪk]"
+	},
+	{
+		"russian": "Троллейбус",
+		"english": "Trolley bus",
+		"transcript": "['trɔlɪbʌs]"
+	},
+	{
+		"russian": "Автобус",
+		"english": "Bus",
+		"transcript": "[bʌs]"
+	},
+	{
+		"russian": "Зажигание",
+		"english": "Ignition",
+		"transcript": "[ɪg'nɪʃ(ə)n]"
+	},
+	{
+		"russian": "Капот",
+		"english": "Bonnet",
+		"transcript": "['bɔnɪt]"
+	},
+	{
+		"russian": "Джип",
+		"english": "Jeep",
+		"transcript": "[ʤiːp]"
+	},
+	{
+		"russian": "Лимузин",
+		"english": "Limousine",
+		"transcript": "[ˌlɪmə'ziːn]"
+	},
+	{
+		"russian": "Фургон",
+		"english": "Van",
+		"transcript": "[væn]"
+	},
+	{
+		"russian": "Автомастерская",
+		"english": "Garage",
+		"transcript": "['gærɑːʒ]"
+	},
+	{
+		"russian": "Автозаправка",
+		"english": "Refuelling",
+		"transcript": "[͵ri:ʹfju:əlıŋ]"
+	},
+	{
+		"russian": "Авария",
+		"english": "Breakdown",
+		"transcript": "['breɪkdaun]"
+	},
+	{
+		"russian": "Салон авто",
+		"english": "Passenger compartment",
+		"transcript": "['pæs(ə)nʤəkəm'pɑːtmənt]"
+	},
+	{
+		"russian": "Детали",
+		"english": "Components",
+		"transcript": "[kəm'pəunənts]"
+	},
+	{
+		"russian": "Багажник",
+		"english": "Boot",
+		"transcript": "[but]"
+	},
+	{
+		"russian": "Бампер",
+		"english": "Bumper",
+		"transcript": "['bʌmpə]"
+	},
+	{
+		"russian": "Кузов",
+		"english": "Cab",
+		"transcript": "[kæb]"
+	},
+	{
+		"russian": "Карбюратор",
+		"english": "Carburettor",
+		"transcript": "[ˌkɑːbə'retə]"
+	},
+	{
+		"russian": "Капот",
+		"english": "Bonnet",
+		"transcript": "['bɔnɪt]"
+	},
+	{
+		"russian": "Поршень",
+		"english": "Piston",
+		"transcript": "['pɪst(ə)n]"
+	},
+	{
+		"russian": "Колесо заднее",
+		"english": "Rear wheel",
+		"transcript": "[rɪəwi:l]"
+	},
+	{
+		"russian": "Кабриолет",
+		"english": "Cabriolet",
+		"transcript": "[ˌkæbrɪə(u)'leɪ]"
+	},
+	{
+		"russian": "Хетчбек",
+		"english": "Hatch-back",
+		"transcript": "['hæʧbæk]"
+	},
+	{
+		"russian": "Седан",
+		"english": "Sedan",
+		"transcript": "[sɪ'dæn]"
+	},
+	{
+		"russian": "Универсал",
+		"english": "Universal",
+		"transcript": "[ˌjuːnɪ'vɜːs(ə)l]"
+	},
+	{
+		"russian": "Катафалк",
+		"english": "Catafalque",
+		"transcript": "['kætəfælk]"
+	},
+	{
+		"russian": "Авария",
+		"english": "Breakdown",
+		"transcript": "['breɪkdaun]"
+	},
+	{
+		"russian": "Стоянка такси",
+		"english": "Cabstand",
+		"transcript": "['kæbstænd]"
+	},
+	{
+		"russian": "Станция",
+		"english": "Station",
+		"transcript": "['steɪʃ(ə)n]"
+	},
+	{
+		"russian": "Бульдозер",
+		"english": "Bulldozer",
+		"transcript": "['bulˌdəuzə]"
+	},
+	{
+		"russian": "Комбайн зерновой",
+		"english": "Combine harvester",
+		"transcript": "[kəm'baɪn 'hɑːvɪstə]"
+	},
+	{
+		"russian": "Мусоровоз",
+		"english": "Dust-cart",
+		"transcript": "[dʌstkɑːt]"
+	},
+	{
+		"russian": "Экскаватор",
+		"english": "Excavator",
+		"transcript": "['ekskəveɪtə]"
+	},
+	{
+		"russian": "Вездеход",
+		"english": "Land rover",
+		"transcript": "['lændˌrəuvə]"
+	},
+	{
+		"russian": "Погрузчик",
+		"english": "Loader",
+		"transcript": "['ləudə]"
+	},
+	{
+		"russian": "Коляска мотоцикла",
+		"english": "Buddy seat",
+		"transcript": "['bʌdɪsiːt]"
+	},
+	{
+		"russian": "Каска, шлем",
+		"english": "Helmet",
+		"transcript": "['helmət]"
+	},
+	{
+		"russian": "Бензовоз",
+		"english": "Petrol tanker",
+		"transcript": "['petr(ə)l 'tæŋkə]"
+	},
+	{
+		"russian": "Самокат",
+		"english": "Push-cycle scooter",
+		"transcript": "[puʃ 'saɪkl] [ˈskuːtə]"
+	},
+	{
+		"russian": "Железная дорога",
+		"english": "Railway",
+		"transcript": "['reɪlweɪ]"
+	},
+	{
+		"russian": "Поезд",
+		"english": "Train",
+		"transcript": "[treɪn]"
+	},
+	{
+		"russian": "Трамвай",
+		"english": "Tram",
+		"transcript": "[træm]"
+	},
+	{
+		"russian": "Рейсовый путь",
+		"english": "Track",
+		"transcript": "[træk]"
+	},
+	{
+		"russian": "Ж д абонемент",
+		"english": "Train pass",
+		"transcript": "[treɪnpa:s]"
+	},
+	{
+		"russian": "Станция, вокзал",
+		"english": "Railway station",
+		"transcript": "['reɪlweɪ 'steɪʃ(ə)n]"
+	},
+	{
+		"russian": "Вагон",
+		"english": "Car carriage",
+		"transcript": "[ka:] ['kærɪʤ]"
+	},
+	{
+		"russian": "Платформа",
+		"english": "Platform",
+		"transcript": "['plætfɔːm]"
+	},
+	{
+		"russian": "Плацкарт",
+		"english": "Berth",
+		"transcript": "[bəːθ]"
+	},
+	{
+		"russian": "Направления жд",
+		"english": "Rail network",
+		"transcript": "['reɪl 'netwɜːk]"
+	},
+	{
+		"russian": "Спальный вагон спальное место (в вагоне)",
+		"english": "Sleeping carriagecouchette",
+		"transcript": "[sliːpıŋ 'kærɪʤ] [kuː'ʃet]"
+	},
+	{
+		"russian": "Купе",
+		"english": "Compartment",
+		"transcript": "[kəm'pɑːtmənt]"
+	},
+	{
+		"russian": "Вагон-ресторан",
+		"english": "Dining car lounge car",
+		"transcript": "[daɪnıŋka:] [launʤka:]"
+	},
+	{
+		"russian": "Дни, в которые ходят поезда",
+		"english": "Day of operation",
+		"transcript": "[deɪəvˌɔp(ə)'reɪʃ(ə)n]"
+	},
+	{
+		"russian": "Поездка в одиноба конца",
+		"english": "Outward journey return journey",
+		"transcript": "['autwəd 'ʤɜːnɪ] [rɪ'tɜːn 'ʤɜːnɪ]"
+	},
+	{
+		"russian": "Тепловоз",
+		"english": "Diesel locomotive",
+		"transcript": "['diːz(ə)lˌləukə'məutɪv]"
+	},
+	{
+		"russian": "Электровоз",
+		"english": "Electric locomotive",
+		"transcript": "[ɪ'lektrɪkˌləukə'məutɪv]"
+	},
+	{
+		"russian": "Пригородный поезд",
+		"english": "Local train",
+		"transcript": "['ləuk(ə)ltreɪn]"
+	},
+	{
+		"russian": "Локомотив",
+		"english": "Locomotive",
+		"transcript": "[ˌləukə'məutɪv]"
+	},
+	{
+		"russian": "Экспресс",
+		"english": "Express train",
+		"transcript": "[ɪk'sprestreɪn]"
+	},
+	{
+		"russian": "Платформа",
+		"english": "Platform",
+		"transcript": "['plætfɔːm]"
+	},
+	{
+		"russian": "Семафор",
+		"english": "Semaphore",
+		"transcript": "['seməfɔː]"
+	},
+	{
+		"russian": "Паровоз",
+		"english": "Steam locomotive",
+		"transcript": "[stiːm ˌləukə'məutɪv]"
+	},
+	{
+		"russian": "Электричка",
+		"english": "Suburban train",
+		"transcript": "[sə'bɜːb(ə)ntreɪn]"
+	},
+	{
+		"russian": "Стрелка",
+		"english": "Switch",
+		"transcript": "[swɪʧ]"
+	},
+	{
+		"russian": "Садиться выходить из поезда",
+		"english": "To get on off the train",
+		"transcript": "[get ɔn] [ɔfðətreɪn]"
+	}
+]

@@ -1,0 +1,197 @@
+[
+	{
+		"russian": "Описание еды",
+		"english": "Describing food",
+		"transcript": "[dɪ'skraɪbɪŋfu:d]"
+	},
+	{
+		"russian": "Сладкий",
+		"english": "Sweet",
+		"transcript": "[swiːt]"
+	},
+	{
+		"russian": "Соленый",
+		"english": "Salty",
+		"transcript": "['sɔːltɪ]"
+	},
+	{
+		"russian": "Вкусный",
+		"english": "Delicious = tasty = yummy",
+		"transcript": "[dɪ'lɪʃəs]=['teɪstɪ]=['jʌmɪ]"
+	},
+	{
+		"russian": "Свежий",
+		"english": "Fresh",
+		"transcript": "[freʃ]"
+	},
+	{
+		"russian": "Не содержащий сахара",
+		"english": "Sugar-free",
+		"transcript": "['ʃugəfri:]"
+	},
+	{
+		"russian": "Горячий; острый",
+		"english": "Hot",
+		"transcript": "[hɔt]"
+	},
+	{
+		"russian": "Горький",
+		"english": "Bitter",
+		"transcript": "['bɪtə]"
+	},
+	{
+		"russian": "Полезный",
+		"english": "Healthy",
+		"transcript": "['helθɪ]"
+	},
+	{
+		"russian": "Кислый",
+		"english": "Sour",
+		"transcript": "['sauə]"
+	},
+	{
+		"russian": "Острый",
+		"english": "Spicy",
+		"transcript": "['spaɪsɪ]"
+	},
+	{
+		"russian": "Маслянистый",
+		"english": "Oily",
+		"transcript": "['ɔɪlɪ]"
+	},
+	{
+		"russian": "Сырой",
+		"english": "Raw",
+		"transcript": "[rɔː]"
+	},
+	{
+		"russian": "Зрелый, спелый",
+		"english": "Ripe",
+		"transcript": "[raɪp]"
+	},
+	{
+		"russian": "Неспелый",
+		"english": "Unripe",
+		"transcript": "[ʌn'raɪp]"
+	},
+	{
+		"russian": "Гнилой, испорченный",
+		"english": "Rotten",
+		"transcript": "['rɔt(ə)n]"
+	},
+	{
+		"russian": "Прокисший, тухлый",
+		"english": "Spoiled",
+		"transcript": "[spɔɪld]"
+	},
+	{
+		"russian": "Жесткий",
+		"english": "Tough",
+		"transcript": "[tʌf]"
+	},
+	{
+		"russian": "Мягкий",
+		"english": "Soft",
+		"transcript": "[sɔft]"
+	},
+	{
+		"russian": "Черствый, несвежий",
+		"english": "Stale",
+		"transcript": "[steɪl]"
+	},
+	{
+		"russian": "Нежный, тонкий (о вкусе)",
+		"english": "Delicate",
+		"transcript": "['delɪkət]"
+	},
+	{
+		"russian": "Терпкий, вяжущий",
+		"english": "Acerbic",
+		"transcript": "[ə'sɜːb(ɪk)]"
+	},
+	{
+		"russian": "Недоваренный",
+		"english": "Undercooked",
+		"transcript": "['ʌndəkukt]"
+	},
+	{
+		"russian": "Переваренный",
+		"english": "Overcooked",
+		"transcript": "['əuvəkukt]"
+	},
+	{
+		"russian": "Горький",
+		"english": "Bitter",
+		"transcript": "['bɪtə]"
+	},
+	{
+		"russian": "Пресный, неострый, безвкусный",
+		"english": "Bland",
+		"transcript": "[blænd]"
+	},
+	{
+		"russian": "Нежный, густой, сметанообразный",
+		"english": "Creamy",
+		"transcript": "['kriːmɪ]"
+	},
+	{
+		"russian": "Хрустящий",
+		"english": "Crispy = crunchy",
+		"transcript": "['krɪspɪ] = [krʌnʧi]"
+	},
+	{
+		"russian": "Пикантный, пряный",
+		"english": "Savoury",
+		"transcript": "['seɪv(ə)rɪ]"
+	},
+	{
+		"russian": "Густой",
+		"english": "Stodgy",
+		"transcript": "['stɔʤɪ]"
+	},
+	{
+		"russian": "Безвкусный",
+		"english": "Tasteless",
+		"transcript": "['teɪstləs]"
+	},
+	{
+		"russian": "Вредный, нездоровый",
+		"english": "Unhealthy",
+		"transcript": "[ʌn'helθɪ]"
+	},
+	{
+		"russian": "Калорийный",
+		"english": "High-caloric",
+		"transcript": "[haɪkə'lɔrɪk]"
+	},
+	{
+		"russian": "Жирный, содержащий много жира",
+		"english": "Greasy = fatty",
+		"transcript": "['griːsɪ] = ['fætɪ]"
+	},
+	{
+		"russian": "Питательный",
+		"english": "Nutritious",
+		"transcript": "[njuː'trɪʃəs]"
+	},
+	{
+		"russian": "Сытный",
+		"english": "Substantial",
+		"transcript": "[səb'stæn(t)ʃ(ə)l]"
+	},
+	{
+		"russian": "Постный, содержащий мало жиров",
+		"english": "Lean",
+		"transcript": "[li:n]"
+	},
+	{
+		"russian": "Непрожаренный, с кровью",
+		"english": "Rare",
+		"transcript": "[reə]"
+	},
+	{
+		"russian": "Хорошо прожаренный",
+		"english": "Well-done",
+		"transcript": "[ˌwel'dʌn]"
+	}
+]

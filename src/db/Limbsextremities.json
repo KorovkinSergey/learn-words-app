@@ -1,0 +1,117 @@
+[
+	{
+		"russian": "Конечности",
+		"english": "Limbs extremities",
+		"transcript": "[lɪmz] [ɪk'stremətɪz]"
+	},
+	{
+		"russian": "Рука (от плеча до кисти)",
+		"english": "Arm",
+		"transcript": "ɑ:m"
+	},
+	{
+		"russian": "Кисть руки",
+		"english": "Hand",
+		"transcript": "hænd"
+	},
+	{
+		"russian": "Палец руки",
+		"english": "Finger",
+		"transcript": "[fɪŋɡə(r) ]"
+	},
+	{
+		"russian": "Ладонь",
+		"english": "Palm",
+		"transcript": "pɑ:m"
+	},
+	{
+		"russian": "Плечо",
+		"english": "Shoulder",
+		"transcript": "'ʃəuldə"
+	},
+	{
+		"russian": "Нога(до ступни)",
+		"english": "Leg",
+		"transcript": "leg"
+	},
+	{
+		"russian": "Нога (ступня) ноги (ступни)",
+		"english": "Foot feet",
+		"transcript": "fut fi:t"
+	},
+	{
+		"russian": "Большой палец",
+		"english": "Thumb",
+		"transcript": "[θʌm]"
+	},
+	{
+		"russian": "Указательный палец",
+		"english": "Forefinger",
+		"transcript": "[fɔ:fɪŋɡər]"
+	},
+	{
+		"russian": "Средний палец",
+		"english": "Middle finger",
+		"transcript": "[mɪdl fɪŋɡə(r)]"
+	},
+	{
+		"russian": "Безымянныйпалец",
+		"english": "Ring finger",
+		"transcript": "[rɪŋ fɪŋɡə(r)]"
+	},
+	{
+		"russian": "Мизинец",
+		"english": "Little finger",
+		"transcript": "[lɪtl fɪŋɡə(r) ]"
+	},
+	{
+		"russian": "Локоть",
+		"english": "Elbow",
+		"transcript": "'elbəu"
+	},
+	{
+		"russian": "Запястье",
+		"english": "Wrist",
+		"transcript": "rist"
+	},
+	{
+		"russian": "Кулак",
+		"english": "Fist",
+		"transcript": "fist"
+	},
+	{
+		"russian": "Пятка",
+		"english": "Heel",
+		"transcript": "hi:l"
+	},
+	{
+		"russian": "Подошва, ступня",
+		"english": "Sole",
+		"transcript": "səul"
+	},
+	{
+		"russian": "Колено",
+		"english": "Knee",
+		"transcript": "ni:"
+	},
+	{
+		"russian": "Бедро",
+		"english": "Thigh [hɪp]",
+		"transcript": "θai [hɪp]"
+	},
+	{
+		"russian": "Икра ноги",
+		"english": "Calf(plural:calves)",
+		"transcript": "[kɑ:f]"
+	},
+	{
+		"russian": "Палец ноги",
+		"english": "Toe",
+		"transcript": "təu"
+	},
+	{
+		"russian": "Ноготь",
+		"english": "Nail",
+		"transcript": "neil"
+	}
+]

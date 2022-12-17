@@ -1,0 +1,62 @@
+[
+	{
+		"russian": "Материал",
+		"english": "Fabric",
+		"transcript": "['fæbrɪk]"
+	},
+	{
+		"russian": "Хлопок",
+		"english": "Cotton",
+		"transcript": "['kɔt(ə)n]"
+	},
+	{
+		"russian": "Джинсовая ткань",
+		"english": "Denim",
+		"transcript": "['denɪm]"
+	},
+	{
+		"russian": "Шерсть",
+		"english": "Wool",
+		"transcript": "[wul]"
+	},
+	{
+		"russian": "Кожа",
+		"english": "Leather",
+		"transcript": "[‘leðəʳ]"
+	},
+	{
+		"russian": "Мех",
+		"english": "Fur",
+		"transcript": "[fə:r]"
+	},
+	{
+		"russian": "Шелк",
+		"english": "Silk",
+		"transcript": "[sɪlk]"
+	},
+	{
+		"russian": "Бархат",
+		"english": "Velvet",
+		"transcript": "['velvɪt]"
+	},
+	{
+		"russian": "Вельвет",
+		"english": "Corduroy",
+		"transcript": "['kɔ:d(j)ərɔɪ]"
+	},
+	{
+		"russian": "Вязанный",
+		"english": "Knitted",
+		"transcript": "['nɪtɪd]"
+	},
+	{
+		"russian": "Искусственный мех кожзам",
+		"english": "Fake fur leather",
+		"transcript": "[feɪkfə:r ’leðəʳ]"
+	},
+	{
+		"russian": "Полиэстер",
+		"english": "Polyester",
+		"transcript": "[pɔlɪ’ɛstər]"
+	}
+]

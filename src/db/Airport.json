@@ -1,0 +1,167 @@
+[
+	{
+		"russian": "Аэропорт",
+		"english": "Airport",
+		"transcript": "'ɛəpɔ:t"
+	},
+	{
+		"russian": "Аэропорт вылета",
+		"english": "Airport of departure",
+		"transcript": "'ɛəpɔ:t əv di'pɑ:ʧə"
+	},
+	{
+		"russian": "Аэропорт назначения",
+		"english": "Airport of destination",
+		"transcript": "'ɛəpɔ:t əv ,desti'neiʃn"
+	},
+	{
+		"russian": "Вход выход",
+		"english": "Gate",
+		"transcript": "geit"
+	},
+	{
+		"russian": "Авиалиния",
+		"english": "Airline",
+		"transcript": "['eəlaɪn]"
+	},
+	{
+		"russian": "Рейс",
+		"english": "Flight",
+		"transcript": "flait"
+	},
+	{
+		"russian": "Терминал",
+		"english": "Terminal",
+		"transcript": "['tɜːmɪn(ə)l]"
+	},
+	{
+		"russian": "Вход",
+		"english": "Entrance",
+		"transcript": "'entrəns"
+	},
+	{
+		"russian": "Расписание",
+		"english": "Timetable",
+		"transcript": "'taɪm‚teɪbəl"
+	},
+	{
+		"russian": "Задержка",
+		"english": "Delay",
+		"transcript": "[dɪ'leɪ]"
+	},
+	{
+		"russian": "Посадка, приземление",
+		"english": "Landing",
+		"transcript": "'lændiŋ"
+	},
+	{
+		"russian": "Расписание полётов",
+		"english": "Airline schedule",
+		"transcript": "'ɛəlain 'skedju:l"
+	},
+	{
+		"russian": "Часовой пояс",
+		"english": "Time zone",
+		"transcript": "[taɪmzəun]"
+	},
+	{
+		"russian": "Зонa ожидания",
+		"english": "Waiting area",
+		"transcript": "['weɪtɪŋ 'eərɪə]"
+	},
+	{
+		"russian": "Прибытие",
+		"english": "Arrival",
+		"transcript": "ə'raivl"
+	},
+	{
+		"russian": "Отправление",
+		"english": "Departure",
+		"transcript": "di'pɑ:ʧə"
+	},
+	{
+		"russian": "Маршрут",
+		"english": "Route",
+		"transcript": "ru:t"
+	},
+	{
+		"russian": "Аварийная посадка",
+		"english": "Emergency landing",
+		"transcript": "i'mə:ʤənsi 'lændiŋ"
+	},
+	{
+		"russian": "Тариф",
+		"english": "Fare",
+		"transcript": "fɛə"
+	},
+	{
+		"russian": "Взлёт (воздушного судна)",
+		"english": "Take-off",
+		"transcript": "'teɪkɔf"
+	},
+	{
+		"russian": "Запасной аэропорт",
+		"english": "Alternate airport",
+		"transcript": "ɔ:l'tə:nit 'ɛəpɔ:t"
+	},
+	{
+		"russian": "Взлетно-посадочная полоса",
+		"english": "Runway",
+		"transcript": "'rʌnwei"
+	},
+	{
+		"russian": "Зал ожидания (в аэропорту: зал, где после регистрации пассажиры ожидают объявления посадки на рейс)",
+		"english": "Departure lounge",
+		"transcript": "[dɪ'pɑːʧəlaunʤ]"
+	},
+	{
+		"russian": "Монитор вылетов и прилетов",
+		"english": "Arrival and departure monitor",
+		"transcript": "[ə'raɪv(ə)l ənddɪ'pɑːʧə 'mɔnɪtə]"
+	},
+	{
+		"russian": "Закусочная",
+		"english": "Concession stand snack bar",
+		"transcript": "[kən'seʃ(ə)n stænd] [snækbɑː]"
+	},
+	{
+		"russian": "Магазин беспошлинной торговли",
+		"english": "Duty-free shop",
+		"transcript": "['djuːtɪfriː ʃɔp]"
+	},
+	{
+		"russian": "Сувенирный магазин",
+		"english": "Gift shop",
+		"transcript": "[gɪftʃɔp]"
+	},
+	{
+		"russian": "Диспетчерская вышка",
+		"english": "Control tower",
+		"transcript": "[kən'trəul 'tauə]"
+	},
+	{
+		"russian": "Полевой аэродром; взлётно-посадочная площадка",
+		"english": "Airstrip",
+		"transcript": "['eəstrɪp]"
+	},
+	{
+		"russian": "Воздушное пространство",
+		"english": "Airspace",
+		"transcript": "['eəspeɪs]"
+	},
+	{
+		"russian": "Остановка в пути",
+		"english": "Stopover",
+		"transcript": "'stɒp‚əʋvər"
+	},
+	{
+		"russian": "Перелёт без посадок",
+		"english": "Nonstop flight",
+		"transcript": "nɔn'stɔpflait"
+	},
+	{
+		"russian": "Отменять",
+		"english": "To cancel",
+		"transcript": "['kænsəl"
+	}
+]

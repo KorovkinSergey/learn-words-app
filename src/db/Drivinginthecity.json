@@ -1,0 +1,87 @@
+[
+	{
+		"russian": "В городе за рулём",
+		"english": "Driving in the city",
+		"transcript": "[ˈdraɪvɪŋɪnðə ˈsɪti ]"
+	},
+	{
+		"russian": "Аренда машины",
+		"english": "Car hire = car rental",
+		"transcript": "[kɑː ˈhaɪə<=>kɑː ˈrentl̩ ]"
+	},
+	{
+		"russian": "Мойка",
+		"english": "Car wash",
+		"transcript": "[kɑː wɒʃ ]"
+	},
+	{
+		"russian": "Авторемонт",
+		"english": "Car repair",
+		"transcript": "[kɑː rɪˈpeə ]"
+	},
+	{
+		"russian": "Шиномонтаж",
+		"english": "Tyre fitting",
+		"transcript": "[ˈtaɪə ˈfɪtɪŋ ]"
+	},
+	{
+		"russian": "Дорога с односторонним движением",
+		"english": "One-way street",
+		"transcript": "[ˌwʌnˈweɪstriːt ]"
+	},
+	{
+		"russian": "Дорожный знак",
+		"english": "Road sign",
+		"transcript": "[rəʊdsaɪn ]"
+	},
+	{
+		"russian": "Тупик",
+		"english": "Dead end",
+		"transcript": "[ded end ]"
+	},
+	{
+		"russian": "Парковка",
+		"english": "Car park = parking lot",
+		"transcript": "[kɑː pɑːk<=> ˈpɑːkɪŋlɒt ]"
+	},
+	{
+		"russian": "Счетчик платы за стоянку",
+		"english": "Parking meter",
+		"transcript": "[ˈpɑːkɪŋ ˈmiːtə ]"
+	},
+	{
+		"russian": "Многоуровневая парковка",
+		"english": "Multi-storey car park",
+		"transcript": "[ˈmʌlti -ˈstɔːrikɑː pɑːk ]"
+	},
+	{
+		"russian": "Перекрёсток с круговым движением",
+		"english": "Roundabout",
+		"transcript": "[ˈraʊndəˌbaʊt ]"
+	},
+	{
+		"russian": "Дорожные работы",
+		"english": "Road works",
+		"transcript": "[rəʊd ˈwɜːks ]"
+	},
+	{
+		"russian": "Пробка",
+		"english": "Traffic jam = congestion",
+		"transcript": "[ˈtræfɪkdʒæm \\ kənˈdʒestʃən ]"
+	},
+	{
+		"russian": "Инспектор дорожного движения",
+		"english": "A traffic warden",
+		"transcript": "[ə ˈtræfɪk ˈwɔːdn̩ ]"
+	},
+	{
+		"russian": "Эвакуировать машину",
+		"english": "To tow away a car",
+		"transcript": "[təʊəˈweɪ ə kɑː ]"
+	},
+	{
+		"russian": "Заплатить штраф",
+		"english": "Pay a fine",
+		"transcript": "[peɪ ə faɪn ]"
+	}
+]

@@ -1,0 +1,152 @@
+[
+	{
+		"russian": "Передвижение по городу",
+		"english": "Getting around",
+		"transcript": "[ˈɡetɪŋəˈraʊnd ]"
+	},
+	{
+		"russian": "Площадь",
+		"english": "Square",
+		"transcript": "[skweə ]"
+	},
+	{
+		"russian": "Главная дорога",
+		"english": "Main road",
+		"transcript": "[meɪnrəʊd ]"
+	},
+	{
+		"russian": "Светофор",
+		"english": "Traffic lights",
+		"transcript": "[ˈtræfɪklaɪts ]"
+	},
+	{
+		"russian": "Бульвар",
+		"english": "Boulevard",
+		"transcript": "[ˈbuːləvɑːd ]"
+	},
+	{
+		"russian": "Пешеход",
+		"english": "Pedestrian",
+		"transcript": "[pɪˈdestrɪən ]"
+	},
+	{
+		"russian": "Канал",
+		"english": "Canal",
+		"transcript": "[kəˈnæl ]"
+	},
+	{
+		"russian": "Набережная",
+		"english": "Embankment",
+		"transcript": "[en'bankment ]"
+	},
+	{
+		"russian": "Тротуар",
+		"english": "Pavement = sidewalk",
+		"transcript": "[ˈpeɪvmənt<=> ˈsaɪdwɔːk ]"
+	},
+	{
+		"russian": "Пешеходный переход",
+		"english": "Crossing = zebra",
+		"transcript": "[ˈkrɒsɪŋ<=> ˈzebrə ]"
+	},
+	{
+		"russian": "Подземный переход",
+		"english": "Underground crossing",
+		"transcript": "[ˈʌndəɡraʊnd ˈkrɒsɪŋ ]"
+	},
+	{
+		"russian": "Перекресток",
+		"english": "Intersection = crossroads",
+		"transcript": "[ˌɪntəˈsekʃn̩ <=> ˈkrɒsrəʊdz ]"
+	},
+	{
+		"russian": "Стоянка такси",
+		"english": "Taxi rank",
+		"transcript": "[ˈtæksi ræŋk]"
+	},
+	{
+		"russian": "Второстепенная дорога",
+		"english": "Side street",
+		"transcript": "[saɪd striːt ]"
+	},
+	{
+		"russian": "Общественный транспорт",
+		"english": "Public transport",
+		"transcript": "[ˈpʌblɪk ˈtrænspɔːt ]"
+	},
+	{
+		"russian": "Проездной билет",
+		"english": "City pass",
+		"transcript": "[ˈsɪtipɑːs ]"
+	},
+	{
+		"russian": "Автобусный маршрут",
+		"english": "Bus route",
+		"transcript": "[bʌsruːt ]"
+	},
+	{
+		"russian": "Велосипедная дорожка",
+		"english": "Cycle lane",
+		"transcript": "[ˈsaɪkl̩ leɪn ]"
+	},
+	{
+		"russian": "Фуникулер",
+		"english": "Cable car",
+		"transcript": "[ˈkeɪbl̩ kɑː ]"
+	},
+	{
+		"russian": "Гавань, порт",
+		"english": "Harbour",
+		"transcript": "[ˈhɑːbə ]"
+	},
+	{
+		"russian": "Док, пристань",
+		"english": "Dock",
+		"transcript": "[ˈdɒk ]"
+	},
+	{
+		"russian": "Двухэтажный автобус",
+		"english": "Double-decker bus",
+		"transcript": "[ˌdʌbl̩ ˈdekəbʌs ]"
+	},
+	{
+		"russian": "Второстепенная дорога",
+		"english": "Side street",
+		"transcript": "[saɪdstriːt ]"
+	},
+	{
+		"russian": "Квартал",
+		"english": "Block",
+		"transcript": "[ˈblɒk ]"
+	},
+	{
+		"russian": "Урна",
+		"english": "Litter bin",
+		"transcript": "[ ˈlɪtəbɪn ]"
+	},
+	{
+		"russian": "Мусорный бак",
+		"english": "Trash container",
+		"transcript": "[træʃkənˈteɪnə ]"
+	},
+	{
+		"russian": "Стройка",
+		"english": "Building site",
+		"transcript": "[ˈbɪldɪŋsaɪt ]"
+	},
+	{
+		"russian": "Люк",
+		"english": "Manhole",
+		"transcript": "[ˈmænhəʊl ]"
+	},
+	{
+		"russian": "Уличный фонарь",
+		"english": "Streetlight",
+		"transcript": "[streetlight]"
+	},
+	{
+		"russian": "Потеряться",
+		"english": "To get lost",
+		"transcript": "[ˈɡetlɒst ]"
+	}
+]

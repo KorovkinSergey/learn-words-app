@@ -1,0 +1,117 @@
+[
+	{
+		"russian": "Голова",
+		"english": "Head",
+		"transcript": "hed"
+	},
+	{
+		"russian": "Волосы",
+		"english": "Hair",
+		"transcript": "hɛə"
+	},
+	{
+		"russian": "Лицо",
+		"english": "Face",
+		"transcript": "feis"
+	},
+	{
+		"russian": "Глаз",
+		"english": "Eye",
+		"transcript": "ai"
+	},
+	{
+		"russian": "Ухо",
+		"english": "Ear",
+		"transcript": "iə"
+	},
+	{
+		"russian": "Нос",
+		"english": "Nose",
+		"transcript": "nəuz"
+	},
+	{
+		"russian": "Рот",
+		"english": "Mouth",
+		"transcript": "mauθ"
+	},
+	{
+		"russian": "Губы",
+		"english": "Lips",
+		"transcript": "lips"
+	},
+	{
+		"russian": "Язык",
+		"english": "Tongue",
+		"transcript": "tʌŋ"
+	},
+	{
+		"russian": "Зуб (зубы)",
+		"english": "Tooth(teeth)",
+		"transcript": "tu:θ ([tiːθ])"
+	},
+	{
+		"russian": "Щека",
+		"english": "Cheek",
+		"transcript": "ʧi:k"
+	},
+	{
+		"russian": "Подбородок",
+		"english": "Chin",
+		"transcript": "ʧin"
+	},
+	{
+		"russian": "Борода",
+		"english": "Beard",
+		"transcript": "biəd"
+	},
+	{
+		"russian": "Усы",
+		"english": "Moustache",
+		"transcript": "məs'tɑ:ʃ"
+	},
+	{
+		"russian": "Мочка уха",
+		"english": "Earlobe",
+		"transcript": "[ɪələʊb ]"
+	},
+	{
+		"russian": "Бровь",
+		"english": "Eyebrow",
+		"transcript": "'aibrau"
+	},
+	{
+		"russian": "Ресница",
+		"english": "Eyelash",
+		"transcript": "[aɪlæʃ]"
+	},
+	{
+		"russian": "Веко",
+		"english": "Eyelid",
+		"transcript": "[aɪlɪd]"
+	},
+	{
+		"russian": "Лоб",
+		"english": "Forehead",
+		"transcript": "'fɔrid"
+	},
+	{
+		"russian": "Ноздря",
+		"english": "Nostril",
+		"transcript": "[nɒs.trəl]"
+	},
+	{
+		"russian": "Челюсть",
+		"english": "Jaw",
+		"transcript": "[dʒɔ: ]"
+	},
+	{
+		"russian": "Череп",
+		"english": "Skull",
+		"transcript": "[skʌl]"
+	},
+	{
+		"russian": "Висок",
+		"english": "Temple",
+		"transcript": "[templ]"
+	}
+]

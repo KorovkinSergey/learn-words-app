@@ -1,0 +1,72 @@
+[
+	{
+		"russian": "Мясо",
+		"english": "Meat",
+		"transcript": "[mi:t]"
+	},
+	{
+		"russian": "Курица",
+		"english": "Chicken",
+		"transcript": "['ʧɪkɪn]"
+	},
+	{
+		"russian": "Свинина",
+		"english": "Pork",
+		"transcript": "[pɔːk]"
+	},
+	{
+		"russian": "Индейка",
+		"english": "Turkey",
+		"transcript": "['tɜːkɪ]"
+	},
+	{
+		"russian": "Говядина",
+		"english": "Beef",
+		"transcript": "[bi:f]"
+	},
+	{
+		"russian": "Баранина",
+		"english": "Mutton",
+		"transcript": "['mʌt(ə)n]"
+	},
+	{
+		"russian": "Колбаса",
+		"english": "Sausage",
+		"transcript": "['sɔsɪʤ]"
+	},
+	{
+		"russian": "Бекон",
+		"english": "Bacon",
+		"transcript": "['beɪk(ə)n]"
+	},
+	{
+		"russian": "Ветчина",
+		"english": "Ham",
+		"transcript": "[hæm]"
+	},
+	{
+		"russian": "Сосиска",
+		"english": "A sausage",
+		"transcript": "[ə 'sɔsɪʤ]"
+	},
+	{
+		"russian": "Молодая баранина, ягненок",
+		"english": "Lamb",
+		"transcript": "[læm]"
+	},
+	{
+		"russian": "Телятина",
+		"english": "Veal",
+		"transcript": "[vi:l]"
+	},
+	{
+		"russian": "Домашняя птица",
+		"english": "Poultry",
+		"transcript": "['pəultrɪ]"
+	},
+	{
+		"russian": "Фарш",
+		"english": "Minced meat",
+		"transcript": "[mɪn(t)stmi:t]"
+	}
+]

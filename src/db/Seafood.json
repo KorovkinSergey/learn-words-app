@@ -1,0 +1,62 @@
+[
+	{
+		"russian": "Морепродукты",
+		"english": "Seafood",
+		"transcript": "[si:fu:d]"
+	},
+	{
+		"russian": "Икра",
+		"english": "Caviar",
+		"transcript": "['kævɪɑː]"
+	},
+	{
+		"russian": "Краб",
+		"english": "Crab",
+		"transcript": "[kræb]"
+	},
+	{
+		"russian": "Осьминог",
+		"english": "Octopus",
+		"transcript": "['ɔktəpəs]"
+	},
+	{
+		"russian": "Мидия",
+		"english": "Mussel",
+		"transcript": "['mʌs(ə)l]"
+	},
+	{
+		"russian": "Моллюск",
+		"english": "Clam",
+		"transcript": "[klæm]"
+	},
+	{
+		"russian": "Устрица",
+		"english": "Oyster",
+		"transcript": "['ɔɪstə]"
+	},
+	{
+		"russian": "Лобстер",
+		"english": "Lobster",
+		"transcript": "['lɔbstə]"
+	},
+	{
+		"russian": "Креветка (большая)",
+		"english": "Prawn",
+		"transcript": "[prɔːn]"
+	},
+	{
+		"russian": "Креветка",
+		"english": "Shrimp",
+		"transcript": "[ʃrɪmp]"
+	},
+	{
+		"russian": "Кальмар",
+		"english": "Squid",
+		"transcript": "[skwɪd]"
+	},
+	{
+		"russian": "Анчоус",
+		"english": "Anchovy",
+		"transcript": "['ænʧəvɪ]"
+	}
+]

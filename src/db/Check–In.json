@@ -1,0 +1,72 @@
+[
+	{
+		"russian": "Регистрация",
+		"english": "Check – In",
+		"transcript": "[ʧekɪn]"
+	},
+	{
+		"russian": "Паспорт",
+		"english": "Passport",
+		"transcript": "['pɑːspɔːt]"
+	},
+	{
+		"russian": "Виза",
+		"english": "Visa",
+		"transcript": "['viːzə]"
+	},
+	{
+		"russian": "Бронирование",
+		"english": "Reservation",
+		"transcript": ",rezə'veiʃən"
+	},
+	{
+		"russian": "Номер рейса",
+		"english": "Flight number",
+		"transcript": "flait 'nʌmbə"
+	},
+	{
+		"russian": "Билет",
+		"english": "Ticket",
+		"transcript": "'tikit"
+	},
+	{
+		"russian": "Посадочный талон",
+		"english": "Boarding pass",
+		"transcript": "'bɔ:rdɪŋpɑ:s"
+	},
+	{
+		"russian": "Стойка регистрации",
+		"english": "Check-in counter",
+		"transcript": "[ʧekɪn 'kauntə]"
+	},
+	{
+		"russian": "Кассир билетной кассы",
+		"english": "Ticket agent",
+		"transcript": "'tikit'eɪʤ(ə)nt]"
+	},
+	{
+		"russian": "Билетная касса",
+		"english": "Booking office",
+		"transcript": "'bʋkɪŋ 'ɔfis"
+	},
+	{
+		"russian": "Касса",
+		"english": "Ticket counter",
+		"transcript": "['tɪkɪt 'kauntə]"
+	},
+	{
+		"russian": "Билет в один конец",
+		"english": "One-way ticket",
+		"transcript": "wʌn-wei 'tikit"
+	},
+	{
+		"russian": "Билет туда и обратно",
+		"english": "Round trip ticket",
+		"transcript": "raund trip 'tikit"
+	},
+	{
+		"russian": "Бронировать, брать билет",
+		"english": "To book",
+		"transcript": "[buk"
+	}
+]

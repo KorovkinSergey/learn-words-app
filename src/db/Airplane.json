@@ -1,0 +1,191 @@
+[
+	{
+		"russian": "Самолет",
+		"english": "Airplane",
+		"transcript": "[ 'eəpleɪn]"
+	},
+	{
+		"russian": "Туалет",
+		"english": "Lavatory",
+		"transcript": "['lævət(ə)rɪ]"
+	},
+	{
+		"russian": "Спасательный жилет",
+		"english": "Life vest",
+		"transcript": "[laɪfvest]"
+	},
+	{
+		"russian": "Ремень безопасности",
+		"english": "Seat belt",
+		"transcript": "[siːt belt]"
+	},
+	{
+		"russian": "Кислородная маска",
+		"english": "Oxygen mask",
+		"transcript": "['ɔksɪʤənmɑːsk]"
+	},
+	{
+		"russian": "Пассажир",
+		"english": "Passenger",
+		"transcript": "'pæsinʤə"
+	},
+	{
+		"russian": "Посадка (на самолёт)",
+		"english": "Boarding",
+		"transcript": "'bɔ:rdɪŋ"
+	},
+	{
+		"russian": "Бортпроводник",
+		"english": "Flight attendant",
+		"transcript": "[flaɪtə'tendənt]"
+	},
+	{
+		"russian": "Пилот",
+		"english": "Pilotcaptain",
+		"transcript": "'pailət"
+	},
+	{
+		"russian": "Экипаж",
+		"english": "Crew",
+		"transcript": "kru:"
+	},
+	{
+		"russian": "Аварийный выход",
+		"english": "Emergency exit",
+		"transcript": "[ɪ'mɜːʤ(ə)n(t)sɪ 'egzɪt]"
+	},
+	{
+		"russian": "Крыло",
+		"english": "Wing",
+		"transcript": "[wɪŋ]"
+	},
+	{
+		"russian": "Хвост",
+		"english": "Tail",
+		"transcript": "[teɪl]"
+	},
+	{
+		"russian": "Полка в самолете",
+		"english": "Locker"
+	},
+	{
+		"russian": "Место возле окна",
+		"english": "Window seat",
+		"transcript": "'windəusi:t"
+	},
+	{
+		"russian": "Место возле прохода",
+		"english": "Aisle seat",
+		"transcript": "ail si:t"
+	},
+	{
+		"russian": "Среднее сидение",
+		"english": "Middle seat",
+		"transcript": "['mɪdlsiːt]"
+	},
+	{
+		"russian": "На борту",
+		"english": "On board",
+		"transcript": "ɔnbɔ:d"
+	},
+	{
+		"russian": "Поднос",
+		"english": "Tray",
+		"transcript": "[treɪ]"
+	},
+	{
+		"russian": "Проход",
+		"english": "Aisle",
+		"transcript": "ail"
+	},
+	{
+		"russian": "Знак \"Не курить\"",
+		"english": "No Smoking sign",
+		"transcript": "[nəu 'sməukɪŋsaɪn]"
+	},
+	{
+		"russian": "Знак \"Пристегните ремни\"",
+		"english": "Fasten Seat Belt sign",
+		"transcript": "[ˈfɑːs(ə)nsiːt belt saɪn]"
+	},
+	{
+		"russian": "Первый-класс",
+		"english": "First-class section",
+		"transcript": "[fɜːstklɑːs 'sekʃ(ə)n]"
+	},
+	{
+		"russian": "Пассажирский самолёт",
+		"english": "Airliner",
+		"transcript": "'eər‚laɪnər"
+	},
+	{
+		"russian": "Мешок при воздушной болезни",
+		"english": "Air sickness bag",
+		"transcript": "[eə 'sɪknəsbæg]"
+	},
+	{
+		"russian": "Подлокотник",
+		"english": "Armrest",
+		"transcript": "[ˈɑːmrɛst]"
+	},
+	{
+		"russian": "Карман кресла",
+		"english": "Seat pocket",
+		"transcript": "[siːt 'pɔkɪt]"
+	},
+	{
+		"russian": "Кнопкa вызова",
+		"english": "Call button",
+		"transcript": "[kɔːl 'bʌtn]"
+	},
+	{
+		"russian": "Грузовой люк",
+		"english": "Cargo door",
+		"transcript": "['kɑːgəudɔː]"
+	},
+	{
+		"russian": "На борту",
+		"english": "On board",
+		"transcript": "ɔnbɔ:d"
+	},
+	{
+		"russian": "Бортинженер",
+		"english": "Flight engineer",
+		"transcript": "[flaɪt ˌenʤɪ'nɪə]"
+	},
+	{
+		"russian": "Второй пилот",
+		"english": "Co-pilot",
+		"transcript": "['kəuˌpaɪlət]"
+	},
+	{
+		"russian": "Панель контрольно-измерительных приборов",
+		"english": "Instrument panel",
+		"transcript": "['ɪn(t)strəmənt 'pæn(ə)l]"
+	},
+	{
+		"russian": "Фюзеляж",
+		"english": "Fuselage",
+		"transcript": "['fjuːz(ə)lɑːʒ]"
+	},
+	{
+		"russian": "Кабина летчика",
+		"english": "Cockpit",
+		"transcript": "['kɔkpɪt]"
+	},
+	{
+		"russian": "Камбуз",
+		"english": "Galley",
+		"transcript": "['gælɪ]"
+	},
+	{
+		"russian": "Шасси",
+		"english": "Landing gear undercarriage",
+		"transcript": "['lændɪŋ gɪə] ['ʌndəˌkærɪʤ]"
+	},
+	{
+		"russian": "Инструкция по поведению в чрезвычайных ситуациях",
+		"english": "Emergency instruction card",
+		"transcript": "[ɪ'mɜːʤ(ə)nsɪ ɪn'strʌkʃ(ə)n kɑːd]"
+	}
+]

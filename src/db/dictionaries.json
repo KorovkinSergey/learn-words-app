@@ -1,0 +1,194 @@
+[
+	{
+		"title": "Мебель",
+		"name": "Furniture"
+	},
+	{
+		"title": "Домашняя утварь",
+		"name": "HouseholdStuff"
+	},
+	{
+		"title": "Части зданий",
+		"name": "PartsofBuildings"
+	},
+	{
+		"title": "Типы зданий",
+		"name": "TypesofBuildings"
+	},
+	{
+		"title": "Фрукты",
+		"name": "Fruit"
+	},
+	{
+		"title": "Овощи",
+		"name": "Vegetables"
+	},
+	{
+		"title": "Аксессуары",
+		"name": "Accessories"
+	},
+	{
+		"title": "Действия",
+		"name": "Actions"
+	},
+	{
+		"title": "Самолет",
+		"name": "Airplane"
+	},
+	{
+		"title": "Аэропорт",
+		"name": "Airport"
+	},
+	{
+		"title": "В ресторане",
+		"name": "Atarestaurant"
+	},
+	{
+		"title": "Автомобиль",
+		"name": "Automobile"
+	},
+	{
+		"title": "Багаж",
+		"name": "Baggage"
+	},
+	{
+		"title": "Тело",
+		"name": "Body"
+	},
+	{
+		"title": "Регистрация",
+		"name": "Check–In"
+	},
+	{
+		"title": "Тур по городу",
+		"name": "Citytour"
+	},
+	{
+		"title": "Цвета",
+		"name": "Colours"
+	},
+	{
+		"title": "Приготовление пищи",
+		"name": "Cooking"
+	},
+	{
+		"title": "Таможня, Иммиграционная служба и Охрана",
+		"name": "Customs,Immigration&Security"
+	},
+	{
+		"title": "Молочные продукты",
+		"name": "Dairy"
+	},
+	{
+		"title": "Описание еды",
+		"name": "Describingfood"
+	},
+	{
+		"title": "Описание",
+		"name": "Description"
+	},
+	{
+		"title": "В городе за рулём",
+		"name": "Drivinginthecity"
+	},
+	{
+		"title": "Материал",
+		"name": "Fabric"
+	},
+	{
+		"title": "Мода",
+		"name": "Fashion"
+	},
+	{
+		"title": "Рыба",
+		"name": "Fish"
+	},
+	{
+		"title": "Мучные продукты",
+		"name": "Flourproducts"
+	},
+	{
+		"title": "Обувь",
+		"name": "Footwear"
+	},
+	{
+		"title": "Передвижение по городу",
+		"name": "Gettingaround"
+	},
+	{
+		"title": "Крупы, зерновые",
+		"name": "Grains"
+	},
+	{
+		"title": "Голова",
+		"name": "Head"
+	},
+	{
+		"title": "Головные уборы",
+		"name": "Headgear"
+	},
+	{
+		"title": "Внутренние органы",
+		"name": "Internalorgans"
+	},
+	{
+		"title": "Кухонная утварь и приспособления",
+		"name": "Kitchenutensils&devices"
+	},
+	{
+		"title": "Конечности",
+		"name": "Limbsextremities"
+	},
+	{
+		"title": "Нижняя часть тела",
+		"name": "Lowerbody"
+	},
+	{
+		"title": "Флот",
+		"name": "Marine"
+	},
+	{
+		"title": "Мясо",
+		"name": "Meat"
+	},
+	{
+		"title": "Разное",
+		"name": "Miscellaneous"
+	},
+	{
+		"title": "Верхняя одежда",
+		"name": "Outwear"
+	},
+	{
+		"title": "Места",
+		"name": "Places"
+	},
+	{
+		"title": "Морепродукты",
+		"name": "Seafood"
+	},
+	{
+		"title": "Нарядная одежда",
+		"name": "Smartclothes"
+	},
+	{
+		"title": "Стили",
+		"name": "Styles"
+	},
+	{
+		"title": "Tранспорт",
+		"name": "Transport"
+	},
+	{
+		"title": "Нижнее бельё",
+		"name": "Underwear"
+	},
+	{
+		"title": "Верхняя часть тела",
+		"name": "Upperbody"
+	},
+	{
+		"title": "Все тело",
+		"name": "Wholebody"
+	}
+]

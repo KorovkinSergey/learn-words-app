@@ -1,0 +1,67 @@
+[
+	{
+		"russian": "Рыба",
+		"english": "Fish",
+		"transcript": "[fɪʃ]"
+	},
+	{
+		"russian": "Тунец",
+		"english": "Tuna",
+		"transcript": "['tjuːnə]"
+	},
+	{
+		"russian": "Лосось, семга",
+		"english": "Salmon",
+		"transcript": "['sæmən]"
+	},
+	{
+		"russian": "Треска",
+		"english": "Cod",
+		"transcript": "[kɔd]"
+	},
+	{
+		"russian": "Осетр",
+		"english": "Sturgeon",
+		"transcript": "['stɜːʤ(ə)n]"
+	},
+	{
+		"russian": "Форель",
+		"english": "Trout",
+		"transcript": "[traut]"
+	},
+	{
+		"russian": "Сельдь",
+		"english": "Herring",
+		"transcript": "['herɪŋ]"
+	},
+	{
+		"russian": "Камбала",
+		"english": "Plaice",
+		"transcript": "[pleɪs]"
+	},
+	{
+		"russian": "Пикша",
+		"english": "Haddock",
+		"transcript": "['hædək]"
+	},
+	{
+		"russian": "Щука",
+		"english": "Pike",
+		"transcript": "[paɪk]"
+	},
+	{
+		"russian": "Угорь",
+		"english": "Eel",
+		"transcript": "[i:l]"
+	},
+	{
+		"russian": "Палтус",
+		"english": "Sole",
+		"transcript": "[səul]"
+	},
+	{
+		"russian": "Окунь",
+		"english": "Bass",
+		"transcript": "[bæs]"
+	}
+]

@@ -1,0 +1,167 @@
+[
+	{
+		"russian": "Флот",
+		"english": "Marine",
+		"transcript": "[mə'riːn]"
+	},
+	{
+		"russian": "Яхта",
+		"english": "Yacht",
+		"transcript": "[jɔt]"
+	},
+	{
+		"russian": "Шлюпка",
+		"english": "Boat",
+		"transcript": "[bəut]"
+	},
+	{
+		"russian": "Паром",
+		"english": "Ferry",
+		"transcript": "['ferɪ]"
+	},
+	{
+		"russian": "Парусник",
+		"english": "Sailor",
+		"transcript": "['seɪlə]"
+	},
+	{
+		"russian": "Пароход",
+		"english": "Steamship",
+		"transcript": "['stiːmʃɪp]"
+	},
+	{
+		"russian": "Весло",
+		"english": "Scull",
+		"transcript": "[skʌl]"
+	},
+	{
+		"russian": "Якорь",
+		"english": "Anchor",
+		"transcript": "['æŋkə]"
+	},
+	{
+		"russian": "Акваланг",
+		"english": "Aqualung",
+		"transcript": "['ækwəlʌŋ]"
+	},
+	{
+		"russian": "Бухта",
+		"english": "Bay",
+		"transcript": "[beɪ]"
+	},
+	{
+		"russian": "Буй",
+		"english": "Buoy",
+		"transcript": "[bɔɪ]"
+	},
+	{
+		"russian": "Цепь якорная",
+		"english": "Cable",
+		"transcript": "['keɪbl]"
+	},
+	{
+		"russian": "Паруса",
+		"english": "Canvas",
+		"transcript": "['kænvəs]"
+	},
+	{
+		"russian": "Отсек",
+		"english": "Compartment",
+		"transcript": "[kəm'pɑːtmənt]"
+	},
+	{
+		"russian": "Палуба",
+		"english": "Deck",
+		"transcript": "[dek]"
+	},
+	{
+		"russian": "Гавань",
+		"english": "Harbour",
+		"transcript": "['hɑːbə]"
+	},
+	{
+		"russian": "Трюм",
+		"english": "Hold",
+		"transcript": "[həuld]"
+	},
+	{
+		"russian": "Пристань",
+		"english": "Jetty",
+		"transcript": "['ʤetɪ]"
+	},
+	{
+		"russian": "Мачта",
+		"english": "Mast",
+		"transcript": "[ma:st]"
+	},
+	{
+		"russian": "Капитан",
+		"english": "Master",
+		"transcript": "['mɑːstə]"
+	},
+	{
+		"russian": "Причал",
+		"english": "Moorage",
+		"transcript": "['muərɪʤ], [mɔː]"
+	},
+	{
+		"russian": "За борт",
+		"english": "Outboat",
+		"transcript": "['autbɔːd]"
+	},
+	{
+		"russian": "Нос корабля",
+		"english": "Rostrum",
+		"transcript": "['rɔstrəm]"
+	},
+	{
+		"russian": "Мореплавание",
+		"english": "Seafaring",
+		"transcript": "['siːˌfeərɪŋ]"
+	},
+	{
+		"russian": "Судоходство",
+		"english": "Shipping",
+		"transcript": "['ʃɪpɪŋ]"
+	},
+	{
+		"russian": "Аквалангист",
+		"english": "Skin-diver",
+		"transcript": "['skɪnˌdaɪvə]"
+	},
+	{
+		"russian": "Шлюз",
+		"english": "Sluice",
+		"transcript": "[sluːs]"
+	},
+	{
+		"russian": "Корма",
+		"english": "Stern",
+		"transcript": "[stɜːn]"
+	},
+	{
+		"russian": "Моторная лодка",
+		"english": "Dinghy",
+		"transcript": "['dɪŋgɪ]"
+	},
+	{
+		"russian": "Ледокол",
+		"english": "Icebreaker",
+		"transcript": "['aɪsˌbreɪkə]"
+	},
+	{
+		"russian": "Плот",
+		"english": "Raft",
+		"transcript": "[rɑːft]"
+	},
+	{
+		"russian": "Танкер",
+		"english": "Tanker",
+		"transcript": "['tæŋkə]"
+	},
+	{
+		"russian": "Буксир",
+		"english": "Tow",
+		"transcript": "[təu]"
+	}
+]

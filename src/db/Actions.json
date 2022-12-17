@@ -1,0 +1,62 @@
+[
+	{
+		"russian": "Действия",
+		"english": "Actions",
+		"transcript": "['ækʃ(ə)nz]"
+	},
+	{
+		"russian": "Надевать что-то",
+		"english": "To put smth on",
+		"transcript": "[pʊt<smth>ɒn]"
+	},
+	{
+		"russian": "Снимать",
+		"english": "To take smth off",
+		"transcript": "[teɪk<smth>ɒv]"
+	},
+	{
+		"russian": "Носить (одежду, украшения)",
+		"english": "To wear",
+		"transcript": "[wɛə]"
+	},
+	{
+		"russian": "Примерять",
+		"english": "To try on",
+		"transcript": "[ʹtraıʹɒn]"
+	},
+	{
+		"russian": "Переодеваться",
+		"english": "To change clothes",
+		"transcript": "[ʧeɪnʤ kləuðz]"
+	},
+	{
+		"russian": "Одеваться",
+		"english": "To dress, to get dressed",
+		"transcript": "[dress], [get dresst]"
+	},
+	{
+		"russian": "Раздеваться",
+		"english": "To undress, to get undressed",
+		"transcript": "[ʌn'dres], [get ʌn'drest]"
+	},
+	{
+		"russian": "Одеваться \"на выход\"",
+		"english": "To dress up",
+		"transcript": "[dresʌp]"
+	},
+	{
+		"russian": "Подходить (о фасоне, размере)",
+		"english": "To fit",
+		"transcript": "[fɪt]"
+	},
+	{
+		"russian": "Подходить, быть к лицу",
+		"english": "To suit",
+		"transcript": "[s(j)u:t]"
+	},
+	{
+		"russian": "Подходить (детали одежды между собой; по цвету)",
+		"english": "To match",
+		"transcript": "[mætʃ]"
+	}
+]

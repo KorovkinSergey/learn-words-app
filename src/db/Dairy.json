@@ -1,0 +1,52 @@
+[
+	{
+		"russian": "Молочные продукты",
+		"english": "Dairy",
+		"transcript": "['deərɪ]"
+	},
+	{
+		"russian": "Сливочное масло",
+		"english": "Butter",
+		"transcript": "['bʌtə]"
+	},
+	{
+		"russian": "Сыр",
+		"english": "Cheese",
+		"transcript": "[ʧiːz]"
+	},
+	{
+		"russian": "Молоко",
+		"english": "Milk",
+		"transcript": "[mɪlk]"
+	},
+	{
+		"russian": "Творог",
+		"english": "Cottage cheese",
+		"transcript": "['kɔtɪʤʧiːz]"
+	},
+	{
+		"russian": "Майонез",
+		"english": "Mayonnaise",
+		"transcript": "[ˌmeɪə'neɪz]"
+	},
+	{
+		"russian": "Йогурт",
+		"english": "Yogurt",
+		"transcript": "['jɔgət], ['jəu-], ['jɔgɜːt]"
+	},
+	{
+		"russian": "Сливки",
+		"english": "Cream",
+		"transcript": "[kri:m]"
+	},
+	{
+		"russian": "Сметана",
+		"english": "Sour cream",
+		"transcript": "['sauəkri:m]"
+	},
+	{
+		"russian": "Творог, свернувшееся молоко",
+		"english": "Curd",
+		"transcript": "[kɜːd]"
+	}
+]

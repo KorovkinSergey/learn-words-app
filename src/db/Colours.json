@@ -1,0 +1,67 @@
+[
+	{
+		"russian": "Цвета",
+		"english": "Colours",
+		"transcript": "['kʌləz]"
+	},
+	{
+		"russian": "Красный",
+		"english": "Red",
+		"transcript": "[rɛd]"
+	},
+	{
+		"russian": "Оранжевый",
+		"english": "Orange",
+		"transcript": "[‘ɒrɪndʒ]"
+	},
+	{
+		"russian": "Желтый",
+		"english": "Yellow",
+		"transcript": "[‘jeləʊ]"
+	},
+	{
+		"russian": "Зеленый",
+		"english": "Green",
+		"transcript": "[gri:n]"
+	},
+	{
+		"russian": "Синий",
+		"english": "Blue",
+		"transcript": "[blu:]"
+	},
+	{
+		"russian": "Голубой",
+		"english": "Light blue",
+		"transcript": "[laɪtblu:]"
+	},
+	{
+		"russian": "Черный",
+		"english": "Black",
+		"transcript": "[blæk]"
+	},
+	{
+		"russian": "Коричневый",
+		"english": "Brown",
+		"transcript": "[braʊn]"
+	},
+	{
+		"russian": "Белый",
+		"english": "White",
+		"transcript": "[waɪt]"
+	},
+	{
+		"russian": "Темно-синий",
+		"english": "Navy",
+		"transcript": "[‘neɪvɪ]"
+	},
+	{
+		"russian": "Фиолетовый",
+		"english": "Purple",
+		"transcript": "[‘p3:pl]"
+	},
+	{
+		"russian": "Бежевый",
+		"english": "Beige",
+		"transcript": "[beɪʒ]"
+	}
+]

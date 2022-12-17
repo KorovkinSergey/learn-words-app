@@ -1,0 +1,167 @@
+[
+	{
+		"russian": "В ресторане",
+		"english": "At a restaurant",
+		"transcript": "[ət ə 'restərɔnt]"
+	},
+	{
+		"russian": "Завтрак",
+		"english": "Breakfast",
+		"transcript": "['brekfəst]"
+	},
+	{
+		"russian": "Обед",
+		"english": "Lunch",
+		"transcript": "[lʌnʧ]"
+	},
+	{
+		"russian": "Ужин",
+		"english": "Dinner",
+		"transcript": "['dɪnə]"
+	},
+	{
+		"russian": "Кафе",
+		"english": "Cafe",
+		"transcript": "['kæfeɪ], [kæ'feɪ]"
+	},
+	{
+		"russian": "Десерт",
+		"english": "Dessert",
+		"transcript": "[dɪ'zɜːt]"
+	},
+	{
+		"russian": "Официант",
+		"english": "Waiter",
+		"transcript": "['weɪtə]"
+	},
+	{
+		"russian": "Шеф-повар",
+		"english": "Chef",
+		"transcript": "[ʃef]"
+	},
+	{
+		"russian": "Заказ (ывать)",
+		"english": "(to) order",
+		"transcript": "['ɔːdə]"
+	},
+	{
+		"russian": "Обслуживание",
+		"english": "Service",
+		"transcript": "['sɜːvɪs]"
+	},
+	{
+		"russian": "Гурман",
+		"english": "Gourmet",
+		"transcript": "['guəmeɪ]"
+	},
+	{
+		"russian": "Счет",
+		"english": "Bill",
+		"transcript": "[bɪl]"
+	},
+	{
+		"russian": "Чаевые",
+		"english": "Tips",
+		"transcript": "[tɪps]"
+	},
+	{
+		"russian": "Повар",
+		"english": "Cook",
+		"transcript": "[kuk]"
+	},
+	{
+		"russian": "Меню",
+		"english": "Menu",
+		"transcript": "['menjuː]"
+	},
+	{
+		"russian": "Напитки",
+		"english": "Beverages = drinks",
+		"transcript": "['bevərɪʤiz] = [drɪŋks]"
+	},
+	{
+		"russian": "Кухня",
+		"english": "Cuisine",
+		"transcript": "[kwɪ'ziːn]"
+	},
+	{
+		"russian": "Фирменное блюдо",
+		"english": "Speciality",
+		"transcript": "[ˌspeʃɪ'ælətɪ]"
+	},
+	{
+		"russian": "Прием пищи, еда",
+		"english": "Meal",
+		"transcript": "[mi:l]"
+	},
+	{
+		"russian": "Поздний завтрак (заменяющий первый и второй завтрак)",
+		"english": "Brunch",
+		"transcript": "[brʌnʧ]"
+	},
+	{
+		"russian": "Меню на выбор",
+		"english": "A la carte menu",
+		"transcript": "[ˌala'kɑːt 'menjuː]"
+	},
+	{
+		"russian": "Блюда для шведского стола",
+		"english": "Buffet",
+		"transcript": "['bufeɪ]"
+	},
+	{
+		"russian": "Зарезервировать стол",
+		"english": "To book a table = to reserve a table",
+		"transcript": "[buk ə 'teɪbl] \/ [rɪ'zɜːv ə 'teɪbl]"
+	},
+	{
+		"russian": "Закуски",
+		"english": "Appetizers = starters = hors d'oeuvre",
+		"transcript": "['æpɪtaɪzəz] = ['stɑːtəz] = [ˌɔː'dɜːv(rə)z]"
+	},
+	{
+		"russian": "Основное блюдо, горячее",
+		"english": "Main course",
+		"transcript": "[meɪnkɔːs]"
+	},
+	{
+		"russian": "Блюдо, кушанье",
+		"english": "Dish",
+		"transcript": "[dɪʃ]"
+	},
+	{
+		"russian": "Алкогольный напиток",
+		"english": "Alcoholic beverage",
+		"transcript": "[ælkə'hɔlɪk 'bevərɪʤ]"
+	},
+	{
+		"russian": "Безалкогольный напиток",
+		"english": "Non-alcoholic beverage",
+		"transcript": "[ˌnɔnælkə'hɔlɪk 'bevərɪʤ]"
+	},
+	{
+		"russian": "Блюдо дня",
+		"english": "Special",
+		"transcript": "['speʃ(ə)l]"
+	},
+	{
+		"russian": "Свеча",
+		"english": "Candle",
+		"transcript": "['kændl]"
+	},
+	{
+		"russian": "Пакет, куда посетители ресторана могут положить оставшуюся пищу, чтобы взять домой",
+		"english": "Doggie bag",
+		"transcript": "['dɔgɪ bæg]"
+	},
+	{
+		"russian": "Обжора, чревоугодник",
+		"english": "Gourmand",
+		"transcript": "['guəmənd]"
+	},
+	{
+		"russian": "Гурман",
+		"english": "Gourmet",
+		"transcript": "['guəmeɪ]"
+	}
+]
