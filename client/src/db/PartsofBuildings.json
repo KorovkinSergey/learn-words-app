@@ -1,0 +1,157 @@
+[
+	{
+		"russian": "Части зданий",
+		"english": "Parts of Buildings",
+		"transcript": "[pa:tsəv 'bɪldɪŋz]"
+	},
+	{
+		"russian": "Лифт",
+		"english": "Lift",
+		"transcript": "[lɪft]"
+	},
+	{
+		"russian": "Потолок",
+		"english": "Ceiling",
+		"transcript": "['siːlɪŋ]"
+	},
+	{
+		"russian": "Пол, этаж",
+		"english": "Floor",
+		"transcript": "[ flɔː(r) ]"
+	},
+	{
+		"russian": "Стена",
+		"english": "Wall",
+		"transcript": "[ wɔːl ]"
+	},
+	{
+		"russian": "Угол",
+		"english": "Corner",
+		"transcript": "[ ˈkɔːnə(r) ]"
+	},
+	{
+		"russian": "Крыша",
+		"english": "Roof",
+		"transcript": "[ ruːf ]"
+	},
+	{
+		"russian": "Вход",
+		"english": "Entrance",
+		"transcript": "[ˈɛntr(ə)ns]"
+	},
+	{
+		"russian": "Выход",
+		"english": "Exit",
+		"transcript": "[ ˈeksɪt ]"
+	},
+	{
+		"russian": "Коридор",
+		"english": "Corridor",
+		"transcript": "['kɔrɪdɔː]"
+	},
+	{
+		"russian": "Ванная комната",
+		"english": "Bathroom",
+		"transcript": "['bɑːθruːm]"
+	},
+	{
+		"russian": "Прихожая",
+		"english": "Hall",
+		"transcript": "[hɔːl]"
+	},
+	{
+		"russian": "Столовая",
+		"english": "Dining room",
+		"transcript": "[daɪnɪŋruːm]"
+	},
+	{
+		"russian": "Туалет",
+		"english": "Toilet",
+		"transcript": "['tɔɪlət]"
+	},
+	{
+		"russian": "Балкон",
+		"english": "Balcony",
+		"transcript": "['bælkənɪ]"
+	},
+	{
+		"russian": "Гостиная",
+		"english": "Living room \/ lounge \/ sitting room \/ drawing room",
+		"transcript": "[ˈlɪvɪŋ ruːm], [launʤ] \/ ['sɪtɪŋ ruːm] \/ ['drɔːɪŋ ruːm]"
+	},
+	{
+		"russian": "Спальня",
+		"english": "Bedroom",
+		"transcript": "['bedruːm]"
+	},
+	{
+		"russian": "Кухня",
+		"english": "Kitchen",
+		"transcript": "['kɪʧɪn]"
+	},
+	{
+		"russian": "Гостевая комната",
+		"english": "Guest room",
+		"transcript": "[gest ru:m]"
+	},
+	{
+		"russian": "Крыльцо, подход",
+		"english": "Porch",
+		"transcript": "[pɔːʧ]"
+	},
+	{
+		"russian": "Лестничный пролёт",
+		"english": "Flight of stairs",
+		"transcript": "[flaɪt əv steəz]"
+	},
+	{
+		"russian": "Забор",
+		"english": "Fence",
+		"transcript": "[fɛns]"
+	},
+	{
+		"russian": "Изгородь",
+		"english": "Hedge",
+		"transcript": "[heʤ]"
+	},
+	{
+		"russian": "Кладовая",
+		"english": "Storeroom",
+		"transcript": "['stɔːrum]"
+	},
+	{
+		"russian": "Подвал, фундамент",
+		"english": "Basement",
+		"transcript": "['beɪsmənt]"
+	},
+	{
+		"russian": "Детская комната",
+		"english": "Nursery",
+		"transcript": "['nɜːs(ə)rɪ]"
+	},
+	{
+		"russian": "Двор",
+		"english": "Yard",
+		"transcript": "[jɑːd]"
+	},
+	{
+		"russian": "Пол паркетный, натёртый",
+		"english": "Parquet floor, polished floor",
+		"transcript": "['pɑːkeɪ flɔː(r)], ['pɔlɪʃt flɔː(r)]"
+	},
+	{
+		"russian": "Порог",
+		"english": "Threshold",
+		"transcript": "['θreʃ(h)əuld]"
+	},
+	{
+		"russian": "Фасад дома",
+		"english": "Front of the house",
+		"transcript": "[frʌnt əv ðə haus]"
+	},
+	{
+		"russian": "Подоконник",
+		"english": "Window-sill",
+		"transcript": "['wɪndəu-sɪl]"
+	}
+]

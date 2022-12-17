@@ -1,0 +1,262 @@
+[
+	{
+		"russian": "Домашняя утварь",
+		"english": "Household Stuff",
+		"transcript": "['haushəuldstʌf]"
+	},
+	{
+		"russian": "Раковина (на кухне)",
+		"english": "Sink",
+		"transcript": "[sɪŋk]"
+	},
+	{
+		"russian": "Линолеум",
+		"english": "Linoleum",
+		"transcript": "[lɪ'nəulɪəm]"
+	},
+	{
+		"russian": "Ковёр",
+		"english": "Carpet",
+		"transcript": "['kɑːpɪt]"
+	},
+	{
+		"russian": "Духовка",
+		"english": "Oven",
+		"transcript": "['ʌv(ə)n]"
+	},
+	{
+		"russian": "Кран",
+		"english": "Tap",
+		"transcript": "[tæp]"
+	},
+	{
+		"russian": "Плита",
+		"english": "Cooker",
+		"transcript": "['kukə]"
+	},
+	{
+		"russian": "Пылесос",
+		"english": "Vacuum cleaner",
+		"transcript": "['vækjuːm 'kliːnə]"
+	},
+	{
+		"russian": "Стиральная машина",
+		"english": "Washing machine",
+		"transcript": "['wɔʃɪŋmə'ʃiːn]"
+	},
+	{
+		"russian": "холодильник",
+		"english": "Fridge",
+		"transcript": "[frɪʤ]"
+	},
+	{
+		"russian": "Столовый сервиз",
+		"english": "Dinner set",
+		"transcript": "['dɪnə set]"
+	},
+	{
+		"russian": "Чайный сервиз",
+		"english": "Tea set",
+		"transcript": "[tiː set]"
+	},
+	{
+		"russian": "Пушистый коврик",
+		"english": "Rug",
+		"transcript": "[rʌg]"
+	},
+	{
+		"russian": "Коврик, циновка",
+		"english": "Mat",
+		"transcript": "[mæt]"
+	},
+	{
+		"russian": "Подушка",
+		"english": "Pillow",
+		"transcript": "['pɪləu]"
+	},
+	{
+		"russian": "Простыня",
+		"english": "Sheet",
+		"transcript": "[ʃiːt]"
+	},
+	{
+		"russian": "Покрывало",
+		"english": "Cover",
+		"transcript": "['kʌvə]"
+	},
+	{
+		"russian": "Штора",
+		"english": "Blind",
+		"transcript": "[blaɪnd]"
+	},
+	{
+		"russian": "Занавеска",
+		"english": "Curtain",
+		"transcript": "['kɜːt(ə)n]"
+	},
+	{
+		"russian": "Карниз",
+		"english": "Curtain rail",
+		"transcript": "['kɜːt(ə)n reɪl]"
+	},
+	{
+		"russian": "Люстра",
+		"english": "Chandelier \/ lustre",
+		"transcript": "[ˌʃændə'lɪə] \/ ['lʌstə]"
+	},
+	{
+		"russian": "Камин",
+		"english": "Fireplace",
+		"transcript": "['faɪəpleɪs]"
+	},
+	{
+		"russian": "Водопровод",
+		"english": "Running water",
+		"transcript": "['rʌnɪŋ 'wɔːtə]"
+	},
+	{
+		"russian": "Хрусталь",
+		"english": "Crystal",
+		"transcript": "['krɪst(ə)l]"
+	},
+	{
+		"russian": "Статуэтка",
+		"english": "Statuette",
+		"transcript": "[ˌstætʧu'et]"
+	},
+	{
+		"russian": "Стерео-система",
+		"english": "Stereo system",
+		"transcript": "['sterɪəu 'sɪstəm]"
+	},
+	{
+		"russian": "Покрывало",
+		"english": "Bedspread",
+		"transcript": "['bedspred]"
+	},
+	{
+		"russian": "Ножевые изделия, металлические столовые приборы",
+		"english": "Cutlery",
+		"transcript": "['kʌtl(ə)rɪ]"
+	},
+	{
+		"russian": "Диванная подушка",
+		"english": "Cushion",
+		"transcript": "['kuʃ(ə)n]"
+	},
+	{
+		"russian": "Сушилка для посуды",
+		"english": "Dish-drainer",
+		"transcript": "['dɪʃ 'dreɪnə]"
+	},
+	{
+		"russian": "Моющиеся обои",
+		"english": "Washing wall-paper",
+		"transcript": "['wɔʃɪŋwɔːl 'peɪpə]"
+	},
+	{
+		"russian": "Палас, ковровое покрытие",
+		"english": "Fitted carpet",
+		"transcript": "['fɪtɪd 'kɑːpɪt]"
+	},
+	{
+		"russian": "Комнатное растение",
+		"english": "Houseplant",
+		"transcript": "[hausplɑːnt]"
+	},
+	{
+		"russian": "Смеситель, кран",
+		"english": "Mixer tap",
+		"transcript": "[mɪksətæp]"
+	},
+	{
+		"russian": "Оклеенный обоями",
+		"english": "Papered",
+		"transcript": "['peɪpəd]"
+	},
+	{
+		"russian": "Дверная ручка",
+		"english": "Door-handle",
+		"transcript": "[dɔː ‘hændl]"
+	},
+	{
+		"russian": "Наволочка",
+		"english": "Pillow-case",
+		"transcript": "['pɪləukeɪs]"
+	},
+	{
+		"russian": "Батарея центрального отопления",
+		"english": "Radiator",
+		"transcript": "['reɪdɪeɪtə]"
+	},
+	{
+		"russian": "Стёганое одеяло",
+		"english": "Quilt",
+		"transcript": "[kwɪlt]"
+	},
+	{
+		"russian": "Швейная машина",
+		"english": "Sewing-machine",
+		"transcript": "[səuɪŋmə'ʃiːn]"
+	},
+	{
+		"russian": "Место, пространство",
+		"english": "Space",
+		"transcript": "[speɪs]"
+	},
+	{
+		"russian": "Дверной глазок",
+		"english": "Spyhole",
+		"transcript": "['spaɪhəul]"
+	},
+	{
+		"russian": "Фарфоровая и фаянсовая посуда",
+		"english": "Crockery",
+		"transcript": "['krɔk(ə)rɪ]"
+	},
+	{
+		"russian": "Фарфор",
+		"english": "China",
+		"transcript": "['ʧaɪnə]"
+	},
+	{
+		"russian": "Приспособление, устройство, прибор",
+		"english": "Appliance",
+		"transcript": "[ə'plaɪən(t)s]"
+	},
+	{
+		"russian": "Посуда, утварь",
+		"english": "Utensil",
+		"transcript": "[juː'ten(t)s(ə)l]"
+	},
+	{
+		"russian": "Овощерезка",
+		"english": "Vegetable cutter",
+		"transcript": "['veʤ(ə)təbl 'kʌtə]"
+	},
+	{
+		"russian": "Вафельница",
+		"english": "Waffle-maker",
+		"transcript": "['wɔfl 'meɪkə]"
+	},
+	{
+		"russian": "Центральное отопление",
+		"english": "Central heating",
+		"transcript": "['sentr(ə)l 'hiːtɪŋ]"
+	},
+	{
+		"russian": "Современные удобства",
+		"english": "Modern conveniences",
+		"transcript": "['mɔd(ə)n kən'viːnɪən(t)siz]"
+	},
+	{
+		"russian": "Мусоропровод",
+		"english": "Refuse-chute",
+		"transcript": "[rɪ'fjuːzʃuːt]"
+	},
+	{
+		"russian": "Вытяжка",
+		"english": "Cooker hood",
+		"transcript": "['kukə hud]"
+	}
+]

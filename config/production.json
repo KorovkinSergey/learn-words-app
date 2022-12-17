@@ -2,5 +2,5 @@
 	"port": 80,
 	"jwtSecret": "learn-words",
 	"mongoURL": "mongodb+srv://sergey:kaYKn3vrJlvHfnEE@cluster0.vlnelkk.mongodb.net/app?retryWrites=true&w=majority",
-	"baseUrl": "http://learn-words.ru"
+	"baseUrl": "http://localhost:80"
 }

@@ -79,6 +79,8 @@ export interface IUseLearnWords {
 	clear: () => void
 }
 
+
+
 export const useLearnWords = (): IUseLearnWords => {
 
 	const { countWords, timeToRemember, titleTable } = useSettingsLearnWordsContext()

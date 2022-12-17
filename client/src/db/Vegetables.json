@@ -1,0 +1,152 @@
+[
+	{
+		"russian": "Овощи",
+		"english": "Vegetables",
+		"transcript": "['veʤ(ə)təblz]"
+	},
+	{
+		"russian": "Картофель",
+		"english": "Potato",
+		"transcript": "[pə'teɪtəu]"
+	},
+	{
+		"russian": "Свекла",
+		"english": "Beet",
+		"transcript": "[biːt]"
+	},
+	{
+		"russian": "Капуста",
+		"english": "Cabbage",
+		"transcript": "['kæbɪʤ]"
+	},
+	{
+		"russian": "Морковь",
+		"english": "Carrot",
+		"transcript": "['kærət]"
+	},
+	{
+		"russian": "Боб, фасоль",
+		"english": "Bean",
+		"transcript": "[biːn]"
+	},
+	{
+		"russian": "Чеснок",
+		"english": "Garlic",
+		"transcript": "['gɑːlɪk]"
+	},
+	{
+		"russian": "Оливка",
+		"english": "Olive",
+		"transcript": "['ɔlɪv]"
+	},
+	{
+		"russian": "Перец",
+		"english": "Pepper",
+		"transcript": "['pepə]"
+	},
+	{
+		"russian": "Помидор",
+		"english": "Tomato",
+		"transcript": "[tə'mɑːtəu]"
+	},
+	{
+		"russian": "Огурец",
+		"english": "Cucumber",
+		"transcript": "['kjuːkʌmbə]"
+	},
+	{
+		"russian": "Баклажан",
+		"english": "Eggplant (am.) \/ aubergine(br.)",
+		"transcript": "['egplɑːnt] \/ ['əubəʤiːn]"
+	},
+	{
+		"russian": "Гриб",
+		"english": "Mushroom",
+		"transcript": "['mʌʃrum]"
+	},
+	{
+		"russian": "Репчатый лук",
+		"english": "Onion",
+		"transcript": "['ʌnjən]"
+	},
+	{
+		"russian": "Авокадо",
+		"english": "Avocado",
+		"transcript": "[ˌævə'kɑːdəu]"
+	},
+	{
+		"russian": "Зелень",
+		"english": "Greens",
+		"transcript": "[gri:nz]"
+	},
+	{
+		"russian": "Редис",
+		"english": "Radish",
+		"transcript": "['rædɪʃ]"
+	},
+	{
+		"russian": "Артишок",
+		"english": "Artichoke",
+		"transcript": "['ɑːtɪʧəuk]"
+	},
+	{
+		"russian": "Спаржа",
+		"english": "Asparagus",
+		"transcript": "[əs'pærəgəs]"
+	},
+	{
+		"russian": "Цветная капуста",
+		"english": "Cauliflower",
+		"transcript": "['kɔlɪˌflauə]"
+	},
+	{
+		"russian": "Сельдерей",
+		"english": "Celery",
+		"transcript": "['sel(ə)rɪ]"
+	},
+	{
+		"russian": "Имбирь",
+		"english": "Ginger",
+		"transcript": "['ʤɪnʤə]"
+	},
+	{
+		"russian": "Салат-латук",
+		"english": "Lettuce",
+		"transcript": "['letɪs]"
+	},
+	{
+		"russian": "Укроп",
+		"english": "Dill",
+		"transcript": "[dɪl]"
+	},
+	{
+		"russian": "Петрушка",
+		"english": "Parsley",
+		"transcript": "['pɑːslɪ]"
+	},
+	{
+		"russian": "Зеленый горошек (горошина)",
+		"english": "Pea",
+		"transcript": "[piː]"
+	},
+	{
+		"russian": "Тыква",
+		"english": "Pumpkin",
+		"transcript": "['pʌmpkɪn]"
+	},
+	{
+		"russian": "Шпинат",
+		"english": "Spinach",
+		"transcript": "['spɪnɪʧ], [-ʤ]"
+	},
+	{
+		"russian": "Репа",
+		"english": "Turnip",
+		"transcript": "['tɜːnɪp]"
+	},
+	{
+		"russian": "Кабачок",
+		"english": "Zucchini",
+		"transcript": "[zu'kiːnɪ]"
+	}
+]

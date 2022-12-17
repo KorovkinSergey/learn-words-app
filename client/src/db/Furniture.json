@@ -1,0 +1,132 @@
+[
+	{
+		"russian": "Мебель",
+		"english": "Furniture",
+		"transcript": "['fɜːnɪʧə]"
+	},
+	{
+		"russian": "Диван",
+		"english": "Sofa",
+		"transcript": "['səufə]"
+	},
+	{
+		"russian": "Стул",
+		"english": "Chair",
+		"transcript": "['ʧeə]"
+	},
+	{
+		"russian": "Табурет",
+		"english": "Stool",
+		"transcript": "[stuːl]"
+	},
+	{
+		"russian": "Стол",
+		"english": "Table",
+		"transcript": "[ ˈteɪbl ]"
+	},
+	{
+		"russian": "Письменный стол",
+		"english": "Desk",
+		"transcript": "[ desk ]"
+	},
+	{
+		"russian": "Журнальный столик",
+		"english": "Coffee table",
+		"transcript": "['kɔfɪ  'teɪbl]"
+	},
+	{
+		"russian": "Телевизор",
+		"english": "Tv set",
+		"transcript": "[ˌtiː'viː set]"
+	},
+	{
+		"russian": "Кресло",
+		"english": "Armchair",
+		"transcript": "[ˌɑːm'ʧeə]"
+	},
+	{
+		"russian": "Шкаф",
+		"english": "Wardrobe",
+		"transcript": "['wɔːdrəub]"
+	},
+	{
+		"russian": "Книжный шкаф",
+		"english": "Bookcase",
+		"transcript": "['bukkeɪs]"
+	},
+	{
+		"russian": "Шкаф, сервант",
+		"english": "Cupboard",
+		"transcript": "['kʌbəd]"
+	},
+	{
+		"russian": "Стенной шкаф, чулан",
+		"english": "Closet",
+		"transcript": "['klɔzɪt]"
+	},
+	{
+		"russian": "Кровать",
+		"english": "Bed",
+		"transcript": "[ bed ]"
+	},
+	{
+		"russian": "Двуспальная кровать",
+		"english": "Double bed",
+		"transcript": "['dʌbl bed]"
+	},
+	{
+		"russian": "Тумбочка",
+		"english": "Bedside table",
+		"transcript": "['bedˌsaɪd 'teɪbl]"
+	},
+	{
+		"russian": "Обои",
+		"english": "Wall-paper",
+		"transcript": "[wɔːl 'peɪpə]"
+	},
+	{
+		"russian": "Настенный светильник",
+		"english": "Wall lamp",
+		"transcript": "[wɔːl læmp]"
+	},
+	{
+		"russian": "Торшер",
+		"english": "Standard lamp",
+		"transcript": "['stændəd læmp]"
+	},
+	{
+		"russian": "Комод",
+		"english": "Chest of drawers",
+		"transcript": "[ʧest əv drɔːrz]"
+	},
+	{
+		"russian": "Вешалка",
+		"english": "Coat rack",
+		"transcript": "[kəut ræk]"
+	},
+	{
+		"russian": "Двухъярусная кровать",
+		"english": "Bunk bed",
+		"transcript": "[ˌbʌŋk bɛd]"
+	},
+	{
+		"russian": "Туалетный столик",
+		"english": "Dressing-table",
+		"transcript": "['dresɪŋ 'teɪbl]"
+	},
+	{
+		"russian": "Стенка",
+		"english": "Wall unit",
+		"transcript": "[wɔːl 'juːnɪt]"
+	},
+	{
+		"russian": "Обивка",
+		"english": "Upholstery",
+		"transcript": "[ʌp'həulst(ə)rɪ]"
+	},
+	{
+		"russian": "Мягкая мебель",
+		"english": "Upholstered furniture",
+		"transcript": "[ ʌpˈhoʊlstəd ˈfɜːnɪtʃə(r) ]"
+	}
+]

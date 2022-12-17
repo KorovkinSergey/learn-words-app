@@ -7,7 +7,7 @@ import { Loading } from '../../components/Loading'
 import { useDictionaryList } from '../../hooks/api/useDictionaryList'
 import { useAuthContext } from '../../context/AuthContext'
 import { Wrapper } from '../../components/Wrapper'
-import db from '../../db/new.json'
+import db from '../../db/Furniture.json'
 import { Title } from '../../components/Title'
 
 const DictionaryPage = () => {
@@ -24,6 +24,9 @@ const DictionaryPage = () => {
 		if (!dictionary) return
 		await addWordsHandler(dictionary[0]._id, db)
 	}
+	if (loading) return <Button onClick={() => {
+		console.log('qwewe')
+	}} />
 
 	if (loading) return <Loading />
 
