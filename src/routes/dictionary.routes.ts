@@ -2,9 +2,12 @@ import { Router } from 'express'
 import User from '../models/User.js'
 import auth from '../middleware/auth.middleware.js'
 import { readFileSync } from 'fs'
-import path from 'path'
-
+import path, { dirname } from 'path'
+import { fileURLToPath } from 'url'
 import { check, validationResult } from 'express-validator'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 const router = Router()
 
@@ -35,9 +38,7 @@ router.get('/dictionaries', auth, async (req: any, res: any) => {
 		const user = await User.findOne({ _id: req.user.id })
 
 		if (!user) return res.status(404).json({ message: 'Пользователь не найден' })
-
 		const dictionaries = JSON.parse(readFileSync(path.join(__dirname, '../db/dictionaries.json'), 'utf-8'))
-
 		return res.status(200).json(dictionaries)
 	} catch (e) {
 		res.status(500).json({ error: e, message: 'Что-то пошло не так, попробуй снова' })

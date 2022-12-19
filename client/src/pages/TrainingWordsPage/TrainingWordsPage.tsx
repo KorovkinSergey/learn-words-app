@@ -4,11 +4,9 @@ import { Loading } from '../../components/Loading'
 import { Button, Typography } from '@mui/material'
 import { Wrapper } from '../../components/Wrapper'
 import { useNavigate } from 'react-router-dom'
-import { useSettingsWordsContext } from '../../context/SettingsWordsContext'
 
 const TrainingWordsPage = () => {
-	const { word, loading, clear } = useWords()
-	const { language } = useSettingsWordsContext()
+	const { word, translateWord, loading, clear } = useWords()
 	const navigate = useNavigate()
 
 	const handleNavigateToSettings = () => navigate('/training/words/setting')
@@ -45,7 +43,10 @@ const TrainingWordsPage = () => {
 	return (
 		<Wrapper>
 			<Typography sx={{ fontSize: 54 }} color='primary.contrastText'>
-				{language === 'English' ? word?.english : word?.russian}
+				{word}
+			</Typography>
+			<Typography sx={{ fontSize: 54 }} color='primary.contrastText'>
+				{translateWord}
 			</Typography>
 		</Wrapper>
 	)

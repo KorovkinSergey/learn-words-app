@@ -3,8 +3,12 @@ import config from 'config'
 import mongoose from 'mongoose'
 
 import auth from './src/routes/auth.routes.js'
-import path from 'path'
+import path, { dirname } from 'path'
 import dictionary from './src/routes/dictionary.routes.js'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 const app = express()
 

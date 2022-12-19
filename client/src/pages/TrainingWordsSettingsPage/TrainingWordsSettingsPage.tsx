@@ -9,6 +9,7 @@ import {
 	Select,
 	SelectChangeEvent,
 	Slider,
+	Switch,
 	ToggleButton,
 	ToggleButtonGroup,
 	Typography,
@@ -17,8 +18,19 @@ import { Loading } from '../../components/Loading'
 import { useNavigate } from 'react-router-dom'
 
 const TrainingWordsSettingsPage = () => {
-	const { loading, language, setLanguage, dictionary, dictionaryList, setDictionary, init, countWords, setCountWords } =
-		useSettingsWordsContext()
+	const {
+		loading,
+		translate,
+		setTranslate,
+		language,
+		setLanguage,
+		dictionary,
+		dictionaryList,
+		setDictionary,
+		init,
+		countWords,
+		setCountWords,
+	} = useSettingsWordsContext()
 	const navigate = useNavigate()
 
 	useEffect(() => {
@@ -72,7 +84,7 @@ const TrainingWordsSettingsPage = () => {
 					))}
 				</Select>
 				<ToggleButtonGroup
-					color='warning'
+					color='error'
 					fullWidth
 					sx={{ mt: 2, mb: 2 }}
 					value={language}
@@ -86,6 +98,9 @@ const TrainingWordsSettingsPage = () => {
 						Russian
 					</ToggleButton>
 				</ToggleButtonGroup>
+				<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>
+					Перевод слов: <Switch value={translate} color='secondary' onChange={(_e, value) => setTranslate(value)} />
+				</Typography>
 			</FormControl>
 
 			<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>

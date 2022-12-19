@@ -7,6 +7,8 @@ export interface IUseSettingsWords {
 	dictionary: IDictionary | null
 	loading: boolean
 	setDictionary: Dispatch<SetStateAction<IDictionary | null>>
+	translate: boolean
+	setTranslate: Dispatch<SetStateAction<boolean>>
 	countWords: number
 	setCountWords: Dispatch<SetStateAction<number>>
 	language: string
@@ -20,6 +22,7 @@ export const useSettingsWords = (): IUseSettingsWords => {
 	const [dictionary, setDictionary] = useState<IDictionary | null>(null)
 	const [countWords, setCountWords] = useState(50)
 	const [language, setLanguage] = useState('English')
+	const [translate, setTranslate] = useState(false)
 
 	const [loading, setLoading] = useState(true)
 
@@ -35,6 +38,8 @@ export const useSettingsWords = (): IUseSettingsWords => {
 		dictionary,
 		dictionaryList,
 		countWords,
+		translate,
+		setTranslate,
 		setCountWords,
 		setDictionary,
 		language,
