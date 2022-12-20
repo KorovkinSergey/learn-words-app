@@ -7,7 +7,7 @@ import Box from '@mui/material/Box'
 import { useDictionaryWords } from '../../hooks/api/useDictionaryWords'
 import { useWindowSizeContext } from '../../context/WindowSizeContext'
 import { Loading } from '../Loading'
-import { IWord } from '../../types/word'
+import { IWordWithCheck } from '../../types/word'
 import { useRemoveWordsToDictionary } from '../../hooks/api/useRemoveWordsToDictionary'
 import { getWordEnding } from '../../helpers/getWordEnding'
 import { TABLE_HEADER_HEIGHT } from '../../consts/style-variables'
@@ -17,6 +17,7 @@ import { IDictionary } from '../../types/dictionary'
 import { useAddWordsToDictionary } from '../../hooks/api/useAddWordsToDictionary'
 import { DeleteButton } from '../DeleteButton'
 import { TableCellMemo } from '../TableCell'
+import { addCheckFieldInWords, removeCheckFieldInWords } from '../../helpers/customizeWords'
 
 const WordsTable = () => {
 	const { getDictionaryWords, loading } = useDictionaryWords()
@@ -25,60 +26,88 @@ const WordsTable = () => {
 	const params = useParams()
 	const navigate = useNavigate()
 	const { dictionary: currDictionary = '' } = params
-	const [rows, setRows] = useState<IWord[]>([])
+	const [rows, setRows] = useState<IWordWithCheck[]>([])
 	const [dictionaries, setDictionaries] = useState<IDictionary[]>([])
-	const [selected, setSelected] = useState<string[]>([])
-	const selectedArray = useMemo(() => rows.map((row) => row._id as string), [rows])
 	const { deleteHandler, loading: isWordsDeleting } = useRemoveWordsToDictionary()
 	const { addWordsHandler, loading: isWordsAdding } = useAddWordsToDictionary()
-	const isSelected = !!selected.length
+	const [isSelected, setIsSelected] = useState(false)
+	const [isCheckAll, setIsCheckAll] = useState(false)
 
 	useEffect(() => {
 		if (!currDictionary) return navigate('/dictionary')
-		getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
+		getDictionaryWords(currDictionary).then((res: any) => setRows(addCheckFieldInWords(res.words)))
 		getDictionaryList().then((res: any) => setDictionaries(res))
 	}, [currDictionary, navigate, getDictionaryWords, getDictionaryList])
 
+	const onCheckAll = useCallback(
+		(arr: IWordWithCheck[]) => {
+			if (isCheckAll) {
+				setIsCheckAll(false)
+				return arr.map((row) => ({ ...row, check: false }))
+			}
+			setIsCheckAll(true)
+			return arr.map((row) => ({ ...row, check: true }))
+		},
+		[isCheckAll],
+	)
+
 	const handleSelectAllClick = useCallback(
 		(event: React.ChangeEvent<HTMLInputElement>) => {
-			if (event.target.checked && event.target.dataset.indeterminate === 'false') {
-				setSelected(selectedArray)
+			if (event.target.dataset.indeterminate === 'false') {
+				setRows((rows) => onCheckAll(rows))
+				setIsSelected(true)
 				return
 			}
-			setSelected([])
+			setRows((rows) => onCheckAll(rows))
+			setIsSelected(false)
 		},
-		[setSelected, selectedArray],
+		[setIsSelected, onCheckAll],
 	)
 
 	const getWordEnd = useMemo(() => {
-		return `Выбрано ${selected.length} ${getWordEnding(selected.length, 'слово', 'слова', 'слов')}}`
-	}, [selected])
+		const selected = rows.reduce((acc, item) => {
+			return acc + (item.check ? 1 : 0)
+		}, 0)
+		return `Выбрано ${selected} ${getWordEnding(selected, 'слово', 'слова', 'слов')}`
+	}, [rows])
 
-	const getSelectedRows = useCallback(() => rows.filter((row) => selected.includes(row._id || '')), [selected, rows])
+	const getSelectedRows = useCallback(() => {
+		if (isCheckAll) {
+			return removeCheckFieldInWords(rows)
+		}
+		return removeCheckFieldInWords(rows.filter((row) => row.check))
+	}, [rows, isCheckAll])
 
 	const handleClick = useCallback(
-		(event: React.MouseEvent<HTMLTableRowElement, MouseEvent>, id = '') => {
-			return selected.includes(id)
-				? setSelected(selected.filter((rowId) => rowId !== id))
-				: setSelected([...selected, id])
+		(id: string = '') => {
+			if (isCheckAll) setIsCheckAll(false)
+			setRows((rows) =>
+				rows.map((row) => {
+					if (row._id === id) {
+						return { ...row, check: !row.check }
+					}
+					return row
+				}),
+			)
 		},
-		[setSelected, selected],
+		[isCheckAll],
 	)
 
 	const onWordsDelete = useCallback(() => {
+		if (isCheckAll) setIsCheckAll(false)
 		deleteHandler(currDictionary, getSelectedRows()).then(() => {
-			getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
-			setSelected([])
+			getDictionaryWords(currDictionary).then((res: any) => setRows(addCheckFieldInWords(res.words)))
 		})
-	}, [setSelected, getDictionaryWords, deleteHandler, currDictionary, setRows, getSelectedRows])
+	}, [getDictionaryWords, deleteHandler, currDictionary, setRows, getSelectedRows, isCheckAll])
 
 	const onTransferWords = useCallback(
 		async (id: string) => {
+			if (isCheckAll) setIsCheckAll(false)
 			await deleteHandler(currDictionary, getSelectedRows())
-			await addWordsHandler(id, getSelectedRows()).then(() => setSelected([]))
-			await getDictionaryWords(currDictionary).then((res: any) => setRows(res.words))
+			await addWordsHandler(id, getSelectedRows())
+			await getDictionaryWords(currDictionary).then((res: any) => setRows(addCheckFieldInWords(res.words)))
 		},
-		[currDictionary, deleteHandler, getSelectedRows, setRows, addWordsHandler, getDictionaryWords],
+		[currDictionary, deleteHandler, getSelectedRows, setRows, addWordsHandler, getDictionaryWords, isCheckAll],
 	)
 
 	const renderItems = useMemo(() => {
@@ -106,8 +135,8 @@ const WordsTable = () => {
 								<TableCell padding='checkbox'>
 									<Checkbox
 										sx={{ padding: '0 0 0 9px' }}
-										indeterminate={isSelected && selected.length < rows.length}
-										checked={rows.length > 0 && selected.length === rows.length}
+										indeterminate={isCheckAll}
+										checked={isCheckAll}
 										onChange={handleSelectAllClick}
 									/>
 								</TableCell>
@@ -137,8 +166,8 @@ const WordsTable = () => {
 							</TableRow>
 						</TableHead>
 						<TableBody>
-							{rows.map((row: IWord) => (
-								<TableCellMemo row={row} selected={selected} handleClick={handleClick} key={row._id} />
+							{rows.map((row) => (
+								<TableCellMemo row={row} isChecked={row.check} handleClick={handleClick} key={row._id} />
 							))}
 						</TableBody>
 					</Table>

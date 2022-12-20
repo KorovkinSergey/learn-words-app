@@ -4,3 +4,7 @@ export interface IWord {
 	english: string
 	transcript: string
 }
+
+export interface IWordWithCheck extends IWord {
+	check: boolean
+}
