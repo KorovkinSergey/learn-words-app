@@ -223,7 +223,6 @@ router.delete('/:id/words', [...dictionaryValidation], async (req: any, res: any
 			})
 		})
 	} catch (e) {
-		console.log('e', e)
 		res.status(500).json({ message: 'Что-то пошло не так, попробуй снова' })
 	}
 })
