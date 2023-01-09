@@ -7,9 +7,9 @@ export const useAddWordsToDictionary = () => {
 	const { loading, error, request } = useHttp()
 
 	const addWordsHandler = useCallback(
-		(id: string, words: IWord[]) => {
+		(id: string, words: IWord[], toBegin?: boolean) => {
 			try {
-				return request(endpoints.dictionaryWords.replace(':id', id), 'POST', { words })
+				return request(endpoints.dictionaryWords.replace(':id', id), 'POST', { words, toBegin })
 			} catch (e) {
 				console.log('e', e)
 			}

@@ -22,6 +22,7 @@ const TrainingWordsSettingsPage = () => {
 		loading,
 		translate,
 		setTranslate,
+		setIsShuffle,
 		language,
 		setLanguage,
 		dictionary,
@@ -100,6 +101,9 @@ const TrainingWordsSettingsPage = () => {
 				</ToggleButtonGroup>
 				<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>
 					Перевод слов: <Switch value={translate} color='secondary' onChange={(_e, value) => setTranslate(value)} />
+				</Typography>
+				<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>
+					Перемешать слова: <Switch value={translate} color='secondary' onChange={(_e, value) => setIsShuffle(value)} />
 				</Typography>
 			</FormControl>
 

@@ -166,18 +166,29 @@ router.post('/:id/words', [...dictionaryValidation], async (req: any, res: any) 
 
 			if (!dictionary) return res.status(404).json({ message: 'Словарь не найден' })
 
-			const { words } = req.body
+			const { words, toBegin } = req.body
 
 			user.dictionary = user.dictionary.map((item: any) => {
-				return item._id.toString() === req.params.id
-					? {
+				if (item._id.toString() === req.params.id) {
+					if (toBegin) {
+						return {
+							...item,
+							words: [
+								...words.filter(({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian)),
+								...item.words,
+							],
+						}
+					} else {
+						return {
 							...item,
 							words: [
 								...item.words,
 								...words.filter(({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian)),
 							],
-					  }
-					: item
+						}
+					}
+				}
+				return item
 			})
 
 			user.save((error: any, result: any) => {

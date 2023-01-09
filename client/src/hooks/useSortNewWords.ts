@@ -131,7 +131,7 @@ export const useSortNewWords = (): IUseTrainingNewWords => {
 	const save = useCallback(async () => {
 		if (!dictionary) return
 		dispatch({ type: actionTypes.IS_LOADING })
-		await addWordsHandler(dictionary[1]._id, repeat)
+		await addWordsHandler(dictionary[1]._id, repeat, true)
 		await addWordsHandler(dictionary[3]._id, knowWords)
 		await deleteHandler(dictionary[0]._id, [...knowWords, ...repeat])
 		dispatch({ type: actionTypes.IS_LOADING })

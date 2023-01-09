@@ -9,6 +9,8 @@ export interface IUseSettingsWords {
 	setDictionary: Dispatch<SetStateAction<IDictionary | null>>
 	translate: boolean
 	setTranslate: Dispatch<SetStateAction<boolean>>
+	isShuffle: boolean
+	setIsShuffle: Dispatch<SetStateAction<boolean>>
 	countWords: number
 	setCountWords: Dispatch<SetStateAction<number>>
 	language: string
@@ -23,6 +25,7 @@ export const useSettingsWords = (): IUseSettingsWords => {
 	const [countWords, setCountWords] = useState(50)
 	const [language, setLanguage] = useState('English')
 	const [translate, setTranslate] = useState(false)
+	const [isShuffle, setIsShuffle] = useState(false)
 
 	const [loading, setLoading] = useState(true)
 
@@ -40,6 +43,8 @@ export const useSettingsWords = (): IUseSettingsWords => {
 		countWords,
 		translate,
 		setTranslate,
+		isShuffle,
+		setIsShuffle,
 		setCountWords,
 		setDictionary,
 		language,

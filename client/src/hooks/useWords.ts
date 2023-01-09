@@ -14,7 +14,7 @@ let timeOut: string | number | NodeJS.Timer | undefined
 let timeOutTranslate: string | number | NodeJS.Timer | undefined
 
 export const useWords = (): IUseWords => {
-	const { dictionary, countWords, translate, language } = useSettingsWordsContext()
+	const { dictionary, countWords, translate, language, isShuffle } = useSettingsWordsContext()
 	const { getDictionaryWords } = useDictionaryWords()
 	const [words, setWords] = useState<IWord[]>([])
 	const [loading, setLoading] = useState(true)
@@ -28,11 +28,12 @@ export const useWords = (): IUseWords => {
 	useEffect(() => {
 		if (dictionary) {
 			getDictionaryWords(dictionary._id).then((res: any) => {
-				setWords(res.words)
+				console.log('isShuffle', isShuffle)
+				setWords(isShuffle ? res.words.sort(() => Math.random() - 0.5) : res.words)
 				setLoading(false)
 			})
 		}
-	}, [getDictionaryWords, dictionary])
+	}, [getDictionaryWords, dictionary, isShuffle])
 
 	useEffect(() => {
 		if (!word || !translate) return
