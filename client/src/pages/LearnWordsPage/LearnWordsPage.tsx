@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import Box from '@mui/material/Box'
 import { Button, Typography } from '@mui/material'
+import VolumeUpIcon from '@mui/icons-material/VolumeUp'
 import { useLearnWords } from '../../hooks/useLearnWords'
 import { Loading } from '../../components/Loading'
 import { useNavigate } from 'react-router-dom'
@@ -8,6 +9,7 @@ import { NavigateButtons } from '../../components/NavigateButtons'
 import { Wrapper } from '../../components/Wrapper'
 import { ChoiceGroupButtons } from '../../components/ChoiceGroupButtons'
 import CloseIcon from '@mui/icons-material/Close'
+import { useSpeakText } from '../../hooks/useSpeakText'
 
 function LearnWordsPage() {
 	const {
@@ -24,6 +26,8 @@ function LearnWordsPage() {
 		save,
 	} = useLearnWords()
 	const navigate = useNavigate()
+
+	const { speak } = useSpeakText()
 
 	const onSave = useCallback(() => {
 		save().then(() => {
@@ -61,15 +65,11 @@ function LearnWordsPage() {
 					<Typography sx={{ fontSize: 40, margin: 2 }} color='primary.contrastText'>
 						{word?.english}
 					</Typography>
-					<Box
-						sx={{
-							display: 'flex',
-							alignItems: 'center',
-							mt: 4,
-							minWidth: '300px',
-							justifyContent: 'space-between',
-						}}
-					></Box>
+					<VolumeUpIcon
+						sx={{ color: 'primary.contrastText', margin: 2 }}
+						fontSize='large'
+						onClick={() => speak(word?.english || '')}
+					/>
 					<Button
 						size='large'
 						variant='contained'
