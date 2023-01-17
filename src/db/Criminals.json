@@ -1,0 +1,107 @@
+[
+	{
+		"russian": "Преступники",
+		"english": "Criminals",
+		"transcript": "['krɪmɪn(ə)lz]"
+	},
+	{
+		"russian": "Вор",
+		"english": "Thief",
+		"transcript": "[θiːf]"
+	},
+	{
+		"russian": "Грабитель",
+		"english": "Robber",
+		"transcript": "['rɔbə]"
+	},
+	{
+		"russian": "Карманник",
+		"english": "Pickpocket",
+		"transcript": "['pɪkˌpɔkɪt]"
+	},
+	{
+		"russian": "Магазинный вор",
+		"english": "Shoplifter",
+		"transcript": "['ʃɔpˌlɪftə]"
+	},
+	{
+		"russian": "Террорист",
+		"english": "Terrorist",
+		"transcript": "['ter(ə)rɪst]"
+	},
+	{
+		"russian": "Убийца",
+		"english": "Murderer",
+		"transcript": "['mɜːd(ə)rə]"
+	},
+	{
+		"russian": "Хулиган",
+		"english": "Vandal",
+		"transcript": "['vænd(ə)l]"
+	},
+	{
+		"russian": "Наркодилер",
+		"english": "Drug dealer",
+		"transcript": "[drʌg 'diːlə]"
+	},
+	{
+		"russian": "Насильник",
+		"english": "Rapist",
+		"transcript": "['reɪpɪst]"
+	},
+	{
+		"russian": "Домушник, взломщик",
+		"english": "Burglar house breaker",
+		"transcript": "['bɜːglə] [haus 'breɪkə]"
+	},
+	{
+		"russian": "Поджигатель",
+		"english": "Arsonist",
+		"transcript": "['ɑːs(ə)nɪst]"
+	},
+	{
+		"russian": "Угонщик",
+		"english": "Hijacker",
+		"transcript": "['haɪʤækə]"
+	},
+	{
+		"russian": "Уличный грабитель",
+		"english": "Mugger",
+		"transcript": "['mʌgə]"
+	},
+	{
+		"russian": "Шантажист",
+		"english": "Blackmailer",
+		"transcript": "['blækˌmeɪlə]"
+	},
+	{
+		"russian": "Мошенник",
+		"english": "Fraudster",
+		"transcript": "['frɔːdstə]"
+	},
+	{
+		"russian": "Похититель",
+		"english": "Kidnapper",
+		"transcript": "['kɪdnæpə]"
+	},
+	{
+		"russian": "Контрабандист",
+		"english": "Smuggler",
+		"transcript": "['smʌglə]"
+	},
+	{
+		"russian": "Фальшивомонетчик, фальсификатор",
+		"english": "Forger",
+		"transcript": "['fɔːʤə]"
+	},
+	{
+		"russian": "Участник нападения",
+		"english": "Assailant",
+		"transcript": "[ə'seɪlənt]"
+	},
+	{
+		"russian": "Хулиган, шпана",
+		"english": "(football) hooligan",
+		"transcript": "[('futbɔːl)['huːlɪg(ə)n]"
+	}
+]

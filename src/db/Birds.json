@@ -1,0 +1,172 @@
+[
+	{
+		"russian": "Птицы",
+		"english": "Birds",
+		"transcript": "[bɜːdz]"
+	},
+	{
+		"russian": "Пингвин",
+		"english": "Penguin",
+		"transcript": "['peŋgwɪn]"
+	},
+	{
+		"russian": "Воробей",
+		"english": "Sparrow",
+		"transcript": "['spærəu]"
+	},
+	{
+		"russian": "Фламинго",
+		"english": "Flamingo",
+		"transcript": "[flə'mɪŋgəu]"
+	},
+	{
+		"russian": "Орёл",
+		"english": "Eagle",
+		"transcript": "['iːgl]"
+	},
+	{
+		"russian": "Попугай",
+		"english": "Parrot",
+		"transcript": "['pærət]"
+	},
+	{
+		"russian": "Голубь",
+		"english": "Pigeon",
+		"transcript": "['pɪʤən]"
+	},
+	{
+		"russian": "Лебедь",
+		"english": "Swan",
+		"transcript": "[swɔn]"
+	},
+	{
+		"russian": "Журавль",
+		"english": "Crane",
+		"transcript": "[kreɪn]"
+	},
+	{
+		"russian": "Соловей",
+		"english": "Nightingale",
+		"transcript": "['naɪtɪŋgeɪl]"
+	},
+	{
+		"russian": "Страус",
+		"english": "Ostrich",
+		"transcript": "['ɔstrɪʧ]"
+	},
+	{
+		"russian": "Сова",
+		"english": "Owl",
+		"transcript": "[aul]"
+	},
+	{
+		"russian": "Ворон",
+		"english": "Raven",
+		"transcript": "['reɪv(ə)n]"
+	},
+	{
+		"russian": "Чайка",
+		"english": "Seagull",
+		"transcript": "['siːgʌl]"
+	},
+	{
+		"russian": "Аист",
+		"english": "Stork",
+		"transcript": "[stɔːk]"
+	},
+	{
+		"russian": "Ласточка",
+		"english": "Swallow",
+		"transcript": "['swɔləu]"
+	},
+	{
+		"russian": "Дятел",
+		"english": "Woodpecker",
+		"transcript": "['wudˌpekə]"
+	},
+	{
+		"russian": "Насекомые",
+		"english": "Insects",
+		"transcript": "['ɪnsekts]"
+	},
+	{
+		"russian": "Муравей",
+		"english": "Ant",
+		"transcript": "[ænt]"
+	},
+	{
+		"russian": "Пчела",
+		"english": "Bee",
+		"transcript": "[biː]"
+	},
+	{
+		"russian": "Паук",
+		"english": "Spider",
+		"transcript": "['spaɪdə]"
+	},
+	{
+		"russian": "Комар",
+		"english": "Mosquito",
+		"transcript": "[mɔs'kiːtəu]"
+	},
+	{
+		"russian": "Муха",
+		"english": "Fly",
+		"transcript": "[flaɪ]"
+	},
+	{
+		"russian": "Жук",
+		"english": "Beetle",
+		"transcript": "['biːtl]"
+	},
+	{
+		"russian": "Червь",
+		"english": "Worm",
+		"transcript": "[wɜːm]"
+	},
+	{
+		"russian": "Бабочка",
+		"english": "Butterfly",
+		"transcript": "['bʌtəflaɪ]"
+	},
+	{
+		"russian": "Стрекоза",
+		"english": "Dragonfly",
+		"transcript": "['dræg(ə)nflaɪ]"
+	},
+	{
+		"russian": "Кузнечик",
+		"english": "Grasshopper",
+		"transcript": "['grɑːsˌhɔpə]"
+	},
+	{
+		"russian": "Божья коровка",
+		"english": "Ladybird",
+		"transcript": "['leɪdɪbɜːd]"
+	},
+	{
+		"russian": "Саранча",
+		"english": "Locust",
+		"transcript": "['ləukəst]"
+	},
+	{
+		"russian": "Моль",
+		"english": "Moth",
+		"transcript": "[mɔθ]"
+	},
+	{
+		"russian": "Улитка",
+		"english": "Snail",
+		"transcript": "[sneɪl]"
+	},
+	{
+		"russian": "Термит",
+		"english": "Termite",
+		"transcript": "['tɜːmaɪt]"
+	},
+	{
+		"russian": "Оса",
+		"english": "Wasp",
+		"transcript": "[wɔsp]"
+	}
+]

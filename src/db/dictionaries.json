@@ -190,5 +190,205 @@
 	{
 		"title": "Все тело",
 		"name": "Wholebody"
+	},
+	{
+		"title": "Отели",
+		"name": "Hotels"
+	},
+	{
+		"title": "Типы номеров",
+		"name": "RoomTypes"
+	},
+	{
+		"title": "Стойка регистрации",
+		"name": "Reception"
+	},
+	{
+		"title": "Персонал отеля",
+		"name": "HotelStaff"
+	},
+	{
+		"title": "Комплекс услуг, предоставляемых гостиницей",
+		"name": "HotelFacilities"
+	},
+	{
+		"title": "Природа",
+		"name": "Nature"
+	},
+	{
+		"title": "Домашние животные",
+		"name": "DomesticAnimals"
+	},
+	{
+		"title": "Дикие животные",
+		"name": "WildAnimals"
+	},
+	{
+		"title": "Морской мир",
+		"name": "SeaWorld"
+	},
+	{
+		"title": "Птицы",
+		"name": "Birds"
+	},
+	{
+		"title": "Цветы",
+		"name": "Flowers"
+	},
+	{
+		"title": "Деревья",
+		"name": "Trees"
+	},
+	{
+		"title": "Погода",
+		"name": "Weather"
+	},
+	{
+		"title": "Положительные черты",
+		"name": "PositiveTraits"
+	},
+	{
+		"title": "Негативные черты",
+		"name": "NegativeTraits"
+	},
+	{
+		"title": "Сленг",
+		"name": "Slang"
+	},
+	{
+		"title": "Отношения",
+		"name": "Relationships"
+	},
+	{
+		"title": "Другое",
+		"name": "Other"
+	},
+	{
+		"title": "Внешний вид",
+		"name": "Appearance"
+	},
+	{
+		"title": "Распорядок дня",
+		"name": "DailyRoutine"
+	},
+	{
+		"title": "Книжный",
+		"name": "Bookstore"
+	},
+	{
+		"title": "Путешествие",
+		"name": "Travelling"
+	},
+	{
+		"title": "Размещение, поселение",
+		"name": "Accommodation"
+	},
+	{
+		"title": "Осмотр достопримечательностей",
+		"name": "Sightseeing"
+	},
+	{
+		"title": "Здоровый образжизни",
+		"name": "HealthyLife-style"
+	},
+	{
+		"title": "Болезни",
+		"name": "Illnesses"
+	},
+	{
+		"title": "Боль",
+		"name": "Pain"
+	},
+	{
+		"title": "Травма",
+		"name": "Injury"
+	},
+	{
+		"title": "Лечение",
+		"name": "Treatment"
+	},
+	{
+		"title": "В аптеке",
+		"name": "AtTheDrugstore"
+	},
+	{
+		"title": "Виды преступлений",
+		"name": "TypesOfCrimes"
+	},
+	{
+		"title": "Преступники",
+		"name": "Criminals"
+	},
+	{
+		"title": "Наказание",
+		"name": "Punishment"
+	},
+	{
+		"title": "В суде",
+		"name": "AtTheCourt"
+	},
+	{
+		"title": "Управление",
+		"name": "Management"
+	},
+	{
+		"title": "Офис",
+		"name": "Office"
+	},
+	{
+		"title": "Творческая работа",
+		"name": "Art&CreativeWork"
+	},
+	{
+		"title": "Строительство",
+		"name": "Construction"
+	},
+	{
+		"title": "Наука",
+		"name": "Science"
+	},
+	{
+		"title": "Закон и Порядок",
+		"name": "LawAndOrder"
+	},
+	{
+		"title": "Описание работы",
+		"name": "DescribingJob"
+	},
+	{
+		"title": "Связанные с темой слова",
+		"name": "RelatedTerms"
+	},
+	{
+		"title": "Идиома",
+		"name": "Idioms"
+	},
+	{
+		"title": "Свободное время",
+		"name": "Freetime"
+	},
+	{
+		"title": "Увлечения",
+		"name": "Hobbies"
+	},
+	{
+		"title": "События",
+		"name": "Events"
+	},
+	{
+		"title": "Глаголы",
+		"name": "Verbs"
+	},
+	{
+		"title": "Взнос, плата",
+		"name": "Fee"
+	},
+	{
+		"title": "Стативные глаголы",
+		"name": "StativeVerbs"
+	},
+	{
+		"title": "Грудь",
+		"name": "Breasts"
 	}
 ]

@@ -1,0 +1,92 @@
+[
+	{
+		"russian": "Наказание",
+		"english": "Punishment",
+		"transcript": "['pʌnɪʃmənt]"
+	},
+	{
+		"russian": "Штраф",
+		"english": "Fine",
+		"transcript": "[faɪn]"
+	},
+	{
+		"russian": "Испытательный срок",
+		"english": "Probation",
+		"transcript": "[prə'beɪʃ(ə)n]"
+	},
+	{
+		"russian": "Камера",
+		"english": "Ward",
+		"transcript": "[wo:d]"
+	},
+	{
+		"russian": "Залог, поручительство",
+		"english": "Bail",
+		"transcript": "[beɪl]"
+	},
+	{
+		"russian": "В тюрьме",
+		"english": "In jail",
+		"transcript": "[ ɪnʤeɪl]"
+	},
+	{
+		"russian": "Заключение, срок",
+		"english": "Imprisonment sentence",
+		"transcript": "[ɪm'prɪz(ə)nmənt] ['sentən(t)s]"
+	},
+	{
+		"russian": "Условный срок",
+		"english": "Suspended sentence",
+		"transcript": "[sə'spendɪd 'sentən(t)s]"
+	},
+	{
+		"russian": "Пожизненное заключение",
+		"english": "Life sentence",
+		"transcript": "[laɪf 'sentən(t)s]"
+	},
+	{
+		"russian": "Лёгкое, мягкое наказание",
+		"english": "Lenient light sentence",
+		"transcript": "['liːnɪənt] [laɪt 'sentən(t)s]"
+	},
+	{
+		"russian": "Смертная казнь",
+		"english": "Capital punishment death penalty death sentence",
+		"transcript": "['kæpɪtəl 'pʌnɪʃmənt] [deθ 'pen(ə)ltɪ] [deθ 'sentən(t)s]"
+	},
+	{
+		"russian": "Осуждённый",
+		"english": "Convict",
+		"transcript": "['kɔnvɪkt]"
+	},
+	{
+		"russian": "Заключённый",
+		"english": "Inmate",
+		"transcript": "['ɪnmeɪt]"
+	},
+	{
+		"russian": "Условно-освобождённый",
+		"english": "Parolee",
+		"transcript": "[ˌpærə'liː]"
+	},
+	{
+		"russian": "Наказывать",
+		"english": "To punish",
+		"transcript": "['pʌnɪʃ]"
+	},
+	{
+		"russian": "Оправдать",
+		"english": "To acquit",
+		"transcript": "[ə'kwɪt]"
+	},
+	{
+		"russian": "Арестовать, задержать",
+		"english": "To arrest",
+		"transcript": "[ə'rest]"
+	},
+	{
+		"russian": "Оказывать пособничество подстрекательство",
+		"english": "To aid and abet",
+		"transcript": "[eɪd&ə'bet]"
+	}
+]

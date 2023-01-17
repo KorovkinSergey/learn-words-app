@@ -1,0 +1,447 @@
+[
+	{
+		"russian": "Распорядок дня",
+		"english": "Daily Routine",
+		"transcript": "Daily Routine"
+	},
+	{
+		"russian": "Вставать",
+		"english": "To get up",
+		"transcript": "[ ‘ɡetʌp ]"
+	},
+	{
+		"russian": "Мыть руки",
+		"english": "To wash hands",
+		"transcript": "[ wɒʃhændz ]"
+	},
+	{
+		"russian": "Мыть лицо",
+		"english": "To wash face",
+		"transcript": "[ wɒʃfeɪs ]"
+	},
+	{
+		"russian": "Умываться",
+		"english": "To wash hands & face",
+		"transcript": "[ wɒʃhændz&feɪs ]"
+	},
+	{
+		"russian": "Чистить зубы",
+		"english": "To clean (brush) teeth",
+		"transcript": "[ kliːn (brʌʃ) tiːθ ]"
+	},
+	{
+		"russian": "Идти в ванную",
+		"english": "To go to the bathroom",
+		"transcript": "[ ɡəʊtəðə ‘bɑːθruːm ]"
+	},
+	{
+		"russian": "Принимать душ",
+		"english": "To take a shower",
+		"transcript": "[ teɪk ə ‘ʃaʊə ]"
+	},
+	{
+		"russian": "Приниматьв анну",
+		"english": "To take a bath",
+		"transcript": "[ teɪk ə bɑːθ ]"
+	},
+	{
+		"russian": "Идти в кухню",
+		"english": "To go to the kitchen",
+		"transcript": "[ ɡəʊtəðə ‘kɪtʃɪn ]"
+	},
+	{
+		"russian": "Завтракатьобедатьужинать",
+		"english": "To have breakfast lunch dinnersupper",
+		"transcript": "[ həv ‘brekfəst lʌntʃ ‘dɪnə ‘sʌpə ]"
+	},
+	{
+		"russian": "Уходить оставлять покидать",
+		"english": "To leave",
+		"transcript": "[ li:v ]"
+	},
+	{
+		"russian": "Уходить из дома",
+		"english": "To leave home",
+		"transcript": "[ li:vhəʊm ]"
+	},
+	{
+		"russian": "Уходить с работы",
+		"english": "To leave work",
+		"transcript": "[ li:v ‘wɜːk ]"
+	},
+	{
+		"russian": "Уходить на работу",
+		"english": "To leave for work",
+		"transcript": "[ li:vfə ‘wɜːk ]"
+	},
+	{
+		"russian": "Уходить из дома на работу",
+		"english": "To leave home for work",
+		"transcript": "[ li:vhəʊmfə ‘wɜ:k ]"
+	},
+	{
+		"russian": "Ходить за покупками делать покупки",
+		"english": "To go shopping do shopping",
+		"transcript": "[ ɡəʊ ‘ʃɒpɪŋ də ‘ʃɒpɪŋ ]"
+	},
+	{
+		"russian": "Смотреть ТВ",
+		"english": "To watch TV",
+		"transcript": "[ wɒtʃ ˌti:’vi: ]"
+	},
+	{
+		"russian": "Сидеть в интернете",
+		"english": "To surf the net",
+		"transcript": "[ sɜ:fðə net ]"
+	},
+	{
+		"russian": "Пользоваться компьютером",
+		"english": "To use a computer",
+		"transcript": "[ ‘ju:z ə kəm’pju:tə ]"
+	},
+	{
+		"russian": "Слушать музыку",
+		"english": "To listen to music",
+		"transcript": "[ ‘lɪsn̩ tə ‘mju:zɪk ]"
+	},
+	{
+		"russian": "Ходить в гости к друзьям",
+		"english": "To visit friends",
+		"transcript": "[‘vɪzɪt frendz ]"
+	},
+	{
+		"russian": "Принимать гостей",
+		"english": "To receive guests",
+		"transcript": "[ri’si:v gests]"
+	},
+	{
+		"russian": "Играть в игры карты",
+		"english": "To play games cards",
+		"transcript": "[pleɪɡeɪmz kɑ:dz ]"
+	},
+	{
+		"russian": "Иметь обеденный перерыв",
+		"english": "To have a lunch break",
+		"transcript": "[həv ə lʌntʃbreɪk ]"
+	},
+	{
+		"russian": "Возвращаться",
+		"english": "To come back to return",
+		"transcript": "[ kʌm ‘bæk] [rɪ’tɜ:n ]"
+	},
+	{
+		"russian": "Перед тем, как ложиться спать",
+		"english": "Before going to bed",
+		"transcript": "[ bɪ’fɔ: ‘ɡəʊɪŋtə bed ]"
+	},
+	{
+		"russian": "Читать перед сном",
+		"english": "To read before sleeping",
+		"transcript": "[ ri:dbɪ’fɔ: ‘sli:pɪŋ ]"
+	},
+	{
+		"russian": "Ложиться спать",
+		"english": "To go to bed",
+		"transcript": "[ ɡəʊtə bed ]"
+	},
+	{
+		"russian": "Засыпать",
+		"english": "To fall asleep",
+		"transcript": "[ fɔ:l ə’sli:p ]"
+	},
+	{
+		"russian": "Стричь газон",
+		"english": "To mow a lawn",
+		"transcript": "[ maʊ ə lɔ:n ]"
+	},
+	{
+		"russian": "Копать",
+		"english": "To dig",
+		"transcript": "[ dɪɡ ]"
+	},
+	{
+		"russian": "Полоть сорняки",
+		"english": "To pull weeds",
+		"transcript": "[ pʊlwi:dz ]"
+	},
+	{
+		"russian": "Поливать",
+		"english": "To water irrigate",
+		"transcript": "[ ‘wɔ:tə ] [‘ɪrɪɡeɪt ]"
+	},
+	{
+		"russian": "Идти пешком прогуливаться",
+		"english": "To go on foot to walk to have a stroll",
+		"transcript": "[ɡəʊɒnfʊt wɔ:k həv ə strəʊl ]"
+	},
+	{
+		"russian": "Удобрять",
+		"english": "To fatten nourish",
+		"transcript": "[‘fætn̩ ‘nʌrɪʃ ]"
+	},
+	{
+		"russian": "Стирать",
+		"english": "To do the washing",
+		"transcript": "[duː ðə ˈwɒʃɪŋ]"
+	},
+	{
+		"russian": "Стирать, мыть",
+		"english": "To wash",
+		"transcript": "[wɒʃ]"
+	},
+	{
+		"russian": "Бельё, предназначенное для стирки",
+		"english": "Laundry",
+		"transcript": "[ˈlɔːndri]"
+	},
+	{
+		"russian": "Рассортировать",
+		"english": "To sort out",
+		"transcript": "[sɔːtaʊt]"
+	},
+	{
+		"russian": "Стиральный порошок",
+		"english": "Washing powder",
+		"transcript": "[ˈwɒʃɪŋ ˈpaʊdə]"
+	},
+	{
+		"russian": "Бак (стиральной машины)",
+		"english": "Tub",
+		"transcript": "[tʌb]"
+	},
+	{
+		"russian": "Таз",
+		"english": "Basin",
+		"transcript": "[ˈbeɪsn]"
+	},
+	{
+		"russian": "Замочить",
+		"english": "To soak",
+		"transcript": "[səʊk]"
+	},
+	{
+		"russian": "Полоскать",
+		"english": "To rinse",
+		"transcript": "[rɪns]"
+	},
+	{
+		"russian": "Выжимать",
+		"english": "To wring squeeze",
+		"transcript": "[rɪŋ skwiːz]"
+	},
+	{
+		"russian": "Гладить",
+		"english": "To iron do the ironing",
+		"transcript": "[ˈaɪən duː ðɪ ˈaɪənɪŋ]"
+	},
+	{
+		"russian": "Домашние обязанности на кухне",
+		"english": "Chores in the Kitchen",
+		"transcript": "[tʃɔːz inðə 'kɪtʃɪn]"
+	},
+	{
+		"russian": "Готовить",
+		"english": "To cook",
+		"transcript": "[kʊk]"
+	},
+	{
+		"russian": "Мыть посуду",
+		"english": "To do the dishes to wash up",
+		"transcript": "[duː ðədɪʃɪz] [wɒʃʌp]"
+	},
+	{
+		"russian": "Губка",
+		"english": "Sponge",
+		"transcript": "[spʌndʒ]"
+	},
+	{
+		"russian": "Накрывать на стол",
+		"english": "To lay the table",
+		"transcript": "[leɪðə ˈteɪbl]"
+	},
+	{
+		"russian": "Ведение домашнего хозяйства",
+		"english": "Housekeeping",
+		"transcript": "[ˈhaʊskiːpɪŋ]"
+	},
+	{
+		"russian": "Вести домашнее хозяйство",
+		"english": "To keep house",
+		"transcript": "[kiːphaʊs]"
+	},
+	{
+		"russian": "Вести домашнее хозяйство",
+		"english": "To run the house",
+		"transcript": "[rʌnðəhaʊs]"
+	},
+	{
+		"russian": "Домашние обязанности",
+		"english": "Domestic chores",
+		"transcript": "[dəˈmestɪktʃɔːz]"
+	},
+	{
+		"russian": "Домохозяйка",
+		"english": "Housewife",
+		"transcript": "[ˈhaʊswaɪf]"
+	},
+	{
+		"russian": "Проветривать (комнату)",
+		"english": "To air (the room)",
+		"transcript": "[eəðəruːm]"
+	},
+	{
+		"russian": "Беспорядок",
+		"english": "Mess",
+		"transcript": "[mes]"
+	},
+	{
+		"russian": "Устраивать беспорядок",
+		"english": "To make a mess",
+		"transcript": "[meɪk ə mes]"
+	},
+	{
+		"russian": "Грязь",
+		"english": "Dirt",
+		"transcript": "[dɜːt]"
+	},
+	{
+		"russian": "Грязный",
+		"english": "Dirty",
+		"transcript": "[ˈdɜːti]"
+	},
+	{
+		"russian": "Пыль",
+		"english": "Dust",
+		"transcript": "[dʌst]"
+	},
+	{
+		"russian": "Отвратительно грязный",
+		"english": "Filthy",
+		"transcript": "[ˈfɪlθi]"
+	},
+	{
+		"russian": "Не убирать вещи на место",
+		"english": "To leave things around",
+		"transcript": "[liːv θɪŋzəˈraʊnd]"
+	},
+	{
+		"russian": "След ног",
+		"english": "Footmark",
+		"transcript": "[ˈfʊtmɑːk]"
+	},
+	{
+		"russian": "Пятно",
+		"english": "Stain",
+		"transcript": "[steɪn]"
+	},
+	{
+		"russian": "Мусор (things that you throw away because you no longer want or need them)",
+		"english": "Rubbish",
+		"transcript": "[ˈrʌbɪʃ]"
+	},
+	{
+		"russian": "Пролить",
+		"english": "To spill",
+		"transcript": "[spɪl]"
+	},
+	{
+		"russian": "Уборка, порядок",
+		"english": "Cleaning",
+		"transcript": "[ˈkliːnɪŋ]"
+	},
+	{
+		"russian": "Чистить, прибирать; чистый",
+		"english": "To clean",
+		"transcript": "[kliːn]"
+	},
+	{
+		"russian": "Мыть пол",
+		"english": "To clean wash the floor",
+		"transcript": "[kliːn wɒʃðəflɔː(r)]"
+	},
+	{
+		"russian": "Делать уборку",
+		"english": "To do the cleaning",
+		"transcript": "[duː ðə ˈkliːnɪŋ]"
+	},
+	{
+		"russian": "Очистить",
+		"english": "To clear up a mess",
+		"transcript": "[klɪərʌpə mes]"
+	},
+	{
+		"russian": "Заправлять кровать",
+		"english": "To make the bed",
+		"transcript": "[meɪkðə bed]"
+	},
+	{
+		"russian": "Метла, веник",
+		"english": "Broom",
+		"transcript": "[bruːm]"
+	},
+	{
+		"russian": "Щётка",
+		"english": "Brush",
+		"transcript": "[brʌʃ]"
+	},
+	{
+		"russian": "Вытирать пыль",
+		"english": "To dust",
+		"transcript": "[dʌst]"
+	},
+	{
+		"russian": "Тряпка для вытирания пыли",
+		"english": "Duster",
+		"transcript": "[ˈdʌstə(r)]"
+	},
+	{
+		"russian": "Совок",
+		"english": "Dustpan",
+		"transcript": "[ˈdʌstpæn]"
+	},
+	{
+		"russian": "Выбивать (ковры)",
+		"english": "To beat (the carpets)",
+		"transcript": "[biːt (ðə ˈkɑːpɪts)]"
+	},
+	{
+		"russian": "Тереть (щёткой)",
+		"english": "To scrub",
+		"transcript": "[skrʌb]"
+	},
+	{
+		"russian": "Очиститель, жидкоемоющее средство",
+		"english": "Cleanser",
+		"transcript": "[ˈklenzə(r)]"
+	},
+	{
+		"russian": "Фартук",
+		"english": "Apron",
+		"transcript": "[ˈeɪprən]"
+	},
+	{
+		"russian": "Швабра",
+		"english": "Mop floor-mop",
+		"transcript": "[mɒp flɔː mɒp]"
+	},
+	{
+		"russian": "Мусорное ведро",
+		"english": "Dustbin",
+		"transcript": "[ˈdʌstbɪn]"
+	},
+	{
+		"russian": "Выносить мусор",
+		"english": "To take the garbage out",
+		"transcript": "[teɪkðə ˈɡɑːbɪdʒaʊt]"
+	},
+	{
+		"russian": "Подметать пол",
+		"english": "To sweep the floor",
+		"transcript": "[swiːp ðəflɔː(r)]"
+	},
+	{
+		"russian": "Пылесосить",
+		"english": "To vacuum",
+		"transcript": "[ˈvækjuəm]"
+	}
+]

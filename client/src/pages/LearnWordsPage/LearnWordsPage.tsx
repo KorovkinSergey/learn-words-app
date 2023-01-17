@@ -68,7 +68,10 @@ function LearnWordsPage() {
 					<VolumeUpIcon
 						sx={{ color: 'primary.contrastText', margin: 2 }}
 						fontSize='large'
-						onClick={() => speak(word?.english || '')}
+						onClick={() => {
+							console.log('asdads')
+							speak(word?.english || '')
+						}}
 					/>
 					<Button
 						size='large'

@@ -1,0 +1,257 @@
+[
+	{
+		"russian": "Размещение, поселение",
+		"english": "Accommodation",
+		"transcript": "[əˌkɔmə'deɪʃ(ə)n]"
+	},
+	{
+		"russian": "Гостиница, отель",
+		"english": "Hotel",
+		"transcript": "[həu'tel]"
+	},
+	{
+		"russian": "Счет",
+		"english": "Bill",
+		"transcript": "[bɪl]"
+	},
+	{
+		"russian": "Маленькая гостиница",
+		"english": "Inn",
+		"transcript": "[ɪn]"
+	},
+	{
+		"russian": "Питание по программе «все включено»",
+		"english": "All inclusive",
+		"transcript": "[ɔːlɪn'kluːsɪv]"
+	},
+	{
+		"russian": "Имеющийся в наличии",
+		"english": "Available",
+		"transcript": "[ə'veɪləbl]"
+	},
+	{
+		"russian": "Курорт",
+		"english": "Resort",
+		"transcript": "[ ri'zɔ:t ]"
+	},
+	{
+		"russian": "Час, до которого необходимо освободить номер в день отъезда",
+		"english": "Check-out time",
+		"transcript": "[ʧekauttaɪm]"
+	},
+	{
+		"russian": "Мотель",
+		"english": "Motel",
+		"transcript": "[məu'tel]"
+	},
+	{
+		"russian": "Хостел",
+		"english": "Hostel",
+		"transcript": "['hɔst(ə)l]"
+	},
+	{
+		"russian": "Скидка",
+		"english": "Discount",
+		"transcript": "['dɪskaunt]"
+	},
+	{
+		"russian": "Бунгало (одноэтажный дом с верандой)",
+		"english": "Bungalow",
+		"transcript": "[ 'bʌŋgələu ]"
+	},
+	{
+		"russian": "Питание: завтрак",
+		"english": "B&b — bed and breakfast",
+		"transcript": "[ˌbiːən(d)'biː]"
+	},
+	{
+		"russian": "Полупансион (как правило, завтрак и ужин)",
+		"english": "Hb — half board",
+		"transcript": "[ˌhɑːf'bɔːd]"
+	},
+	{
+		"russian": "Кемпинг",
+		"english": "Camp site",
+		"transcript": "[kæmpsaɪt]"
+	},
+	{
+		"russian": "Гостиница для семейных",
+		"english": "Family hotel",
+		"transcript": "['fæməlɪ (h)ə(u)'tel]"
+	},
+	{
+		"russian": "Пятизвёздочный отель",
+		"english": "Luxury hotel",
+		"transcript": "['lʌkʃərɪ (h)ə(u)'tel]"
+	},
+	{
+		"russian": "Заранее",
+		"english": "In advance",
+		"transcript": "[ɪnəd'vɑːn(t)s]"
+	},
+	{
+		"russian": "Стандартный номер",
+		"english": "Standard room",
+		"transcript": "['stændədruːm]"
+	},
+	{
+		"russian": "Номер повышенной комфортности",
+		"english": "Superior room",
+		"transcript": "[suː'pɪərɪəruːm]"
+	},
+	{
+		"russian": "Номер «полулюкс»",
+		"english": "Junior suite room",
+		"transcript": "['ʤuːnɪəswiːtruːm]"
+	},
+	{
+		"russian": "Номер «люкс»",
+		"english": "Suite room",
+		"transcript": "[swiːtruːm]"
+	},
+	{
+		"russian": "Двухместный номер с двумя кроватями",
+		"english": "Twin room",
+		"transcript": "[twɪnruːm]"
+	},
+	{
+		"russian": "Двухместный номер с одной двуспальной кроватью",
+		"english": "Double room",
+		"transcript": "['dʌblruːm]"
+	},
+	{
+		"russian": "Стойка администратора",
+		"english": "Reception desk",
+		"transcript": "[rɪ'sepʃ(ə)n desk]"
+	},
+	{
+		"russian": "Забронировать гостиничный номер",
+		"english": "To make a reservation for a room",
+		"transcript": "[meɪk ə ˌrezə'veɪʃnfɔː ə ruːm]"
+	},
+	{
+		"russian": "Бронировать",
+		"english": "To book",
+		"transcript": "[buk]"
+	},
+	{
+		"russian": "Подтверждение бронирования",
+		"english": "Booking confirmation",
+		"transcript": "['bukɪŋ ˌkɔnfə'meɪʃ(ə)n]"
+	},
+	{
+		"russian": "Заполнить форму",
+		"english": "To fill in a form",
+		"transcript": "[fɪlɪn ə fɔːm]"
+	},
+	{
+		"russian": "Вселиться в гостиницу (зарегистрироваться)",
+		"english": "To check in",
+		"transcript": "[ʧekɪn]"
+	},
+	{
+		"russian": "Выехать из гостиницы",
+		"english": "To check out",
+		"transcript": "[ʧekaut]"
+	},
+	{
+		"russian": "Оплатить услуги",
+		"english": "To pay for services",
+		"transcript": "[peɪfɔː 'sɜːvɪsɪz]"
+	},
+	{
+		"russian": "В стоимость включено",
+		"english": "Rate includes",
+		"transcript": "[reɪtɪn'kluːdz]"
+	},
+	{
+		"russian": "Оплата в местной валюте",
+		"english": "Payment in local currency",
+		"transcript": "['peɪməntɪn 'ləuk(ə)l 'kʌrənsɪ]"
+	},
+	{
+		"russian": "Расплатиться наличными",
+		"english": "To pay cash",
+		"transcript": "[peɪkæʃ]"
+	},
+	{
+		"russian": "Платить по картe",
+		"english": "To pay with a card",
+		"transcript": "[peɪwɪð ə kɑːd]"
+	},
+	{
+		"russian": "Взимать плату за нанесенный ущерб",
+		"english": "To take a damage charge",
+		"transcript": "[teɪk ə 'dæmɪʤʧɑːʤ]"
+	},
+	{
+		"russian": "Взимать плату за пользование платными услугами",
+		"english": "To take an extra room charge",
+		"transcript": "[teɪkən 'ekstrəruːmʧɑːʤ]"
+	},
+	{
+		"russian": "Налог на добавленную стоимость",
+		"english": "Value added tax",
+		"transcript": "['væljuː æ̱dɪdtæks]"
+	},
+	{
+		"russian": "Минимальный срок пребывания",
+		"english": "A minimum length of stay",
+		"transcript": "['mɪnɪməmle̱ŋθɔvsteɪ]"
+	},
+	{
+		"russian": "У вас есть свободные номера?",
+		"english": "Have you got any accomodations?",
+		"transcript": "[hævjuː got 'enɪə‚kɒmə’deɪʃəns]"
+	},
+	{
+		"russian": "Сколько стоит номер в сутки?",
+		"english": "What do you charge for the room per day?",
+		"transcript": "[wɔt du: ju: ʧɑːʤfɔː ðiː ruːmpɜː deɪ]"
+	},
+	{
+		"russian": "Входит ли в стоимость номера питание?",
+		"english": "Does the charge for the room include meals?",
+		"transcript": "[dʌzðiː ʧɑːʤfɔː ðiː ruːmɪn'kluːdmiːls]"
+	},
+	{
+		"russian": "У вас есть что-нибудь подешевле?",
+		"english": "Do you have anything cheaper?",
+		"transcript": "[du: ju: hæv 'enɪθɪŋʧiːpə]"
+	},
+	{
+		"russian": "Мы бы хотели заселитьсявыехать.",
+		"english": "We would like to check incheck out.",
+		"transcript": "[wiː wudlaɪktuː ʧekɪn tuː ʧekaut]"
+	},
+	{
+		"russian": "Мне нужна комната на одного.",
+		"english": "I need a single room.",
+		"transcript": "[ainiːd ə 'sɪŋglruːm]"
+	},
+	{
+		"russian": "Мне нужна комната на двоих.",
+		"english": "I need a double room.",
+		"transcript": "[ainiːd ə 'dʌblruːm]"
+	},
+	{
+		"russian": "В данный момент свободных номеров нет.",
+		"english": "At the moment there are no rooms available.",
+		"transcript": "[ætðiː 'məuməntðeə ɑː nəuruːmsə'veɪləbl]"
+	},
+	{
+		"russian": "У меня забронирован номер.",
+		"english": "I have a reservation.",
+		"transcript": "[aihæv ə ,rezə'veiʃən]"
+	},
+	{
+		"russian": "Во сколько происходит выселение из отеля?",
+		"english": "What time is checkout?",
+		"transcript": "[wɔttaimiz 'tʃekaʋt]"
+	},
+	{
+		"russian": "Я уезжаю завтра днём.",
+		"english": "I'm leaving tomorrow afternoon.",
+		"transcript": "[aɪmliːvɪŋtə'mɔrəu ˌɑːftə'nuːn]"
+	}
+]

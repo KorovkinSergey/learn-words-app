@@ -1,0 +1,72 @@
+[
+	{
+		"russian": "Боль",
+		"english": "Pain",
+		"transcript": "[peɪn]"
+	},
+	{
+		"russian": "У меня боли тгорло.",
+		"english": "I have a sore throat.",
+		"transcript": "[aɪhəv ə sɔː θrəut]"
+	},
+	{
+		"russian": "У меня болит голова.",
+		"english": "I have a headache.",
+		"transcript": "[aɪhəv ə 'hedeɪk]"
+	},
+	{
+		"russian": "У меня болит печень.",
+		"english": "I have a pain in my liver.",
+		"transcript": "[aɪhəv ə peɪnɪnmaɪ 'lɪvə]"
+	},
+	{
+		"russian": "У меня болит поясница.",
+		"english": "I have a pain in the small of the back.",
+		"transcript": "[aɪhəv ə peɪnɪnðəsmɔːləvðəbæk]"
+	},
+	{
+		"russian": "У меня болят глаза.",
+		"english": "I have sore eyes.",
+		"transcript": "[aɪhəvsɔ: aɪz]"
+	},
+	{
+		"russian": "Болеть (о частитела)",
+		"english": "To hurt",
+		"transcript": "[hɜ:t]"
+	},
+	{
+		"russian": "У меня боли трука.",
+		"english": "My hand hurts.",
+		"transcript": "[maɪhændhɜ:ts]"
+	},
+	{
+		"russian": "Больно!",
+		"english": "It hurts!",
+		"transcript": "[ɪthɜ:ts]"
+	},
+	{
+		"russian": "У меня болит зуб.",
+		"english": "I have a toothache.",
+		"transcript": "[aɪhəv ə 'tuːθeɪk]"
+	},
+	{
+		"russian": "У меня сломался зуб.",
+		"english": "I have a broken tooth.",
+		"transcript": "[aɪhəv ə 'brəuk(ə)n tuːθ]"
+	},
+	{
+		"russian": "Пломба",
+		"english": "Filling",
+		"transcript": "['fɪlɪŋ]"
+	},
+	{
+		"russian": "У меня выпала пломба.",
+		"english": "I have lost a filling.",
+		"transcript": "[aɪhəvlɔst ə 'fɪlɪŋ]"
+	},
+	{
+		"russian": "Лечить зуб",
+		"english": "To treat a tooth",
+		"transcript": "[triːt ə tuːθ]]"
+	}
+]

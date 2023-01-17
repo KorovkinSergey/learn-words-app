@@ -1,0 +1,47 @@
+[
+	{
+		"russian": "Персонал отеля",
+		"english": "Hotel staff",
+		"transcript": "[(h)ə(u)'telstʌf]"
+	},
+	{
+		"russian": "Управляющий гостиницей",
+		"english": "Hotel manager",
+		"transcript": "[(h)ə(u)'tel 'mænɪʤə]"
+	},
+	{
+		"russian": "Администратор",
+		"english": "Receptionist",
+		"transcript": "[rɪ'sepʃ(ə)nɪst]"
+	},
+	{
+		"russian": "Дежурный администратор",
+		"english": "Desk clerk",
+		"transcript": "[desk klɑːk]"
+	},
+	{
+		"russian": "Горничная",
+		"english": "Chambermaid",
+		"transcript": "['ʧeɪmbəmeɪd]"
+	},
+	{
+		"russian": "Привратник, швейцар",
+		"english": "Doorman",
+		"transcript": "['dɔːmən]"
+	},
+	{
+		"russian": "Носильщик",
+		"english": "Porter",
+		"transcript": "['pɔːtə]"
+	},
+	{
+		"russian": "Коридорный, посыльный",
+		"english": "Bellboy",
+		"transcript": "['belbɔɪ]"
+	},
+	{
+		"russian": "Служащий гостиницы",
+		"english": "Valet",
+		"transcript": "['vælɪt]"
+	}
+]

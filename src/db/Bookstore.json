@@ -1,0 +1,652 @@
+[
+	{
+		"russian": "Книжный",
+		"english": "Bookstore",
+		"transcript": "[bʊkstɔ:]"
+	},
+	{
+		"russian": "Продуктовый",
+		"english": "Grocery store",
+		"transcript": "[grəʊsəristɔ:]"
+	},
+	{
+		"russian": "Косметика",
+		"english": "Cosmetics shop",
+		"transcript": "[kɒz'mɛtɪksʃɒp]"
+	},
+	{
+		"russian": "Универмаг",
+		"english": "Department store",
+		"transcript": "[dɪ'pa:tməntstɔ:]"
+	},
+	{
+		"russian": "Аптека",
+		"english": "Drugstore chemist's pharmacy",
+		"transcript": "[drʌgstɔ:] ['kemɪsts] ['fɑːməsɪ]"
+	},
+	{
+		"russian": "Булочная",
+		"english": "Bakery",
+		"transcript": "[beɪkəri]"
+	},
+	{
+		"russian": "Кондитерская",
+		"english": "Candy shop",
+		"transcript": "['kændɪʃɔp]"
+	},
+	{
+		"russian": "Оптика",
+		"english": "Optometrist",
+		"transcript": "[ɒpʹtɒmıtrıst]"
+	},
+	{
+		"russian": "Бутик",
+		"english": "Boutique",
+		"transcript": "[bu:'ti:k]"
+	},
+	{
+		"russian": "Рынок",
+		"english": "Market",
+		"transcript": "['ma:kɪt]"
+	},
+	{
+		"russian": "Мясной м-н",
+		"english": "Butcher's",
+		"transcript": "[bʊtʃəz]"
+	},
+	{
+		"russian": "М-н обуви",
+		"english": "Footwear shoe shop cobbler's",
+		"transcript": "[fʊtweə] [ʃuː ʃɔp] ['kɔbləz]"
+	},
+	{
+		"russian": "Торговый центр",
+		"english": "Mall",
+		"transcript": "[mɔ:l]"
+	},
+	{
+		"russian": "Ювелирный м-н",
+		"english": "Jewellery store",
+		"transcript": "[dʒu:əlristɔ:]"
+	},
+	{
+		"russian": "Электроника",
+		"english": "Electronics",
+		"transcript": "[ɪlɛk'trɒnɪks]"
+	},
+	{
+		"russian": "Книжный",
+		"english": "Bookstore",
+		"transcript": "[bʊkstɔ:]"
+	},
+	{
+		"russian": "Косметика",
+		"english": "Cosmetics shop",
+		"transcript": "[kɒz'mɛtɪksʃɒp]"
+	},
+	{
+		"russian": "Универмаг",
+		"english": "Department store",
+		"transcript": "[dɪ'pa:tməntstɔ:]"
+	},
+	{
+		"russian": "Аптека",
+		"english": "Drugstore chemist's pharmacy",
+		"transcript": "[drʌgstɔ:] ['kemɪsts] ['fɑːməsɪ]"
+	},
+	{
+		"russian": "Мебель",
+		"english": "Furniture store",
+		"transcript": "[fɜ:nɪtʃəstɔ:]"
+	},
+	{
+		"russian": "Спортивные товары",
+		"english": "Sport goods sports store",
+		"transcript": "[spɔ:tgʊdz] [spɔ:tsstɔ:]"
+	},
+	{
+		"russian": "Канцелярия",
+		"english": "Stationer's",
+		"transcript": "[steɪʃnəz]"
+	},
+	{
+		"russian": "М-н игрушек",
+		"english": "Toy store",
+		"transcript": "[tɔɪstɔ:]"
+	},
+	{
+		"russian": "Антикварный",
+		"english": "Antique shop",
+		"transcript": "[æn'ti:kʃɒp]"
+	},
+	{
+		"russian": "Газетныйкиоск",
+		"english": "Newsagent's news-stand",
+		"transcript": "[nju:z 'eɪdʒənts] [ʹnju:zstænd]"
+	},
+	{
+		"russian": "Дисконт центр",
+		"english": "Discount store",
+		"transcript": "[dɪskaʊntstɔ:]"
+	},
+	{
+		"russian": "М-н тканей",
+		"english": "Fabric store",
+		"transcript": "[fæbrɪkstɔ:]"
+	},
+	{
+		"russian": "Магазин посуды",
+		"english": "Crockery cookware",
+		"transcript": "['krɔk(ə)rɪ] ['kukweə]"
+	},
+	{
+		"russian": "Рыбныймагазин",
+		"english": "Fishmonger's seafood store",
+		"transcript": "[fɪʃˌmʌŋgəz] [si:fudstɔ:]"
+	},
+	{
+		"russian": "Цветочный магазин",
+		"english": "Florist",
+		"transcript": "['flɔrɪst]"
+	},
+	{
+		"russian": "Сетьс токовых магазинов",
+		"english": "Outlet mall",
+		"transcript": "['autletmɔːl]"
+	},
+	{
+		"russian": "Ломбард",
+		"english": "Pawnshop",
+		"transcript": "['pɔːnʃɔp]"
+	},
+	{
+		"russian": "Винный магазин",
+		"english": "Liquor store",
+		"transcript": "['lɪkəstɔː]"
+	},
+	{
+		"russian": "Блошиный рынок",
+		"english": "Flea market",
+		"transcript": "[fli: 'ma:kɪt]"
+	},
+	{
+		"russian": "Киоск",
+		"english": "Kiosk=stall",
+		"transcript": "[ki(:)ɒsk = stɔ:l]"
+	},
+	{
+		"russian": "Галантерея",
+		"english": "Haberdashery",
+		"transcript": "[hæbədæʃəri]"
+	},
+	{
+		"russian": "Зоо магазин",
+		"english": "Pet shop",
+		"transcript": "[pɛtʃɒp]"
+	},
+	{
+		"russian": "Бытовые приборы",
+		"english": "Appliance store",
+		"transcript": "[ə'plaɪənsstɔ:]"
+	},
+	{
+		"russian": "Сетевой м-н",
+		"english": "Chain store",
+		"transcript": "[tʃeɪnstɔ:]"
+	},
+	{
+		"russian": "Деликатесы",
+		"english": "Delicatessen",
+		"transcript": "[dɛlɪkə'tɛsn]"
+	},
+	{
+		"russian": "Список пожеланий",
+		"english": "Wish list",
+		"transcript": "[wɪʃlɪst]"
+	},
+	{
+		"russian": "Заказ",
+		"english": "Order",
+		"transcript": "[ɔ:də]"
+	},
+	{
+		"russian": "Очередь",
+		"english": "Line = queue",
+		"transcript": "[laɪn = kju:]"
+	},
+	{
+		"russian": "Доставка",
+		"english": "Delivery",
+		"transcript": "[dɪ'lɪvəri]"
+	},
+	{
+		"russian": "Жаловаться",
+		"english": "To complain",
+		"transcript": "[kəm'pleɪn]"
+	},
+	{
+		"russian": "Потребитель",
+		"english": "Consumer",
+		"transcript": "[kən'sju:mə]"
+	},
+	{
+		"russian": "Выбирать",
+		"english": "To choose",
+		"transcript": "[tʃu:z]"
+	},
+	{
+		"russian": "Примерять",
+		"english": "To try on",
+		"transcript": "[traɪɒn]"
+	},
+	{
+		"russian": "Торговаться",
+		"english": "To bargain = haggle",
+		"transcript": "[ba:gɪn = 'hægl]"
+	},
+	{
+		"russian": "Платить наличными",
+		"english": "To pay (in) cash",
+		"transcript": "[peɪ(in)kæʃ]"
+	},
+	{
+		"russian": "Платить кредиткой",
+		"english": "To pay by credit card",
+		"transcript": "[peɪbaɪ 'krɛdɪtka:d]"
+	},
+	{
+		"russian": "Покупать",
+		"english": "To purchase",
+		"transcript": "[pɜ:tʃəs]"
+	},
+	{
+		"russian": "Возврат денег",
+		"english": "Refund",
+		"transcript": "[ri:fʌnd]"
+	},
+	{
+		"russian": "Возврат",
+		"english": "Return",
+		"transcript": "[rɪ'tɜ:n]"
+	},
+	{
+		"russian": "Курьер",
+		"english": "Courier",
+		"transcript": "[kʊrɪə]"
+	},
+	{
+		"russian": "Сделать заказ",
+		"english": "To make an order",
+		"transcript": "[meɪkən 'ɔ:də]"
+	},
+	{
+		"russian": "В наличии",
+		"english": "In stock = available",
+		"transcript": "[in stɒk = ə'veɪləbl]"
+	},
+	{
+		"russian": "Новые товары",
+		"english": "New items",
+		"transcript": "[nju: 'aɪtəmz]"
+	},
+	{
+		"russian": "Бесплатная доставка",
+		"english": "Free shipping",
+		"transcript": "[fri: 'ʃɪpɪŋ]"
+	},
+	{
+		"russian": "Поврежденный товар",
+		"english": "Damaged item",
+		"transcript": "[dæmɪdʒd 'aɪtəm]"
+	},
+	{
+		"russian": "Товар с дефектом",
+		"english": "Faulty item",
+		"transcript": "[fɔ:lti 'aɪtəm]"
+	},
+	{
+		"russian": "Замена",
+		"english": "Replacement",
+		"transcript": "[rɪ'pleɪsmənt]"
+	},
+	{
+		"russian": "Покупать в кредит",
+		"english": "To buy on credit",
+		"transcript": "[baɪɒn 'krɛdɪt]"
+	},
+	{
+		"russian": "Разглядывать витрины",
+		"english": "To go window-shopping",
+		"transcript": "[gəʊ 'wɪndəʊ'ʃɒpɪŋ]"
+	},
+	{
+		"russian": "Шопоголик",
+		"english": "Shopaholic",
+		"transcript": "[ʃɔpə'hɔlɪk]"
+	},
+	{
+		"russian": "Стоять в очереди",
+		"english": "To stand in a line",
+		"transcript": "[stænd in ə laɪn]"
+	},
+	{
+		"russian": "Списокпокупок",
+		"english": "Shopping list",
+		"transcript": "[ʃɒpɪŋlɪst]"
+	},
+	{
+		"russian": "Обслуживание клиентов",
+		"english": "Customer Service",
+		"transcript": "[kʌstəmə 'sɜ:vɪs]"
+	},
+	{
+		"russian": "Этикетка",
+		"english": "Label",
+		"transcript": "[leɪbl]"
+	},
+	{
+		"russian": "Продавать",
+		"english": "To sell",
+		"transcript": "[sɛl]"
+	},
+	{
+		"russian": "Предлагать",
+		"english": "To offer",
+		"transcript": "[ɒfə]"
+	},
+	{
+		"russian": "Распродажа",
+		"english": "Sale",
+		"transcript": "[seɪl]"
+	},
+	{
+		"russian": "Давать скидку",
+		"english": "To give a discount",
+		"transcript": "[gɪv ə 'dɪskaʊnt]"
+	},
+	{
+		"russian": "Касса",
+		"english": "Cash desk register",
+		"transcript": "[kæʃdɛsk] ['rɛdʒɪstə]"
+	},
+	{
+		"russian": "Кассир",
+		"english": "Cashier",
+		"transcript": "[kæ'ʃɪə]"
+	},
+	{
+		"russian": "Продавец",
+		"english": "Shop assistant",
+		"transcript": "[ʃɒpə'sɪstənt]"
+	},
+	{
+		"russian": "Ценник",
+		"english": "Price tag",
+		"transcript": "[praɪstæg]"
+	},
+	{
+		"russian": "Лучшее предложение",
+		"english": "Best deal",
+		"transcript": "[[bɛstdi:l]"
+	},
+	{
+		"russian": "Продано",
+		"english": "Sold out",
+		"transcript": "[səʊldaʊt]"
+	},
+	{
+		"russian": "Заворачивать",
+		"english": "To wrap",
+		"transcript": "[ræp]"
+	},
+	{
+		"russian": "Фиксированная цена",
+		"english": "Fixed price",
+		"transcript": "[fɪkstpraɪs]"
+	},
+	{
+		"russian": "Рекламирование",
+		"english": "Advertising",
+		"transcript": "[ædvətaɪzɪŋ]"
+	},
+	{
+		"russian": "Рекламная кампания",
+		"english": "Advertising campaign",
+		"transcript": "[ædvətaɪzɪŋkæm'peɪn]"
+	},
+	{
+		"russian": "Реклама (ТВ илирадио)",
+		"english": "Commercial",
+		"transcript": "[kə'mɜ:ʃəl]"
+	},
+	{
+		"russian": "Банка (сливок)",
+		"english": "Jar of (cream)",
+		"transcript": "[ʤɑː əv]"
+	},
+	{
+		"russian": "Пачка пакет (молока, сигарет)",
+		"english": "Carton packet of (milk, cigarettes)",
+		"transcript": "['kɑːt(ə)n 'pækɪtəv]"
+	},
+	{
+		"russian": "Кусок (хлеба)",
+		"english": "Slice piece of (bread)",
+		"transcript": "[slaɪs pi:səv]"
+	},
+	{
+		"russian": "Дюжина (яиц)",
+		"english": "Dozen of (eggs)",
+		"transcript": "['dʌz(ə)n əv]"
+	},
+	{
+		"russian": "Бутылка (молока)",
+		"english": "Bottle of (milk)",
+		"transcript": "['bɔtləv]"
+	},
+	{
+		"russian": "Коробка (печенья)",
+		"english": "Box of (cookies)",
+		"transcript": "[bɔksəv]"
+	},
+	{
+		"russian": "Консервная банка (персиков)",
+		"english": "Can tin of (peaches)",
+		"transcript": "[kæn tɪnəv]"
+	},
+	{
+		"russian": "Плитка (шоколада)",
+		"english": "Bar of (chocolate)",
+		"transcript": "[ba: əv]"
+	},
+	{
+		"russian": "Кусок (мыла)",
+		"english": "Bar of (soap)",
+		"transcript": "[ba: əv]"
+	},
+	{
+		"russian": "Кусок (говядины)",
+		"english": "Cut of (beef)",
+		"transcript": "[kʌtəv]"
+	},
+	{
+		"russian": "Гроздь(винограда)",
+		"english": "Bunch of (grapes)",
+		"transcript": "[bʌnʧəv]"
+	},
+	{
+		"russian": "Связка(ключей)",
+		"english": "Bunch of (keys)",
+		"transcript": "[bʌnʧəv]"
+	},
+	{
+		"russian": "Полдюжины",
+		"english": "Half a dozen",
+		"transcript": "[ha:f ə 'dʌz(ə)n]"
+	},
+	{
+		"russian": "Клубок (шерсти)",
+		"english": "Ball of (wool)",
+		"transcript": "[bɔːləv]"
+	},
+	{
+		"russian": "Катушка (ниток)",
+		"english": "Reel of (thread)",
+		"transcript": "[ri:ləv]"
+	},
+	{
+		"russian": "Рулон (бумаги)",
+		"english": "Roll of (paper)",
+		"transcript": "[rəuləv]"
+	},
+	{
+		"russian": "Подавать жалобу",
+		"english": "To lodge file a complaint",
+		"transcript": "[lɔʤ fail ə kəm'pleɪnt]"
+	},
+	{
+		"russian": "Совершить удачную покупку",
+		"english": "To buy (something) for a song get a steal",
+		"transcript": "[baɪ<smth>fɔːrəsɔŋ] [get ə sti:l]"
+	},
+	{
+		"russian": "Усиленное рекламирование товаров, навязывание товаров покупателю",
+		"english": "A hard sell",
+		"transcript": "[ə ha:dsel]"
+	},
+	{
+		"russian": "Купить что-то ненужное, что постоянно выходит из строя и ломается",
+		"english": "To buy a lemon",
+		"transcript": "[baɪ ə 'lemən]"
+	},
+	{
+		"russian": "Напитки за мойсчет",
+		"english": "The drinks are on me",
+		"transcript": "[ðədrɪŋks a: ɔn mi:]"
+	},
+	{
+		"russian": "Переплачивать, платить больше, чем товар реально стоит",
+		"english": "To overpay get ripped off",
+		"transcript": "[ˌəuvə'peɪ get rɪptɔf]"
+	},
+	{
+		"russian": "Сделка, иметь дело",
+		"english": "(to) deal",
+		"transcript": "[di:l]"
+	},
+	{
+		"russian": "Мелочь, сдача",
+		"english": "Change",
+		"transcript": "[ʧeɪnʤ]"
+	},
+	{
+		"russian": "Уценено (потому что необходимо продать)",
+		"english": "Reduced to clear",
+		"transcript": "[rɪ'djuːsttəklɪə]"
+	},
+	{
+		"russian": "Выгодная покупка (с точки зрения цены для покупателя)",
+		"english": "Bargain a steal",
+		"transcript": "['bɑːgɪn] [sti:l]"
+	},
+	{
+		"russian": "Быть в полном беспорядке, хаосе, быть неорганизованным, несобранным",
+		"english": "To be all over the shop",
+		"transcript": "[bi: ɔːl 'əuvəðəʃɔp]"
+	},
+	{
+		"russian": "«Покупай, пока не упадёшь» или «Шоппинг до умопомрачения»",
+		"english": "To shop till you drop",
+		"transcript": "[ʃɔptɪljuː drɔp]"
+	},
+	{
+		"russian": "Быть очень дорогим, влететь в копеечку",
+		"english": "To cost an arm and a leg to cost a small fortune to cost (smb) a pretty penny",
+		"transcript": "[kɔstən a:m & ə leg kɔst ə smɔːl 'fɔːʧuːn kɔst<smb>ə 'prɪtɪ 'penɪ]"
+	},
+	{
+		"russian": "«Толкучка», барахолка",
+		"english": "Rag fair",
+		"transcript": "['rægfeə]"
+	},
+	{
+		"russian": "Оформлять витрину",
+		"english": "To dress the shop-window",
+		"transcript": "[dresðəʃɔp 'wɪndəu]"
+	},
+	{
+		"russian": "Прилавок",
+		"english": "Counter",
+		"transcript": "['kauntə]"
+	},
+	{
+		"russian": "«Прогулка» по магазинам с совершением многочисленных покупок и затратой больших сумм денег",
+		"english": "Shopping spree",
+		"transcript": "[ʹʃɒpıŋspri:]"
+	},
+	{
+		"russian": "Пойти с молотка",
+		"english": "To go come to under the hammer",
+		"transcript": "[gəu kʌmtə 'ʌndəðə 'hæmə]"
+	},
+	{
+		"russian": "Быть в полном беспорядке, хаосе, быть неорганизованным, несобранным",
+		"english": "To be all over the shop",
+		"transcript": "[bi: ɔːl 'əuvəðəʃɔp]"
+	},
+	{
+		"russian": "Быть в продаже",
+		"english": "To be in stock",
+		"transcript": "[bi: ɪnstɔk]"
+	},
+	{
+		"russian": "Не иметься в продаже",
+		"english": "To be out of stock",
+		"transcript": "[bi: ʹaʋtəvstɔk]"
+	},
+	{
+		"russian": "Уценка",
+		"english": "Mark-down",
+		"transcript": "['mɑːkdaun]"
+	},
+	{
+		"russian": "Прицениться, сравнить цены тут и там",
+		"english": "To shop around",
+		"transcript": "[ʃɔpə'raund]"
+	},
+	{
+		"russian": "Говорить о работе, о служебных делах",
+		"english": "To talk shop",
+		"transcript": "[tɔːkʃɔp]"
+	},
+	{
+		"russian": "Пройти без очереди",
+		"english": "To jump the queue (Br) to cut in line (Am)",
+		"transcript": "[ʤʌmpðəkjuː kʌtɪnlaɪn]"
+	},
+	{
+		"russian": "Распродажа по поводу закрытия",
+		"english": "Closing down sale",
+		"transcript": "['kləuzɪŋdaunseɪl]"
+	},
+	{
+		"russian": "Окончательная распродажа",
+		"english": "Clearance sale",
+		"transcript": "['klɪər(ə)n(t)s seɪl]"
+	},
+	{
+		"russian": "Специальное предложение",
+		"english": "Special offer",
+		"transcript": "['speʃ(ə)l 'ɔfə]"
+	},
+	{
+		"russian": "По дешевке",
+		"english": "On the cheap",
+		"transcript": "[ɔnðəʧiːp]"
+	},
+	{
+		"russian": "Предавать кого-либо",
+		"english": "To sell out (someone)",
+		"transcript": "[selaut<smb>]"
+	}
+]

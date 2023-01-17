@@ -1,0 +1,207 @@
+[
+	{
+		"russian": "Нейтральные слова",
+		"english": "Neutral words",
+		"transcript": "Neutral words"
+	},
+	{
+		"russian": "Голодный",
+		"english": "Hungry",
+		"transcript": "['hʌŋgrɪ]"
+	},
+	{
+		"russian": "Большой",
+		"english": "Big",
+		"transcript": "[bɪg]"
+	},
+	{
+		"russian": "Маленький",
+		"english": "Little small",
+		"transcript": "['lɪtl] [smɔːl]"
+	},
+	{
+		"russian": "Горячий",
+		"english": "Hot",
+		"transcript": "[hɔt]"
+	},
+	{
+		"russian": "Занятой",
+		"english": "Busy",
+		"transcript": "['bɪzɪ]"
+	},
+	{
+		"russian": "Помешанный (на чем-л.)",
+		"english": "Crazy (about)",
+		"transcript": "['kreɪzɪ]"
+	},
+	{
+		"russian": "Настоящий",
+		"english": "Real",
+		"transcript": "[rɪəl]"
+	},
+	{
+		"russian": "Строгий",
+		"english": "Strict",
+		"transcript": "[strɪkt]"
+	},
+	{
+		"russian": "Непринужденный, раскованный",
+		"english": "Relaxed",
+		"transcript": "[rıʹlækst]"
+	},
+	{
+		"russian": "Наивный",
+		"english": "Naive",
+		"transcript": "[naɪˈiːv]"
+	},
+	{
+		"russian": "Меланхоличный",
+		"english": "Melancholic",
+		"transcript": "[ˌmelən'kɔlɪk]"
+	},
+	{
+		"russian": "Обыкновенный",
+		"english": "Ordinary average",
+		"transcript": "['ɔːd(ə)n(ə)rɪ] ['æv(ə)rɪʤ]"
+	},
+	{
+		"russian": "Пассивный",
+		"english": "Passive",
+		"transcript": "[ˈpæsɪv]"
+	},
+	{
+		"russian": "Настоящий",
+		"english": "True",
+		"transcript": "[truː]"
+	},
+	{
+		"russian": "Необщительный",
+		"english": "Unsociable",
+		"transcript": "[ʌn'səuʃəbl]"
+	},
+	{
+		"russian": "Реалист",
+		"english": "Realist",
+		"transcript": "[ˈrɪəlɪst]"
+	},
+	{
+		"russian": "Патриотичный",
+		"english": "Patriotic",
+		"transcript": "[ˌpætrɪ'ɔtɪk]"
+	},
+	{
+		"russian": "Импульсивный",
+		"english": "Impulsive",
+		"transcript": "[ɪm'pʌlsɪv]"
+	},
+	{
+		"russian": "Взволнованный",
+		"english": "Excited",
+		"transcript": "[ɪk'saɪtɪd]"
+	},
+	{
+		"russian": "Ревнивый",
+		"english": "Jealous",
+		"transcript": "['ʤeləs]"
+	},
+	{
+		"russian": "Коварный, хитрый",
+		"english": "Sly",
+		"transcript": "[slaɪ]"
+	},
+	{
+		"russian": "Непосредственный",
+		"english": "Spontaneous",
+		"transcript": "[spɔn'teɪnɪəs]"
+	},
+	{
+		"russian": "Непредсказуемый",
+		"english": "Unpredictable",
+		"transcript": "[ˌʌnprɪ'dɪktəbl]"
+	},
+	{
+		"russian": "Необычный",
+		"english": "Unusual uncommon",
+		"transcript": "[ʌn'juːʒ(ə)l] [ʌn'kɔmən]"
+	},
+	{
+		"russian": "Странный, чудной",
+		"english": "Weird",
+		"transcript": "[wɪəd]"
+	},
+	{
+		"russian": "Личность",
+		"english": "Personality",
+		"transcript": "[pəːsəˈnælɪtɪ]"
+	},
+	{
+		"russian": "Черта характера",
+		"english": "Character trait",
+		"transcript": "[ˈkærɪktərtreɪt]"
+	},
+	{
+		"russian": "Темперамент",
+		"english": "Temperament",
+		"transcript": "[ˈtemprəmənt]"
+	},
+	{
+		"russian": "Скрупулезный",
+		"english": "Accurate",
+		"transcript": "['ækjərət]"
+	},
+	{
+		"russian": "Ужасный (крутой)",
+		"english": "Awesome",
+		"transcript": "['ɔːsəm]"
+	},
+	{
+		"russian": "Испытывающий скуку",
+		"english": "Bored",
+		"transcript": "[bɔːd]"
+	},
+	{
+		"russian": "Капризный, нетерпеливый",
+		"english": "Capricious fretful impatient",
+		"transcript": "[kə'prɪʃəs] ['fretf(ə)l] [ɪm'peɪʃ(ə)nt]"
+	},
+	{
+		"russian": "Хитрый, лукавый, коварный; пронырливый",
+		"english": "Cunning",
+		"transcript": "['kʌnɪŋ]"
+	},
+	{
+		"russian": "Эксцентричный",
+		"english": "Eccentric",
+		"transcript": "[ɪk'sentrɪk]"
+	},
+	{
+		"russian": "Большой крупный",
+		"english": "Large",
+		"transcript": "[lɑːʤ]"
+	},
+	{
+		"russian": "Беспечный",
+		"english": "Light-hearted easy-going",
+		"transcript": "[lait-ha:ted] [i:zi:gəuiŋ]"
+	},
+	{
+		"russian": "Маленький",
+		"english": "Little small",
+		"transcript": "['lɪtl] [smɔːl]"
+	},
+	{
+		"russian": "Замкнутый",
+		"english": "Reserved",
+		"transcript": "[rɪ'zɜːvd]"
+	},
+	{
+		"russian": "Задумчивый",
+		"english": "Thoughtful",
+		"transcript": "[θɔːtf(ə)l]"
+	},
+	{
+		"russian": "Жесткий, суровый",
+		"english": "Tough",
+		"transcript": "[tʌf]"
+	}
+]

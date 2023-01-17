@@ -1,0 +1,227 @@
+[
+	{
+		"russian": "Осмотр достопримечательностей",
+		"english": "Sightseeing",
+		"transcript": "['saɪtˌsiːɪŋ]"
+	},
+	{
+		"russian": "Карта",
+		"english": "Map",
+		"transcript": "[mæp]"
+	},
+	{
+		"russian": "Пещера",
+		"english": "Cave",
+		"transcript": "[keɪv]"
+	},
+	{
+		"russian": "Статуя",
+		"english": "Statue",
+		"transcript": "['stæʧuː]"
+	},
+	{
+		"russian": "Театр",
+		"english": "Theater",
+		"transcript": "['θɪətə]"
+	},
+	{
+		"russian": "Зоопарк",
+		"english": "Zoo",
+		"transcript": "[zuː]"
+	},
+	{
+		"russian": "Парк",
+		"english": "Park",
+		"transcript": "[pɑːk]"
+	},
+	{
+		"russian": "Замок",
+		"english": "Castle",
+		"transcript": "['kɑːsl]"
+	},
+	{
+		"russian": "Музей",
+		"english": "Museum",
+		"transcript": "[mjuː'ziːəm]"
+	},
+	{
+		"russian": "Местные жители",
+		"english": "Locals",
+		"transcript": "['ləuklz]"
+	},
+	{
+		"russian": "Достопримечательность",
+		"english": "Attraction",
+		"transcript": "[ə'trækʃn]"
+	},
+	{
+		"russian": "Гид",
+		"english": "Tour guide",
+		"transcript": "[tuəgaɪd]"
+	},
+	{
+		"russian": "Путеводитель",
+		"english": "Guide book",
+		"transcript": "[gaɪdbuk]"
+	},
+	{
+		"russian": "Собор",
+		"english": "Cathedral",
+		"transcript": "[kə'θiːdrəl]"
+	},
+	{
+		"russian": "Аббатство",
+		"english": "Abbey",
+		"transcript": "['æbɪ]"
+	},
+	{
+		"russian": "Монастырь",
+		"english": "Monastery",
+		"transcript": "['mɔnəstərɪ]"
+	},
+	{
+		"russian": "Мечеть",
+		"english": "Mosque",
+		"transcript": "[mɔsk]"
+	},
+	{
+		"russian": "Храм",
+		"english": "Temple",
+		"transcript": "['templ]"
+	},
+	{
+		"russian": "Аудиогид",
+		"english": "Audio guide",
+		"transcript": "['ɔːdɪəugaɪd]"
+	},
+	{
+		"russian": "Местоположение",
+		"english": "Location",
+		"transcript": "[ləu'keɪʃn]"
+	},
+	{
+		"russian": "Деловой район",
+		"english": "Business district",
+		"transcript": "['bɪznɪs 'dɪstrɪkt]"
+	},
+	{
+		"russian": "Развлекательный район",
+		"english": "Entertainment district",
+		"transcript": "[entə'teɪnmənt 'dɪstrɪkt]"
+	},
+	{
+		"russian": "Район ресторанов",
+		"english": "Restaurant district",
+		"transcript": "['restərɔnt 'dɪstrɪkt]"
+	},
+	{
+		"russian": "Торговый район",
+		"english": "Shopping district",
+		"transcript": "['ʃɔpɪŋ 'dɪstrɪkt]"
+	},
+	{
+		"russian": "Cувенирный магазин",
+		"english": "Gift shop",
+		"transcript": "[gɪftʃɔp]"
+	},
+	{
+		"russian": "Мероприятие",
+		"english": "Activity event",
+		"transcript": "[æk'tɪvətɪ] [ɪ'vent]"
+	},
+	{
+		"russian": "Плата за вход",
+		"english": "Entrance fee",
+		"transcript": "[ˈentrəns fiː]"
+	},
+	{
+		"russian": "Фотография",
+		"english": "Photograph, picture",
+		"transcript": "['fəutəgrɑːf], [ˈpɪktʃə]"
+	},
+	{
+		"russian": "Открытка",
+		"english": "Postcard",
+		"transcript": "['pəustkɑːd]"
+	},
+	{
+		"russian": "Выставка",
+		"english": "Exhibition",
+		"transcript": "[ˌeksɪ'bɪʃn]"
+	},
+	{
+		"russian": "Художественная галерея",
+		"english": "Art gallery",
+		"transcript": "[ɑːt 'gælərɪ]"
+	},
+	{
+		"russian": "Монумент",
+		"english": "Monument",
+		"transcript": "['mɔnjumənt]"
+	},
+	{
+		"russian": "Каньон",
+		"english": "Canyon",
+		"transcript": "['kænjən]"
+	},
+	{
+		"russian": "Я хочу пойти на экскурсию.",
+		"english": "I want to go sightseeing.",
+		"transcript": "[aɪwɔnttuː gəu 'saɪtˌsiːɪŋ]"
+	},
+	{
+		"russian": "Что стоит посетить?",
+		"english": "What is worth visiting?",
+		"transcript": "[wɔtizwə:θ 'vizitɪŋ]"
+	},
+	{
+		"russian": "Вы не порекомендуете обзорный тур?",
+		"english": "Can you recommend a sightseeing tour?",
+		"transcript": "[kænjuː ˌrekə'mendə'saɪtˌsiːɪŋtuə]"
+	},
+	{
+		"russian": "Какие есть экскурсии?",
+		"english": "What sightseeing tours are available?",
+		"transcript": "[wɔt 'saɪtˌsiːɪŋtuəs ɑː ə'veɪləbl]"
+	},
+	{
+		"russian": "Мне нужен гид, который говорит по-русски.",
+		"english": "I need a guide who speaks Russian.",
+		"transcript": "[aini:d ə gaidhu: spi:ks 'rʌʃən]"
+	},
+	{
+		"russian": "Где можно обменять валюту?",
+		"english": "Where is the currency exchange?",
+		"transcript": "[wɛəizðe 'kʌrənsiiks'ʧeiʤ]"
+	},
+	{
+		"russian": "Какой курс валюты?",
+		"english": "What's the exchange rate?",
+		"transcript": "[wɔtsðiː ɪks'ʧeɪnʤreɪt]"
+	},
+	{
+		"russian": "Как мне попасть …?",
+		"english": "How can I get to … ?",
+		"transcript": "[haukænai get tu: … ]"
+	},
+	{
+		"russian": "Сколько времени займет дорога туда?",
+		"english": "How long does it take to get there?",
+		"transcript": "[haulɔŋdʌz it teiktu: get ðɛə]"
+	},
+	{
+		"russian": "Где ближайшая остановка автобуса?",
+		"english": "Where is the nearest bus stop?",
+		"transcript": "[wɛəizðiː niərestbʌsstɔp]"
+	},
+	{
+		"russian": "У вас есть карта города?",
+		"english": "Do you have a map of the city?",
+		"transcript": "[du: ju: hæv ə mæpəvðe 'siti]"
+	},
+	{
+		"russian": "Показать кому-то окрестности.",
+		"english": "To show someone around.",
+		"transcript": "[ʃəu<someone>ə'raund]"
+	}
+]

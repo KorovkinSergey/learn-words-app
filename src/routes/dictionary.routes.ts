@@ -64,8 +64,9 @@ router.post('/dictionaries', auth, async (req: any, res: any) => {
 							words: [
 								...dictionary.words,
 								...dictionaries.reduce((words: any, name: string) => {
-									const newWords = JSON.parse(readFileSync(path.join(__dirname, `../db/${name}.json`), 'utf-8')).filter(
-										({ russian }: any) => !dictionary.words.find((el: any) => el.russian === russian),
+									const data = JSON.parse(readFileSync(path.join(__dirname, `../db/${name}.json`), 'utf-8'))
+									const newWords = data.filter(
+										({ russian }: any) => !dictionary.words.find((el: any) => el?.russian === russian),
 									)
 									return [...words, ...newWords]
 								}, []),

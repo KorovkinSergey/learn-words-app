@@ -1,0 +1,72 @@
+[
+	{
+		"russian": "Травма",
+		"english": "Injury",
+		"transcript": "['ɪnʤ(ə)rɪ]"
+	},
+	{
+		"russian": "Порез",
+		"english": "Cut",
+		"transcript": "[kʌt]"
+	},
+	{
+		"russian": "Нарыв",
+		"english": "Abscess",
+		"transcript": "['æbsəs]"
+	},
+	{
+		"russian": "Опухание",
+		"english": "Swelling",
+		"transcript": "['swelɪŋ]"
+	},
+	{
+		"russian": "Вывих",
+		"english": "Dislocation",
+		"transcript": "[ˌdɪsləu'keɪʃ(ə)n]"
+	},
+	{
+		"russian": "Вывихнуть",
+		"english": "To dislocate",
+		"transcript": "['dɪsləukeɪt]"
+	},
+	{
+		"russian": "Перелом",
+		"english": "Fracture",
+		"transcript": "['frækʧə]"
+	},
+	{
+		"russian": "Растяжение",
+		"english": "Strain",
+		"transcript": "[streɪn]"
+	},
+	{
+		"russian": "Ожог",
+		"english": "Burn",
+		"transcript": "[bɜːn]"
+	},
+	{
+		"russian": "Кровь",
+		"english": "Blood",
+		"transcript": "[blʌd]"
+	},
+	{
+		"russian": "Кровоточить",
+		"english": "To bleed",
+		"transcript": "[bli:d]"
+	},
+	{
+		"russian": "Кровотечение",
+		"english": "Bleeding",
+		"transcript": "[bli:dɪŋ]"
+	},
+	{
+		"russian": "У меня течет кровь.",
+		"english": "I’m bleeding.",
+		"transcript": "[aɪmbli:dɪŋ]"
+	},
+	{
+		"russian": "У меня идет кровь из носа.",
+		"english": "I have a nosebleed.",
+		"transcript": "[aɪhəv ə 'nəuzbli:d]"
+	}
+]

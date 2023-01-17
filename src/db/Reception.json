@@ -1,0 +1,167 @@
+[
+	{
+		"russian": "Стойка регистрации",
+		"english": "Reception",
+		"transcript": "[rɪ'sepʃ(ə)n]"
+	},
+	{
+		"russian": "Стойка администратора",
+		"english": "Reception desk",
+		"transcript": "[rɪ'sepʃ(ə)n desk]"
+	},
+	{
+		"russian": "Счет",
+		"english": "Bill",
+		"transcript": "[bɪl]"
+	},
+	{
+		"russian": "Скидка",
+		"english": "Discount",
+		"transcript": "['dɪskaunt]"
+	},
+	{
+		"russian": "Первый этаж",
+		"english": "Ground floor",
+		"transcript": "[graundflɔː]"
+	},
+	{
+		"russian": "Второй этаж (фактически)",
+		"english": "First floor",
+		"transcript": "[fæːstflɔː]"
+	},
+	{
+		"russian": "Лифт",
+		"english": "Lift (br.) elevator (am.)",
+		"transcript": "[lɪft] ['elɪveɪtə]"
+	},
+	{
+		"russian": "Вестибюль",
+		"english": "Lobby",
+		"transcript": "['lɔbɪ]"
+	},
+	{
+		"russian": "Верхний этаж",
+		"english": "Top floor",
+		"transcript": "[tɔpflɔː]"
+	},
+	{
+		"russian": "Багаж",
+		"english": "Baggage luggage",
+		"transcript": "['bægɪʤ] ['lʌgɪʤ]"
+	},
+	{
+		"russian": "Утренний звонок",
+		"english": "Morning call",
+		"transcript": "['mɔːnɪŋ kɔːl]"
+	},
+	{
+		"russian": "Имеющийся в наличии",
+		"english": "Available",
+		"transcript": "[ə'veɪləbl]"
+	},
+	{
+		"russian": "Ключ электронный ключ от номера",
+		"english": "Room key key card",
+		"transcript": "[ruːmkiː] [kiː kɑːd]"
+	},
+	{
+		"russian": "Подтверждение бронирования",
+		"english": "Booking confirmation",
+		"transcript": "['bukɪŋ ˌkɔnfə'meɪʃ(ə)n]"
+	},
+	{
+		"russian": "Заранее",
+		"english": "In advance",
+		"transcript": "[ɪn əd'vɑːn(t)s]"
+	},
+	{
+		"russian": "Час, с наступлением которого возможно заселение в номер",
+		"english": "Check-in time",
+		"transcript": "[ʧekɪn taɪm]"
+	},
+	{
+		"russian": "Час, до которого необходимо освободить номер в день отъезда",
+		"english": "Check-out time",
+		"transcript": "[ʧekaut taɪm]"
+	},
+	{
+		"russian": "В стоимость включено",
+		"english": "Rate includes",
+		"transcript": "[reɪt ɪn 'kluːds]"
+	},
+	{
+		"russian": "Оплата в местной валюте",
+		"english": "Payment in local currency",
+		"transcript": "['peɪmənt ɪn 'ləuk(ə)l 'kʌrənsɪ]"
+	},
+	{
+		"russian": "В данный момент свободных номеров нет.",
+		"english": "At the moment there are no rooms available.",
+		"transcript": "[æt ðə 'məumənt ðe əra: nəu ru:mz ə'veɪləbl]"
+	},
+	{
+		"russian": "Брошюры с информацией об отеле и достопримечательностях",
+		"english": "Brochures",
+		"transcript": "['brəuʃəz]"
+	},
+	{
+		"russian": "Ручная тележка для багажа",
+		"english": "Luggage cart",
+		"transcript": "['lʌgɪʤ kɑːt]"
+	},
+	{
+		"russian": "Взимать плату за нанесенный ущерб",
+		"english": "To take a damage charge",
+		"transcript": "[teɪk ə 'dæmɪʤ ʧɑːʤ]"
+	},
+	{
+		"russian": "Взимать плату за пользование платными услугами",
+		"english": "To take an extra room charge",
+		"transcript": "[teɪk ən 'ekstrə ruːm ʧɑːʤ]"
+	},
+	{
+		"russian": "Платить по картe",
+		"english": "To pay with a card",
+		"transcript": "[peɪ wɪð ə kɑːd]"
+	},
+	{
+		"russian": "Расплатиться наличными",
+		"english": "To pay cash",
+		"transcript": "[peɪ kæʃ]"
+	},
+	{
+		"russian": "Оплатить услуги",
+		"english": "To pay for services",
+		"transcript": "[peɪ fɔː 'sɜːvɪs]"
+	},
+	{
+		"russian": "Выехать из гостиницы",
+		"english": "To check out",
+		"transcript": "[ʧek aut]"
+	},
+	{
+		"russian": "Вселиться в гостиницу (зарегистрироваться)",
+		"english": "To check in",
+		"transcript": "[ʧek ɪn]"
+	},
+	{
+		"russian": "Заполнить форму",
+		"english": "To fill in a form",
+		"transcript": "[fɪl ɪn ə fɔːm]"
+	},
+	{
+		"russian": "Забронировать гостиничный номер",
+		"english": "Make a reservation for a room",
+		"transcript": "[meɪk ə ˌrezə'veɪʃn fɔːr ə ruːm]"
+	},
+	{
+		"russian": "Бронировать",
+		"english": "To book",
+		"transcript": "[buk]"
+	},
+	{
+		"russian": "Ручная тележка для багажа",
+		"english": "Luggage cart",
+		"transcript": "['lʌgɪʤ kɑːt]"
+	}
+]

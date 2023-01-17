@@ -1,0 +1,292 @@
+[
+	{
+		"russian": "Болезни",
+		"english": "Illnesses",
+		"transcript": "[ˈɪlnəsɪz]"
+	},
+	{
+		"russian": "Болеть (бытьбольным)",
+		"english": "To be ill (br.) to be sick (am.)",
+		"transcript": "[biː ɪl] [biː sɪk]"
+	},
+	{
+		"russian": "Заболевать",
+		"english": "To fall get ill sick",
+		"transcript": "[fɔːl] [get ɪl sɪk]"
+	},
+	{
+		"russian": "Заболеть чем-то",
+		"english": "To become sick with ……",
+		"transcript": "[bɪ'kʌmsɪkwɪð]"
+	},
+	{
+		"russian": "Чувствовать себя лучше",
+		"english": "To feel better",
+		"transcript": "[fiːl 'betə]"
+	},
+	{
+		"russian": "Чувствовать себя хуже",
+		"english": "To feel worse",
+		"transcript": "[fiːlwɜ:s]"
+	},
+	{
+		"russian": "Идти на поправку",
+		"english": "To get better",
+		"transcript": "[get 'betə]"
+	},
+	{
+		"russian": "Выздоравливать",
+		"english": "To recover",
+		"transcript": "[rɪ'kʌvə]"
+	},
+	{
+		"russian": "Грипп",
+		"english": "Flu",
+		"transcript": "[fluː]"
+	},
+	{
+		"russian": "Заразиться гриппом",
+		"english": "To catch the flu",
+		"transcript": "[kæʧðə fluː]"
+	},
+	{
+		"russian": "Простуда",
+		"english": "Cold",
+		"transcript": "[kəuld]"
+	},
+	{
+		"russian": "Простудиться",
+		"english": "To catch a cold",
+		"transcript": "[kæʧ ə kəuld]"
+	},
+	{
+		"russian": "Болеть простудой",
+		"english": "To have a cold",
+		"transcript": "[həv ə kəuld]"
+	},
+	{
+		"russian": "Запор",
+		"english": "Constipation",
+		"transcript": "[ˌkɔnstɪ'peɪʃ(ə)n]"
+	},
+	{
+		"russian": "Диарея",
+		"english": "Diarrhea",
+		"transcript": "[ˌdaɪə'rɪə]"
+	},
+	{
+		"russian": "Отравление",
+		"english": "Poisoning",
+		"transcript": "['pɔɪz(ə)nɪŋ]"
+	},
+	{
+		"russian": "Сердечный приступ",
+		"english": "Heart attack",
+		"transcript": "['hɑ:təˌtæk]"
+	},
+	{
+		"russian": "Тонзиллит",
+		"english": "Tonsillitis",
+		"transcript": "[ˌtɔns(ə)'laɪtɪs]"
+	},
+	{
+		"russian": "Ангина",
+		"english": "Quinsy",
+		"transcript": "['kwɪnzɪ]"
+	},
+	{
+		"russian": "Аппендицит",
+		"english": "Appendicitis",
+		"transcript": "[əˌpendɪ'saɪtɪs]"
+	},
+	{
+		"russian": "Воспаление",
+		"english": "Inflammation",
+		"transcript": "[ˌɪnflə'meɪʃ(ə)n"
+	},
+	{
+		"russian": "Воспаление легких",
+		"english": "Pneumonia",
+		"transcript": "[nju:'məunɪə]"
+	},
+	{
+		"russian": "Гастрит",
+		"english": "Gastritis",
+		"transcript": "[gæs'traɪtɪs]"
+	},
+	{
+		"russian": "Изжога",
+		"english": "Heartburn",
+		"transcript": "['hɑ:tbɜ:n]"
+	},
+	{
+		"russian": "Туберкулез",
+		"english": "Tuberculosis",
+		"transcript": "[t(j)u:ˌbɜ:kjə'ləusɪs]"
+	},
+	{
+		"russian": "Язва (внутренняя)",
+		"english": "Ulcer",
+		"transcript": "['ʌlsə]"
+	},
+	{
+		"russian": "Язва (наружная)",
+		"english": "Sore",
+		"transcript": "[sɔ:]"
+	},
+	{
+		"russian": "Повышенно едавление",
+		"english": "High blood pressure",
+		"transcript": "[haɪblʌd 'preʃə]"
+	},
+	{
+		"russian": "Пониженное давление",
+		"english": "Low blood pressure",
+		"transcript": "[ləublʌd 'preʃə]"
+	},
+	{
+		"russian": "Близорукость",
+		"english": "Short-sightedness",
+		"transcript": "[ˌʃɔ:t'saɪtɪdnəs]"
+	},
+	{
+		"russian": "Дальнозоркость",
+		"english": "Far-sightedness",
+		"transcript": "[fɑ:'saɪtɪdnəs]"
+	},
+	{
+		"russian": "Аллергия",
+		"english": "Allergy",
+		"transcript": "['æləʤɪ]"
+	},
+	{
+		"russian": "Иметъ аллергию на …",
+		"english": "To be allergic to …",
+		"transcript": "[biː ə'leʤɪktu]"
+	},
+	{
+		"russian": "Лекарство",
+		"english": "Medicine",
+		"transcript": "['medɪsɪn]"
+	},
+	{
+		"russian": "Цветение",
+		"english": "Pollen",
+		"transcript": "['pɔlən]"
+	},
+	{
+		"russian": "Запахи",
+		"english": "Odours",
+		"transcript": "['əudəz]"
+	},
+	{
+		"russian": "Домашняя пыль",
+		"english": "Household dust",
+		"transcript": "['haushəulddʌst]"
+	},
+	{
+		"russian": "Симптомы",
+		"english": "Symptoms",
+		"transcript": "[ˈsɪmptəmz]"
+	},
+	{
+		"russian": "Головнаяболь",
+		"english": "Headache",
+		"transcript": "['hedeɪk]"
+	},
+	{
+		"russian": "Боль в ухе",
+		"english": "Earache",
+		"transcript": "['ɪəreɪk]"
+	},
+	{
+		"russian": "Боль в животе",
+		"english": "Stomach ache",
+		"transcript": "['stʌməkeɪk]"
+	},
+	{
+		"russian": "Боль в спине",
+		"english": "Backache",
+		"transcript": "['bækeɪk]"
+	},
+	{
+		"russian": "Зубнаяболь",
+		"english": "Toothache",
+		"transcript": "['tuːθeɪk]"
+	},
+	{
+		"russian": "Кашель",
+		"english": "Cough",
+		"transcript": "[kɔf]"
+	},
+	{
+		"russian": "Больноегорло",
+		"english": "Sore throat",
+		"transcript": "[sɔː θrəut]"
+	},
+	{
+		"russian": "Боль в груди",
+		"english": "Pain in one’s chest",
+		"transcript": "[peɪnɪn<one’s>ʧest]"
+	},
+	{
+		"russian": "Насморк",
+		"english": "Running nose",
+		"transcript": "['rʌnɪŋnəuz]"
+	},
+	{
+		"russian": "Заложенныйнос",
+		"english": "Stuffy nose",
+		"transcript": "['stʌfɪnəuz]"
+	},
+	{
+		"russian": "Озноб",
+		"english": "Chills",
+		"transcript": "[ʧɪlz]"
+	},
+	{
+		"russian": "Тошнота",
+		"english": "Nausea",
+		"transcript": "['nɔːsɪə]"
+	},
+	{
+		"russian": "Испытывать тошноту",
+		"english": "To feel sick",
+		"transcript": "[fiːl 'sɪk]"
+	},
+	{
+		"russian": "Высокая температура",
+		"english": "High temperature",
+		"transcript": "[haɪ 'temp(ə)rəʧə]"
+	},
+	{
+		"russian": "Иметь повышенную температуру",
+		"english": "To have a temperature",
+		"transcript": "[həv ə 'temp(ə)rəʧə]"
+	},
+	{
+		"russian": "Жар",
+		"english": "Fever",
+		"transcript": "['fiːvə]"
+	},
+	{
+		"russian": "Сыпь",
+		"english": "Rash",
+		"transcript": "[ræʃ]"
+	},
+	{
+		"russian": "Плохо себяч увствовать",
+		"english": "To be not well",
+		"transcript": "[bi: nɔtwel]"
+	},
+	{
+		"russian": "Бессонница",
+		"english": "Insomnia",
+		"transcript": "[ɪn'sɔmnɪə]"
+	},
+	{
+		"russian": "Страдать бессонницей",
+		"english": "To suffer from insomnia",
+		"transcript": "['sʌfəfrɔmɪn'sɔmnɪə]"
+	}
+]

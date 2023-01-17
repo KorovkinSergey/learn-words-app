@@ -1,0 +1,57 @@
+[
+	{
+		"russian": "Строительство",
+		"english": "Construction",
+		"transcript": "[kən'strʌkʃ(ə)n]"
+	},
+	{
+		"russian": "Инженер",
+		"english": "Engineer",
+		"transcript": "[ˌenʤɪ'nɪə]"
+	},
+	{
+		"russian": "Техник",
+		"english": "Technician",
+		"transcript": "[tek'nɪʃ(ə)n]"
+	},
+	{
+		"russian": "Механик",
+		"english": "Mechanic",
+		"transcript": "[mɪ'kænɪk]"
+	},
+	{
+		"russian": "Водопроводчик",
+		"english": "Plumber",
+		"transcript": "['plʌmə]"
+	},
+	{
+		"russian": "Плотникстоляр",
+		"english": "Carpenter",
+		"transcript": "['kɑːp(ə)ntə]"
+	},
+	{
+		"russian": "Ремонтник",
+		"english": "Repairer",
+		"transcript": "[rɪ'peərə]"
+	},
+	{
+		"russian": "Строитель",
+		"english": "Builder",
+		"transcript": "['bɪldə]"
+	},
+	{
+		"russian": "Рабочий - строитель",
+		"english": "Construction worker",
+		"transcript": "[kən'strʌkʃ(ə)n 'wɜːkə]"
+	},
+	{
+		"russian": "Сварщик",
+		"english": "Welder",
+		"transcript": "['weldə]"
+	},
+	{
+		"russian": "Каменщик",
+		"english": "Bricklayer",
+		"transcript": "['brɪkˌleɪə]"
+	}
+]

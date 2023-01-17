@@ -1,0 +1,152 @@
+[
+	{
+		"russian": "Виды преступлений",
+		"english": "Types of crimes",
+		"transcript": "Types of crimes"
+	},
+	{
+		"russian": "Ограбление, кража",
+		"english": "Robbery",
+		"transcript": "['rɔb(ə)rɪ]"
+	},
+	{
+		"russian": "Убийство",
+		"english": "Murder",
+		"transcript": "['mɜːdə]"
+	},
+	{
+		"russian": "Игра на деньги",
+		"english": "Gambling",
+		"transcript": "['gæmblɪŋ]"
+	},
+	{
+		"russian": "Взяточничество",
+		"english": "Bribery",
+		"transcript": "['braɪbərɪ]"
+	},
+	{
+		"russian": "Подделка документов денег",
+		"english": "Forgery",
+		"transcript": "['fɔːʤ(ə)rɪ]"
+	},
+	{
+		"russian": "Похищение людей с целью получить выкуп",
+		"english": "Kidnapping",
+		"transcript": "['kɪdnæpɪŋ]"
+	},
+	{
+		"russian": "Поджог",
+		"english": "Arson",
+		"transcript": "['ɑːs(ə)n]"
+	},
+	{
+		"russian": "Шантаж",
+		"english": "Blackmailing",
+		"transcript": "['blækmeɪlɪŋ]"
+	},
+	{
+		"russian": "Карманная кража",
+		"english": "Pickpocketing",
+		"transcript": "[’pɪk‚pɒkɪtɪŋ]"
+	},
+	{
+		"russian": "Магазинная кража",
+		"english": "Shoplifting",
+		"transcript": "[’ʃɒp‚lɪftɪŋ]"
+	},
+	{
+		"russian": "Воровство",
+		"english": "Theft",
+		"transcript": "[θeft]"
+	},
+	{
+		"russian": "Изнасилование",
+		"english": "Rape",
+		"transcript": "[reɪp]"
+	},
+	{
+		"russian": "Коррупция",
+		"english": "Corruption",
+		"transcript": "[kə'rʌpʃ(ə)n]"
+	},
+	{
+		"russian": "Кража со взломом",
+		"english": "Burglary housebreaking breaking-in",
+		"transcript": "['bɜːglərɪ] ['hausbreɪkɪŋ] [ˌbreɪkɪŋ'ɪn]"
+	},
+	{
+		"russian": "Уличное ограбление",
+		"english": "Mugging street robbery",
+		"transcript": "['mʌgɪŋ] [striːt 'rɔb(ə)rɪ]"
+	},
+	{
+		"russian": "Вооруженное нападение",
+		"english": "Armed robbery hold-up",
+		"transcript": "[ɑːmd 'rɔb(ə)rɪ] ['həuldʌp]"
+	},
+	{
+		"russian": "Угон машин",
+		"english": "Carjacking",
+		"transcript": "['kɑːʤækɪŋ]"
+	},
+	{
+		"russian": "Угон машины с целью покататься",
+		"english": "Joyriding",
+		"transcript": "['ʤɔɪraɪdɪŋ]"
+	},
+	{
+		"russian": "Угон самолета",
+		"english": "Hijacking",
+		"transcript": "['haɪʤækɪŋ]"
+	},
+	{
+		"russian": "Поножовщина",
+		"english": "Knifing",
+		"transcript": "[ˈnaɪfɪŋ]"
+	},
+	{
+		"russian": "Контрабанда наркотиков",
+		"english": "Drug trafficking",
+		"transcript": "[drʌg 'træfɪkɪŋ]"
+	},
+	{
+		"russian": "Уклонение от уплаты налогов",
+		"english": "Tax evasion",
+		"transcript": "[tæksɪ'veɪʒ(ə)n]"
+	},
+	{
+		"russian": "Подделка документов денег",
+		"english": "Forgery",
+		"transcript": "['fɔːʤ(ə)rɪ]"
+	},
+	{
+		"russian": "Разбойное нападение",
+		"english": "Assault",
+		"transcript": "[ə'sɔːlt]"
+	},
+	{
+		"russian": "Мошенничество",
+		"english": "Fraud",
+		"transcript": "[frɔːd]"
+	},
+	{
+		"russian": "Вымогательство",
+		"english": "Extortion",
+		"transcript": "[ɪk'stɔːʃ(ə)n], [ek-],"
+	},
+	{
+		"russian": "Покушение на VIPполитическое убийство",
+		"english": "Assassination political murder",
+		"transcript": "[əˌsæsɪ'neɪʃ(ə)n] [pə'lɪtɪk(ə)l 'mɜːdə]"
+	},
+	{
+		"russian": "Преступление, караемое смертной казнью",
+		"english": "Capital crime",
+		"transcript": "['kæpɪtəlkraɪm]"
+	},
+	{
+		"russian": "Контрабанда",
+		"english": "Smuggling",
+		"transcript": "['smʌglɪŋ]"
+	}
+]

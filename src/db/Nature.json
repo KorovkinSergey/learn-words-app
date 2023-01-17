@@ -1,0 +1,132 @@
+[
+	{
+		"russian": "Природа",
+		"english": "Nature",
+		"transcript": "Nature"
+	},
+	{
+		"russian": "Лес",
+		"english": "Forest",
+		"transcript": "['fɔrɪst]"
+	},
+	{
+		"russian": "Река",
+		"english": "River",
+		"transcript": "['rɪvə]"
+	},
+	{
+		"russian": "Море",
+		"english": "Sea",
+		"transcript": "[siː]"
+	},
+	{
+		"russian": "Озеро",
+		"english": "Lake",
+		"transcript": "[leɪk]"
+	},
+	{
+		"russian": "Луна",
+		"english": "Moon",
+		"transcript": "[muːn]"
+	},
+	{
+		"russian": "Гора",
+		"english": "Mountain",
+		"transcript": "['mauntɪn]"
+	},
+	{
+		"russian": "Цветок",
+		"english": "Flower",
+		"transcript": "['flauə]"
+	},
+	{
+		"russian": "Поле",
+		"english": "Field",
+		"transcript": "[fiːld]"
+	},
+	{
+		"russian": "Звезда",
+		"english": "Star",
+		"transcript": "[stɑː]"
+	},
+	{
+		"russian": "Солнце",
+		"english": "Sun",
+		"transcript": "[sʌn]"
+	},
+	{
+		"russian": "Дерево",
+		"english": "Tree",
+		"transcript": "[triː]"
+	},
+	{
+		"russian": "Волна",
+		"english": "Wave",
+		"transcript": "[weɪv]"
+	},
+	{
+		"russian": "Остров",
+		"english": "Island",
+		"transcript": "['aɪlənd]"
+	},
+	{
+		"russian": "Океан",
+		"english": "Ocean",
+		"transcript": "['əuʃ(ə)n]"
+	},
+	{
+		"russian": "Планета",
+		"english": "Planet",
+		"transcript": "['plænɪt]"
+	},
+	{
+		"russian": "Пляж",
+		"english": "Beach",
+		"transcript": "[biːʧ]"
+	},
+	{
+		"russian": "Пещера",
+		"english": "Cave",
+		"transcript": "[keɪv]"
+	},
+	{
+		"russian": "Трава",
+		"english": "Grass",
+		"transcript": "[grɑːs]"
+	},
+	{
+		"russian": "Холм",
+		"english": "Hill",
+		"transcript": "[hɪl]"
+	},
+	{
+		"russian": "Тропинка",
+		"english": "Path",
+		"transcript": "[pɑːθ]"
+	},
+	{
+		"russian": "Пруд",
+		"english": "Pond",
+		"transcript": "[pɔnd]"
+	},
+	{
+		"russian": "Скала",
+		"english": "Rock",
+		"transcript": "[rɔk]"
+	},
+	{
+		"russian": "Морской берег",
+		"english": "Seashore",
+		"transcript": "['siːʃɔː]"
+	},
+	{
+		"russian": "Ручей",
+		"english": "Stream",
+		"transcript": "[striːm]"
+	},
+	{
+		"russian": "Водопад",
+		"english": "Waterfall",
+		"transcript": "['wɔːtəfɔːl]"
+	}
+]

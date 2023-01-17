@@ -1,0 +1,82 @@
+[
+	{
+		"russian": "Домашние животные",
+		"english": "Domestic animals",
+		"transcript": "[də'mestɪk 'ænɪm(ə)lz]"
+	},
+	{
+		"russian": "Кошка",
+		"english": "Cat",
+		"transcript": "[kæt]"
+	},
+	{
+		"russian": "Курица",
+		"english": "Chicken",
+		"transcript": "['ʧɪkɪn]"
+	},
+	{
+		"russian": "Петух",
+		"english": "Cock",
+		"transcript": "[kɔk]"
+	},
+	{
+		"russian": "Корова",
+		"english": "Cow",
+		"transcript": "[kau]"
+	},
+	{
+		"russian": "Собака",
+		"english": "Dog",
+		"transcript": "[dɔg]"
+	},
+	{
+		"russian": "Утка",
+		"english": "Duck",
+		"transcript": "[dʌk]"
+	},
+	{
+		"russian": "Коза, козёл",
+		"english": "Goat",
+		"transcript": "[gəut]"
+	},
+	{
+		"russian": "Гусь",
+		"english": "Goose",
+		"transcript": "[guːs]"
+	},
+	{
+		"russian": "Свинья",
+		"english": "Pig",
+		"transcript": "[pɪg]"
+	},
+	{
+		"russian": "Лошадь",
+		"english": "Horse",
+		"transcript": "[hɔːs]"
+	},
+	{
+		"russian": "Бык",
+		"english": "Ox",
+		"transcript": "[ɔks]"
+	},
+	{
+		"russian": "Кролик",
+		"english": "Rabbit",
+		"transcript": "['ræbɪt]"
+	},
+	{
+		"russian": "Баран",
+		"english": "Ram",
+		"transcript": "[ræm]"
+	},
+	{
+		"russian": "Овца",
+		"english": "Sheep",
+		"transcript": "[ʃiːp]"
+	},
+	{
+		"russian": "Индюшка",
+		"english": "Turkey",
+		"transcript": "['tɜːkɪ]"
+	}
+]

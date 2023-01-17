@@ -1,0 +1,807 @@
+[
+	{
+		"russian": "Отношения",
+		"english": "Relationships",
+		"transcript": "Relationships"
+	},
+	{
+		"russian": "Семья",
+		"english": "Family",
+		"transcript": "['fæm(ə)lɪ]"
+	},
+	{
+		"russian": "Младенец",
+		"english": "Baby",
+		"transcript": "['beɪbɪ]"
+	},
+	{
+		"russian": "Сын",
+		"english": "Son",
+		"transcript": "[sʌn]"
+	},
+	{
+		"russian": "Дочь",
+		"english": "Daughter",
+		"transcript": "['dɔːtə]"
+	},
+	{
+		"russian": "Близнец",
+		"english": "Twin",
+		"transcript": "[twɪn]"
+	},
+	{
+		"russian": "Тетя; тетка",
+		"english": "Aunt",
+		"transcript": "[ɑːnt]"
+	},
+	{
+		"russian": "Дядя",
+		"english": "Uncle",
+		"transcript": "['ʌŋkl]"
+	},
+	{
+		"russian": "Отец",
+		"english": "Father",
+		"transcript": "['fɑːðə]"
+	},
+	{
+		"russian": "Брат",
+		"english": "Brother",
+		"transcript": "['brʌðə]"
+	},
+	{
+		"russian": "Сестра",
+		"english": "Sister",
+		"transcript": "['sɪstə]"
+	},
+	{
+		"russian": "Старший брат",
+		"english": "Elder older brother",
+		"transcript": "['eldə] [əuldə 'brʌðə]"
+	},
+	{
+		"russian": "Племянница",
+		"english": "Niece",
+		"transcript": "[niːs]"
+	},
+	{
+		"russian": "Няня",
+		"english": "Nurse",
+		"transcript": "[nɜːs]"
+	},
+	{
+		"russian": "Двоюродный брат, двоюродная сестра; кузен, кузина",
+		"english": "Cousin",
+		"transcript": "['kʌz(ə)n]"
+	},
+	{
+		"russian": "Холостой",
+		"english": "Single",
+		"transcript": "['sɪŋgl]"
+	},
+	{
+		"russian": "Муж",
+		"english": "Husband",
+		"transcript": "['hʌzbənd]"
+	},
+	{
+		"russian": "Родной брат или сестра",
+		"english": "Sibling",
+		"transcript": "['sɪblɪŋ]"
+	},
+	{
+		"russian": "Племянник",
+		"english": "Nephew",
+		"transcript": "['nefjuː]"
+	},
+	{
+		"russian": "Племянник",
+		"english": "Nephew",
+		"transcript": "['nefjuː]"
+	},
+	{
+		"russian": "Родители женымужа",
+		"english": "In-laws",
+		"transcript": "[ɪn lɔːz]"
+	},
+	{
+		"russian": "Бывшая жена",
+		"english": "Ex-wife",
+		"transcript": "[eks waɪf]"
+	},
+	{
+		"russian": "Члены семьи",
+		"english": "Families",
+		"transcript": "['fæm(ə)lɪz]"
+	},
+	{
+		"russian": "Свадьба, венчание",
+		"english": "Wedding",
+		"transcript": "['wedɪŋ]"
+	},
+	{
+		"russian": "Родственники",
+		"english": "Relatives",
+		"transcript": "['relətɪvz]"
+	},
+	{
+		"russian": "Брак",
+		"english": "Marriage",
+		"transcript": "['mærɪʤ]"
+	},
+	{
+		"russian": "Женатый не женатый",
+		"english": "Married unmarried",
+		"transcript": "['mærɪd] [ʌn'mærɪd]"
+	},
+	{
+		"russian": "Разведенный",
+		"english": "Divorced",
+		"transcript": "[dɪ'vɔːst]"
+	},
+	{
+		"russian": "Холостяк",
+		"english": "Bachelor",
+		"transcript": "['bæʧ(ə)lə]"
+	},
+	{
+		"russian": "Внук; внучка",
+		"english": "Grandchild",
+		"transcript": "['græn(d)ʧaɪld]"
+	},
+	{
+		"russian": "Внучка",
+		"english": "Granddaughter",
+		"transcript": "['græn(d)ˌdɔːtə]"
+	},
+	{
+		"russian": "Внук",
+		"english": "Grandson",
+		"transcript": "['græn(d)sʌn]"
+	},
+	{
+		"russian": "Дедушка, дедушка (ласкательное)",
+		"english": "Grandfather, grandpapa, grandpa",
+		"transcript": "['græn(d)ˌfɑːðə], ['græn(d)pəˌpɑː], ['græn(d)pɑː]"
+	},
+	{
+		"russian": "Бабушка, бабушка (ласкательное)",
+		"english": "Grandmother, grandmamma, grandma",
+		"transcript": "['græn(d)ˌmʌðə], ['græn(d)məˌmɑː], ['græn(d)mɑː]"
+	},
+	{
+		"russian": "Дед и бабка",
+		"english": "Grandparent (s)",
+		"transcript": "['græn(d)'peər(ə)nts]"
+	},
+	{
+		"russian": "Правнук; правнучка",
+		"english": "Great-grandchild",
+		"transcript": "[greɪt 'græn(d)ʧaɪld]"
+	},
+	{
+		"russian": "Потомок",
+		"english": "Descendant",
+		"transcript": "[dɪ'sendənt]"
+	},
+	{
+		"russian": "Предок",
+		"english": "Ancestor",
+		"transcript": "['ænsəstə]"
+	},
+	{
+		"russian": "Жених невеста",
+		"english": "Fiancé fiancée, wife -to –be",
+		"transcript": "[fɪɒnseɪ fɪ’ɒnseɪ, waɪf tuː bi:]"
+	},
+	{
+		"russian": "Помолвленный",
+		"english": "Engaged",
+		"transcript": "[ɪn'geɪʤd]"
+	},
+	{
+		"russian": "Бывший муж",
+		"english": "Ex-husband",
+		"transcript": "[eks 'hʌzbənd]"
+	},
+	{
+		"russian": "Большая семья",
+		"english": "Extended family",
+		"transcript": "[ɪk’stendɪd 'fæm(ə)lɪ]"
+	},
+	{
+		"russian": "Планирование семьи",
+		"english": "Family planning",
+		"transcript": "[’fæməlɪ ’plænɪŋ]"
+	},
+	{
+		"russian": "Падчерица",
+		"english": "Step-daughter",
+		"transcript": "[step 'dɔːtə]"
+	},
+	{
+		"russian": "Отчим",
+		"english": "Step-father",
+		"transcript": "[step 'fɑːðə]"
+	},
+	{
+		"russian": "Приемный сын",
+		"english": "Step-son",
+		"transcript": "[step sʌn]"
+	},
+	{
+		"russian": "Суррогатная мать",
+		"english": "Surrogate mother",
+		"transcript": "[ˈsʌrəɡɪt 'mʌðə]"
+	},
+	{
+		"russian": "Свекор, тесть",
+		"english": "Father-in-law",
+		"transcript": "['fɑːðə ɪn lɔː]"
+	},
+	{
+		"russian": "Свекровь, теща",
+		"english": "Mother-in-law",
+		"transcript": "['mʌðərɪn lɔː]"
+	},
+	{
+		"russian": "Приемные родители",
+		"english": "Foster parents",
+		"transcript": "['fɔstə 'peər(ə)nts]"
+	},
+	{
+		"russian": "Приемные родители",
+		"english": "Adoptive parents",
+		"transcript": "[ə'dɔptɪv 'peər(ə)nts]"
+	},
+	{
+		"russian": "Брат-близнец",
+		"english": "Twin-brother",
+		"transcript": "[twɪn 'brʌðə]"
+	},
+	{
+		"russian": "Сестра-близнец",
+		"english": "Twin-sister",
+		"transcript": "[twɪn 'sɪstə]"
+	},
+	{
+		"russian": "Сводный брат",
+		"english": "Half-brother",
+		"transcript": "[hɑːf 'brʌðə]"
+	},
+	{
+		"russian": "Неполная семья",
+		"english": "One-parent family",
+		"transcript": "[wʌn 'peər(ə)nt 'fæm(ə)lɪ]"
+	},
+	{
+		"russian": "Сирота",
+		"english": "Orphan",
+		"transcript": "['ɔːf(ə)n]"
+	},
+	{
+		"russian": "Единственный ребенок",
+		"english": "The only child",
+		"transcript": "[ðiː 'əunlɪ ʧaɪld]"
+	},
+	{
+		"russian": "Зять (муж дочери)",
+		"english": "Son-in-law",
+		"transcript": "[sʌn ɪn lɔː]"
+	},
+	{
+		"russian": "Родители",
+		"english": "Old folks",
+		"transcript": "[əuld fəuks]"
+	},
+	{
+		"russian": "Брачный договор",
+		"english": "Prenuptial agreement",
+		"transcript": "[ˌpriːˈnʌpʃ(ə)l əˈgriːmənt]"
+	},
+	{
+		"russian": "Мальчишник \\ девичник",
+		"english": "Stag hen party (night)",
+		"transcript": "[stæg ’pɑ:rtɪ] [hen ’pɑ:rtɪ]"
+	},
+	{
+		"russian": "Молодожены",
+		"english": "Newly-weds",
+		"transcript": "['njuːlɪ wedz]"
+	},
+	{
+		"russian": "Обручальное кольцо",
+		"english": "Wedding ring",
+		"transcript": "['wedɪŋ rɪŋ]"
+	},
+	{
+		"russian": "Свадебный торт",
+		"english": "Wedding cake",
+		"transcript": "['wedɪŋ keɪk]"
+	},
+	{
+		"russian": "Свадебное платье",
+		"english": "Wedding dress",
+		"transcript": "['wedɪŋ dres]"
+	},
+	{
+		"russian": "Шафер",
+		"english": "Brides man, best man",
+		"transcript": "['braɪdzmən], [best mæn]"
+	},
+	{
+		"russian": "Медовый месяц",
+		"english": "Honey moon",
+		"transcript": "['hʌnɪmu:n]"
+	},
+	{
+		"russian": "Отпуск по беременности (декрет)",
+		"english": "Maternity leave",
+		"transcript": "[mə’tɜ:rnətɪ li:v]"
+	},
+	{
+		"russian": "Разрешение на вступление в брак",
+		"english": "Marriage licence",
+		"transcript": "['mærɪʤ ’laɪsəns]"
+	},
+	{
+		"russian": "Неверность",
+		"english": "Infidelity",
+		"transcript": "[ˌɪnfɪˈdelɪtɪ]"
+	},
+	{
+		"russian": "Вдова",
+		"english": "Widow (woman)",
+		"transcript": "['wɪdəu] (['wumən])"
+	},
+	{
+		"russian": "Вдовец",
+		"english": "Widower (man)",
+		"transcript": "['wɪdəuə] ([mæn])"
+	},
+	{
+		"russian": "Противозачаточные меры",
+		"english": "Birth control",
+		"transcript": "[bɜ:rƟ kən’trəʋl]"
+	},
+	{
+		"russian": "Усыновлять",
+		"english": "To adopt",
+		"transcript": "[ə'dɔpt]"
+	},
+	{
+		"russian": "Подать на развод",
+		"english": "To apply for divorce",
+		"transcript": "[ə’plaɪ fɔ: dɪ’vɔ:rs]"
+	},
+	{
+		"russian": "Родиться",
+		"english": "To be born",
+		"transcript": "[biː bɔːn]"
+	},
+	{
+		"russian": "Быть родным по крови",
+		"english": "To be related by blood",
+		"transcript": "[bi: ri:’leɪtɪd baɪ blʌd]"
+	},
+	{
+		"russian": "Растить детей",
+		"english": "To bring up children",
+		"transcript": "[brɪŋ ʌp 'ʧɪldr(ə)n]"
+	},
+	{
+		"russian": "Воспитывать",
+		"english": "To bring up",
+		"transcript": "[brɪŋ ʌp]"
+	},
+	{
+		"russian": "Развестись",
+		"english": "To get divorced",
+		"transcript": "[ ɡet dɪ’vɔːst ]"
+	},
+	{
+		"russian": "Помолвиться",
+		"english": "To get engaged",
+		"transcript": "[ɡet ɪn'geɪʤd]"
+	},
+	{
+		"russian": "Жениться",
+		"english": "To get married",
+		"transcript": "[get 'mærɪd]"
+	},
+	{
+		"russian": "Забеременеть",
+		"english": "To get pregnant",
+		"transcript": "[get 'pregnənt]"
+	},
+	{
+		"russian": "Родить",
+		"english": "To give birth",
+		"transcript": "[gɪv bɜ:rƟ]"
+	},
+	{
+		"russian": "Составить завещание",
+		"english": "To make a will",
+		"transcript": "[meɪk ə wil]"
+	},
+	{
+		"russian": "Жениться по любви",
+		"english": "To marry",
+		"transcript": "['mærɪ]"
+	},
+	{
+		"russian": "Предложить руку и сердце",
+		"english": "To propose to somebody",
+		"transcript": "[prə'pəuz tə <smb>]"
+	},
+	{
+		"russian": "Состоять в родстве",
+		"english": "To relate",
+		"transcript": "[rɪ'leɪt]"
+	},
+	{
+		"russian": "Создать семью",
+		"english": "To start a family",
+		"transcript": "[sta:t ə 'fæm(ə)lɪ]"
+	},
+	{
+		"russian": "Пойти в кого-либо",
+		"english": "To take after",
+		"transcript": "[teɪk 'ɑːftə]"
+	},
+	{
+		"russian": "Любовь",
+		"english": "Love",
+		"transcript": "[lʌv]"
+	},
+	{
+		"russian": "Любовь, роман, любовная связь, интрига",
+		"english": "Amour",
+		"transcript": "[æmʊə]"
+	},
+	{
+		"russian": "Свидание ; встречаться с кем-то",
+		"english": "Date; to date",
+		"transcript": "['deɪt]"
+	},
+	{
+		"russian": "Без любви",
+		"english": "Loveless",
+		"transcript": "[lʌvləs]"
+	},
+	{
+		"russian": "Любовникцалюбимый(ая)",
+		"english": "Lover",
+		"transcript": "['lʌvə]"
+	},
+	{
+		"russian": "«Девушка» «парень»",
+		"english": "Boyfriend girlfriend",
+		"transcript": "[ˈbɔɪfrɛnd] [ˈɡɜːlfrɛnd]"
+	},
+	{
+		"russian": "Пара",
+		"english": "Couple vs pair",
+		"transcript": "['kʌpl] vs [peə ]"
+	},
+	{
+		"russian": "Дитя любви, внебрачный ребенок",
+		"english": "Love child",
+		"transcript": "[lʌv ʧaɪld]"
+	},
+	{
+		"russian": "Бывший бывшая",
+		"english": "Ex - boyfriend girlfriend husband wife",
+		"transcript": "[eks 'bɔɪfrend 'ɡɜːlfrend 'hʌzbənd waɪf]"
+	},
+	{
+		"russian": "Ссора",
+		"english": "Quarrel",
+		"transcript": "[’kwɔ:rəl]"
+	},
+	{
+		"russian": "Слепая безграничная платоническая любовь",
+		"english": "Blind limitless platonic love",
+		"transcript": "['blaɪnd 'lɪmɪtləs plə'tɔnɪk lʌv]"
+	},
+	{
+		"russian": "Печальный (по причине разбитого сердца)",
+		"english": "Heartbroken",
+		"transcript": "[hɑ:(r)tbroʊkən]"
+	},
+	{
+		"russian": "Одинокие сердца",
+		"english": "Lonely hearts",
+		"transcript": "[’ləʋnlɪ hɑ:rts]"
+	},
+	{
+		"russian": "Детская влюблённость, юношеское увлечение",
+		"english": "Puppy love",
+		"transcript": "['pʌpɪ lʌv]"
+	},
+	{
+		"russian": "Вечная любовь",
+		"english": "Everlasting love",
+		"transcript": "[ˌevəˈlɑːstɪŋ lʌv]"
+	},
+	{
+		"russian": "Корыстная любовь, любовь с расчётом",
+		"english": "Cupboard love",
+		"transcript": "[’kʌbərd lʌv]"
+	},
+	{
+		"russian": "Созданы друг для друга",
+		"english": "Made for each other",
+		"transcript": "[meɪd fɔː ˌiːʧ'ʌðə]"
+	},
+	{
+		"russian": "Постоянныйая",
+		"english": "Steady boyfriend girlfriend",
+		"transcript": "[stedi 'bɔɪfrend] ['gɜ:lfrend]"
+	},
+	{
+		"russian": "Слышу звон свадебных колокольчиков.",
+		"english": "I can hear wedding bells.",
+		"transcript": "[aı kæn hɪə ’wedɪŋ belz]"
+	},
+	{
+		"russian": "По любви, из-за любви",
+		"english": "For love",
+		"transcript": "[fə lʌv]"
+	},
+	{
+		"russian": "Любовь с первого взгляда",
+		"english": "Love at first sight",
+		"transcript": "[lʌv æt fɜːst saɪt]"
+	},
+	{
+		"russian": "Насильно мил не будешь",
+		"english": "Love cannot be compelled",
+		"transcript": "[lʌv 'kænɔt bi: kəm’peld]"
+	},
+	{
+		"russian": "С милым рай и в шалаше",
+		"english": "Love in a cottage",
+		"transcript": "[lʌv in ə ’kɒtɪdʒ]"
+	},
+	{
+		"russian": "Нет любви без ревности",
+		"english": "Love is never without jealousy",
+		"transcript": "[lʌv iz 'nevə wɪ'ðaut 'dʒeləsɪ]"
+	},
+	{
+		"russian": "Любовь порождает любовь",
+		"english": "Love is the mother of love",
+		"transcript": "[lʌv iz ðə 'mʌðə ɔv lʌv]"
+	},
+	{
+		"russian": "Встречаться (сходить на пару свиданий)",
+		"english": "To see each other",
+		"transcript": "[ˈsiː iːtʃ ˈʌðə]"
+	},
+	{
+		"russian": "Быть привлеченным кем-то",
+		"english": "To be attracted to smb",
+		"transcript": "[bi: əˈtræktid tu <smb>]"
+	},
+	{
+		"russian": "Быть в долгих отношениях",
+		"english": "To be in a long-term relationship",
+		"transcript": "[bi: in ə ˈlɒŋˈt3ːm rɪ’leɪʃən‚ʃɪp ]"
+	},
+	{
+		"russian": "Быть в свободных отношениях",
+		"english": "To be in an open relationship",
+		"transcript": "[bi: in ən ’əʋpən ɪ’leɪʃn‚ʃɪp]"
+	},
+	{
+		"russian": "Быть влюбленным (в)",
+		"english": "To be in love (with)",
+		"transcript": "[bi: ɪn lʌv (wɪð)]"
+	},
+	{
+		"russian": "Быть увлеченным кем-нибудь",
+		"english": "To be into smb",
+		"transcript": "[bi: ˈɪntu <smb>]"
+	},
+	{
+		"russian": "Быть в отношениях",
+		"english": "To be loved up",
+		"transcript": "[bi: lʌvd ʌp]"
+	},
+	{
+		"russian": "Занят(а)",
+		"english": "To be taken",
+		"transcript": "[bi: ’teɪkən]"
+	},
+	{
+		"russian": "Разбивать сердце",
+		"english": "To break (somebody's) heart",
+		"transcript": "[breɪk ha:t]"
+	},
+	{
+		"russian": "Ухаживать",
+		"english": "To court",
+		"transcript": "[kɔːt]"
+	},
+	{
+		"russian": "Обниматься",
+		"english": "To cuddle",
+		"transcript": "[’kʌdəl]"
+	},
+	{
+		"russian": "Иметь симпатию к кому-то",
+		"english": "To dig (somebody)",
+		"transcript": "[dɪg<smb>]"
+	},
+	{
+		"russian": "Бросить кого-нибудь",
+		"english": "To dump smb",
+		"transcript": "[dʌmp <smb>]"
+	},
+	{
+		"russian": "Расстаться",
+		"english": "To end it",
+		"transcript": "[end it]"
+	},
+	{
+		"russian": "Развивать отношения",
+		"english": "To evolve work out a relationship",
+		"transcript": "[ɪ’vɒlv wɜːk aut ə rɪ'leɪʃ(ə)nʃɪp]"
+	},
+	{
+		"russian": "Влюбиться в кого-л., запасть на кого -л.",
+		"english": "To fall for somebody",
+		"transcript": "[fɔːl fɔː <smb>]"
+	},
+	{
+		"russian": "Влюбиться по уши",
+		"english": "To fall in love head over hills",
+		"transcript": "[fɔːl ɪn lʌv hed ’əʋvər hɪlz]"
+	},
+	{
+		"russian": "Влюбиться",
+		"english": "To fall in love with smb",
+		"transcript": "[fɔl ɪn lʌv wɪð <smb> ]"
+	},
+	{
+		"russian": "Влюбиться с первого взгляда",
+		"english": "To fall in love with smb at first sight",
+		"transcript": "[fɔl ɪn lʌv wɪð <smb> ət fɜ:st saɪt ]"
+	},
+	{
+		"russian": "Разлюбить (кого-л.)",
+		"english": "To fall out of love",
+		"transcript": "[fɔːl aʊt əv lʌv]"
+	},
+	{
+		"russian": "Полюбить, увлечься",
+		"english": "To fancy somebody",
+		"transcript": "[’fænsɪ <smb>]"
+	},
+	{
+		"russian": "Найти идеальную пару",
+		"english": "To find mr. Right",
+		"transcript": "[faɪnd 'mɪstə raɪt]"
+	},
+	{
+		"russian": "Встречаться с кем-либо",
+		"english": "To go steady",
+		"transcript": "[gəu ’stedɪ]"
+	},
+	{
+		"russian": "Сходить с ума по ком-то, думать только об одном человеке.",
+		"english": "To have a crush on somebody",
+		"transcript": "[hæv ə krʌʃ ɔn <smb>]"
+	},
+	{
+		"russian": "Ссориться, ругаться",
+		"english": "To have a fight",
+		"transcript": "[hæv ə faɪt]"
+	},
+	{
+		"russian": "Иметь много общего",
+		"english": "To have a lot in common",
+		"transcript": "[hæv ə lɒt in ’kɒmən]"
+	},
+	{
+		"russian": "Крутить с кем-то роман",
+		"english": "To have an affair with somebody",
+		"transcript": "[həv ən ə'feə(r)wɪð <smb>]"
+	},
+	{
+		"russian": "Обнимать",
+		"english": "To hug",
+		"transcript": "[hʌg]"
+	},
+	{
+		"russian": "Слепо любить",
+		"english": "To love blindly",
+		"transcript": "[lʌv 'blaɪndlɪ]"
+	},
+	{
+		"russian": "Нежно любить",
+		"english": "To love dearly",
+		"transcript": "[lʌv 'dɪəlɪ]"
+	},
+	{
+		"russian": "Глубоко любить",
+		"english": "To love deeply",
+		"transcript": "[lʌv 'dɪplɪ]"
+	},
+	{
+		"russian": "Страстно любить",
+		"english": "To love passionately",
+		"transcript": "[lʌv 'pæʃ(ə)nətlɪ]"
+	},
+	{
+		"russian": "Ранить чьи-то чувства",
+		"english": "To put somebody down",
+		"transcript": "[put <smb> daun]"
+	},
+	{
+		"russian": "Испытывать симпатию к кому-л.",
+		"english": "To sympathize with",
+		"transcript": "['sɪmpəθaɪz wɪð]"
+	},
+	{
+		"russian": "Послать воздушный поцелуй",
+		"english": "To throw a kiss",
+		"transcript": "[θrəu ə kɪs]"
+	},
+	{
+		"russian": "Вечная любовь",
+		"english": "Undying love",
+		"transcript": "[ʌn'daɪɪŋ lʌv]"
+	},
+	{
+		"russian": "Безответная любовь",
+		"english": "Unrequited love",
+		"transcript": "[ˌʌnrɪ'kwaɪtɪd lʌv]"
+	},
+	{
+		"russian": "Клише для расставания",
+		"english": "Break-up lines",
+		"transcript": "[breɪk ʌp laɪnz]"
+	},
+	{
+		"russian": "Надеюсь, мы останемся друзьями.",
+		"english": "I hope that we can always be friends.",
+		"transcript": "[aı həup ðæt wi: kæn 'ɔːlweɪz bi: frendz]"
+	},
+	{
+		"russian": "Мне надо немного свободы.",
+		"english": "I just need some space.",
+		"transcript": "[aı ʤʌst ni:d sʌm speɪs]"
+	},
+	{
+		"russian": "Так не должно было быть.",
+		"english": "It simply wasn’t meant to be.",
+		"transcript": "[ɪt 'sɪmplɪ wɔznt ment tu bi:]"
+	},
+	{
+		"russian": "Недостаточно только того, что мы любим друг друга.",
+		"english": "It’s not enough that we love each other.",
+		"transcript": "[ɪts nɔt ɪ’nʌf ðæt wi: lʌv ˌiːʧ'ʌðə]"
+	},
+	{
+		"russian": "Дело во мне, не в тебе.",
+		"english": "It’s not you, it’s me.",
+		"transcript": "[ɪts nɔt ju: ɪts mi:]"
+	},
+	{
+		"russian": "Все кончено.",
+		"english": "It’s over.",
+		"transcript": "[its əʋvər]"
+	},
+	{
+		"russian": "Мы разошлись на время.",
+		"english": "We are on a break.",
+		"transcript": "[wiː ɑ: on ə breɪk]"
+	},
+	{
+		"russian": "Нам надо поговорить.",
+		"english": "We need to talk.",
+		"transcript": "[wi: ni:d tu tɔːk]"
+	}
+]

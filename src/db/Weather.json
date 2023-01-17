@@ -1,0 +1,147 @@
+[
+	{
+		"russian": "Погода",
+		"english": "Weather",
+		"transcript": "['weðə]"
+	},
+	{
+		"russian": "Снег",
+		"english": "Snow",
+		"transcript": "[snəu]"
+	},
+	{
+		"russian": "Шторм",
+		"english": "Storm",
+		"transcript": "[stɔːm]"
+	},
+	{
+		"russian": "Cолнце",
+		"english": "Sun",
+		"transcript": "[sʌn]"
+	},
+	{
+		"russian": "Дождь",
+		"english": "Rain",
+		"transcript": "[reɪn]"
+	},
+	{
+		"russian": "Туман",
+		"english": "Fog",
+		"transcript": "[fɔg]"
+	},
+	{
+		"russian": "Облако",
+		"english": "Cloud",
+		"transcript": "[klaud]"
+	},
+	{
+		"russian": "Гром",
+		"english": "Thunder",
+		"transcript": "['θʌndə]"
+	},
+	{
+		"russian": "Прогноз погоды",
+		"english": "Weather forecast",
+		"transcript": "['weðə 'fɔːkɑːst]"
+	},
+	{
+		"russian": "Шторм, буря",
+		"english": "Gale",
+		"transcript": "[geɪl]"
+	},
+	{
+		"russian": "Град",
+		"english": "Hail",
+		"transcript": "[heɪl]"
+	},
+	{
+		"russian": "Осадки",
+		"english": "Rainfall",
+		"transcript": "['reɪnfɔːl]"
+	},
+	{
+		"russian": "Метель",
+		"english": "Snowstorm",
+		"transcript": "['snəustɔːm]"
+	},
+	{
+		"russian": "Прохладно.",
+		"english": "It is chilly.",
+		"transcript": "['ʧɪlɪ]"
+	},
+	{
+		"russian": "Пасмурно.",
+		"english": "It is cloudy.",
+		"transcript": "['klaudɪ]"
+	},
+	{
+		"russian": "Холодно.",
+		"english": "It is cold.",
+		"transcript": "[kəuld]"
+	},
+	{
+		"russian": "Мороз.",
+		"english": "It is frosty.",
+		"transcript": "['frɔstɪ]"
+	},
+	{
+		"russian": "Жарко.",
+		"english": "It is hot.",
+		"transcript": "[hɔt]"
+	},
+	{
+		"russian": "Ясносолнечно.",
+		"english": "It is sunny.",
+		"transcript": "['sʌnɪ]"
+	},
+	{
+		"russian": "Тепло.",
+		"english": "It is warm.",
+		"transcript": "[wɔːm]"
+	},
+	{
+		"russian": "Ветрено.",
+		"english": "It is windy.",
+		"transcript": "['wɪndɪ]"
+	},
+	{
+		"russian": "Идётдождь.",
+		"english": "It is raining.",
+		"transcript": "[reɪnɪŋ]"
+	},
+	{
+		"russian": "Идётснег.",
+		"english": "It is snowing.",
+		"transcript": "['snəuɪŋ]"
+	},
+	{
+		"russian": "Моросит",
+		"english": "It's drizzling",
+		"transcript": "['drɪzlɪŋ]"
+	},
+	{
+		"russian": "Ясно.",
+		"english": "It's clear.",
+		"transcript": "[klɪə]"
+	},
+	{
+		"russian": "Туманно.",
+		"english": "It's foggy.",
+		"transcript": "['fɔgɪ]"
+	},
+	{
+		"russian": "Сухо.",
+		"english": "It's dry.",
+		"transcript": "[draɪ]"
+	},
+	{
+		"russian": "Скользко.",
+		"english": "It's icy.",
+		"transcript": "['aɪsɪ]"
+	},
+	{
+		"russian": "Сыро.",
+		"english": "It's wet.",
+		"transcript": "[wet]"
+	}
+]

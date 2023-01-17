@@ -563,5 +563,95 @@
 		"russian": "Рекламные щиты",
 		"english": "Billboards",
 		"transcript": "[ˈbɪlbɔːdz ]"
+	},
+	{
+		"russian": "Художественная галерея",
+		"english": "Art gallery",
+		"transcript": "[ɑːt 'gæl(ə)rɪ]"
+	},
+	{
+		"russian": "Цирк",
+		"english": "Circus",
+		"transcript": "['sɜːkəs]"
+	},
+	{
+		"russian": "Паб, пивная",
+		"english": "Pub",
+		"transcript": "[pʌb]"
+	},
+	{
+		"russian": "Автогонки",
+		"english": "Auto racing",
+		"transcript": "['ɔːtəu 'reɪsɪŋ]"
+	},
+	{
+		"russian": "Карнавал",
+		"english": "Carnival",
+		"transcript": "['kɑːnɪv(ə)l]"
+	},
+	{
+		"russian": "Карусель",
+		"english": "Carousel",
+		"transcript": "[ˌkærə'sel]"
+	},
+	{
+		"russian": "Ярмарка",
+		"english": "Fair",
+		"transcript": "[feə]"
+	},
+	{
+		"russian": "Чёртово колесо",
+		"english": "Ferris wheel",
+		"transcript": "['ferɪsˌwiːl]"
+	},
+	{
+		"russian": "Торжество, празднование",
+		"english": "Gala",
+		"transcript": "['gɑːlə]"
+	},
+	{
+		"russian": "Конные скачки",
+		"english": "Horse racing",
+		"transcript": "[hɔːs 'reɪsɪŋ]"
+	},
+	{
+		"russian": "Веселье, пирушка, празднество",
+		"english": "Jamboree",
+		"transcript": "[ˌʤæmb(ə)'riː]"
+	},
+	{
+		"russian": "Рыцарский турнир",
+		"english": "Joust",
+		"transcript": "[ʤaust]"
+	},
+	{
+		"russian": "(Бал-)маскарад",
+		"english": "Masquerade",
+		"transcript": "[ˌmæsk(ə)'reɪd]"
+	},
+	{
+		"russian": "Карусель",
+		"english": "Merry-go-round",
+		"transcript": "['merɪgəuˌraund]"
+	},
+	{
+		"russian": "Конкурс красоты",
+		"english": "Beauty pageant",
+		"transcript": "['bjuːtɪ 'pæʤənt]"
+	},
+	{
+		"russian": "Планетарий",
+		"english": "Planetarium",
+		"transcript": "[ˌplænɪ'teərɪəm]"
+	},
+	{
+		"russian": "Музей восковых фигур",
+		"english": "Wax museum",
+		"transcript": "[wæksmjuːˈziːəm]"
+	},
+	{
+		"russian": "Борьба",
+		"english": "Wrestling",
+		"transcript": "['reslɪŋ]"
 	}
 ]

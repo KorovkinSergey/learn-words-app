@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useWords } from '../../hooks/useWords'
 import { Loading } from '../../components/Loading'
 import { Button, Typography } from '@mui/material'
 import { Wrapper } from '../../components/Wrapper'
 import { useNavigate } from 'react-router-dom'
+import { useSpeakText } from '../../hooks/useSpeakText'
 
 const TrainingWordsPage = () => {
 	const { word, translateWord, loading, clear } = useWords()
 	const navigate = useNavigate()
+
+	const { speak, cancel } = useSpeakText()
+
+	useEffect(() => {
+		cancel()
+		speak(word || '')
+
+		return () => {
+			cancel()
+		}
+	}, [word, cancel, speak])
 
 	const handleNavigateToSettings = () => navigate('/training/words/setting')
 	if (loading) return <Loading />

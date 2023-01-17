@@ -1,0 +1,57 @@
+[
+	{
+		"russian": "Описание работы",
+		"english": "Describing a Job",
+		"transcript": "[dɪˈskraɪbɪŋədʒɒb]"
+	},
+	{
+		"russian": "Интересный",
+		"english": "Interesting",
+		"transcript": "['ɪntrəstɪŋ]"
+	},
+	{
+		"russian": "Скучный",
+		"english": "Boring",
+		"transcript": "['bɔːrɪŋ]"
+	},
+	{
+		"russian": "Трудный",
+		"english": "Difficult",
+		"transcript": "['dɪfɪk(ə)lt]"
+	},
+	{
+		"russian": "Требующий напряжения (сил) ; испытывающий (способности, стойкость)",
+		"english": "Challenging",
+		"transcript": "['ʧælɪnʤɪŋ]"
+	},
+	{
+		"russian": "Хорошовысоко–оплачиваемый",
+		"english": "Well-paid highly paid",
+		"transcript": "[ˌwel'peɪd] ['haɪlɪ 'peɪd]"
+	},
+	{
+		"russian": "Низко плохо – оплачиваемый",
+		"english": "Low-paid badly paid",
+		"transcript": "[ˌləu'peɪd] ['bædlɪ 'peɪd]"
+	},
+	{
+		"russian": "Штатная работадолжность",
+		"english": "Full-time job",
+		"transcript": "[ˌful'taɪmʤɔb]"
+	},
+	{
+		"russian": "Работа, предполагающая неполную занятость; работа на полставки",
+		"english": "Part-time job",
+		"transcript": "['pɑːtˌtaɪmʤɔb]"
+	},
+	{
+		"russian": "Постоянный",
+		"english": "Permanent",
+		"transcript": "['pɜːm(ə)nənt]"
+	},
+	{
+		"russian": "Временный",
+		"english": "Temporary",
+		"transcript": "['temp(ə)r(ə)rɪ]"
+	}
+]

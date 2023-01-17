@@ -1,0 +1,42 @@
+[
+	{
+		"russian": "Наука",
+		"english": "Science",
+		"transcript": "['saɪən(t)s]"
+	},
+	{
+		"russian": "Учёный",
+		"english": "Scientist",
+		"transcript": "['saɪəntɪst]"
+	},
+	{
+		"russian": "Исследователь, научный работник",
+		"english": "Researcher, explorer",
+		"transcript": "[rɪ'sɜːʧə], [ɪk'splɔːrə]"
+	},
+	{
+		"russian": "Математик",
+		"english": "Mathematician",
+		"transcript": "[ˌmæθ(ə)mə'tɪʃ(ə)n]"
+	},
+	{
+		"russian": "Физик",
+		"english": "Physicist",
+		"transcript": "['fɪzɪsɪst]"
+	},
+	{
+		"russian": "Астроном",
+		"english": "Astronomer",
+		"transcript": "[ə'strɔnəmə]"
+	},
+	{
+		"russian": "Археолог",
+		"english": "Archaeologist",
+		"transcript": "[ˌɑːkɪ'ɔləʤɪst]"
+	},
+	{
+		"russian": "Психолог",
+		"english": "Psychologist",
+		"transcript": "[saɪ'kɔləʤɪst]"
+	}
+]

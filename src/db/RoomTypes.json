@@ -1,0 +1,82 @@
+[
+	{
+		"russian": "Типы номеров",
+		"english": "Room types",
+		"transcript": "[ruːmtaɪps]"
+	},
+	{
+		"russian": "Одноместный номер",
+		"english": "Single room",
+		"transcript": "['sɪŋglruːm]"
+	},
+	{
+		"russian": "Двухместный номер с двумя кроватями",
+		"english": "Twin room",
+		"transcript": "[twɪnruːm]"
+	},
+	{
+		"russian": "Двухместный номер с одной двуспальной кроватью",
+		"english": "Double room",
+		"transcript": "['dʌblruːm]"
+	},
+	{
+		"russian": "Два смежных номера гостиницы",
+		"english": "Adjoining rooms",
+		"transcript": "[ə'ʤɔɪnɪŋruːmz]"
+	},
+	{
+		"russian": "Стандартный номер",
+		"english": "Standard room",
+		"transcript": "['stændədruːm]"
+	},
+	{
+		"russian": "Номер повышенной комфортности",
+		"english": "Superior room",
+		"transcript": "[suː'pɪərɪəruːm]"
+	},
+	{
+		"russian": "Номер «полулюкс»",
+		"english": "Junior suite room",
+		"transcript": "['ʤuːnɪəswiːtruːm]"
+	},
+	{
+		"russian": "Номер «люкс»",
+		"english": "Suite room",
+		"transcript": "[swiːtruːm]"
+	},
+	{
+		"russian": "Номер со спальней",
+		"english": "Bedroom",
+		"transcript": "[ˈbedrumruːm]"
+	},
+	{
+		"russian": "Угловой номер",
+		"english": "Corner room",
+		"transcript": "[ˈkɔ:nəruːm]"
+	},
+	{
+		"russian": "Семейный номер",
+		"english": "Family room",
+		"transcript": "[ˈfæmɪlɪruːm]"
+	},
+	{
+		"russian": "Номер с видом на море",
+		"english": "Sea view room",
+		"transcript": "[si: vju: ruːm]"
+	},
+	{
+		"russian": "Номер с видом на бассейн",
+		"english": "Pool view room",
+		"transcript": "[pu:lvju: ruːm]"
+	},
+	{
+		"russian": "Номер с видом на пляж",
+		"english": "Beach view room",
+		"transcript": "[bi:tʃvju: ruːm]"
+	},
+	{
+		"russian": "Номер с видом на горы",
+		"english": "Mountain view room",
+		"transcript": "[ˈmauntɪn vju: ruːm]"
+	}
+]

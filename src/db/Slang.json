@@ -1,0 +1,282 @@
+[
+	{
+		"russian": "Сленг",
+		"english": "Slang",
+		"transcript": "Slang"
+	},
+	{
+		"russian": "Педант",
+		"english": "A pedant",
+		"transcript": "['ped(ə)nt]"
+	},
+	{
+		"russian": "Неудачник",
+		"english": "A loser",
+		"transcript": "['luːzə]"
+	},
+	{
+		"russian": "Лидер",
+		"english": "A leader",
+		"transcript": "['liːdə]"
+	},
+	{
+		"russian": "Сплетник, болтун",
+		"english": "A gossip",
+		"transcript": "['gɔsɪp]"
+	},
+	{
+		"russian": "Трудяга",
+		"english": "A hard-worker",
+		"transcript": "[hɑːd 'wɜːkə]"
+	},
+	{
+		"russian": "Фантазер",
+		"english": "A dreamer",
+		"transcript": "['driːmə]"
+	},
+	{
+		"russian": "Трудоголик",
+		"english": "A workaholic",
+		"transcript": "[ˌwɜːkə'hɔlɪk]"
+	},
+	{
+		"russian": "Неисправимый врун",
+		"english": "A chronic liar",
+		"transcript": "['krɔnɪklaɪə]"
+	},
+	{
+		"russian": "ТВ-наркоман",
+		"english": "A TV addict",
+		"transcript": "[ˌtiː'vi 'ædɪkt]"
+	},
+	{
+		"russian": "Домосед, домоседка",
+		"english": "A homebody",
+		"transcript": "['həumbɔdɪ]"
+	},
+	{
+		"russian": "Игрок (человек, легко идущий на риск)",
+		"english": "A gambler",
+		"transcript": "['gæmblə]"
+	},
+	{
+		"russian": "Победитель",
+		"english": "A winner",
+		"transcript": "['wɪnə]"
+	},
+	{
+		"russian": "Храбрец",
+		"english": "A man of courage",
+		"transcript": "[mænɔv 'kʌrɪʤ]"
+	},
+	{
+		"russian": "Тупица",
+		"english": "A blockhead moron",
+		"transcript": "['blɔkhed] ['mɔːrɔn]"
+	},
+	{
+		"russian": "Книжный червь, любитель книг",
+		"english": "A bookworm",
+		"transcript": "['bukwɜːm]"
+	},
+	{
+		"russian": "Любитель истории",
+		"english": "A history buff",
+		"transcript": "['hɪst(ə)rɪbʌf]"
+	},
+	{
+		"russian": "Человек-компьютер, \"цифродробилка\"",
+		"english": "A number-cruncher",
+		"transcript": "['nʌmbəˌkrʌnʧə]"
+	},
+	{
+		"russian": "Модник, модница, франт",
+		"english": "A fashion-monger a fashion plate a dandy fashionista",
+		"transcript": "['fæʃ(ə)nˌmʌŋgə] ['fæʃ(ə)nˌpleɪt] ['dændɪ] [ˌfæʃə'niːstə]"
+	},
+	{
+		"russian": "Барахольщик",
+		"english": "A pack rat",
+		"transcript": "[ʹpækræt]"
+	},
+	{
+		"russian": "Сквалыга, скопидом, скряга",
+		"english": "A miser",
+		"transcript": "['maɪzə]"
+	},
+	{
+		"russian": "Растратчик, мот",
+		"english": "A squanderer",
+		"transcript": "['skwɔnd(ə)rə]"
+	},
+	{
+		"russian": "Лежебока, сидень",
+		"english": "A couch potato",
+		"transcript": "['kauʧpəˌteɪtəu]"
+	},
+	{
+		"russian": "Ленивец, бездельник",
+		"english": "Lazybones",
+		"transcript": "['leɪzɪˌbəunz]"
+	},
+	{
+		"russian": "На все руки мастер",
+		"english": "A Jack of all trades",
+		"transcript": "[ʤækəvɔːltreɪdz]"
+	},
+	{
+		"russian": "Любитель острых ощущений",
+		"english": "A thrill seeker an adventurer",
+		"transcript": "[θrɪl 'siː kə] [əd'venʧ(ə)rə]"
+	},
+	{
+		"russian": "Чудак",
+		"english": "An oddball a weirdo",
+		"transcript": "['ɔdbɔːl] ['wɪədəu]"
+	},
+	{
+		"russian": "Ханжа, блюститель нравов",
+		"english": "A prude",
+		"transcript": "[pruːd]"
+	},
+	{
+		"russian": "Лицемер",
+		"english": "A hypocrite",
+		"transcript": "['hɪpəkrɪt]"
+	},
+	{
+		"russian": "Неисправимый врун",
+		"english": "A chronic liar",
+		"transcript": "['krɔnɪklaɪə]"
+	},
+	{
+		"russian": "Ловкий делец",
+		"english": "A smooth operator",
+		"transcript": "[smuːð 'ɔp(ə)reɪtə]"
+	},
+	{
+		"russian": "Горожанин, норовящий обмануть деревенских жителей",
+		"english": "A city slicker",
+		"transcript": "[͵sıtıʹslıkə]"
+	},
+	{
+		"russian": "Простак, простофиля",
+		"english": "A simpleton",
+		"transcript": "['sɪmplt(ə)n]"
+	},
+	{
+		"russian": "Неуспевающий ученик,",
+		"english": "An underachiever",
+		"transcript": "[͵ʌndərəʹtʃi:və]"
+	},
+	{
+		"russian": "Крутой, крепкий парень",
+		"english": "A tough guy",
+		"transcript": "[tʌfgaɪ]"
+	},
+	{
+		"russian": "Бесхарактерный человек, тряпка",
+		"english": "A softy",
+		"transcript": "[ʹsɒftı]"
+	},
+	{
+		"russian": "Волокита, распутник, бабник",
+		"english": "A woman-chaser a womanizer",
+		"transcript": "['wumən'ʧeɪsə] ['wumənaɪzə]"
+	},
+	{
+		"russian": "Сердцеед",
+		"english": "A lady-killer",
+		"transcript": "['leɪdɪˌkɪlə]"
+	},
+	{
+		"russian": "Отщепенец, негодяй",
+		"english": "A black sheep",
+		"transcript": "[͵blækʹʃi:p]"
+	},
+	{
+		"russian": "Козел отпущения",
+		"english": "A scapegoat",
+		"transcript": "['skeɪpgəut]"
+	},
+	{
+		"russian": "Смешно одетый человек, пугало",
+		"english": "A scarecrow bugaboo",
+		"transcript": "['skeəkrəu] ['bʌgəbuː]"
+	},
+	{
+		"russian": "Белая ворона",
+		"english": "A white crow",
+		"transcript": "[(h)waɪtkrəu]"
+	},
+	{
+		"russian": "Большая шишка",
+		"english": "A big shot",
+		"transcript": "[bɪgʃɔt]"
+	},
+	{
+		"russian": "Тупица",
+		"english": "A blockhead moron",
+		"transcript": "['blɔkhed] ['mɔːrɔn]"
+	},
+	{
+		"russian": "Зануда",
+		"english": "A bore",
+		"transcript": "[bɔː]"
+	},
+	{
+		"russian": "Умница",
+		"english": "A clear head",
+		"transcript": "[klɪəhed]"
+	},
+	{
+		"russian": "Подлиза, лизоблюд",
+		"english": "A toady",
+		"transcript": "['təudɪ]"
+	},
+	{
+		"russian": "Хозяин своего слова",
+		"english": "A man of his word",
+		"transcript": "[mænɔvhɪzwɜːd]"
+	},
+	{
+		"russian": "Скряга",
+		"english": "A niggard",
+		"transcript": "['nɪgəd]"
+	},
+	{
+		"russian": "Паникер",
+		"english": "A panic-monger alarmist",
+		"transcript": "['pænɪkˌmʌŋgə] [ə'lɑːmɪst]"
+	},
+	{
+		"russian": "Паникер",
+		"english": "A scare-monger",
+		"transcript": "[skeə]"
+	},
+	{
+		"russian": "Транжира",
+		"english": "A spender",
+		"transcript": "['spendə]"
+	},
+	{
+		"russian": "Домосед",
+		"english": "A stay-at-home",
+		"transcript": "[steɪæthəum]"
+	},
+	{
+		"russian": "Абсолютный ноль",
+		"english": "An absolute nothing",
+		"transcript": "[ˌæbs(ə)'l(j)uːt 'nʌθɪŋ]"
+	},
+	{
+		"russian": "Мастер своего дела",
+		"english": "An expert at one's job",
+		"transcript": "['ekspɜːtæt<one's>ʤɔb]"
+	},
+	{
+		"russian": "Лентяй",
+		"english": "An idler",
+		"transcript": "['aɪdlə]"
+	}
+]

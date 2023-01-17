@@ -1,0 +1,62 @@
+[
+	{
+		"russian": "Отели",
+		"english": "Hotels",
+		"transcript": "Hotels"
+	},
+	{
+		"russian": "Хостел",
+		"english": "Hostel",
+		"transcript": "['hɔst(ə)l]"
+	},
+	{
+		"russian": "Гостиница для семей",
+		"english": "Family hotel",
+		"transcript": "['fæməlɪ (h)ə(u)'tel]"
+	},
+	{
+		"russian": "Мотель",
+		"english": "Motel",
+		"transcript": "[məu'tel]"
+	},
+	{
+		"russian": "Пятизвёздочный отель",
+		"english": "Luxury hotel",
+		"transcript": "['lʌkʃərɪ (h)ə(u)'tel]"
+	},
+	{
+		"russian": "4-х звёздочная гостиница",
+		"english": "4 star hotel",
+		"transcript": "4 star hotel"
+	},
+	{
+		"russian": "Питание: завтрак",
+		"english": "B&b — bed and breakfast",
+		"transcript": "[ˌbiːən(d)'biː]"
+	},
+	{
+		"russian": "Полупансион (как правило, завтрак и ужин)",
+		"english": "Hb — half board",
+		"transcript": "[ˌhɑːf'bɔːd]"
+	},
+	{
+		"russian": "Трехразовое питание",
+		"english": "FB — full board",
+		"transcript": "[ˌful'bɔːd]"
+	},
+	{
+		"russian": "Питание по программе «все включено»",
+		"english": "All inclusive",
+		"transcript": "[ɔːlɪn'kluːsɪv]"
+	},
+	{
+		"russian": "Континентальный завтрак",
+		"english": "CB - Continental breakfast",
+		"transcript": "[ˌkɔntɪˈnentl ˈbrekfəst] ([si bi])"
+	},
+	{
+		"russian": "Американский завтрак",
+		"english": "AB – American breakfast",
+		"transcript": "[ə'merɪkən ˈbrekfəst] ([eibu:])"
+	}
+]

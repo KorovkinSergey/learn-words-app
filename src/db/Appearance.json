@@ -1,0 +1,712 @@
+[
+	{
+		"russian": "Внешний вид",
+		"english": "Appearance",
+		"transcript": "Appearance"
+	},
+	{
+		"russian": "Жалкий вид",
+		"english": "Sleazy appearance",
+		"transcript": "['sliːzɪ ə'pɪər(ə)ns]"
+	},
+	{
+		"russian": "Высокий",
+		"english": "Tall",
+		"transcript": "[tɔ:l]"
+	},
+	{
+		"russian": "Худой, тощий",
+		"english": "Skinny slender thin emaciated frail",
+		"transcript": "[‘skɪnɪ 'slendə θɪn ɪ'meɪʃɪeɪtɪd freɪl]"
+	},
+	{
+		"russian": "Долговязый",
+		"english": "Lathy",
+		"transcript": "['lɑːθɪ]"
+	},
+	{
+		"russian": "Изящный, стройный (употребляется обычно по отношению к женщинам)",
+		"english": "Neat",
+		"transcript": "[niːt]"
+	},
+	{
+		"russian": "Худощавый (употребляется обычно по отношению к мужчинам)",
+		"english": "Lean cut",
+		"transcript": "[liːn kʌt]"
+	},
+	{
+		"russian": "Толстый, полный",
+		"english": "Overweight plump (polite) stout (polite) thick obese (impolite) large (neutral) chubby (little bit overweight, polite)",
+		"transcript": "[əuvə’weɪt plʌmp (polite) staut (polite) θɪk əu'biːs (impolite) lɑːʤ (neutral) ‘tʃʌbɪ]"
+	},
+	{
+		"russian": "Мускулистый",
+		"english": "Muscular",
+		"transcript": "['mʌskjələˌ 'mʌskjulə]"
+	},
+	{
+		"russian": "Низкийнизенький",
+		"english": "Short shortish",
+		"transcript": "[ʃɔ:t ] ['ʃɔːtɪʃ]"
+	},
+	{
+		"russian": "Моложавый вид",
+		"english": "Juvenile appearance",
+		"transcript": "['ʤuːv(ə)naɪlə'pɪər(ə)n(t)s]"
+	},
+	{
+		"russian": "Хорошо сложенный (о мужчине)",
+		"english": "Well-built",
+		"transcript": "[ˌwel'bɪlt]"
+	},
+	{
+		"russian": "С хорошей фигурой (о женщине)",
+		"english": "Well-shaped",
+		"transcript": "[‘welʃeɪpt]"
+	},
+	{
+		"russian": "С брюшком",
+		"english": "Paunchy",
+		"transcript": "['pɔːnʧɪ]"
+	},
+	{
+		"russian": "Упитанный",
+		"english": "Well-fed",
+		"transcript": "[ˌwel'fed]"
+	},
+	{
+		"russian": "Сутулый",
+		"english": "Stooping",
+		"transcript": "['stuːpɪŋ]"
+	},
+	{
+		"russian": "Эффектная внешность",
+		"english": "Chic appearance",
+		"transcript": "[ʃiːkə'pɪər(ə)n(t)s]"
+	},
+	{
+		"russian": "Осиная талия",
+		"english": "Hourglass figure",
+		"transcript": "['auəglɑːs 'fɪgə]"
+	},
+	{
+		"russian": "Коренастый",
+		"english": "Stocky (men)",
+		"transcript": "[‘stɔkɪ (men)]"
+	},
+	{
+		"russian": "Дряблый, мягкотелый",
+		"english": "Flabby = antimuscular",
+		"transcript": "[‘flæbɪ = anti’mʌskjulər]"
+	},
+	{
+		"russian": "Среднего роста",
+		"english": "Medium height",
+		"transcript": "[‘mi:dɪəmhaɪt]"
+	},
+	{
+		"russian": "Лысый",
+		"english": "Bald bald-headed",
+		"transcript": "[bɔ:ld] ['bɔːld'hedɪd]"
+	},
+	{
+		"russian": "Жёсткие(как проволока)",
+		"english": "Wiry",
+		"transcript": "[‘waɪərɪ]"
+	},
+	{
+		"russian": "Волнистые",
+		"english": "Wavy",
+		"transcript": "[‘weɪvɪ]"
+	},
+	{
+		"russian": "Кудрявые",
+		"english": "Curly",
+		"transcript": "['kɜːlɪ]"
+	},
+	{
+		"russian": "Прямые",
+		"english": "Straight",
+		"transcript": "[streɪt]"
+	},
+	{
+		"russian": "Серые",
+		"english": "Gray",
+		"transcript": "[greɪ]"
+	},
+	{
+		"russian": "Завитые",
+		"english": "Curled",
+		"transcript": "[kɜːld]"
+	},
+	{
+		"russian": "Редкие",
+		"english": "Scanty thin",
+		"transcript": "['skæntɪ] [θɪn]"
+	},
+	{
+		"russian": "Густые",
+		"english": "Thick",
+		"transcript": "[θɪk]"
+	},
+	{
+		"russian": "Шелковистые",
+		"english": "Silky",
+		"transcript": "['sɪlkɪ]"
+	},
+	{
+		"russian": "Рыжие",
+		"english": "Ginger red",
+		"transcript": "['ʤɪnʤə] [red]"
+	},
+	{
+		"russian": "Рыжеволосый человек",
+		"english": "Redhead",
+		"transcript": "['redhed]"
+	},
+	{
+		"russian": "Седые (о волосах)",
+		"english": "White",
+		"transcript": "[wait]"
+	},
+	{
+		"russian": "Блондинистые",
+		"english": "Blond",
+		"transcript": "[blɔnd]"
+	},
+	{
+		"russian": "Брюнетка",
+		"english": "Brunette",
+		"transcript": "[bruː'net]"
+	},
+	{
+		"russian": "Тёмно-рыжие",
+		"english": "Auburn",
+		"transcript": "[‘ɔːbən]"
+	},
+	{
+		"russian": "Лысина",
+		"english": "Bald spot",
+		"transcript": "[bɔ:ldspɔt]"
+	},
+	{
+		"russian": "Рыжеватые",
+		"english": "Reddish",
+		"transcript": "['redɪʃ]"
+	},
+	{
+		"russian": "Волосы средней длины, до плеч",
+		"english": "Shoulder-length",
+		"transcript": "[ˌʃəuldə'leŋθ]"
+	},
+	{
+		"russian": "Косы",
+		"english": "Braids plaits",
+		"transcript": "[breɪdz] [plæts]"
+	},
+	{
+		"russian": "Локон, завиток",
+		"english": "Lock curl ringlet",
+		"transcript": "[lɔk] [kɜːl] ['rɪŋlɪt]"
+	},
+	{
+		"russian": "Челка",
+		"english": "Fringe bangs",
+		"transcript": "[frɪnʤ] [bæŋz]"
+	},
+	{
+		"russian": "Стрижка",
+		"english": "Haircut",
+		"transcript": "[‘hɛəkʌt]"
+	},
+	{
+		"russian": "Причёска",
+		"english": "Hairdo",
+		"transcript": "[‘hɛədu:]"
+	},
+	{
+		"russian": "Перманентная завивка",
+		"english": "Perm",
+		"transcript": "[pə:m]"
+	},
+	{
+		"russian": "Жидкие волосы",
+		"english": "Sparse hair",
+		"transcript": "[spɑ:sheə]"
+	},
+	{
+		"russian": "Редеющие",
+		"english": "Thinning",
+		"transcript": "[θɪnɪŋ]"
+	},
+	{
+		"russian": "Приглаженные",
+		"english": "Sleek smooth",
+		"transcript": "[sliːk] [smuːð]"
+	},
+	{
+		"russian": "Взъерошенные волосы",
+		"english": "Tousled hair",
+		"transcript": "['tauzldheə]"
+	},
+	{
+		"russian": "Растрёпанные",
+		"english": "Disheveled",
+		"transcript": "[dɪ'ʃev(ə)ld]"
+	},
+	{
+		"russian": "Крашеные",
+		"english": "Dyed",
+		"transcript": "[daɪd]"
+	},
+	{
+		"russian": "Бледная кожа",
+		"english": "Pale skin",
+		"transcript": "[peɪlskɪn]"
+	},
+	{
+		"russian": "Шрам",
+		"english": "Scar",
+		"transcript": "[skɑ:]"
+	},
+	{
+		"russian": "Родинка",
+		"english": "Mole",
+		"transcript": "[məul]"
+	},
+	{
+		"russian": "Прыщ",
+		"english": "Spot pimple",
+		"transcript": "[spɔt] [‘pɪmpl]"
+	},
+	{
+		"russian": "Угри",
+		"english": "Acne",
+		"transcript": "[ʹæknı]"
+	},
+	{
+		"russian": "Загорелый",
+		"english": "Sun-tanned",
+		"transcript": "[sʌn- tænd]"
+	},
+	{
+		"russian": "Морщины",
+		"english": "Wrinkles",
+		"transcript": "[‘rɪŋklz]"
+	},
+	{
+		"russian": "Ямочки",
+		"english": "Dimples",
+		"transcript": "[‘dɪmplz]"
+	},
+	{
+		"russian": "Веснушки",
+		"english": "Freckles",
+		"transcript": "['freklz]"
+	},
+	{
+		"russian": "Бородавкa",
+		"english": "Wart",
+		"transcript": "[wɔ:t]"
+	},
+	{
+		"russian": "Квадратное круглое овальное (лицо)",
+		"english": "Square round oval",
+		"transcript": "[skweə raund 'əuv(ə)l]"
+	},
+	{
+		"russian": "Обрюзгшее лицо",
+		"english": "Bloated face",
+		"transcript": "['bləutɪdfeɪs ]"
+	},
+	{
+		"russian": "Впалые щеки",
+		"english": "Hollow cheeks",
+		"transcript": "['hɔləutʃi:ks]"
+	},
+	{
+		"russian": "Пухлое и розовощекое лицо",
+		"english": "Cherubic face",
+		"transcript": "[ʧe'ruːbɪkfeɪs]"
+	},
+	{
+		"russian": "Пухлое лицо",
+		"english": "Chubby face",
+		"transcript": "[‘tʃʌbɪfeɪs]"
+	},
+	{
+		"russian": "Обветренное лицо",
+		"english": "Weather beaten face",
+		"transcript": "['weðə ‘bi:tnfeɪs]"
+	},
+	{
+		"russian": "Полнощёкий",
+		"english": "Chubby cheeks",
+		"transcript": "[‘tʃʌbɪtʃi:ks]"
+	},
+	{
+		"russian": "Гладковыбритый",
+		"english": "Clean-shaven smooth-cheeked",
+		"transcript": "[ˌkliːn'ʃeɪv(ə)n] [smuːðʧiːkt]"
+	},
+	{
+		"russian": "Высокие скулы",
+		"english": "High cheekbones",
+		"transcript": "[haɪ ‘tʃi:kbəunz]"
+	},
+	{
+		"russian": "Круговая пластика",
+		"english": "Face lift",
+		"transcript": "[feɪslɪft]"
+	},
+	{
+		"russian": "Оттопыренные уши",
+		"english": "Prominent ears",
+		"transcript": "['prɔmɪnəntɪəz]"
+	},
+	{
+		"russian": "Мочка уха",
+		"english": "Ear lobe",
+		"transcript": "[ ɪələub]"
+	},
+	{
+		"russian": "Сияющая улыбка",
+		"english": "Beaming smile",
+		"transcript": "[ʹbi:mıŋsmaɪl]"
+	},
+	{
+		"russian": "Виноватая улыбка",
+		"english": "Apologetic smile",
+		"transcript": "[əˌpɔlə'ʤetɪksmaɪl]"
+	},
+	{
+		"russian": "Полу улыбка",
+		"english": "Semi-smile",
+		"transcript": "['semɪsmaɪl]"
+	},
+	{
+		"russian": "Улыбка сквозь слезы",
+		"english": "Wet smile",
+		"transcript": "[wet smaɪl]"
+	},
+	{
+		"russian": "Обезоруживающая улыбка",
+		"english": "Disarming smile",
+		"transcript": "[dɪs'ɑːmɪŋsmaɪl]"
+	},
+	{
+		"russian": "Застывшая улыбка",
+		"english": "Stern smile",
+		"transcript": "[stɜːnsmaɪl]"
+	},
+	{
+		"russian": "Чуть заметная улыбка",
+		"english": "Faint smile",
+		"transcript": "[feɪntsmaɪl]"
+	},
+	{
+		"russian": "Деланная, искусственная",
+		"english": "Strained",
+		"transcript": "[streɪnd]"
+	},
+	{
+		"russian": "Самодовольная улыбка",
+		"english": "Smirk",
+		"transcript": "[smɜːk]"
+	},
+	{
+		"russian": "Улыбнуться",
+		"english": "To crack a smile",
+		"transcript": "[kræk ə smaɪl]"
+	},
+	{
+		"russian": "Улыбаться до ушей",
+		"english": "To have a smile past one's ears",
+		"transcript": "[hæv ə smaɪlpɑːst<one's>ɪəz]"
+	},
+	{
+		"russian": "Заулыбаться во все зубы",
+		"english": "To break into a broad smile",
+		"transcript": "[breɪk 'ɪntə ə brɔːdsmaɪl]"
+	},
+	{
+		"russian": "Длинные ресницы",
+		"english": "Long lashes",
+		"transcript": "[lɔŋlæʃez]"
+	},
+	{
+		"russian": "Накладные ресницы",
+		"english": "False eyelashes",
+		"transcript": "[fɔ:lsailæʃes]"
+	},
+	{
+		"russian": "Широкопосаженные",
+		"english": "Wide-set",
+		"transcript": "[waɪd set]"
+	},
+	{
+		"russian": "Близкопосаженные глаза",
+		"english": "Close-set eyes",
+		"transcript": "[kləus- set aɪz]"
+	},
+	{
+		"russian": "Тусклые глаза",
+		"english": "Glazed eyes",
+		"transcript": "[gleɪzdaɪz]"
+	},
+	{
+		"russian": "Синяк под глазом",
+		"english": "Black eye",
+		"transcript": "[blækaɪ]"
+	},
+	{
+		"russian": "Косоглазый",
+		"english": "Cross eyed",
+		"transcript": "[krɔsaɪd]"
+	},
+	{
+		"russian": "Поросячьи глазки",
+		"english": "Piggy eyes",
+		"transcript": "[‘pɪgɪaɪz]"
+	},
+	{
+		"russian": "Бегающие глазки",
+		"english": "Shifty eyes",
+		"transcript": "[‘ʃɪftɪaɪz]"
+	},
+	{
+		"russian": "Запавшие глаза",
+		"english": "Deep-set sunken eyes",
+		"transcript": "[di:p set] [‘sʌŋkənaɪz]"
+	},
+	{
+		"russian": "Воспалённые глаза",
+		"english": "Bloodshot eyes",
+		"transcript": "[‘blʌdʃɒtaɪz]"
+	},
+	{
+		"russian": "Раскосыеминдалевидные глаза",
+		"english": "Slanting almond-shaped eyes",
+		"transcript": "['slɑːntɪŋ] [ 'ɑːmənd‘ʃeɪptaɪz]"
+	},
+	{
+		"russian": "\\Ячмень",
+		"english": "Sty(e)",
+		"transcript": "[staɪ]"
+	},
+	{
+		"russian": "Толстые тонкиеброви",
+		"english": "Thick thin eyebrows",
+		"transcript": "[θɪk] [θɪn 'aɪbrauz]"
+	},
+	{
+		"russian": "Косматые",
+		"english": "Shaggy",
+		"transcript": "['ʃægɪ]"
+	},
+	{
+		"russian": "Густые",
+		"english": "Bushy",
+		"transcript": "['buʃɪ]"
+	},
+	{
+		"russian": "Хмурить брови",
+		"english": "To knit frown furrow one's eyebrows",
+		"transcript": "[nɪt fraun 'fʌrəu<one's> 'aɪbrauz]"
+	},
+	{
+		"russian": "Заплаканные",
+		"english": "Tear-stained",
+		"transcript": "['tɪəsteɪnd]"
+	},
+	{
+		"russian": "«Гусиные лапки»",
+		"english": "Crow's feet",
+		"transcript": "[krəuzfi:t]"
+	},
+	{
+		"russian": "Поднимать брови",
+		"english": "To raise one's eyebrows",
+		"transcript": "[reɪz<one's> 'aɪbrauz]"
+	},
+	{
+		"russian": "Изогнутые брови",
+		"english": "Arched eyebrows",
+		"transcript": "[ɑːʧt ’aɪbraʊz]"
+	},
+	{
+		"russian": "Грозносдвинув брови",
+		"english": "With thunderous eyebrows",
+		"transcript": "[wɪð 'θʌnd(ə)rəs 'aɪbrauz]"
+	},
+	{
+		"russian": "Редкие брови",
+		"english": "Scant thin eyebrows",
+		"transcript": "[skænt θɪn 'aɪbrauz]"
+	},
+	{
+		"russian": "Выщипанные брови",
+		"english": "Plucked eyebrows",
+		"transcript": "[plʌkt 'aɪbrauz]"
+	},
+	{
+		"russian": "Нарисованные",
+		"english": "Pencilled - in",
+		"transcript": "['pen(t)s(ə)ld in]"
+	},
+	{
+		"russian": "Полуоткрытые",
+		"english": "Parted",
+		"transcript": "['pɑːtɪd]"
+	},
+	{
+		"russian": "Полные тонкиегубы",
+		"english": "Full thin lips",
+		"transcript": "[ful] [θɪnlɪps]"
+	},
+	{
+		"russian": "Верхняя нижняягуба",
+		"english": "Upper lower lip",
+		"transcript": "['ʌpə] ['ləuəlɪp]"
+	},
+	{
+		"russian": "Кусатьг убы",
+		"english": "To bite one's lips",
+		"transcript": "[baɪt<one's>lɪps]"
+	},
+	{
+		"russian": "Поджать губы",
+		"english": "To purse one's lips",
+		"transcript": "[pɜːs<one's>lɪps]"
+	},
+	{
+		"russian": "Презрительно кривить губы",
+		"english": "To curl one's lips",
+		"transcript": "[kɜːl<one's>lɪps]"
+	},
+	{
+		"russian": "Вздёрнутый",
+		"english": "Upturned",
+		"transcript": "[‘ʌptə:nd]"
+	},
+	{
+		"russian": "Мясистый",
+		"english": "Fleshy",
+		"transcript": "['fleʃɪ]"
+	},
+	{
+		"russian": "Изогнутый, кривой",
+		"english": "Crooked",
+		"transcript": "['krukɪd]"
+	},
+	{
+		"russian": "Крючковатый",
+		"english": "Hooked",
+		"transcript": "[hukt]"
+	},
+	{
+		"russian": "Кривой",
+		"english": "Curved",
+		"transcript": "['kɜːvd]"
+	},
+	{
+		"russian": "Приплюснутый нос",
+		"english": "Pug nose",
+		"transcript": "[pʌgnəuz]"
+	},
+	{
+		"russian": "Нос картошкой",
+		"english": "Bulbous nose",
+		"transcript": "[‘bʌlbəsnəuz]"
+	},
+	{
+		"russian": "Курносый нос",
+		"english": "Snub nose",
+		"transcript": "[snʌbnəuz]"
+	},
+	{
+		"russian": "Подбородок",
+		"english": "Chin",
+		"transcript": "[ʧɪn]"
+	},
+	{
+		"russian": "Двойной",
+		"english": "Double",
+		"transcript": "[‘dʌbl]"
+	},
+	{
+		"russian": "Острый",
+		"english": "Pointed",
+		"transcript": "[’pɔɪntɪd]"
+	},
+	{
+		"russian": "Массивный",
+		"english": "Massive",
+		"transcript": "['mæsɪv]"
+	},
+	{
+		"russian": "Круглый",
+		"english": "Round",
+		"transcript": "[raʊnd]"
+	},
+	{
+		"russian": "Выдающийся",
+		"english": "Protruding",
+		"transcript": "[prə'truːdɪŋ]"
+	},
+	{
+		"russian": "Зубы",
+		"english": "Teeth",
+		"transcript": "[tiːθ]"
+	},
+	{
+		"russian": "Белоснежные зубы",
+		"english": "Snow-white teeth",
+		"transcript": "[‘snəʊ’waɪtti:θ]"
+	},
+	{
+		"russian": "Крупные",
+		"english": "Large",
+		"transcript": "[lɑːʤ]"
+	},
+	{
+		"russian": "Ряд зубов",
+		"english": "Set of teeth",
+		"transcript": "[set ovtiːθ]"
+	},
+	{
+		"russian": "Мелкие",
+		"english": "Small tiny",
+		"transcript": "[smɔːl] ['taɪnɪ]"
+	},
+	{
+		"russian": "Редкие",
+		"english": "Widely-spaced",
+		"transcript": "['waɪdlɪspeıst]"
+	},
+	{
+		"russian": "Ровные неровные",
+		"english": "Even uneven",
+		"transcript": "[ʌn'iːv(ə)n] [ʌn'iːv(ə)n]"
+	},
+	{
+		"russian": "Частые",
+		"english": "Close-set",
+		"transcript": "[kləus set]"
+	},
+	{
+		"russian": "Вставные зубы",
+		"english": "False teeth",
+		"transcript": "[fɔ:lsti:θ]"
+	},
+	{
+		"russian": "Квадратная челюсть",
+		"english": "Square jaw",
+		"transcript": "[skweəʤɔː]"
+	},
+	{
+		"russian": "Крепкая челюсть",
+		"english": "Strong jaw",
+		"transcript": "[strɔŋʤɔː]"
+	}
+]

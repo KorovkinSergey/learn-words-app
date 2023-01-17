@@ -22,6 +22,8 @@ const TrainingWordsSettingsPage = () => {
 		loading,
 		translate,
 		setTranslate,
+		isVoice,
+		setIsVoice,
 		setIsShuffle,
 		language,
 		setLanguage,
@@ -104,6 +106,9 @@ const TrainingWordsSettingsPage = () => {
 				</Typography>
 				<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>
 					Перемешать слова: <Switch value={translate} color='secondary' onChange={(_e, value) => setIsShuffle(value)} />
+				</Typography>
+				<Typography sx={{ fontSize: 16, mt: 4 }} color='primary.contrastText'>
+					Озвучить слова: <Switch value={isVoice} color='secondary' onChange={(_e, value) => setIsVoice(value)} />
 				</Typography>
 			</FormControl>
 

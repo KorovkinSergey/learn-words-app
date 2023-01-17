@@ -1,0 +1,62 @@
+[
+	{
+		"russian": "Цветы",
+		"english": "Flowers",
+		"transcript": "[flauəz]"
+	},
+	{
+		"russian": "Тюльпан",
+		"english": "Tulip",
+		"transcript": "['t(j)uːlɪp]"
+	},
+	{
+		"russian": "Подсолнух",
+		"english": "Sunflower",
+		"transcript": "['sʌnflauə]"
+	},
+	{
+		"russian": "Роза",
+		"english": "Rose",
+		"transcript": "[rəuz]"
+	},
+	{
+		"russian": "Лилия",
+		"english": "Lily",
+		"transcript": "['lɪlɪ]"
+	},
+	{
+		"russian": "Колокольчик",
+		"english": "Bluebell",
+		"transcript": "['bluːbel]"
+	},
+	{
+		"russian": "Маргаритка",
+		"english": "Daisy",
+		"transcript": "['deɪzɪ]"
+	},
+	{
+		"russian": "Одуванчик",
+		"english": "Dandelion",
+		"transcript": "['dændɪlaɪən]"
+	},
+	{
+		"russian": "Незабудка",
+		"english": "Forget-me-not",
+		"transcript": "[fə'getmɪnɔt]"
+	},
+	{
+		"russian": "Сирень",
+		"english": "Lilac",
+		"transcript": "['laɪlək]"
+	},
+	{
+		"russian": "Лепесток",
+		"english": "Petal",
+		"transcript": "['pet(ə)l]"
+	},
+	{
+		"russian": "Стебель",
+		"english": "Stalk",
+		"transcript": "[stɔːk]"
+	}
+]

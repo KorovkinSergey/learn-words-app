@@ -1,0 +1,172 @@
+[
+	{
+		"russian": "Лечение",
+		"english": "Treatment",
+		"transcript": "['triːtmənt]"
+	},
+	{
+		"russian": "Лечить (применять лечение) от …",
+		"english": "To treat for …",
+		"transcript": "[triːtfɔː]"
+	},
+	{
+		"russian": "Лечить, исцелять (быть средством лечения)",
+		"english": "To cure",
+		"transcript": "[kjuə]"
+	},
+	{
+		"russian": "Лечить, заживлять",
+		"english": "To heal",
+		"transcript": "[hiːl]"
+	},
+	{
+		"russian": "Страховка",
+		"english": "Insurance",
+		"transcript": "[ɪn'ʃuər(ə)n(t)s]"
+	},
+	{
+		"russian": "Традиционная медицина",
+		"english": "Traditional medicine",
+		"transcript": "[trə'dɪʃ(ə)n(ə)l 'medɪsɪn]"
+	},
+	{
+		"russian": "Гомеопатия",
+		"english": "Homeopathy",
+		"transcript": "[ˌhəumɪ'ɔpəθɪ]"
+	},
+	{
+		"russian": "Врач-гомеопат",
+		"english": "Homeopath",
+		"transcript": "['həumɪəupæθ]"
+	},
+	{
+		"russian": "Акупунктура",
+		"english": "Acupuncture",
+		"transcript": "['ækjupʌŋ(k)ʧə]"
+	},
+	{
+		"russian": "Специалист по акупунктуре",
+		"english": "Acupuncturist",
+		"transcript": "[ˌækju'pʌŋ(k)ʧərɪst]"
+	},
+	{
+		"russian": "Мануальный терапевт",
+		"english": "Chiropractor",
+		"transcript": "['kaɪərəpræktə]"
+	},
+	{
+		"russian": "Мануальная терапия",
+		"english": "Chiropractic",
+		"transcript": "[ˌkaɪərə'præktɪk]"
+	},
+	{
+		"russian": "Анализ",
+		"english": "Test",
+		"transcript": "[test]"
+	},
+	{
+		"russian": "Анализ крови",
+		"english": "Blood test",
+		"transcript": "[blʌd test]"
+	},
+	{
+		"russian": "Делать анализ",
+		"english": "To do a test",
+		"transcript": "[du ə test]"
+	},
+	{
+		"russian": "Делать рентген",
+		"english": "To do an X-ray",
+		"transcript": "[du ən 'eksreɪ ]"
+	},
+	{
+		"russian": "Делать укол",
+		"english": "To give an injection",
+		"transcript": "[gɪvənɪn'ʤekʃ(ə)n]"
+	},
+	{
+		"russian": "Измерять давление",
+		"english": "To take one's blood pressure",
+		"transcript": "[teɪk<one's>blʌd 'preʃə]"
+	},
+	{
+		"russian": "Измерять температуру",
+		"english": "To take <one's> temperature",
+		"transcript": "[teɪk<one's> 'temp(ə)rəʧə]"
+	},
+	{
+		"russian": "Измерять пульс",
+		"english": "To take a pulse",
+		"transcript": "[teɪk ə pʌls]"
+	},
+	{
+		"russian": "Выписать рецепт",
+		"english": "To write out a prescription",
+		"transcript": "[raɪtaut ə prɪs'krɪpʃ(ə)n]"
+	},
+	{
+		"russian": "Принимать лекарство",
+		"english": "To take some medicine",
+		"transcript": "[teɪksʌm 'medɪsɪn]"
+	},
+	{
+		"russian": "Соблюдать постельный режим",
+		"english": "To stay in bed",
+		"transcript": "[steɪɪn bed]"
+	},
+	{
+		"russian": "Грелка",
+		"english": "Hot-water bottle",
+		"transcript": "[hɔt 'wɔːtə 'bɔtl]"
+	},
+	{
+		"russian": "Полоскать",
+		"english": "To gargle",
+		"transcript": "['gɑːgl]"
+	},
+	{
+		"russian": "Прогревать",
+		"english": "To warm",
+		"transcript": "[wɔːm]"
+	},
+	{
+		"russian": "Бинтовать",
+		"english": "To bandage",
+		"transcript": "['bændɪʤ]"
+	},
+	{
+		"russian": "Операция",
+		"english": "Surgery",
+		"transcript": "['sɜːʤ(ə)rɪ]"
+	},
+	{
+		"russian": "Перенести операцию",
+		"english": "To undergo have a surgery",
+		"transcript": "[ˌʌndə'gəu həvə 'sɜːʤ(ə)rɪ]"
+	},
+	{
+		"russian": "Прививка",
+		"english": "Vaccination",
+		"transcript": "[ˌvæksɪ'neɪʃ(ə)n]"
+	},
+	{
+		"russian": "Делать прививку (кому-л.) От",
+		"english": "To vaccinate against ….",
+		"transcript": "['væksɪneɪtə'gen(t)st]"
+	},
+	{
+		"russian": "Делать прививку (получить)",
+		"english": "To be vaccinated",
+		"transcript": "[biː 'væksɪneɪt]"
+	},
+	{
+		"russian": "Побочныйэффект",
+		"english": "Side effect",
+		"transcript": "[saɪdɪ'fekt]"
+	},
+	{
+		"russian": "Вправлять вывих",
+		"english": "To set a bone",
+		"transcript": "[set ə bəun]"
+	}
+]

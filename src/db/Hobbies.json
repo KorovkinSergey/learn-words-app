@@ -1,0 +1,507 @@
+[
+	{
+		"russian": "Увлечения",
+		"english": "Hobbies",
+		"transcript": "[ˈhɒbɪz]"
+	},
+	{
+		"russian": "Аниме",
+		"english": "Anime",
+		"transcript": "[ænime]"
+	},
+	{
+		"russian": "Бальные танцы",
+		"english": "Ballroom dancing",
+		"transcript": "[bɔ:lrumdænsiŋ]"
+	},
+	{
+		"russian": "Баскетбол",
+		"english": "Basketball",
+		"transcript": "[bæskitbɔ:l]"
+	},
+	{
+		"russian": "Бильярд",
+		"english": "Billiards",
+		"transcript": "[ˈbɪlɪədz]"
+	},
+	{
+		"russian": "Боулинг",
+		"english": "Bowling",
+		"transcript": "[bɛʊliŋ]"
+	},
+	{
+		"russian": "Татуировка",
+		"english": "Tattoo",
+		"transcript": "[tætuː]"
+	},
+	{
+		"russian": "Сноубординг",
+		"english": "Snowboarding",
+		"transcript": "[snəubɔːdɪŋ]"
+	},
+	{
+		"russian": "Лыжи",
+		"english": "Skiing",
+		"transcript": "[skiːɪŋ]"
+	},
+	{
+		"russian": "Прыжки с парашютом",
+		"english": "Skydiving",
+		"transcript": "[skaɪdaɪvɪŋ]"
+	},
+	{
+		"russian": "Петь",
+		"english": "To sing",
+		"transcript": "[sɪŋ]"
+	},
+	{
+		"russian": "Плавание",
+		"english": "Swimming",
+		"transcript": "[swɪmɪŋ]"
+	},
+	{
+		"russian": "Бег",
+		"english": "Running",
+		"transcript": "[rʌnɪŋ]"
+	},
+	{
+		"russian": "Ролики",
+		"english": "Rollers",
+		"transcript": "[rəuləs]"
+	},
+	{
+		"russian": "Скалолазание",
+		"english": "Rock climbing",
+		"transcript": "[rɔkklaɪmɪŋ]"
+	},
+	{
+		"russian": "Чтение",
+		"english": "Reading",
+		"transcript": "[riːdɪŋ]"
+	},
+	{
+		"russian": "Играть на гитаре",
+		"english": "To play the guitar",
+		"transcript": "[pleɪðiː gɪtɑː]"
+	},
+	{
+		"russian": "Играть на пианино",
+		"english": "To play the piano",
+		"transcript": "[pleɪðiː pɪænəu]"
+	},
+	{
+		"russian": "Фотография",
+		"english": "Photo",
+		"transcript": "[fəutəu]"
+	},
+	{
+		"russian": "Играть на баяне",
+		"english": "To play the accordion",
+		"transcript": "[pleɪðiː əkɔːdɪən]"
+	},
+	{
+		"russian": "Музыка",
+		"english": "Music",
+		"transcript": "[mjuːzɪk]"
+	},
+	{
+		"russian": "Изучение иностранных языков",
+		"english": "Learning foreign languages",
+		"transcript": "[lɜːnɪŋfɔrɪnlæŋgwɪʤiz]"
+	},
+	{
+		"russian": "Хоккей",
+		"english": "Hockey",
+		"transcript": "[hɔkɪ]"
+	},
+	{
+		"russian": "Охота",
+		"english": "Hunting",
+		"transcript": "[hʌntɪŋ]"
+	},
+	{
+		"russian": "Граффити",
+		"english": "Graffiti",
+		"transcript": "[græfiːtɪ]"
+	},
+	{
+		"russian": "Заниматься садоводством",
+		"english": "Gardening",
+		"transcript": "[gɑːdənɪŋ]"
+	},
+	{
+		"russian": "Фитнес",
+		"english": "Fitness",
+		"transcript": "[fɪtnəs]"
+	},
+	{
+		"russian": "Рыбалка",
+		"english": "Fishing",
+		"transcript": "[fɪʃɪŋ]"
+	},
+	{
+		"russian": "Домино",
+		"english": "Domino",
+		"transcript": "[dɔmɪnəu]"
+	},
+	{
+		"russian": "Рисовать",
+		"english": "To draw",
+		"transcript": "[drɔː]"
+	},
+	{
+		"russian": "Ролики",
+		"english": "Rollers",
+		"transcript": "[rəuləs]"
+	},
+	{
+		"russian": "Дайвинг",
+		"english": "Diving",
+		"transcript": "[daɪvɪŋ]"
+	},
+	{
+		"russian": "Катание на велосипеде",
+		"english": "Cycling",
+		"transcript": "[saikliŋ]"
+	},
+	{
+		"russian": "Коллекционирование",
+		"english": "Collecting",
+		"transcript": "[kəlektiŋ]"
+	},
+	{
+		"russian": "Кроссворды",
+		"english": "Crosswords",
+		"transcript": "[krɒswɜ:dz]"
+	},
+	{
+		"russian": "Компьютерные игры",
+		"english": "Computer games",
+		"transcript": "[kəmpju:təgeimz]"
+	},
+	{
+		"russian": "Брейк данс",
+		"english": "Break dance",
+		"transcript": "[breikdæns]"
+	},
+	{
+		"russian": "Карты",
+		"english": "Cards",
+		"transcript": "[ka:dz]"
+	},
+	{
+		"russian": "Кино",
+		"english": "Cinema",
+		"transcript": "[sinəmə]"
+	},
+	{
+		"russian": "Общение в чате",
+		"english": "Chat",
+		"transcript": "[t∫æt]"
+	},
+	{
+		"russian": "Шашки",
+		"english": "Checkers",
+		"transcript": "[t∫ekəz]"
+	},
+	{
+		"russian": "Шахматы",
+		"english": "Chess",
+		"transcript": "[t∫es]"
+	},
+	{
+		"russian": "Фитнес",
+		"english": "Fitness",
+		"transcript": "[fɪtnəs]"
+	},
+	{
+		"russian": "Футбол",
+		"english": "Football",
+		"transcript": "[futbɔːl]"
+	},
+	{
+		"russian": "Дайвинг",
+		"english": "Diving",
+		"transcript": "[daɪvɪŋ]"
+	},
+	{
+		"russian": "Рыбалка",
+		"english": "Fishing",
+		"transcript": "[fɪʃɪŋ]"
+	},
+	{
+		"russian": "Хоккей",
+		"english": "Hockey",
+		"transcript": "[hɔkɪ]"
+	},
+	{
+		"russian": "Фотография",
+		"english": "Photo",
+		"transcript": "[fəutəu]"
+	},
+	{
+		"russian": "Играть на гитаре",
+		"english": "To play the guitar",
+		"transcript": "[pleɪðiː gɪtɑː]"
+	},
+	{
+		"russian": "Играть на пианино",
+		"english": "To play the piano",
+		"transcript": "[pleɪðiː pɪænəu]"
+	},
+	{
+		"russian": "Играть на баяне",
+		"english": "To play the accordion",
+		"transcript": "[pleɪðiː əkɔːdɪən]"
+	},
+	{
+		"russian": "Компьютерные игры",
+		"english": "Computer games",
+		"transcript": "[kəmpju:təgeimz]"
+	},
+	{
+		"russian": "Коллекционирование",
+		"english": "Collecting",
+		"transcript": "[kəlektiŋ]"
+	},
+	{
+		"russian": "Охота",
+		"english": "Hunting",
+		"transcript": "[hʌntɪŋ]"
+	},
+	{
+		"russian": "Заниматься садоводством",
+		"english": "Gardening",
+		"transcript": "[gɑːdənɪŋ]"
+	},
+	{
+		"russian": "Коллекционирование предметов старины",
+		"english": "Collecting antiques",
+		"transcript": "[kəlektiŋəntiks]"
+	},
+	{
+		"russian": "Разводить животных",
+		"english": "Breeding animals",
+		"transcript": "[bri:diŋˈænɪm(ə)lz]"
+	},
+	{
+		"russian": "Бисероплетение",
+		"english": "Beading",
+		"transcript": "[bi:diŋ]"
+	},
+	{
+		"russian": "Нарды",
+		"english": "Backgammon",
+		"transcript": "[bækgæmən]"
+	},
+	{
+		"russian": "Аэрография",
+		"english": "Aerography",
+		"transcript": "[ɛərɒgrafi]"
+	},
+	{
+		"russian": "Бейсджампинг",
+		"english": "Base-jumping",
+		"transcript": "[beisdƷᴧmpiŋ]"
+	},
+	{
+		"russian": "Аквариумистика",
+		"english": "Aquaria",
+		"transcript": "[əkwæriə]"
+	},
+	{
+		"russian": "Резьба по дереву",
+		"english": "Carving",
+		"transcript": "[ka:viŋ]"
+	},
+	{
+		"russian": "Авиамоделизм",
+		"english": "Aircraft modelling",
+		"transcript": "[ɛəkræftmɒdəliŋ]"
+	},
+	{
+		"russian": "Коллекционирование антикварного вина",
+		"english": "Collecting antique wine",
+		"transcript": "[kəlektiŋəntik wain]"
+	},
+	{
+		"russian": "Коллекционирование ножей",
+		"english": "Collecting knives",
+		"transcript": "[kəlektiŋnaivz]"
+	},
+	{
+		"russian": "Коллекционирование ручек",
+		"english": "Collecting pens",
+		"transcript": "[kəlektiŋpenz]"
+	},
+	{
+		"russian": "Коллекционирование марок",
+		"english": "Collecting stamps",
+		"transcript": "[kəlektiŋstæmps]"
+	},
+	{
+		"russian": "Коллекционирование ретро автомобилей",
+		"english": "Collecting vintage cars",
+		"transcript": "[kəlektiŋvintəƷka:z]"
+	},
+	{
+		"russian": "Катание на велосипеде",
+		"english": "Cycling",
+		"transcript": "[saikliŋ]"
+	},
+	{
+		"russian": "Декупаж",
+		"english": "Decoupage",
+		"transcript": "[dɪkuːpədʒ]"
+	},
+	{
+		"russian": "Вышивание",
+		"english": "Embroidery",
+		"transcript": "[ɪmbrɔɪdərɪ]"
+	},
+	{
+		"russian": "Конный спорт",
+		"english": "Equestrian sport",
+		"transcript": "[ɪkwestrɪənspɔːt]"
+	},
+	{
+		"russian": "Фэн-шуй",
+		"english": "Feng shui",
+		"transcript": "[feŋʃuːɪ]"
+	},
+	{
+		"russian": "Ходить в рестораны",
+		"english": "To go to restaurants",
+		"transcript": "[gəuturestərɔnts]"
+	},
+	{
+		"russian": "Граффити",
+		"english": "Graffiti",
+		"transcript": "[græfiːtɪ]"
+	},
+	{
+		"russian": "Икебана",
+		"english": "Ikebana",
+		"transcript": "[ɪkɪbɑːnə]"
+	},
+	{
+		"russian": "Картинг",
+		"english": "Karting",
+		"transcript": "[kɑːtɪŋ]"
+	},
+	{
+		"russian": "Кайтсёрфинг",
+		"english": "Kite surfing",
+		"transcript": "[kaɪtsɜːfɪŋ]"
+	},
+	{
+		"russian": "Вязание",
+		"english": "Knitting",
+		"transcript": "[nɪtɪŋ]"
+	},
+	{
+		"russian": "Латиноамериканские танцы",
+		"english": "Latin American dances",
+		"transcript": "[lætɪnəmerɪkəndɑːnsiz]"
+	},
+	{
+		"russian": "Изучение иностранных языков",
+		"english": "Learning foreign languages",
+		"transcript": "[lɜːnɪŋfɔrɪnlæŋgwɪʤiz]"
+	},
+	{
+		"russian": "Гонки на мотоцикле",
+		"english": "Motorcycle racing",
+		"transcript": "[məutəsaɪklreɪsɪŋ]"
+	},
+	{
+		"russian": "Альпинизм",
+		"english": "Mountaineering",
+		"transcript": "[mauntɪnɪərɪŋ]"
+	},
+	{
+		"russian": "Собирать грибы",
+		"english": "Mushrooming",
+		"transcript": "[mʌʃrumɪŋ]"
+	},
+	{
+		"russian": "Заводить новые знакомства",
+		"english": "To make new acquaintances",
+		"transcript": "[meɪknjuː ə'kweɪntənsiz]"
+	},
+	{
+		"russian": "Восточные танцы",
+		"english": "Oriental dance",
+		"transcript": "[ɔːrɪentldɑːns]"
+	},
+	{
+		"russian": "Оригами",
+		"english": "Origami",
+		"transcript": "[ɔrɪgɑːmɪ]"
+	},
+	{
+		"russian": "Парапланеризм",
+		"english": "Gliding",
+		"transcript": "[glaidɪŋ]"
+	},
+	{
+		"russian": "Паркур",
+		"english": "Parkour",
+		"transcript": "[pɑːkɔː]"
+	},
+	{
+		"russian": "Скалолазание",
+		"english": "Rock climbing",
+		"transcript": "[rɔkklaɪmɪŋ]"
+	},
+	{
+		"russian": "Русские народные танцы",
+		"english": "Russian folk dances",
+		"transcript": "[rʌʃənfəukdɑːnsiz]"
+	},
+	{
+		"russian": "Сканворды",
+		"english": "Scanwords",
+		"transcript": "[skænwɜːdz]"
+	},
+	{
+		"russian": "Скейтбординг",
+		"english": "Skateboarding",
+		"transcript": "[skeɪtbɔːdɪŋ]"
+	},
+	{
+		"russian": "Санки",
+		"english": "Sledge",
+		"transcript": "[sleʤ]"
+	},
+	{
+		"russian": "Сноубординг",
+		"english": "Snowboarding",
+		"transcript": "[snəubɔːdɪŋ]"
+	},
+	{
+		"russian": "Снегоход",
+		"english": "Snowmobile",
+		"transcript": "[snəuməubaɪl]"
+	},
+	{
+		"russian": "Баня",
+		"english": "Steam-bath",
+		"transcript": "[stiːmbɑːθ]"
+	},
+	{
+		"russian": "Разговаривать по телефону",
+		"english": "Talking on telephone",
+		"transcript": "[tɔːkɪŋɔntelɪfəun]"
+	},
+	{
+		"russian": "Виноделие",
+		"english": "Winemaking",
+		"transcript": "[waɪnmeɪkɪŋ]"
+	},
+	{
+		"russian": "Написание стихов",
+		"english": "Writing poetry",
+		"transcript": "[raɪtɪŋpəuɪtrɪ]"
+	}
+]

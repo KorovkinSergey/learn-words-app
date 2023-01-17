@@ -1,0 +1,57 @@
+[
+	{
+		"russian": "В суде",
+		"english": "At the court",
+		"transcript": "[ətðəkɔːt]"
+	},
+	{
+		"russian": "Юрист",
+		"english": "Lawyer legal eagle",
+		"transcript": "['lɔɪə] ['liːg(ə)l 'iːgl]"
+	},
+	{
+		"russian": "Судья",
+		"english": "Judge magistrate",
+		"transcript": "['ʤʌʤ] ['mæʤɪstreɪt]"
+	},
+	{
+		"russian": "Свидетель",
+		"english": "Witness",
+		"transcript": "['wɪtnəs]"
+	},
+	{
+		"russian": "Подозреваемый",
+		"english": "Suspect",
+		"transcript": "['sʌspekt]"
+	},
+	{
+		"russian": "Присяжные заседатели",
+		"english": "Jury (12 jurors)",
+		"transcript": "['ʤuərɪ]"
+	},
+	{
+		"russian": "Поверенный vs судебный адвокат vs уполномоченный (адвокат)",
+		"english": "Solicitor vs barrister vs attorney",
+		"transcript": "[sə'lɪsɪtə] vs['bærɪstə] vs[ə'təːnɪ]"
+	},
+	{
+		"russian": "Прокурор",
+		"english": "Prosecutor",
+		"transcript": "['prɔsɪkjuːtə]"
+	},
+	{
+		"russian": "Защитник",
+		"english": "Defence lawyer",
+		"transcript": "[dɪ'fen(t)s 'lɔɪə]"
+	},
+	{
+		"russian": "Ответчик",
+		"english": "Defendant",
+		"transcript": "[dɪ'fendənt]"
+	},
+	{
+		"russian": "Обвиняемый",
+		"english": "Accused",
+		"transcript": "[ə'kjuːzd]"
+	}
+]

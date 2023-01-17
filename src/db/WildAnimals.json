@@ -1,0 +1,102 @@
+[
+	{
+		"russian": "Дикие животные",
+		"english": "Wild animals",
+		"transcript": "[waɪld 'ænɪm(ə)lz]"
+	},
+	{
+		"russian": "Медведь",
+		"english": "Bear",
+		"transcript": "[beə]"
+	},
+	{
+		"russian": "Лев",
+		"english": "Lion",
+		"transcript": "['laɪən]"
+	},
+	{
+		"russian": "Обезьяна",
+		"english": "Monkey",
+		"transcript": "['mʌŋkɪ]"
+	},
+	{
+		"russian": "Тигр",
+		"english": "Tiger",
+		"transcript": "['taɪgə]"
+	},
+	{
+		"russian": "Волк",
+		"english": "Wolf",
+		"transcript": "[wulf]"
+	},
+	{
+		"russian": "Зебра",
+		"english": "Zebra",
+		"transcript": "['zebrə]"
+	},
+	{
+		"russian": "Лисица",
+		"english": "Fox",
+		"transcript": "[fɔks]"
+	},
+	{
+		"russian": "Крокодил",
+		"english": "Crocodile",
+		"transcript": "['krɔkədaɪl]"
+	},
+	{
+		"russian": "Слон",
+		"english": "Elephant",
+		"transcript": "['elɪfənt]"
+	},
+	{
+		"russian": "Кенгуру",
+		"english": "Kangaroo",
+		"transcript": "[ˌkæŋg(ə)'ruː]"
+	},
+	{
+		"russian": "Змея",
+		"english": "Snake",
+		"transcript": "[sneɪk]"
+	},
+	{
+		"russian": "Верблюд",
+		"english": "Camel",
+		"transcript": "['kæm(ə)l]"
+	},
+	{
+		"russian": "Гепард",
+		"english": "Cheetah",
+		"transcript": "['ʧiːtə]"
+	},
+	{
+		"russian": "Олень",
+		"english": "Deer",
+		"transcript": "[dɪə]"
+	},
+	{
+		"russian": "Жираф",
+		"english": "Giraffe",
+		"transcript": "[ʤɪ'rɑːf]"
+	},
+	{
+		"russian": "Заяц",
+		"english": "Hare",
+		"transcript": "[heə]"
+	},
+	{
+		"russian": "Бегемот",
+		"english": "Hippopotamus",
+		"transcript": "[ˌhɪpə'pɔtəməs]"
+	},
+	{
+		"russian": "Черепаха",
+		"english": "Turtle",
+		"transcript": "['tɜːtl]"
+	},
+	{
+		"russian": "Леопард",
+		"english": "Leopard",
+		"transcript": "['lepəd]"
+	}
+]

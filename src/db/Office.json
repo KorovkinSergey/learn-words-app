@@ -1,0 +1,112 @@
+[
+	{
+		"russian": "Офис",
+		"english": "Office",
+		"transcript": "['ɔfɪs]"
+	},
+	{
+		"russian": "Конторщик, заведующий канцелярии",
+		"english": "Office clerk",
+		"transcript": "['ɔfɪsklɑːk ]"
+	},
+	{
+		"russian": "Секретарь, помощник",
+		"english": "Secretary",
+		"transcript": "['sekrət(ə)rɪ]"
+	},
+	{
+		"russian": "Секретарь (в учреждении)",
+		"english": "Receptionist",
+		"transcript": "[rɪ'sepʃ(ə)nɪst]"
+	},
+	{
+		"russian": "Машинистка",
+		"english": "Typist",
+		"transcript": "['taɪpɪst]"
+	},
+	{
+		"russian": "Стенографист(ка)",
+		"english": "Stenographer",
+		"transcript": "[ste'nɔgrəfə]"
+	},
+	{
+		"russian": "Банк",
+		"english": "Bank",
+		"transcript": "[bæŋk]"
+	},
+	{
+		"russian": "Банкир",
+		"english": "Banker",
+		"transcript": "['bæŋkə]"
+	},
+	{
+		"russian": "Банковский служащий",
+		"english": "Bank officer",
+		"transcript": "[bæŋk 'ɔfɪsə]"
+	},
+	{
+		"russian": "Кассир",
+		"english": "Cashier",
+		"transcript": "[kæ'ʃɪə]"
+	},
+	{
+		"russian": "Бухгалтер",
+		"english": "Accountant bookkeeper",
+		"transcript": "[ə'kauntənt] ['bukˌkiːpə]"
+	},
+	{
+		"russian": "Экономист",
+		"english": "Economist",
+		"transcript": "[ɪ'kɔnəmɪst]"
+	},
+	{
+		"russian": "Служащий в банке; банковский кассир",
+		"english": "Bank teller",
+		"transcript": "[bæŋk 'telə]"
+	},
+	{
+		"russian": "Аудитор, бухгалтер-ревизор,",
+		"english": "Auditor",
+		"transcript": "['ɔːdɪtə]"
+	},
+	{
+		"russian": "Продажи и Магазины",
+		"english": "Sales & Stores",
+		"transcript": "[seɪlz] & [stɔːz]"
+	},
+	{
+		"russian": "Торговый представитель",
+		"english": "Sales representative",
+		"transcript": "[seɪlzreprɪ'zentətɪv]"
+	},
+	{
+		"russian": "Продавец, торговец",
+		"english": "Salespersonsalesman saleswomanseller",
+		"transcript": "['seɪlzˌpɜːs(ə)n] ['seɪlzmən] ['seɪlzˌwumən] ['selə]"
+	},
+	{
+		"russian": "Покупатель",
+		"english": "Buyer",
+		"transcript": "['baɪə]"
+	},
+	{
+		"russian": "Оптовый покупатель",
+		"english": "Wholesale buyer",
+		"transcript": "['həulseɪl 'baɪə]"
+	},
+	{
+		"russian": "Оптовик, оптовый торговец",
+		"english": "Wholesaler",
+		"transcript": "['həulˌseɪlə]"
+	},
+	{
+		"russian": "Розничный торговец, лавочник",
+		"english": "Retailer",
+		"transcript": "['riːteɪlə]"
+	},
+	{
+		"russian": "Рекламный агент",
+		"english": "Advertising agent",
+		"transcript": "['ædvətaɪzɪŋ 'eɪʤ(ə)nt]"
+	}
+]
