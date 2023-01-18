@@ -45,7 +45,7 @@ export const useWords = (): IUseWords => {
 			setShowTranslateWord(true)
 		}, time / 2)
 		return () => clearTimeout(timeOutTranslate)
-	}, [translate, word])
+	}, [translate, word, index, time, words])
 
 	useEffect(() => {
 		if (!words.length) return

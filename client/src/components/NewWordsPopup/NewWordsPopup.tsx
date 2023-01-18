@@ -10,7 +10,7 @@ import { Checkbox, FormControlLabel, FormGroup } from '@mui/material'
 import { Loading } from '../Loading'
 import { IDictionariesList } from '../../types/dictionary'
 
-export interface NewWordsPopup {
+export interface NewWordsPopupProps {
 	dictionaries: IDictionariesList
 	onChange: (arr: string[]) => void
 	loading: boolean
@@ -18,7 +18,7 @@ export interface NewWordsPopup {
 	handleClose: () => void
 }
 
-const NewWordsPopup: FC<NewWordsPopup> = (props) => {
+const NewWordsPopup: FC<NewWordsPopupProps> = (props) => {
 	const { onChange, open, loading, handleClose, dictionaries } = props
 	const [checked, setChecked] = useState<string[]>([])
 	const [isCheckAll, setIsCheckAll] = useState<boolean>(false)

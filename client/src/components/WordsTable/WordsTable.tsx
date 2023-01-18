@@ -38,6 +38,7 @@ const WordsTable = () => {
 		getDictionaryWords(currDictionary).then((res: any) => setRows(addCheckFieldInWords(res.words)))
 		getDictionaryList().then((res: any) => setDictionaries(res))
 	}, [currDictionary, navigate, getDictionaryWords, getDictionaryList])
+
 	useEffect(() => {
 		if (rows.some((item) => item.check)) {
 			setIsSelected(true)
@@ -45,6 +46,7 @@ const WordsTable = () => {
 			setIsSelected(false)
 		}
 	}, [rows])
+
 	const onCheckAll = useCallback(
 		(arr: IWordWithCheck[]) => {
 			if (isCheckAll) {
@@ -96,7 +98,7 @@ const WordsTable = () => {
 				}),
 			)
 		},
-		[isCheckAll, rows],
+		[isCheckAll],
 	)
 
 	const onWordsDelete = useCallback(() => {
