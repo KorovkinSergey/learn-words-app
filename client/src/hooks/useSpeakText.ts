@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useSettingsWordsContext } from '../context/SettingsWordsContext'
 
 export interface IUseSpeakText {
@@ -40,25 +40,28 @@ export const useSpeakText = (): IUseSpeakText => {
 		}
 	}, [])
 
-	const speak = (text: string) => {
-		if (!supported) return
-		setSpeaking(true)
-		// Firefox won't repeat an utterance that has been
-		// spoken, so we need to create a new instance each time
-		const utterance = new window.SpeechSynthesisUtterance()
-		utterance.text = text
-		utterance.voice = language === 'English' ? voices[145] : voices[0]
-		utterance.rate = 1
-		utterance.pitch = 1
-		utterance.volume = 1
-		window.speechSynthesis.speak(utterance)
-	}
+	const speak = useCallback(
+		(text: string) => {
+			if (!supported) return
+			setSpeaking(true)
+			// Firefox won't repeat an utterance that has been
+			// spoken, so we need to create a new instance each time
+			const utterance = new window.SpeechSynthesisUtterance()
+			utterance.text = text
+			utterance.voice = language === 'English' ? voices[145] : voices[0]
+			utterance.rate = 1
+			utterance.pitch = 1
+			utterance.volume = 1
+			window.speechSynthesis.speak(utterance)
+		},
+		[supported, voices, language],
+	)
 
-	const cancel = () => {
+	const cancel = useCallback(() => {
 		if (!supported) return
 		setSpeaking(false)
 		window.speechSynthesis.cancel()
-	}
+	}, [supported])
 
 	return {
 		supported,

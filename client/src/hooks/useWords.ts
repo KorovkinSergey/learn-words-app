@@ -28,7 +28,6 @@ export const useWords = (): IUseWords => {
 	useEffect(() => {
 		if (dictionary) {
 			getDictionaryWords(dictionary._id).then((res: any) => {
-				console.log('isShuffle', isShuffle)
 				setWords(isShuffle ? res.words.sort(() => Math.random() - 0.5) : res.words)
 				setLoading(false)
 			})
